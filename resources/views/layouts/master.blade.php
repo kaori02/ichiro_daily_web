@@ -90,16 +90,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fa fa-circle nav-icon"></i>
-                            <p>Active Page</p>
-                        </a>
+                        <router-link to="/users" class="nav-link">
+                            <i class="fas fa-users nav-icon"></i>
+                            <p>Users</p>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fa fa-circle nav-icon"></i>
-                            <p>Inactive Page</p>
-                        </a>
+                        <router-link to="/reports" class="nav-link">
+                            <i class="fa fa-book nav-icon"></i>
+                            <p>Reports</p>
+                        </router-link>
                     </li>
                 </ul>
             </li>
@@ -111,10 +111,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </router-link>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-sign-out-alt"></i>
-                    <p>Logout</p>
-                </a>
+                <a class="nav-link" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
+                    <i class="nav-icon fas fa-sign-out-alt text-red"></i>
+                    <p>{{ __('Logout') }}</p>
+                 </a>
+
+                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                     @csrf
+                 </form>
             </li>
         </ul>
       </nav>
