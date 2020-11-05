@@ -30,6 +30,7 @@
         "@fullcalendar/interaction": "^5.3.1",
         "@fullcalendar/vue": "^5.3.1",
         "admin-lte": "^3.0.5",
+        "fullcalendar-scheduler": "^5.3.2",
         "vform": "^1.0.1",
         "vue-router": "^3.4.8"
     }
