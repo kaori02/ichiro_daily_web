@@ -7,6 +7,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="{{asset('img/ichiro.png')}}" type="image/x-icon">
+
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -14,6 +16,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>{{config('app.name'), 'Ichiro Daily Web'}}</title>
 
   <link rel="stylesheet" href="/css/app.css">
+  <!-- fullCalendar -->
+  <link rel="stylesheet" href="../plugins/fullcalendar/main.min.css">
+  <link rel="stylesheet" href="../plugins/fullcalendar-daygrid/main.min.css">
+  <link rel="stylesheet" href="../plugins/fullcalendar-timegrid/main.min.css">
+  <link rel="stylesheet" href="../plugins/fullcalendar-bootstrap/main.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -80,31 +88,20 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </router-link>
             </li>
 
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-cog"></i>
-                    <p>
-                        Management
-                        <i class="right fas fa-angle-left"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <router-link to="/users" class="nav-link">
-                            <i class="fas fa-users nav-icon"></i>
-                            <p>Users</p>
-                        </router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link to="/reports" class="nav-link">
-                            <i class="fa fa-book nav-icon"></i>
-                            <p>Reports</p>
-                        </router-link>
-                    </li>
-                </ul>
+            <li class="nav-item">
+                <router-link to="/calendar" class="nav-link">
+                    <i class="nav-icon fas fa-calendar-alt"></i>
+                    <p>Calendar</p>
+                </router-link>
+            </li>
+
+            <li class="nav-item">
+                <router-link to="/reports" class="nav-link">
+                    <i class="fa fa-book nav-icon"></i>
+                    <p>Reports</p>
+                </router-link>
             </li>
             <li class="nav-item">
-                {{-- <router-link to="/profile" class="nav-link" active-class="active" exact> --}}
                 <router-link to="/profile" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p>Profile</p>
@@ -162,7 +159,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-      Anything you want
+      Ichiro ITS
     </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
@@ -172,5 +169,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- REQUIRED SCRIPTS -->
 
-<script src="/js/app.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function () {
+  $('#tabel-user').DataTable();
+});
+</script>
 </html>

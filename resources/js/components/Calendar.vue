@@ -3,10 +3,10 @@
   <div class="row justify-content-center">
     <div class="col-md-8">
       <div class="card">
-        <div class="card-header">Users Component</div>
+        <div class="card-header">Calendar Component</div>
 
         <div class="card-body">
-          I'm an Users component.
+          I'm an Calendar component.
         </div>
       </div>
     </div>

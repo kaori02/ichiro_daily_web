@@ -1,4 +1,4 @@
-# MEdical courSES
+# Ichiro Daily Web
 
 ## How To Install
 
