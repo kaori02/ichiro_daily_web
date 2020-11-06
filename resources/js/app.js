@@ -15,12 +15,19 @@ import interactionPlugin from '@fullcalendar/interaction'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
 
+import {
+  INITIAL_EVENTS,
+  createEventId
+} from './event-utils'
+
+
 window.FullCalendar = FullCalendar;
 window.dayGridPlugin = dayGridPlugin;
 window.interactionPlugin = interactionPlugin;
 window.timeGridPlugin = timeGridPlugin;
 window.listPlugin = listPlugin;
-
+window.INITIAL_EVENTS = INITIAL_EVENTS;
+window.createEventId = createEventId;
 
 window.Form = Form;
 Vue.component(HasError.name, HasError)
