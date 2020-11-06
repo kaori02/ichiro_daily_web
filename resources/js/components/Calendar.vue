@@ -1,12 +1,10 @@
 <template>
-<FullCalendar :options="calendarOptions" />
+<div class="container">
+  <FullCalendar :options="calendarOptions" />
+</div>
 </template>
 
 <script>
-import FullCalendar from '@fullcalendar/vue'
-import dayGridPlugin from '@fullcalendar/daygrid'
-import interactionPlugin from '@fullcalendar/interaction'
-
 export default {
   components: {
     FullCalendar // make the <FullCalendar> tag available
@@ -19,11 +17,11 @@ export default {
         dateClick: this.handleDateClick,
         events: [{
             title: 'event 1',
-            date: '2019-04-01'
+            date: '2020-11-01'
           },
           {
             title: 'event 2',
-            date: '2019-04-02'
+            date: '2020-11-02'
           }
         ]
       }

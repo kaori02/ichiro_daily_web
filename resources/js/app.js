@@ -9,6 +9,19 @@ require('./bootstrap');
 window.Vue = require('vue');
 import { Form, HasError, AlertError } from 'vform'
 
+import FullCalendar from '@fullcalendar/vue'
+import dayGridPlugin from '@fullcalendar/daygrid'
+import interactionPlugin from '@fullcalendar/interaction'
+import timeGridPlugin from '@fullcalendar/timegrid'
+import listPlugin from '@fullcalendar/list'
+
+window.FullCalendar = FullCalendar;
+window.dayGridPlugin = dayGridPlugin;
+window.interactionPlugin = interactionPlugin;
+window.timeGridPlugin = timeGridPlugin;
+window.listPlugin = listPlugin;
+
+
 window.Form = Form;
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)

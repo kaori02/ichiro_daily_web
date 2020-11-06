@@ -16,11 +16,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>{{config('app.name'), 'Ichiro Daily Web'}}</title>
 
   <link rel="stylesheet" href="/css/app.css">
-  <!-- fullCalendar -->
-  <link rel="stylesheet" href="../plugins/fullcalendar/main.min.css">
-  <link rel="stylesheet" href="../plugins/fullcalendar-daygrid/main.min.css">
-  <link rel="stylesheet" href="../plugins/fullcalendar-timegrid/main.min.css">
-  <link rel="stylesheet" href="../plugins/fullcalendar-bootstrap/main.min.css">
+
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
