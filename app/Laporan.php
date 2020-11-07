@@ -10,8 +10,7 @@ class Laporan extends Model
     public $primaryKey = 'id_laporan';
     public $timestamps = true;
 
-    public function user()
-    {
-        return $this->belongsTo('App\User');
-    }
+    protected $fillable = [
+        'nama', 'title_laporan', 'password', 'body_laporan', 'waktu'
+    ];
 }

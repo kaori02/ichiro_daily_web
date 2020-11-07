@@ -14,7 +14,7 @@ class AddWaktuToLaporansTable extends Migration
     public function up()
     {
         Schema::table('laporans', function (Blueprint $table) {
-            $table->dateTime('waktu', 5);
+            $table->date('waktu');
         });
     }
 

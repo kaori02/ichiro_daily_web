@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Laporan;
-use App\User;
+use Facade\FlareClient\Report;
 
-class LaporanController extends Controller
+class ReportController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,17 +16,8 @@ class LaporanController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        $data = Laporan::latest()->get();
+        return $data;
     }
 
     /**
@@ -36,7 +28,18 @@ class LaporanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'nama' => 'required',
+            'body_laporan' => 'required',
+            'waktu' => 'required'
+        ]);
+
+        return Laporan::create([
+            'nama' => $request['nama'],
+            'title_laporan' => $request['title_laporan'],
+            'body_laporan' => $request['body_laporan'],
+            'waktu' => date('Y-m-d', strtotime($request['waktu'])),
+        ]);
     }
 
     /**
@@ -46,17 +49,6 @@ class LaporanController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
     {
         //
     }

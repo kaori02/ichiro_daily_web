@@ -15,11 +15,9 @@ class CreateLaporansTable extends Migration
     {
         Schema::create('laporans', function (Blueprint $table) {
             $table->id("id_laporan");
-            $table->string('title_laporan');
+            $table->string('title_laporan')->nullable();
             $table->longText('body_laporan');
             $table->timestamps();
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

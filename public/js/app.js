@@ -19690,9 +19690,23 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      reports: {},
       form: new Form({
         nama: '',
         title_laporan: '',
@@ -19700,6 +19714,22 @@ __webpack_require__.r(__webpack_exports__);
         waktu: ''
       })
     };
+  },
+  methods: {
+    loadReports: function loadReports() {
+      var _this = this;
+
+      axios.get('api/report').then(function (_ref) {
+        var data = _ref.data;
+        return _this.reports = data;
+      });
+    },
+    createReport: function createReport() {
+      this.form.post('api/report');
+    }
+  },
+  created: function created() {
+    this.loadReports();
   },
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -57266,7 +57296,41 @@ var render = function() {
   return _c("div", { staticClass: "container" }, [
     _vm._m(0),
     _vm._v(" "),
-    _vm._m(1),
+    _c("div", { staticClass: "table-responsive" }, [
+      _c(
+        "table",
+        {
+          staticClass: "table table-hover",
+          staticStyle: { width: "100%" },
+          attrs: { id: "tabel-user" }
+        },
+        [
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.reports, function(report) {
+              return _c("tr", { key: report.id_laporan }, [
+                _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "text-left" }, [
+                  _vm._v(_vm._s(report.nama))
+                ]),
+                _vm._v(" "),
+                _c("td", { staticClass: "text-center" }, [
+                  _vm._v(_vm._s(report.waktu))
+                ]),
+                _vm._v(" "),
+                _vm._m(2, true),
+                _vm._v(" "),
+                _vm._m(3, true)
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ]),
     _vm._v(" "),
     _c(
       "div",
@@ -57280,98 +57344,192 @@ var render = function() {
         }
       },
       [
-        _c(
-          "div",
-          {
-            staticClass:
-              "modal-dialog modal-dialog-centered modal-dialog-scrollable"
-          },
-          [
-            _c("div", { staticClass: "modal-content" }, [
-              _vm._m(2),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-body" }, [
-                _c(
-                  "div",
-                  { staticClass: "form-group" },
-                  [
-                    _c("label", [_vm._v("Nama")]),
-                    _vm._v(" "),
-                    _c("input", {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.form.nama,
-                          expression: "form.nama"
-                        }
-                      ],
-                      staticClass: "form-control",
-                      class: { "is-invalid": _vm.form.errors.has("nama") },
-                      attrs: { type: "text", name: "nama" },
-                      domProps: { value: _vm.form.nama },
-                      on: {
-                        input: function($event) {
-                          if ($event.target.composing) {
-                            return
+        _c("div", { staticClass: "modal-dialog modal-dialog-centered" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _vm._m(4),
+            _vm._v(" "),
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.createReport($event)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "modal-body" }, [
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", [_vm._v("Name")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.form.nama,
+                            expression: "form.nama"
                           }
-                          _vm.$set(_vm.form, "nama", $event.target.value)
+                        ],
+                        staticClass: "form-control",
+                        class: { "is-invalid": _vm.form.errors.has("nama") },
+                        attrs: { type: "text", name: "nama" },
+                        domProps: { value: _vm.form.nama },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.form, "nama", $event.target.value)
+                          }
                         }
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("has-error", {
-                      attrs: { form: _vm.form, field: "nama" }
-                    })
-                  ],
-                  1
-                ),
+                      }),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "nama" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", [_vm._v("Date")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.form.waktu,
+                            expression: "form.waktu"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        class: { "is-invalid": _vm.form.errors.has("waktu") },
+                        attrs: { type: "date", name: "waktu" },
+                        domProps: { value: _vm.form.waktu },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.form, "waktu", $event.target.value)
+                          }
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "waktu" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", [_vm._v("Report Title")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.form.title_laporan,
+                            expression: "form.title_laporan"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        class: {
+                          "is-invalid": _vm.form.errors.has("title_laporan")
+                        },
+                        attrs: { type: "text", name: "title_laporan" },
+                        domProps: { value: _vm.form.title_laporan },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.form,
+                              "title_laporan",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "title_laporan" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", [_vm._v("Report Content")]),
+                      _vm._v(" "),
+                      _c("textarea", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.form.body_laporan,
+                            expression: "form.body_laporan"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        class: {
+                          "is-invalid": _vm.form.errors.has("body_laporan")
+                        },
+                        attrs: {
+                          rows: "5",
+                          type: "text",
+                          name: "body_laporan"
+                        },
+                        domProps: { value: _vm.form.body_laporan },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.form,
+                              "body_laporan",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "body_laporan" }
+                      })
+                    ],
+                    1
+                  )
+                ]),
                 _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "form-group" },
-                  [
-                    _c("label", [_vm._v("Waktu")]),
-                    _vm._v(" "),
-                    _c("input", {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.form.waktu,
-                          expression: "form.waktu"
-                        }
-                      ],
-                      staticClass: "form-control",
-                      class: { "is-invalid": _vm.form.errors.has("waktu") },
-                      attrs: { type: "date", name: "waktu" },
-                      domProps: { value: _vm.form.waktu },
-                      on: {
-                        input: function($event) {
-                          if ($event.target.composing) {
-                            return
-                          }
-                          _vm.$set(_vm.form, "waktu", $event.target.value)
-                        }
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("has-error", {
-                      attrs: { form: _vm.form, field: "waktu" }
-                    })
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _vm._m(3)
-            ])
-          ]
-        )
+                _vm._m(5)
+              ]
+            )
+          ])
+        ])
       ]
     ),
     _vm._v(" "),
-    _vm._m(4)
+    _vm._m(6)
   ])
 }
 var staticRenderFns = [
@@ -57380,7 +57538,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-header" }, [
-      _c("h3", { staticClass: "card-title" }, [_vm._v("Tabel Laporan")]),
+      _c("h3", { staticClass: "card-title" }, [_vm._v("Reports Table")]),
       _vm._v(" "),
       _c("div", { staticClass: "card-tools" }, [
         _c(
@@ -57398,61 +57556,47 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "table-responsive" }, [
+    return _c("thead", [
+      _c("tr", [
+        _c("th", { staticClass: "text-center" }, [_vm._v("No.")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "text-center" }, [_vm._v("Creator")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "text-center" }, [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "text-center" }, [_vm._v("Report")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "text-center" }, [_vm._v("Action")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", { staticClass: "text-center" }, [
       _c(
-        "table",
+        "a",
         {
-          staticClass: "table table-hover",
-          staticStyle: { width: "100%" },
-          attrs: { id: "tabel-user" }
+          staticStyle: { cursor: "pointer" },
+          attrs: { "data-toggle": "modal", "data-target": "#show" }
         },
-        [
-          _c("thead", [
-            _c("tr", [
-              _c("th", { staticClass: "text-center" }, [_vm._v("No.")]),
-              _vm._v(" "),
-              _c("th", { staticClass: "text-center" }, [_vm._v("Nama")]),
-              _vm._v(" "),
-              _c("th", { staticClass: "text-center" }, [_vm._v("Waktu")]),
-              _vm._v(" "),
-              _c("th", { staticClass: "text-center" }, [_vm._v("Laporan")]),
-              _vm._v(" "),
-              _c("th", { staticClass: "text-center" }, [_vm._v("Aksi")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tbody", [
-            _c("tr", [
-              _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
-              _vm._v(" "),
-              _c("td", { staticClass: "text-left" }, [_vm._v("Dafa")]),
-              _vm._v(" "),
-              _c("td", { staticClass: "text-center" }, [_vm._v("5-11-2020")]),
-              _vm._v(" "),
-              _c("td", { staticClass: "text-center" }, [
-                _c(
-                  "a",
-                  {
-                    staticStyle: { cursor: "pointer" },
-                    attrs: { "data-toggle": "modal", "data-target": "#show" }
-                  },
-                  [_c("i", { staticClass: "fas fa-external-link-alt" })]
-                )
-              ]),
-              _vm._v(" "),
-              _c("td", { staticClass: "text-center" }, [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "fa fa-edit text-blue" })
-                ]),
-                _vm._v("\n            /\n            "),
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "fa fa-trash text-red" })
-                ])
-              ])
-            ])
-          ])
-        ]
+        [_c("i", { staticClass: "fas fa-external-link-alt" })]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", { staticClass: "text-center" }, [
+      _c("a", { attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fa fa-edit text-blue" })
+      ]),
+      _vm._v("\n            /\n            "),
+      _c("a", { attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fa fa-trash text-red" })
+      ])
     ])
   },
   function() {
@@ -57496,7 +57640,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "button",
-        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        { staticClass: "btn btn-primary", attrs: { type: "submit" } },
         [_vm._v("Submit")]
       )
     ])
