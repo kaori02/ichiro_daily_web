@@ -14,7 +14,7 @@ class ReportController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $data = Laporan::latest()->get();
         return $data;

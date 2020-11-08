@@ -33,6 +33,10 @@ window.Form = Form;
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 
+import { VuejsDatatableFactory } from 'vuejs-datatable';
+
+Vue.use( VuejsDatatableFactory );
+
 // TEMPAT VUE NIHH
 
 import VueRouter from 'vue-router'

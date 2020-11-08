@@ -17,7 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <link rel="stylesheet" href="/css/app.css">
 
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  {{-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"> --}}
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -166,11 +166,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- REQUIRED SCRIPTS -->
 
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-<script>
+{{-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> --}}
+{{-- <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script> --}}
+{{-- <script>
 $(document).ready(function () {
   $('#tabel-user').DataTable();
 });
-</script>
+</script> --}}
 </html>
