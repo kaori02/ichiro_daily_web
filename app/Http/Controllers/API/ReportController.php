@@ -16,7 +16,7 @@ class ReportController extends Controller
      */
     public function index(Request $request)
     {
-        $data = Laporan::latest()->get();
+        $data = Laporan::orderBy('waktu','desc')->paginate(10);
         return $data;
     }
 

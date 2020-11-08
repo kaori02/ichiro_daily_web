@@ -57960,9 +57960,11 @@ var render = function() {
           _vm._v(" "),
           _c(
             "tbody",
-            _vm._l(_vm.reports, function(report) {
+            _vm._l(_vm.reports.data, function(report) {
               return _c("tr", { key: report.id_laporan }, [
-                _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
+                _c("td", { staticClass: "text-center" }, [
+                  _vm._v(_vm._s(report.id_laporan))
+                ]),
                 _vm._v(" "),
                 _c("td", { staticClass: "text-left" }, [
                   _vm._v(_vm._s(report.nama))
@@ -58209,7 +58211,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("thead", [
       _c("tr", [
-        _c("th", { staticClass: "text-center" }, [_vm._v("No.")]),
+        _c("th", { staticClass: "text-center" }, [_vm._v("ID")]),
         _vm._v(" "),
         _c("th", { staticClass: "text-center" }, [_vm._v("Creator")]),
         _vm._v(" "),
@@ -58244,7 +58246,7 @@ var staticRenderFns = [
       _c("a", { attrs: { href: "#" } }, [
         _c("i", { staticClass: "fa fa-edit text-blue" })
       ]),
-      _vm._v("\r\n            /\r\n            "),
+      _vm._v("\n            /\n            "),
       _c("a", { attrs: { href: "#" } }, [
         _c("i", { staticClass: "fa fa-trash text-red" })
       ])
@@ -58346,7 +58348,7 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
-                _vm._v("\r\n          ...\r\n        ")
+                _vm._v("\n          ...\n        ")
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" }, [

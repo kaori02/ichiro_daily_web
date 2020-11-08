@@ -10,7 +10,7 @@
     <table id="tabel-user" class="table table-hover" style="width:100%">
       <thead>
         <tr>
-          <th class="text-center">No.</th>
+          <th class="text-center">ID</th>
           <th class="text-center">Creator</th>
           <th class="text-center">Date</th>
           <th class="text-center">Report</th>
@@ -18,8 +18,8 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="report in reports" :key="report.id_laporan">
-          <td class="text-center">1</td>
+        <tr v-for="report in reports.data" :key="report.id_laporan">
+          <td class="text-center">{{report.id_laporan}}</td>
           <td class="text-left">{{report.nama}}</td>
           <td class="text-center">{{report.waktu}}</td>
           <td class="text-center">
