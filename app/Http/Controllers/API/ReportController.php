@@ -16,7 +16,7 @@ class ReportController extends Controller
      */
     public function index(Request $request)
     {
-        $data = Laporan::latest()->paginate(10);
+        $data = Laporan::orderBy('waktu','desc')->paginate(10);
         return $data;
     }
 
@@ -73,6 +73,10 @@ class ReportController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $laporan = Laporan::FindOrFail($id);
+
+        $laporan->delete();
+
+        return ['message' => 'Report Deleted'];
     }
 }

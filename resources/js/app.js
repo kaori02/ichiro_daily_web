@@ -35,6 +35,23 @@ Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 Vue.component('pagination', require('laravel-vue-pagination'));
 
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
+window.Swal = Swal;
+const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+})
+  window.Toast = Toast;
+
+
 import { VuejsDatatableFactory } from 'vuejs-datatable';
 
 Vue.use( VuejsDatatableFactory );
@@ -51,6 +68,13 @@ let routes = [
     { path: '/calendar', component: require('./components/Calendar.vue').default }
 ];
 
+import VueProgressBar from 'vue-progressbar'
+Vue.use(VueProgressBar, {
+    color: 'rgb(0, 123, 255)',
+    failedColor: 'red',
+    height: '100px'
+  })
+
 const router = new VueRouter({
     mode: 'history',
     routes, // short for `routes: routes`
@@ -61,6 +85,7 @@ Vue.filter('myDate', function(date){
     return moment(date).format('LL');
 })
 
+window.Fire = new Vue();
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

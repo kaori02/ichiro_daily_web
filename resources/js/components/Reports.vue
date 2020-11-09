@@ -32,7 +32,7 @@
                   <i class="fa fa-edit text-blue"></i>
                 </a>
                 /
-                <a href="#">
+                <a href="#" @click="deleteReport(report.id_laporan)">
                   <i class="fa fa-trash text-red"></i>
                 </a>
               </td>
@@ -127,6 +127,50 @@ export default {
     }
   },
   methods: {
+    deleteReport(id) {
+      const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+      })
+
+      swalWithBootstrapButtons.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        reverseButtons: true
+      }).then((result) => {
+
+        //send req to server
+        if (result.isConfirmed) {
+          this.form.delete('api/report/' + id).then(() => {
+            swalWithBootstrapButtons.fire(
+              'Deleted!',
+              'Your report data has been deleted.',
+              'success'
+            )
+            Fire.$emit('AfterChange');
+
+          }).catch(() => {
+            Swal("Failed!", "There was something wrong.", "warning");
+          })
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire(
+            'Cancelled',
+            'Your report data is safe :)',
+            'error'
+          )
+        }
+      })
+    },
     getResults(page = 1) {
       axios.get('api/report?page=' + page)
         .then(response => {
@@ -139,11 +183,30 @@ export default {
       }) => (this.reports = data));
     },
     createReport() {
+      this.$Progress.start()
       this.form.post('api/report')
+        .then(() => {
+          Fire.$emit('AfterChange');
+          $('#addReport').modal('hide')
+
+          Toast.fire({
+            icon: 'success',
+            title: 'Report added successfully'
+          })
+          this.$Progress.finish()
+
+        })
+        .catch(() => {
+
+        })
     }
   },
   created() {
     this.loadReports();
+    Fire.$on('AfterChange', () => {
+      this.loadReports()
+    })
+    // setInterval(() => this.loadReports(), 3000);
   },
   mounted() {
     console.log('Component mounted.')
