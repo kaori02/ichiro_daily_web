@@ -1,44 +1,51 @@
 <template>
-<div class="container">
-  <div class="card-header">
-    <h3 class="card-title">Reports Table</h3>
-    <div class="card-tools">
-      <button class="btn btn-primary" data-toggle="modal" data-target="#addReport">Add Report</button>
+<div class="row">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Reports Table</h3>
+        <div class="card-tools">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addReport">Add Report</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <table id="tabel-user" class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th class="text-center">ID</th>
+              <th class="text-center">Creator</th>
+              <th class="text-center">Date</th>
+              <th class="text-center">Report</th>
+              <th class="text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="report in reports.data" :key="report.id_laporan">
+              <td class="text-center">{{report.id_laporan}}</td>
+              <td class="text-center">{{report.nama}}</td>
+              <td class="text-center">{{report.waktu | myDate}}</td>
+              <td class="text-center">
+                <a data-toggle="modal" data-target="#show" style="cursor:pointer"><i class="fas fa-external-link-alt"></i></a>
+              </td>
+              <td class="text-center">
+                <a href="#">
+                  <i class="fa fa-edit text-blue"></i>
+                </a>
+                /
+                <a href="#">
+                  <i class="fa fa-trash text-red"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <div class="card-footer">
+        <pagination :data="reports" @pagination-change-page="getResults"></pagination>
+      </div>
     </div>
   </div>
-  <div class="table-responsive">
-    <table id="tabel-user" class="table table-hover" style="width:100%">
-      <thead>
-        <tr>
-          <th class="text-center">ID</th>
-          <th class="text-center">Creator</th>
-          <th class="text-center">Date</th>
-          <th class="text-center">Report</th>
-          <th class="text-center">Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="report in reports.data" :key="report.id_laporan">
-          <td class="text-center">{{report.id_laporan}}</td>
-          <td class="text-left">{{report.nama}}</td>
-          <td class="text-center">{{report.waktu}}</td>
-          <td class="text-center">
-            <a data-toggle="modal" data-target="#show" style="cursor:pointer"><i class="fas fa-external-link-alt"></i></a>
-          </td>
-          <td class="text-center">
-            <a href="#">
-              <i class="fa fa-edit text-blue"></i>
-            </a>
-            /
-            <a href="#">
-              <i class="fa fa-trash text-red"></i>
-            </a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
   <!-- Modal -->
   <div class="modal fade" id="addReport" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -120,6 +127,12 @@ export default {
     }
   },
   methods: {
+    getResults(page = 1) {
+      axios.get('api/report?page=' + page)
+        .then(response => {
+          this.reports = response.data;
+        });
+    },
     loadReports() {
       axios.get('api/report').then(({
         data

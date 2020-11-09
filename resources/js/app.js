@@ -7,6 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import moment from 'moment'
 import { Form, HasError, AlertError } from 'vform'
 
 import FullCalendar from '@fullcalendar/vue'
@@ -32,6 +33,7 @@ window.createEventId = createEventId;
 window.Form = Form;
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
+Vue.component('pagination', require('laravel-vue-pagination'));
 
 import { VuejsDatatableFactory } from 'vuejs-datatable';
 
@@ -54,6 +56,10 @@ const router = new VueRouter({
     routes, // short for `routes: routes`
     linkActiveClass: 'active'
 });
+
+Vue.filter('myDate', function(date){
+    return moment(date).format('LL');
+})
 
 /**
  * The following block of code may be used to automatically register your
