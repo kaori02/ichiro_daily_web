@@ -19710,11 +19710,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      editmode: false,
       reports: {},
       form: new Form({
+        id_laporan: '',
         nama: '',
         title_laporan: '',
         body_laporan: '',
@@ -19723,8 +19728,45 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   methods: {
-    deleteReport: function deleteReport(id) {
+    showModal: function showModal(report) {
+      this.form.clear();
+      this.form.reset();
+      $('#show').modal('show');
+      this.form.fill(report);
+    },
+    editReport: function editReport() {
       var _this = this;
+
+      this.$Progress.start();
+      this.form.put('api/report/' + this.form.id_laporan).then(function () {
+        //success
+        Fire.$emit('AfterChange');
+        $('#addReport').modal('hide');
+        Toast.fire({
+          icon: 'success',
+          title: 'Report updated successfully'
+        });
+
+        _this.$Progress.finish();
+      })["catch"](function () {
+        _this.$Progress.fail();
+      });
+    },
+    editModal: function editModal(report) {
+      this.editmode = true;
+      this.form.clear();
+      this.form.reset();
+      $('#addReport').modal('show');
+      this.form.fill(report);
+    },
+    newModal: function newModal() {
+      this.editmode = false;
+      this.form.clear();
+      this.form.reset();
+      $('#addReport').modal('show');
+    },
+    deleteReport: function deleteReport(id) {
+      var _this2 = this;
 
       var swalWithBootstrapButtons = Swal.mixin({
         customClass: {
@@ -19744,7 +19786,7 @@ __webpack_require__.r(__webpack_exports__);
       }).then(function (result) {
         //send req to server
         if (result.isConfirmed) {
-          _this.form["delete"]('api/report/' + id).then(function () {
+          _this2.form["delete"]('api/report/' + id).then(function () {
             swalWithBootstrapButtons.fire('Deleted!', 'Your report data has been deleted.', 'success');
             Fire.$emit('AfterChange');
           })["catch"](function () {
@@ -19758,23 +19800,23 @@ __webpack_require__.r(__webpack_exports__);
       });
     },
     getResults: function getResults() {
-      var _this2 = this;
+      var _this3 = this;
 
       var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
       axios.get('api/report?page=' + page).then(function (response) {
-        _this2.reports = response.data;
+        _this3.reports = response.data;
       });
     },
     loadReports: function loadReports() {
-      var _this3 = this;
+      var _this4 = this;
 
       axios.get('api/report').then(function (_ref) {
         var data = _ref.data;
-        return _this3.reports = data;
+        return _this4.reports = data;
       });
     },
     createReport: function createReport() {
-      var _this4 = this;
+      var _this5 = this;
 
       this.$Progress.start();
       this.form.post('api/report').then(function () {
@@ -19785,16 +19827,18 @@ __webpack_require__.r(__webpack_exports__);
           title: 'Report added successfully'
         });
 
-        _this4.$Progress.finish();
-      })["catch"](function () {});
+        _this5.$Progress.finish();
+      })["catch"](function () {
+        _this5.$Progress.fail();
+      });
     }
   },
   created: function created() {
-    var _this5 = this;
+    var _this6 = this;
 
     this.loadReports();
     Fire.$on('AfterChange', function () {
-      _this5.loadReports();
+      _this6.loadReports();
     }); // setInterval(() => this.loadReports(), 3000);
   },
   mounted: function mounted() {
@@ -83585,7 +83629,17 @@ var render = function() {
   return _c("div", { staticClass: "row" }, [
     _c("div", { staticClass: "col-12" }, [
       _c("div", { staticClass: "card" }, [
-        _vm._m(0),
+        _c("div", { staticClass: "card-header" }, [
+          _c("h3", { staticClass: "card-title" }, [_vm._v("Reports Table")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-tools" }, [
+            _c(
+              "button",
+              { staticClass: "btn btn-primary", on: { click: _vm.newModal } },
+              [_vm._v("Add Report")]
+            )
+          ])
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
           _c(
@@ -83595,28 +83649,46 @@ var render = function() {
               attrs: { id: "tabel-user" }
             },
             [
-              _vm._m(1),
+              _vm._m(0),
               _vm._v(" "),
               _c(
                 "tbody",
                 _vm._l(_vm.reports.data, function(report) {
                   return _c("tr", { key: report.id_laporan }, [
-                    _c("td", { staticClass: "text-center" }, [
-                      _vm._v(_vm._s(report.id_laporan))
+                    _c("td", [_vm._v(_vm._s(report.id_laporan))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(report.nama))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(_vm._f("myDate")(report.waktu)))]),
+                    _vm._v(" "),
+                    _c("td", [
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { cursor: "pointer" },
+                          on: {
+                            click: function($event) {
+                              return _vm.showModal(report)
+                            }
+                          }
+                        },
+                        [_c("i", { staticClass: "fas fa-external-link-alt" })]
+                      )
                     ]),
                     _vm._v(" "),
-                    _c("td", { staticClass: "text-center" }, [
-                      _vm._v(_vm._s(report.nama))
-                    ]),
-                    _vm._v(" "),
-                    _c("td", { staticClass: "text-center" }, [
-                      _vm._v(_vm._s(_vm._f("myDate")(report.waktu)))
-                    ]),
-                    _vm._v(" "),
-                    _vm._m(2, true),
-                    _vm._v(" "),
-                    _c("td", { staticClass: "text-center" }, [
-                      _vm._m(3, true),
+                    _c("td", [
+                      _c(
+                        "a",
+                        {
+                          attrs: { href: "#" },
+                          on: {
+                            click: function($event) {
+                              return _vm.editModal(report)
+                            }
+                          }
+                        },
+                        [_c("i", { staticClass: "fa fa-edit text-blue" })]
+                      ),
                       _vm._v("\n                /\n                "),
                       _c(
                         "a",
@@ -83667,7 +83739,43 @@ var render = function() {
       [
         _c("div", { staticClass: "modal-dialog modal-dialog-centered" }, [
           _c("div", { staticClass: "modal-content" }, [
-            _vm._m(4),
+            _c("div", { staticClass: "modal-header" }, [
+              _c(
+                "h5",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: !_vm.editmode,
+                      expression: "!editmode"
+                    }
+                  ],
+                  staticClass: "modal-title",
+                  attrs: { id: "addReportLabel" }
+                },
+                [_vm._v("Add report")]
+              ),
+              _vm._v(" "),
+              _c(
+                "h5",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.editmode,
+                      expression: "editmode"
+                    }
+                  ],
+                  staticClass: "modal-title",
+                  attrs: { id: "addReportLabel" }
+                },
+                [_vm._v("Edit report")]
+              ),
+              _vm._v(" "),
+              _vm._m(1)
+            ]),
             _vm._v(" "),
             _c(
               "form",
@@ -83675,7 +83783,7 @@ var render = function() {
                 on: {
                   submit: function($event) {
                     $event.preventDefault()
-                    return _vm.createReport($event)
+                    _vm.editmode ? _vm.editReport() : _vm.createReport()
                   }
                 }
               },
@@ -83842,7 +83950,50 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(5)
+                _c("div", { staticClass: "modal-footer" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-secondary",
+                      attrs: { type: "button", "data-dismiss": "modal" }
+                    },
+                    [_vm._v("Cancel")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      directives: [
+                        {
+                          name: "show",
+                          rawName: "v-show",
+                          value: _vm.editmode,
+                          expression: "editmode"
+                        }
+                      ],
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "submit" }
+                    },
+                    [_vm._v("Update")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      directives: [
+                        {
+                          name: "show",
+                          rawName: "v-show",
+                          value: !_vm.editmode,
+                          expression: "!editmode"
+                        }
+                      ],
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "submit" }
+                    },
+                    [_vm._v("Create")]
+                  )
+                ])
               ]
             )
           ])
@@ -83850,121 +84001,7 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _vm._m(6)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-header" }, [
-      _c("h3", { staticClass: "card-title" }, [_vm._v("Reports Table")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "card-tools" }, [
-        _c(
-          "button",
-          {
-            staticClass: "btn btn-primary",
-            attrs: { "data-toggle": "modal", "data-target": "#addReport" }
-          },
-          [_vm._v("Add Report")]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", { staticClass: "text-center" }, [_vm._v("ID")]),
-        _vm._v(" "),
-        _c("th", { staticClass: "text-center" }, [_vm._v("Creator")]),
-        _vm._v(" "),
-        _c("th", { staticClass: "text-center" }, [_vm._v("Date")]),
-        _vm._v(" "),
-        _c("th", { staticClass: "text-center" }, [_vm._v("Report")]),
-        _vm._v(" "),
-        _c("th", { staticClass: "text-center" }, [_vm._v("Action")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("td", { staticClass: "text-center" }, [
-      _c(
-        "a",
-        {
-          staticStyle: { cursor: "pointer" },
-          attrs: { "data-toggle": "modal", "data-target": "#show" }
-        },
-        [_c("i", { staticClass: "fas fa-external-link-alt" })]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "#" } }, [
-      _c("i", { staticClass: "fa fa-edit text-blue" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "modal-header" }, [
-      _c(
-        "h5",
-        { staticClass: "modal-title", attrs: { id: "addReportLabel" } },
-        [_vm._v("Add report")]
-      ),
-      _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticClass: "close",
-          attrs: {
-            type: "button",
-            "data-dismiss": "modal",
-            "aria-label": "Close"
-          }
-        },
-        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "modal-footer" }, [
-      _c(
-        "button",
-        {
-          staticClass: "btn btn-secondary",
-          attrs: { type: "button", "data-dismiss": "modal" }
-        },
-        [_vm._v("Cancel")]
-      ),
-      _vm._v(" "),
-      _c(
-        "button",
-        { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-        [_vm._v("Submit")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
+    _c(
       "div",
       {
         staticClass: "modal fade",
@@ -83988,45 +84025,79 @@ var staticRenderFns = [
                 _c(
                   "h5",
                   { staticClass: "modal-title", attrs: { id: "showLabel" } },
-                  [_vm._v("Report")]
+                  [_vm._v(_vm._s(_vm._f("myDate")(_vm.form.waktu)))]
                 ),
                 _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "close",
-                    attrs: {
-                      type: "button",
-                      "data-dismiss": "modal",
-                      "aria-label": "Close"
-                    }
-                  },
-                  [
-                    _c("span", { attrs: { "aria-hidden": "true" } }, [
-                      _vm._v("×")
-                    ])
-                  ]
-                )
+                _vm._m(2)
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
-                _vm._v("\n          ...\n        ")
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-footer" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-secondary",
-                    attrs: { type: "button", "data-dismiss": "modal" }
-                  },
-                  [_vm._v("Close")]
-                )
+                _c("strong", [_vm._v(_vm._s(_vm.form.title_laporan))]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.form.body_laporan))])
               ])
             ])
           ]
         )
       ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Creator")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Report")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Action")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "close",
+        attrs: {
+          type: "button",
+          "data-dismiss": "modal",
+          "aria-label": "Close"
+        }
+      },
+      [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "close",
+        attrs: {
+          type: "button",
+          "data-dismiss": "modal",
+          "aria-label": "Close"
+        }
+      },
+      [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
     )
   }
 ]

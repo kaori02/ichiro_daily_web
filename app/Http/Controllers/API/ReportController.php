@@ -62,7 +62,16 @@ class ReportController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // return $id;
+        $laporan = Laporan::findOrFail($id);
+        $this->validate($request,[
+            'nama' => 'required',
+            'body_laporan' => 'required',
+            'waktu' => 'required'
+        ]);
+
+        $laporan->update($request->all());
+        return ['message' => 'Updated the report info'];
     }
 
     /**
@@ -73,7 +82,7 @@ class ReportController extends Controller
      */
     public function destroy($id)
     {
-        $laporan = Laporan::FindOrFail($id);
+        $laporan = Laporan::findOrFail($id);
 
         $laporan->delete();
 

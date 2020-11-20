@@ -5,30 +5,32 @@
       <div class="card-header">
         <h3 class="card-title">Reports Table</h3>
         <div class="card-tools">
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addReport">Add Report</button>
+          <button class="btn btn-primary" @click="newModal">Add Report</button>
         </div>
       </div>
       <div class="card-body">
         <table id="tabel-user" class="table table-hover table-striped">
           <thead>
             <tr>
-              <th class="text-center">ID</th>
-              <th class="text-center">Creator</th>
-              <th class="text-center">Date</th>
-              <th class="text-center">Report</th>
-              <th class="text-center">Action</th>
+              <th>ID</th>
+              <th>Creator</th>
+              <th>Date</th>
+              <th>Report</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="report in reports.data" :key="report.id_laporan">
-              <td class="text-center">{{report.id_laporan}}</td>
-              <td class="text-center">{{report.nama}}</td>
-              <td class="text-center">{{report.waktu | myDate}}</td>
-              <td class="text-center">
-                <a data-toggle="modal" data-target="#show" style="cursor:pointer"><i class="fas fa-external-link-alt"></i></a>
+              <td>{{report.id_laporan}}</td>
+              <td>{{report.nama}}</td>
+              <td>{{report.waktu | myDate}}</td>
+              <td>
+                <a style="cursor:pointer" @click="showModal(report)">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
               </td>
-              <td class="text-center">
-                <a href="#">
+              <td>
+                <a href="#" @click="editModal(report)">
                   <i class="fa fa-edit text-blue"></i>
                 </a>
                 /
@@ -51,13 +53,14 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="addReportLabel">Add report</h5>
+          <h5 class="modal-title" v-show="!editmode" id="addReportLabel">Add report</h5>
+          <h5 class="modal-title" v-show="editmode" id="addReportLabel">Edit report</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
 
-        <form @submit.prevent="createReport">
+        <form @submit.prevent="editmode ? editReport():createReport()">
           <div class="modal-body">
             <div class="form-group">
               <label>Name</label>
@@ -83,7 +86,8 @@
 
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button v-show="editmode" type="submit" class="btn btn-primary">Update</button>
+            <button v-show="!editmode" type="submit" class="btn btn-primary">Create</button>
           </div>
         </form>
       </div>
@@ -95,17 +99,16 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="showLabel">Report</h5>
+          <h5 class="modal-title" id="showLabel">{{form.waktu|myDate}}</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+            <strong>{{form.title_laporan}}</strong>
+            <br>
+            <br>
+            <p>{{ form.body_laporan }}</p>
         </div>
       </div>
     </div>
@@ -117,8 +120,10 @@
 export default {
   data() {
     return {
+      editmode: false,
       reports: {},
       form: new Form({
+        id_laporan:'',
         nama: '',
         title_laporan: '',
         body_laporan: '',
@@ -127,6 +132,43 @@ export default {
     }
   },
   methods: {
+    showModal(report){
+        this.form.clear();
+        this.form.reset();
+        $('#show').modal('show');
+        this.form.fill(report);
+    },
+    editReport(){
+        this.$Progress.start()
+        this.form.put('api/report/' + this.form.id_laporan)
+        .then(() => {
+            //success
+          Fire.$emit('AfterChange');
+          $('#addReport').modal('hide')
+
+          Toast.fire({
+            icon: 'success',
+            title: 'Report updated successfully'
+          })
+          this.$Progress.finish()
+        })
+        .catch(() => {
+            this.$Progress.fail()
+        });
+    },
+    editModal(report){
+        this.editmode = true;
+        this.form.clear();
+        this.form.reset();
+        $('#addReport').modal('show');
+        this.form.fill(report);
+    },
+    newModal(){
+        this.editmode = false;
+        this.form.clear();
+        this.form.reset();
+        $('#addReport').modal('show');
+    },
     deleteReport(id) {
       const swalWithBootstrapButtons = Swal.mixin({
         customClass: {
@@ -197,7 +239,7 @@ export default {
 
         })
         .catch(() => {
-
+            this.$Progress.fail()
         })
     }
   },
