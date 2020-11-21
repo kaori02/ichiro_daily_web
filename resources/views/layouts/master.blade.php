@@ -98,12 +98,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </router-link>
             </li>
             <li class="nav-item">
-                <router-link to="/profile" class="nav-link">
-                    <i class="nav-icon fas fa-user"></i>
-                    <p>Profile</p>
-                </router-link>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">

@@ -64,7 +64,7 @@
           <div class="modal-body">
             <div class="form-group">
               <label>Name</label>
-              <input v-model="form.nama" type="text" name="nama" class="form-control" :class="{ 'is-invalid': form.errors.has('nama') }">
+              <input v-model="form.nama" type="text" name="nama" placeholder="Jhonny Yes Phapa" class="form-control" :class="{ 'is-invalid': form.errors.has('nama') }">
               <has-error :form="form" field="nama"></has-error>
             </div>
             <div class="form-group">
@@ -74,12 +74,12 @@
             </div>
             <div class="form-group">
               <label>Report Title</label>
-              <input v-model="form.title_laporan" type="text" name="title_laporan" class="form-control" :class="{ 'is-invalid': form.errors.has('title_laporan') }">
+              <input v-model="form.title_laporan" type="text" name="title_laporan" placeholder="Umaru Rekorr" class="form-control" :class="{ 'is-invalid': form.errors.has('title_laporan') }">
               <has-error :form="form" field="title_laporan"></has-error>
             </div>
             <div class="form-group">
               <label>Report Content</label>
-              <textarea rows="5" v-model="form.body_laporan" type="text" name="body_laporan" class="form-control" :class="{ 'is-invalid': form.errors.has('body_laporan') }"></textarea>
+              <textarea rows="5" v-model="form.body_laporan" type="text" name="body_laporan" placeholder="Latihan full time 8 gol" class="form-control" :class="{ 'is-invalid': form.errors.has('body_laporan') }"></textarea>
               <has-error :form="form" field="body_laporan"></has-error>
             </div>
           </div>
@@ -108,7 +108,7 @@
             <strong>{{form.title_laporan}}</strong>
             <br>
             <br>
-            <p>{{ form.body_laporan }}</p>
+            <p style="white-space: pre-line;">{{ form.body_laporan }}</p>
         </div>
       </div>
     </div>
