@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('report', 'API\ReportController');
+Route::get('profile', 'API\ProfileController@index');

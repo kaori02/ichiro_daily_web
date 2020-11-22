@@ -17,7 +17,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <link rel="stylesheet" href="/css/app.css">
 
-  {{-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"> --}}
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -65,7 +64,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="{{asset('img/dafa.png')}}" class="img-circle elevation-3" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">
+          <a href="/profile" class="d-block">
             {{ Auth::user()->name }}
           </a>
         </div>
@@ -95,6 +94,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <router-link to="/reports" class="nav-link">
                     <i class="fa fa-book nav-icon"></i>
                     <p>Reports</p>
+                </router-link>
+            </li>
+            <li class="nav-item">
+                <router-link to="/profile" class="nav-link">
+                    <i class="nav-icon fas fa-user"></i>
+                    <p>Profile</p>
                 </router-link>
             </li>
             <li class="nav-item">
@@ -159,13 +164,5 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
-
 <script src="{{ asset('js/app.js') }}"></script>
-{{-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> --}}
-{{-- <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script> --}}
-{{-- <script>
-$(document).ready(function () {
-  $('#tabel-user').DataTable();
-});
-</script> --}}
 </html>
