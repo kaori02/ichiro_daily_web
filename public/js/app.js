@@ -25156,7 +25156,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh2 {\n  margin: 0;\n  font-size: 16px;\n}\nul {\n  margin: 0;\n  padding: 0 0 0 1.5em;\n}\nli {\n  margin: 1.5em 0;\n  padding: 0;\n}\nb {\n  /* used for event dates/times */\n  margin-right: 3px;\n}\n.demo-app {\n  display: flex;\n  min-height: 100%;\n  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;\n  font-size: 14px;\n}\n.demo-app-sidebar {\n  width: 300px;\n  line-height: 1.5;\n  background: #eaf9ff;\n  border-right: 1px solid #d3e2e8;\n}\n.demo-app-sidebar-section {\n  padding: 2em;\n}\n.demo-app-main {\n  flex-grow: 1;\n  padding: 3em;\n}\n.fc {\n  /* the calendar root */\n  max-width: 1100px;\n  margin: 0 auto;\n}\n", ""]);
+exports.push([module.i, "\nh2 {\r\n  margin: 0;\r\n  font-size: 16px;\n}\nul {\r\n  margin: 0;\r\n  padding: 0 0 0 1.5em;\n}\nli {\r\n  margin: 1.5em 0;\r\n  padding: 0;\n}\nb {\r\n  /* used for event dates/times */\r\n  margin-right: 3px;\n}\n.demo-app {\r\n  display: flex;\r\n  min-height: 100%;\r\n  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;\r\n  font-size: 14px;\n}\n.demo-app-sidebar {\r\n  width: 300px;\r\n  line-height: 1.5;\r\n  background: #eaf9ff;\r\n  border-right: 1px solid #d3e2e8;\n}\n.demo-app-sidebar-section {\r\n  padding: 2em;\n}\n.demo-app-main {\r\n  flex-grow: 1;\r\n  padding: 3em;\n}\n.fc {\r\n  /* the calendar root */\r\n  max-width: 1100px;\r\n  margin: 0 auto;\n}\r\n", ""]);
 
 // exports
 
@@ -84779,7 +84779,7 @@ var render = function() {
                         },
                         [_c("i", { staticClass: "fa fa-edit text-blue" })]
                       ),
-                      _vm._v("\n                /\n                "),
+                      _vm._v("\r\n                /\r\n                "),
                       _c(
                         "a",
                         {
@@ -107350,8 +107350,8 @@ $jscomp.polyfill("Array.prototype.find", function (k) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\xampp\htdocs\ichiro_daily_web\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\ichiro_daily_web\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\ichiro_daily_web\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\ichiro_daily_web\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
