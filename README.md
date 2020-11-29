@@ -29,10 +29,16 @@ npm install && npm run dev
 
 ### 5. Create db named 'ichiro_daily_web' on your local
 
-### 6. create key
+### 6. Create key
 
 ```sh
 php artisan key:generate
+```
+
+### 7. Generate passport key
+
+```sh
+php artisan passport:keys
 ```
 
 ### 7. Migrate
