@@ -1,21 +1,19 @@
 <template>
 <div class="container">
-  <div class="row justify-content-center">
+  <!--<div class="row justify-content-center">
     <div class="col-md-12">
-    <!-- Widget: user widget style 1 -->
+
     <div class="card card-widget widget-user">
-        <!-- Add the bg color to the header using any of the bg-* classes -->
         <div class="widget-user-header bg-primary">
             <h3>Dafa Berlian</h3>
         </div>
         <div class="widget-user-image">
-            <img class="img-circle elevation-2" src="/img/dafa.png" alt="User Avatar">
+            <img class="img-circle elevation-2" src="/img/profile.png" alt="User Avatar">
         </div>
         <div class="card-footer"></div>
     </div>
-    <!-- /.widget-user -->
     </div>
-  </div>
+  </div> -->
   <div class="row">
   <div class="col-md-12">
     <div class="card">

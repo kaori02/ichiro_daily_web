@@ -61,7 +61,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{{asset('img/dafa.png')}}" class="img-circle elevation-3" alt="User Image">
+          <img src="{{asset('img/profile.png')}}" class="img-circle elevation-3" alt="User Image">
         </div>
         <div class="info">
           <a href="/profile" class="d-block">

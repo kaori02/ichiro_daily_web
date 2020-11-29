@@ -120,7 +120,7 @@ if(false) {}
 /*!***************************************************!*\
   !*** ./node_modules/@fullcalendar/common/main.js ***!
   \***************************************************/
-/*! exports provided: Component, createElement, render, createRef, Fragment, createContext, flushToDom, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations */
+/*! exports provided: Component, Fragment, createContext, createElement, createRef, flushToDom, render, unmountComponentAtNode, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -328,23 +328,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.css */ "./node_modules/@fullcalendar/common/main.css");
 /* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_main_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/@fullcalendar/common/node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _vdom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vdom */ "./node_modules/@fullcalendar/common/vdom.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["Component"]; });
+/* harmony import */ var _vdom_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vdom.js */ "./node_modules/@fullcalendar/common/vdom.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["Component"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["Fragment"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["render"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createContext"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["Fragment"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["createContext"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flushToDom", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["flushToDom"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flushToDom", function() { return _vdom__WEBPACK_IMPORTED_MODULE_2__["flushToDom"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unmountComponentAtNode", function() { return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["unmountComponentAtNode"]; });
 
 /*!
-FullCalendar v5.3.1
+FullCalendar v5.3.2
 Docs & License: https://fullcalendar.io/
 (c) 2020 Adam Shaw
 */
@@ -357,21 +359,20 @@ Docs & License: https://fullcalendar.io/
 // no public types yet. when there are, export from:
 // import {} from './api-type-deps'
 var EventSourceApi = /** @class */ (function () {
-    function EventSourceApi(context, internalEventSource // rename?
-    ) {
+    function EventSourceApi(context, internalEventSource) {
         this.context = context;
         this.internalEventSource = internalEventSource;
     }
     EventSourceApi.prototype.remove = function () {
         this.context.dispatch({
             type: 'REMOVE_EVENT_SOURCE',
-            sourceId: this.internalEventSource.sourceId
+            sourceId: this.internalEventSource.sourceId,
         });
     };
     EventSourceApi.prototype.refetch = function () {
         this.context.dispatch({
             type: 'FETCH_EVENT_SOURCES',
-            sourceIds: [this.internalEventSource.sourceId]
+            sourceIds: [this.internalEventSource.sourceId],
         });
     };
     Object.defineProperty(EventSourceApi.prototype, "id", {
@@ -405,18 +406,16 @@ function elementClosest(el, selector) {
         // really bad fallback for IE
         // from https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
     }
-    else {
-        if (!document.documentElement.contains(el)) {
-            return null;
-        }
-        do {
-            if (elementMatches(el, selector)) {
-                return el;
-            }
-            el = (el.parentElement || el.parentNode);
-        } while (el !== null && el.nodeType === 1);
+    if (!document.documentElement.contains(el)) {
         return null;
     }
+    do {
+        if (elementMatches(el, selector)) {
+            return el;
+        }
+        el = (el.parentElement || el.parentNode);
+    } while (el !== null && el.nodeType === 1);
+    return null;
 }
 function elementMatches(el, selector) {
     var method = el.matches || el.matchesSelector || el.msMatchesSelector;
@@ -428,9 +427,9 @@ function elementMatches(el, selector) {
 function findElements(container, selector) {
     var containers = container instanceof HTMLElement ? [container] : container;
     var allMatches = [];
-    for (var i = 0; i < containers.length; i++) {
+    for (var i = 0; i < containers.length; i += 1) {
         var matches = containers[i].querySelectorAll(selector);
-        for (var j = 0; j < matches.length; j++) {
+        for (var j = 0; j < matches.length; j += 1) {
             allMatches.push(matches[j]);
         }
     }
@@ -441,9 +440,9 @@ function findElements(container, selector) {
 function findDirectChildren(parent, selector) {
     var parents = parent instanceof HTMLElement ? [parent] : parent;
     var allMatches = [];
-    for (var i = 0; i < parents.length; i++) {
+    for (var i = 0; i < parents.length; i += 1) {
         var childNodes = parents[i].children; // only ever elements
-        for (var j = 0; j < childNodes.length; j++) {
+        for (var j = 0; j < childNodes.length; j += 1) {
             var childNode = childNodes[j];
             if (!selector || elementMatches(childNode, selector)) {
                 allMatches.push(childNode);
@@ -465,7 +464,7 @@ function applyStyleProp(el, name, val) {
         el.style[name] = '';
     }
     else if (typeof val === 'number' && PIXEL_PROP_RE.test(name)) {
-        el.style[name] = val + 'px';
+        el.style[name] = val + "px";
     }
     else {
         el.style[name] = val;
@@ -495,13 +494,13 @@ function listenBySelector(container, eventType, selector, handler) {
 }
 function listenToHoverBySelector(container, selector, onMouseEnter, onMouseLeave) {
     var currentMatchedChild;
-    return listenBySelector(container, 'mouseover', selector, function (ev, matchedChild) {
+    return listenBySelector(container, 'mouseover', selector, function (mouseOverEv, matchedChild) {
         if (matchedChild !== currentMatchedChild) {
             currentMatchedChild = matchedChild;
-            onMouseEnter(ev, matchedChild);
-            var realOnMouseLeave_1 = function (ev) {
+            onMouseEnter(mouseOverEv, matchedChild);
+            var realOnMouseLeave_1 = function (mouseLeaveEv) {
                 currentMatchedChild = null;
-                onMouseLeave(ev, matchedChild);
+                onMouseLeave(mouseLeaveEv, matchedChild);
                 matchedChild.removeEventListener('mouseleave', realOnMouseLeave_1);
             };
             // listen to the next mouseleave, and then unattach
@@ -516,7 +515,7 @@ var transitionEventNames = [
     'otransitionend',
     'oTransitionEnd',
     'msTransitionEnd',
-    'transitionend'
+    'transitionend',
 ];
 // triggered only when the next single subsequent transition finishes
 function whenTransitionDone(el, callback) {
@@ -533,7 +532,8 @@ function whenTransitionDone(el, callback) {
 
 var guidNumber = 0;
 function guid() {
-    return String(guidNumber++);
+    guidNumber += 1;
+    return String(guidNumber);
 }
 /* FullCalendar-specific DOM Utilities
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -577,7 +577,7 @@ function parseFieldSpecs(input) {
     else if (Array.isArray(input)) {
         tokens = input;
     }
-    for (i = 0; i < tokens.length; i++) {
+    for (i = 0; i < tokens.length; i += 1) {
         token = tokens[i];
         if (typeof token === 'string') {
             specs.push(token.charAt(0) === '-' ?
@@ -593,7 +593,7 @@ function parseFieldSpecs(input) {
 function compareByFieldSpecs(obj0, obj1, fieldSpecs) {
     var i;
     var cmp;
-    for (i = 0; i < fieldSpecs.length; i++) {
+    for (i = 0; i < fieldSpecs.length; i += 1) {
         cmp = compareByFieldSpec(obj0, obj1, fieldSpecs[i]);
         if (cmp) {
             return cmp;
@@ -693,7 +693,7 @@ function diffDayAndTime(m0, m1) {
         years: 0,
         months: 0,
         days: Math.round(diffDays(m0day, m1day)),
-        milliseconds: (m1.valueOf() - m1day.valueOf()) - (m0.valueOf() - m0day.valueOf())
+        milliseconds: (m1.valueOf() - m1day.valueOf()) - (m0.valueOf() - m0day.valueOf()),
     };
 }
 // Diffing Whole Units
@@ -715,7 +715,7 @@ function startOfDay(m) {
     return arrayToUtcDate([
         m.getUTCFullYear(),
         m.getUTCMonth(),
-        m.getUTCDate()
+        m.getUTCDate(),
     ]);
 }
 function startOfHour(m) {
@@ -723,7 +723,7 @@ function startOfHour(m) {
         m.getUTCFullYear(),
         m.getUTCMonth(),
         m.getUTCDate(),
-        m.getUTCHours()
+        m.getUTCHours(),
     ]);
 }
 function startOfMinute(m) {
@@ -732,7 +732,7 @@ function startOfMinute(m) {
         m.getUTCMonth(),
         m.getUTCDate(),
         m.getUTCHours(),
-        m.getUTCMinutes()
+        m.getUTCMinutes(),
     ]);
 }
 function startOfSecond(m) {
@@ -742,7 +742,7 @@ function startOfSecond(m) {
         m.getUTCDate(),
         m.getUTCHours(),
         m.getUTCMinutes(),
-        m.getUTCSeconds()
+        m.getUTCSeconds(),
     ]);
 }
 // Week Computation
@@ -781,7 +781,7 @@ function dateToLocalArray(date) {
         date.getHours(),
         date.getMinutes(),
         date.getSeconds(),
-        date.getMilliseconds()
+        date.getMilliseconds(),
     ];
 }
 function arrayToLocalDate(a) {
@@ -796,7 +796,7 @@ function dateToUtcArray(date) {
         date.getUTCHours(),
         date.getUTCMinutes(),
         date.getUTCSeconds(),
-        date.getUTCMilliseconds()
+        date.getUTCMilliseconds(),
     ];
 }
 function arrayToUtcDate(a) {
@@ -824,7 +824,7 @@ function createEventInstance(defId, range, forcedStartTzo, forcedEndTzo) {
         defId: defId,
         range: range,
         forcedStartTzo: forcedStartTzo == null ? null : forcedStartTzo,
-        forcedEndTzo: forcedEndTzo == null ? null : forcedEndTzo
+        forcedEndTzo: forcedEndTzo == null ? null : forcedEndTzo,
     };
 }
 
@@ -837,7 +837,7 @@ function mergeProps(propObjs, complexPropsMap) {
         for (var name_1 in complexPropsMap) {
             var complexObjs = [];
             // collect the trailing object values, stopping when a non-object is discovered
-            for (var i = propObjs.length - 1; i >= 0; i--) {
+            for (var i = propObjs.length - 1; i >= 0; i -= 1) {
                 var val = propObjs[i][name_1];
                 if (typeof val === 'object' && val) { // non-null object
                     complexObjs.unshift(val);
@@ -854,7 +854,7 @@ function mergeProps(propObjs, complexPropsMap) {
         }
     }
     // copy values into the destination, going from last to first
-    for (var i = propObjs.length - 1; i >= 0; i--) {
+    for (var i = propObjs.length - 1; i >= 0; i -= 1) {
         var props = propObjs[i];
         for (var name_2 in props) {
             if (!(name_2 in dest)) { // if already assigned by previous props or complex props, don't reassign
@@ -890,7 +890,7 @@ function arrayToHash(a) {
 }
 function buildHashFromArray(a, func) {
     var hash = {};
-    for (var i = 0; i < a.length; i++) {
+    for (var i = 0; i < a.length; i += 1) {
         var tuple = func(a[i], i);
         hash[tuple[0]] = tuple[1];
     }
@@ -989,7 +989,7 @@ function collectFromHash(hash, startIndex, endIndex, step) {
 }
 
 function parseRecurring(refined, defaultAllDay, dateEnv, recurringTypes) {
-    for (var i = 0; i < recurringTypes.length; i++) {
+    for (var i = 0; i < recurringTypes.length; i += 1) {
         var parsed = recurringTypes[i].parse(refined, dateEnv);
         if (parsed) {
             var allDay = refined.allDay;
@@ -1006,7 +1006,7 @@ function parseRecurring(refined, defaultAllDay, dateEnv, recurringTypes) {
                 allDay: allDay,
                 duration: parsed.duration,
                 typeData: parsed.typeData,
-                typeId: i
+                typeId: i,
             };
         }
     }
@@ -1017,9 +1017,7 @@ function expandRecurring(eventStore, framingRange, context) {
     var defs = eventStore.defs, instances = eventStore.instances;
     // remove existing recurring instances
     // TODO: bad. always expand events as a second step
-    instances = filterHash(instances, function (instance) {
-        return !defs[instance.defId].recurringDef;
-    });
+    instances = filterHash(instances, function (instance) { return !defs[instance.defId].recurringDef; });
     for (var defId in defs) {
         var def = defs[defId];
         if (def.recurringDef) {
@@ -1034,7 +1032,7 @@ function expandRecurring(eventStore, framingRange, context) {
                 var start = starts_1[_i];
                 var instance = createEventInstance(defId, {
                     start: start,
-                    end: dateEnv.add(start, duration)
+                    end: dateEnv.add(start, duration),
                 });
                 instances[instance.instanceId] = instance;
             }
@@ -1049,7 +1047,7 @@ function expandRecurringRanges(eventDef, duration, framingRange, dateEnv, recurr
     var typeDef = recurringTypes[eventDef.recurringDef.typeId];
     var markers = typeDef.expand(eventDef.recurringDef.typeData, {
         start: dateEnv.subtract(framingRange.start, duration),
-        end: framingRange.end
+        end: framingRange.end,
     }, dateEnv);
     // the recurrence plugins don't guarantee that all-day events are start-of-day, so we have to
     if (eventDef.allDay) {
@@ -1066,15 +1064,13 @@ function createDuration(input, unit) {
     if (typeof input === 'string') {
         return parseString(input);
     }
-    else if (typeof input === 'object' && input) { // non-null object
+    if (typeof input === 'object' && input) { // non-null object
         return parseObject(input);
     }
-    else if (typeof input === 'number') {
+    if (typeof input === 'number') {
         return parseObject((_a = {}, _a[unit || 'milliseconds'] = input, _a));
     }
-    else {
-        return null;
-    }
+    return null;
 }
 function parseString(s) {
     var m = PARSE_RE.exec(s);
@@ -1088,7 +1084,7 @@ function parseString(s) {
                 (m[4] ? parseInt(m[4], 10) : 0) * 60 * 1000 + // minutes
                 (m[5] ? parseInt(m[5], 10) : 0) * 1000 + // seconds
                 (m[6] ? parseInt(m[6], 10) : 0) // ms
-            )
+            ),
         };
     }
     return null;
@@ -1101,7 +1097,7 @@ function parseObject(obj) {
         milliseconds: (obj.hours || obj.hour || 0) * 60 * 60 * 1000 + // hours
             (obj.minutes || obj.minute || 0) * 60 * 1000 + // minutes
             (obj.seconds || obj.second || 0) * 1000 + // seconds
-            (obj.milliseconds || obj.millisecond || obj.ms || 0) // ms
+            (obj.milliseconds || obj.millisecond || obj.ms || 0),
     };
     var weeks = obj.weeks || obj.week;
     if (weeks) {
@@ -1129,7 +1125,7 @@ function addDurations(d0, d1) {
         years: d0.years + d1.years,
         months: d0.months + d1.months,
         days: d0.days + d1.days,
-        milliseconds: d0.milliseconds + d1.milliseconds
+        milliseconds: d0.milliseconds + d1.milliseconds,
     };
 }
 function subtractDurations(d1, d0) {
@@ -1137,7 +1133,7 @@ function subtractDurations(d1, d0) {
         years: d1.years - d0.years,
         months: d1.months - d0.months,
         days: d1.days - d0.days,
-        milliseconds: d1.milliseconds - d0.milliseconds
+        milliseconds: d1.milliseconds - d0.milliseconds,
     };
 }
 function multiplyDuration(d, n) {
@@ -1145,7 +1141,7 @@ function multiplyDuration(d, n) {
         years: d.years * n,
         months: d.months * n,
         days: d.days * n,
-        milliseconds: d.milliseconds * n
+        milliseconds: d.milliseconds * n,
     };
 }
 // Conversions
@@ -1174,7 +1170,7 @@ function asRoughMs(dur) {
 // Advanced Math
 function wholeDivideDurations(numerator, denominator) {
     var res = null;
-    for (var i = 0; i < INTERNAL_UNITS.length; i++) {
+    for (var i = 0; i < INTERNAL_UNITS.length; i += 1) {
         var unit = INTERNAL_UNITS[i];
         if (denominator[unit]) {
             var localRes = numerator[unit] / denominator[unit];
@@ -1259,11 +1255,9 @@ function formatTimeZoneOffset(minutes, doIso) {
     var hours = Math.floor(abs / 60);
     var mins = Math.round(abs % 60);
     if (doIso) {
-        return sign + padStart(hours, 2) + ':' + padStart(mins, 2);
+        return sign + padStart(hours, 2) + ":" + padStart(mins, 2);
     }
-    else {
-        return 'GMT' + sign + hours + (mins ? ':' + padStart(mins, 2) : '');
-    }
+    return "GMT" + sign + hours + (mins ? ":" + padStart(mins, 2) : '');
 }
 
 // TODO: new util arrayify?
@@ -1273,10 +1267,10 @@ function removeExact(array, exactVal) {
     while (i < array.length) {
         if (array[i] === exactVal) {
             array.splice(i, 1);
-            removeCnt++;
+            removeCnt += 1;
         }
         else {
-            i++;
+            i += 1;
         }
     }
     return removeCnt;
@@ -1290,7 +1284,7 @@ function isArraysEqual(a0, a1, equalityFunc) {
     if (len !== a1.length) { // not array? or not same length?
         return false;
     }
-    for (i = 0; i < len; i++) {
+    for (i = 0; i < len; i += 1) {
         if (!(equalityFunc ? equalityFunc(a0[i], a1[i]) : a0[i] === a1[i])) {
             return false;
         }
@@ -1323,17 +1317,18 @@ function memoize(workerFunc, resEquality, teardownFunc) {
     };
 }
 function memoizeObjArg(workerFunc, resEquality, teardownFunc) {
+    var _this = this;
     var currentArg;
     var currentRes;
     return function (newArg) {
         if (!currentArg) {
-            currentRes = workerFunc.call(this, newArg);
+            currentRes = workerFunc.call(_this, newArg);
         }
         else if (!isPropsEqual(currentArg, newArg)) {
             if (teardownFunc) {
                 teardownFunc(currentRes);
             }
-            var res = workerFunc.call(this, newArg);
+            var res = workerFunc.call(_this, newArg);
             if (!resEquality || !resEquality(res, currentRes)) {
                 currentRes = res;
             }
@@ -1344,13 +1339,14 @@ function memoizeObjArg(workerFunc, resEquality, teardownFunc) {
 }
 function memoizeArraylike(// used at all?
 workerFunc, resEquality, teardownFunc) {
+    var _this = this;
     var currentArgSets = [];
     var currentResults = [];
     return function (newArgSets) {
         var currentLen = currentArgSets.length;
         var newLen = newArgSets.length;
         var i = 0;
-        for (; i < currentLen; i++) {
+        for (; i < currentLen; i += 1) {
             if (!newArgSets[i]) { // one of the old sets no longer exists
                 if (teardownFunc) {
                     teardownFunc(currentResults[i]);
@@ -1360,14 +1356,14 @@ workerFunc, resEquality, teardownFunc) {
                 if (teardownFunc) {
                     teardownFunc(currentResults[i]);
                 }
-                var res = workerFunc.apply(this, newArgSets[i]);
+                var res = workerFunc.apply(_this, newArgSets[i]);
                 if (!resEquality || !resEquality(res, currentResults[i])) {
                     currentResults[i] = res;
                 }
             }
         }
-        for (; i < newLen; i++) {
-            currentResults[i] = workerFunc.apply(this, newArgSets[i]);
+        for (; i < newLen; i += 1) {
+            currentResults[i] = workerFunc.apply(_this, newArgSets[i]);
         }
         currentArgSets = newArgSets;
         currentResults.splice(newLen); // remove excess
@@ -1375,21 +1371,21 @@ workerFunc, resEquality, teardownFunc) {
     };
 }
 function memoizeHashlike(// used?
-workerFunc, resEquality, teardownFunc // TODO: change arg order
-) {
+workerFunc, resEquality, teardownFunc) {
+    var _this = this;
     var currentArgHash = {};
     var currentResHash = {};
     return function (newArgHash) {
         var newResHash = {};
         for (var key in newArgHash) {
             if (!currentResHash[key]) {
-                newResHash[key] = workerFunc.apply(this, newArgHash[key]);
+                newResHash[key] = workerFunc.apply(_this, newArgHash[key]);
             }
             else if (!isArraysEqual(currentArgHash[key], newArgHash[key])) {
                 if (teardownFunc) {
                     teardownFunc(currentResHash[key]);
                 }
-                var res = workerFunc.apply(this, newArgHash[key]);
+                var res = workerFunc.apply(_this, newArgHash[key]);
                 newResHash[key] = (resEquality && resEquality(res, currentResHash[key]))
                     ? currentResHash[key]
                     : res;
@@ -1409,7 +1405,7 @@ var EXTENDED_SETTINGS_AND_SEVERITIES = {
     separator: 0,
     omitZeroMinute: 0,
     meridiem: 0,
-    omitCommas: 0
+    omitCommas: 0,
 };
 var STANDARD_DATE_PROP_SEVERITIES = {
     timeZoneName: 7,
@@ -1420,7 +1416,7 @@ var STANDARD_DATE_PROP_SEVERITIES = {
     weekday: 2,
     hour: 1,
     minute: 1,
-    second: 1
+    second: 1,
 };
 var MERIDIEM_RE = /\s*([ap])\.?m\.?/i; // eats up leading spaces too
 var COMMA_RE = /,/g; // we need re for globalness
@@ -1502,14 +1498,10 @@ var NativeFormatter = /** @class */ (function () {
 function buildFormattingFunc(standardDateProps, extendedSettings, context) {
     var standardDatePropCnt = Object.keys(standardDateProps).length;
     if (standardDatePropCnt === 1 && standardDateProps.timeZoneName === 'short') {
-        return function (date) {
-            return formatTimeZoneOffset(date.timeZoneOffset);
-        };
+        return function (date) { return (formatTimeZoneOffset(date.timeZoneOffset)); };
     }
     if (standardDatePropCnt === 0 && extendedSettings.week) {
-        return function (date) {
-            return formatWeekNumber(context.computeWeekNumber(date.marker), context.weekText, context.locale, extendedSettings.week);
-        };
+        return function (date) { return (formatWeekNumber(context.computeWeekNumber(date.marker), context.weekText, context.locale, extendedSettings.week)); };
     }
     return buildNativeFormattingFunc(standardDateProps, extendedSettings, context);
 }
@@ -1577,19 +1569,13 @@ function postProcess(s, date, standardDateProps, extendedSettings, context) {
         s = s.replace(MERIDIEM_RE, '').trim();
     }
     else if (extendedSettings.meridiem === 'narrow') { // a/p
-        s = s.replace(MERIDIEM_RE, function (m0, m1) {
-            return m1.toLocaleLowerCase();
-        });
+        s = s.replace(MERIDIEM_RE, function (m0, m1) { return m1.toLocaleLowerCase(); });
     }
     else if (extendedSettings.meridiem === 'short') { // am/pm
-        s = s.replace(MERIDIEM_RE, function (m0, m1) {
-            return m1.toLocaleLowerCase() + 'm';
-        });
+        s = s.replace(MERIDIEM_RE, function (m0, m1) { return m1.toLocaleLowerCase() + "m"; });
     }
     else if (extendedSettings.meridiem === 'lowercase') { // other meridiem transformers already converted to lowercase
-        s = s.replace(MERIDIEM_RE, function (m0) {
-            return m0.toLocaleLowerCase();
-        });
+        s = s.replace(MERIDIEM_RE, function (m0) { return m0.toLocaleLowerCase(); });
     }
     s = s.replace(MULTI_SPACE_RE, ' ');
     s = s.trim();
@@ -1603,7 +1589,7 @@ function injectTzoStr(s, tzoStr) {
     });
     // IE11 doesn't include UTC/GMT in the original string, so append to end
     if (!replaced) {
-        s += ' ' + tzoStr;
+        s += " " + tzoStr;
     }
     return s;
 }
@@ -1673,7 +1659,7 @@ function findCommonInsertion(full0, partial0, full1, partial1) {
             if (before0 === before1 && after0 === after1) {
                 return {
                     before: before0,
-                    after: after0
+                    after: after0,
                 };
             }
         }
@@ -1693,7 +1679,7 @@ function expandZonedMarker(dateInfo, calendarSystem) {
         hour: a[3],
         minute: a[4],
         second: a[5],
-        millisecond: a[6]
+        millisecond: a[6],
     };
 }
 
@@ -1706,7 +1692,7 @@ function createVerboseFormattingArg(start, end, context, betterDefaultSeparator)
         end: endInfo,
         timeZone: context.timeZone,
         localeCodes: context.locale.codes,
-        defaultSeparator: betterDefaultSeparator || context.defaultSeparator
+        defaultSeparator: betterDefaultSeparator || context.defaultSeparator,
     };
 }
 
@@ -1747,12 +1733,13 @@ function createFormatter(input) {
     if (typeof input === 'object' && input) { // non-null object
         return new NativeFormatter(input);
     }
-    else if (typeof input === 'string') {
+    if (typeof input === 'string') {
         return new CmdFormatter(input);
     }
-    else if (typeof input === 'function') {
+    if (typeof input === 'function') {
         return new FuncFormatter(input);
     }
+    return null;
 }
 
 // base options
@@ -1906,7 +1893,7 @@ var BASE_OPTION_REFINERS = {
     visibleRange: identity,
     titleFormat: identity,
     // only used by list-view, but languages define the value, so we need it in base options
-    noEventsText: String
+    noEventsText: String,
 };
 // do NOT give a type here. need `typeof BASE_OPTION_DEFAULTS` to give real results.
 // raw values.
@@ -1924,7 +1911,7 @@ var BASE_OPTION_DEFAULTS = {
     headerToolbar: {
         start: 'title',
         center: '',
-        end: 'today prev,next'
+        end: 'today prev,next',
     },
     weekends: true,
     weekNumbers: false,
@@ -1956,7 +1943,7 @@ var BASE_OPTION_DEFAULTS = {
     eventDragMinDistance: 5,
     expandRows: false,
     navLinks: false,
-    selectable: false
+    selectable: false,
 };
 // calendar listeners
 // ------------------
@@ -1980,7 +1967,7 @@ var CALENDAR_LISTENER_REFINERS = {
     _noEventDrop: identity,
     _noEventResize: identity,
     _resize: identity,
-    _scrollRequest: identity
+    _scrollRequest: identity,
 };
 // calendar-specific options
 // -------------------------
@@ -1990,21 +1977,19 @@ var CALENDAR_OPTION_REFINERS = {
     plugins: identity,
     initialEvents: identity,
     events: identity,
-    eventSources: identity
+    eventSources: identity,
 };
 var COMPLEX_OPTION_COMPARATORS = {
     headerToolbar: isBoolComplexEqual,
     footerToolbar: isBoolComplexEqual,
     buttonText: isBoolComplexEqual,
-    buttonIcons: isBoolComplexEqual
+    buttonIcons: isBoolComplexEqual,
 };
 function isBoolComplexEqual(a, b) {
     if (typeof a === 'object' && typeof b === 'object' && a && b) { // both non-null objects
         return isPropsEqual(a, b);
     }
-    else {
-        return a === b;
-    }
+    return a === b;
 }
 // view-specific options
 // ---------------------
@@ -2018,7 +2003,7 @@ var VIEW_OPTION_REFINERS = {
     classNames: identity,
     content: identity,
     didMount: identity,
-    willUnmount: identity
+    willUnmount: identity,
 };
 // util funcs
 // ----------------------------------------------------------------------------------------------------
@@ -2072,9 +2057,7 @@ function getRelevantEvents(eventStore, instanceId) {
     if (instance) {
         var def_1 = eventStore.defs[instance.defId];
         // get events/instances with same group
-        var newStore = filterEventStoreDefs(eventStore, function (lookDef) {
-            return isEventDefsGrouped(def_1, lookDef);
-        });
+        var newStore = filterEventStoreDefs(eventStore, function (lookDef) { return isEventDefsGrouped(def_1, lookDef); });
         // add the original
         // TODO: wish we could use eventTupleToStore or something like it
         newStore.defs[def_1.defId] = def_1;
@@ -2092,14 +2075,13 @@ function createEmptyEventStore() {
 function mergeEventStores(store0, store1) {
     return {
         defs: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, store0.defs), store1.defs),
-        instances: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, store0.instances), store1.instances)
+        instances: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, store0.instances), store1.instances),
     };
 }
 function filterEventStoreDefs(eventStore, filterFunc) {
     var defs = filterHash(eventStore.defs, filterFunc);
-    var instances = filterHash(eventStore.instances, function (instance) {
-        return defs[instance.defId]; // still exists?
-    });
+    var instances = filterHash(eventStore.instances, function (instance) { return (defs[instance.defId] // still exists?
+    ); });
     return { defs: defs, instances: instances };
 }
 function excludeSubEventStore(master, sub) {
@@ -2120,7 +2102,7 @@ function excludeSubEventStore(master, sub) {
     }
     return {
         defs: filteredDefs,
-        instances: filteredInstances
+        instances: filteredInstances,
     };
 }
 
@@ -2128,27 +2110,23 @@ function normalizeConstraint(input, context) {
     if (Array.isArray(input)) {
         return parseEvents(input, null, context, true); // allowOpenRange=true
     }
-    else if (typeof input === 'object' && input) { // non-null object
+    if (typeof input === 'object' && input) { // non-null object
         return parseEvents([input], null, context, true); // allowOpenRange=true
     }
-    else if (input != null) {
+    if (input != null) {
         return String(input);
     }
-    else {
-        return null;
-    }
+    return null;
 }
 
 function parseClassNames(raw) {
     if (Array.isArray(raw)) {
         return raw;
     }
-    else if (typeof raw === 'string') {
+    if (typeof raw === 'string') {
         return raw.split(/\s+/);
     }
-    else {
-        return [];
-    }
+    return [];
 }
 
 // TODO: better called "EventSettings" or "EventConfig"
@@ -2167,7 +2145,19 @@ var EVENT_UI_REFINERS = {
     color: String,
     backgroundColor: String,
     borderColor: String,
-    textColor: String
+    textColor: String,
+};
+var EMPTY_EVENT_UI = {
+    display: null,
+    startEditable: null,
+    durationEditable: null,
+    constraints: [],
+    overlap: null,
+    allows: [],
+    backgroundColor: '',
+    borderColor: '',
+    textColor: '',
+    classNames: [],
 };
 function createEventUi(refined, context) {
     var constraint = normalizeConstraint(refined.constraint, context);
@@ -2181,7 +2171,7 @@ function createEventUi(refined, context) {
         backgroundColor: refined.backgroundColor || refined.color || '',
         borderColor: refined.borderColor || refined.color || '',
         textColor: refined.textColor || '',
-        classNames: (refined.className || []).concat(refined.classNames || []) // join singular and plural
+        classNames: (refined.className || []).concat(refined.classNames || []),
     };
 }
 // TODO: prevent against problems with <2 args!
@@ -2199,33 +2189,21 @@ function combineTwoEventUis(item0, item1) {
         backgroundColor: item1.backgroundColor || item0.backgroundColor,
         borderColor: item1.borderColor || item0.borderColor,
         textColor: item1.textColor || item0.textColor,
-        classNames: item0.classNames.concat(item1.classNames)
+        classNames: item0.classNames.concat(item1.classNames),
     };
 }
-var EMPTY_EVENT_UI = {
-    display: null,
-    startEditable: null,
-    durationEditable: null,
-    constraints: [],
-    overlap: null,
-    allows: [],
-    backgroundColor: '',
-    borderColor: '',
-    textColor: '',
-    classNames: []
-};
 
 var EVENT_NON_DATE_REFINERS = {
     id: String,
     groupId: String,
     title: String,
-    url: String
+    url: String,
 };
 var EVENT_DATE_REFINERS = {
     start: identity,
     end: identity,
     date: identity,
-    allDay: Boolean
+    allDay: Boolean,
 };
 var EVENT_REFINERS = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, EVENT_NON_DATE_REFINERS), EVENT_DATE_REFINERS), { extendedProps: identity });
 function parseEvent(raw, eventSource, context, allowOpenRange, refiners) {
@@ -2238,17 +2216,15 @@ function parseEvent(raw, eventSource, context, allowOpenRange, refiners) {
         def.recurringDef = {
             typeId: recurringRes.typeId,
             typeData: recurringRes.typeData,
-            duration: recurringRes.duration
+            duration: recurringRes.duration,
         };
         return { def: def, instance: null };
     }
-    else {
-        var singleRes = parseSingle(refined, defaultAllDay, context, allowOpenRange);
-        if (singleRes) {
-            var def = parseEventDef(refined, extra, eventSource ? eventSource.sourceId : '', singleRes.allDay, singleRes.hasEnd, context);
-            var instance = createEventInstance(def.defId, singleRes.range, singleRes.forcedStartTzo, singleRes.forcedEndTzo);
-            return { def: def, instance: instance };
-        }
+    var singleRes = parseSingle(refined, defaultAllDay, context, allowOpenRange);
+    if (singleRes) {
+        var def = parseEventDef(refined, extra, eventSource ? eventSource.sourceId : '', singleRes.allDay, singleRes.hasEnd, context);
+        var instance = createEventInstance(def.defId, singleRes.range, singleRes.forcedStartTzo, singleRes.forcedEndTzo);
+        return { def: def, instance: instance };
     }
     return null;
 }
@@ -2275,7 +2251,7 @@ function parseEventDef(refined, extra, sourceId, allDay, hasEnd, context) {
         allDay: allDay,
         hasEnd: hasEnd,
         ui: createEventUi(refined, context),
-        extendedProps: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, (refined.extendedProps || {})), extra)
+        extendedProps: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, (refined.extendedProps || {})), extra),
     };
     for (var _i = 0, _a = context.pluginHooks.eventDefMemberAdders; _i < _a.length; _i++) {
         var memberAdder = _a[_i];
@@ -2340,7 +2316,7 @@ function parseSingle(refined, defaultAllDay, context, allowOpenRange) {
         hasEnd: hasEnd,
         range: { start: startMarker, end: endMarker },
         forcedStartTzo: startMeta ? startMeta.forcedTzo : null,
-        forcedEndTzo: endMeta ? endMeta.forcedTzo : null
+        forcedEndTzo: endMeta ? endMeta.forcedTzo : null,
     };
 }
 function computeIsDefaultAllDay(eventSource, context) {
@@ -2398,12 +2374,10 @@ function diffDates(date0, date1, dateEnv, largeUnit) {
     if (largeUnit === 'year') {
         return createDuration(dateEnv.diffWholeYears(date0, date1), 'year');
     }
-    else if (largeUnit === 'month') {
+    if (largeUnit === 'month') {
         return createDuration(dateEnv.diffWholeMonths(date0, date1), 'month');
     }
-    else {
-        return diffDayAndTime(date0, date1); // returns a duration
-    }
+    return diffDayAndTime(date0, date1); // returns a duration
 }
 
 function parseRange(input, dateEnv) {
@@ -2432,7 +2406,7 @@ function invertRanges(ranges, constraintRange) {
     var dateRange;
     // ranges need to be in order. required for our date-walking algorithm
     ranges.sort(compareRanges);
-    for (i = 0; i < ranges.length; i++) {
+    for (i = 0; i < ranges.length; i += 1) {
         dateRange = ranges[i];
         // add the span of time before the event (if there is any)
         if (dateRange.start > start) { // compare millisecond time (skip any ambig logic)
@@ -2452,8 +2426,7 @@ function compareRanges(range0, range1) {
     return range0.start.valueOf() - range1.start.valueOf(); // earlier ranges go first
 }
 function intersectRanges(range0, range1) {
-    var start = range0.start;
-    var end = range0.end;
+    var start = range0.start, end = range0.end;
     var newRange = null;
     if (range1.start !== null) {
         if (start === null) {
@@ -2554,7 +2527,7 @@ function sliceEventStore(eventStore, eventUiBases, framingRange, nextDayThreshol
                     instance: instance,
                     range: slicedRange,
                     isStart: normalRange.start && normalRange.start.valueOf() === slicedRange.start.valueOf(),
-                    isEnd: normalRange.end && normalRange.end.valueOf() === slicedRange.end.valueOf()
+                    isEnd: normalRange.end && normalRange.end.valueOf() === slicedRange.end.valueOf(),
                 });
             }
         }
@@ -2572,7 +2545,7 @@ function sliceEventStore(eventStore, eventUiBases, framingRange, nextDayThreshol
                 instance: null,
                 range: invertedRange,
                 isStart: false,
-                isEnd: false
+                isEnd: false,
             });
         }
     }
@@ -2587,7 +2560,7 @@ function sliceEventStore(eventStore, eventUiBases, framingRange, nextDayThreshol
                 instance: null,
                 range: invertedRange,
                 isStart: false,
-                isEnd: false
+                isEnd: false,
             });
         }
     }
@@ -2606,9 +2579,7 @@ function getElSeg(el) {
 }
 // event ui computation
 function compileEventUis(eventDefs, eventUiBases) {
-    return mapHash(eventDefs, function (eventDef) {
-        return compileEventUi(eventDef, eventUiBases);
-    });
+    return mapHash(eventDefs, function (eventDef) { return compileEventUi(eventDef, eventUiBases); });
 }
 function compileEventUi(eventDef, eventUiBases) {
     var uis = [];
@@ -2623,12 +2594,8 @@ function compileEventUi(eventDef, eventUiBases) {
 }
 function sortEventSegs(segs, eventOrderSpecs) {
     var objs = segs.map(buildSegCompareObj);
-    objs.sort(function (obj0, obj1) {
-        return compareByFieldSpecs(obj0, obj1, eventOrderSpecs);
-    });
-    return objs.map(function (c) {
-        return c._seg;
-    });
+    objs.sort(function (obj0, obj1) { return compareByFieldSpecs(obj0, obj1, eventOrderSpecs); });
+    return objs.map(function (c) { return c._seg; });
 }
 // returns a object with all primitive props that can be compared
 function buildSegCompareObj(seg) {
@@ -2638,8 +2605,7 @@ function buildSegCompareObj(seg) {
     var start = range.start ? range.start.valueOf() : 0; // TODO: better support for open-range events
     var end = range.end ? range.end.valueOf() : 0; // "
     return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventDef.extendedProps), eventDef), { id: eventDef.publicId, start: start,
-        end: end, duration: end - start, allDay: Number(eventDef.allDay), _seg: seg // for later retrieval
-     });
+        end: end, duration: end - start, allDay: Number(eventDef.allDay), _seg: seg });
 }
 function computeSegDraggable(seg, context) {
     var pluginHooks = context.pluginHooks;
@@ -2677,14 +2643,12 @@ startOverride, endOverride) {
         if (displayEventEnd && eventDef.hasEnd) {
             return dateEnv.formatRange(segStart, segEnd, timeFormat, {
                 forcedStartTzo: startOverride ? null : eventInstance.forcedStartTzo,
-                forcedEndTzo: endOverride ? null : eventInstance.forcedEndTzo
+                forcedEndTzo: endOverride ? null : eventInstance.forcedEndTzo,
             });
         }
-        else {
-            return dateEnv.format(segStart, timeFormat, {
-                forcedTzo: startOverride ? null : eventInstance.forcedStartTzo // nooooo, same
-            });
-        }
+        return dateEnv.format(segStart, timeFormat, {
+            forcedTzo: startOverride ? null : eventInstance.forcedStartTzo,
+        });
     }
     return '';
 }
@@ -2693,7 +2657,7 @@ function getSegMeta(seg, todayRange, nowDate) {
     return {
         isPast: segRange.end < (nowDate || todayRange.start),
         isFuture: segRange.start >= (nowDate || todayRange.end),
-        isToday: todayRange && rangeContainsMarker(todayRange, segRange.start)
+        isToday: todayRange && rangeContainsMarker(todayRange, segRange.start),
     };
 }
 function getEventClassNames(props) {
@@ -2736,14 +2700,14 @@ function getEventClassNames(props) {
 function buildEventRangeKey(eventRange) {
     return eventRange.instance
         ? eventRange.instance.instanceId
-        : eventRange.def.defId + ':' + eventRange.range.start.toISOString();
+        : eventRange.def.defId + ":" + eventRange.range.start.toISOString();
     // inverse-background events don't have specific instances. TODO: better solution
 }
 
 var STANDARD_PROPS = {
     start: identity,
     end: identity,
-    allDay: Boolean
+    allDay: Boolean,
 };
 function parseDateSpan(raw, dateEnv, defaultDuration) {
     var span = parseOpenDateSpan(raw, dateEnv);
@@ -2755,9 +2719,7 @@ function parseDateSpan(raw, dateEnv, defaultDuration) {
         if (defaultDuration == null) {
             return null;
         }
-        else {
-            range.end = dateEnv.add(range.start, defaultDuration);
-        }
+        range.end = dateEnv.add(range.start, defaultDuration);
     }
     return span;
 }
@@ -2813,7 +2775,7 @@ function buildRangeApi(range, dateEnv, omitTime) {
         start: dateEnv.toDate(range.start),
         end: dateEnv.toDate(range.end),
         startStr: dateEnv.formatIso(range.start, { omitTime: omitTime }),
-        endStr: dateEnv.formatIso(range.end, { omitTime: omitTime })
+        endStr: dateEnv.formatIso(range.end, { omitTime: omitTime }),
     };
 }
 function fabricateEventRange(dateSpan, eventUiBases, context) {
@@ -2827,7 +2789,7 @@ function fabricateEventRange(dateSpan, eventUiBases, context) {
         instance: createEventInstance(def.defId, dateSpan.range),
         range: dateSpan.range,
         isStart: true,
-        isEnd: true
+        isEnd: true,
     };
 }
 
@@ -2837,7 +2799,7 @@ function triggerDateSelect(selection, pev, context) {
 function triggerDateUnselect(pev, context) {
     context.emitter.trigger('unselect', {
         jsEvent: pev ? pev.origEvent : null,
-        view: context.viewApi || context.calendarApi.view
+        view: context.viewApi || context.calendarApi.view,
     });
 }
 function buildDateSpanApiWithContext(dateSpan, context) {
@@ -2914,25 +2876,25 @@ eventConfig, mutation, context) {
     if (mutation.datesDelta && eventConfig.startEditable) {
         copy.range = {
             start: dateEnv.add(copy.range.start, mutation.datesDelta),
-            end: dateEnv.add(copy.range.end, mutation.datesDelta)
+            end: dateEnv.add(copy.range.end, mutation.datesDelta),
         };
     }
     if (mutation.startDelta && eventConfig.durationEditable) {
         copy.range = {
             start: dateEnv.add(copy.range.start, mutation.startDelta),
-            end: copy.range.end
+            end: copy.range.end,
         };
     }
     if (mutation.endDelta && eventConfig.durationEditable) {
         copy.range = {
             start: copy.range.start,
-            end: dateEnv.add(copy.range.end, mutation.endDelta)
+            end: dateEnv.add(copy.range.end, mutation.endDelta),
         };
     }
     if (clearEnd) {
         copy.range = {
             start: copy.range.start,
-            end: getDefaultEventEnd(eventDef.allDay, copy.range.start, context)
+            end: getDefaultEventEnd(eventDef.allDay, copy.range.start, context),
         };
     }
     // in case event was all-day but the supplied deltas were not
@@ -2940,7 +2902,7 @@ eventConfig, mutation, context) {
     if (eventDef.allDay) {
         copy.range = {
             start: startOfDay(copy.range.start),
-            end: startOfDay(copy.range.end)
+            end: startOfDay(copy.range.end),
         };
     }
     // handle invalid durations
@@ -3046,7 +3008,7 @@ function parseEventSource(raw, context, refiners) {
                 sourceDefId: metaRes.sourceDefId,
                 meta: metaRes.meta,
                 ui: createEventUi(refined, context),
-                extendedProps: extra
+                extendedProps: extra,
             };
         }
     }
@@ -3057,7 +3019,7 @@ function buildEventSourceRefiners(context) {
 }
 function buildEventSourceMeta(raw, context) {
     var defs = context.pluginHooks.eventSourceDefs;
-    for (var i = defs.length - 1; i >= 0; i--) { // later-added plugins take precedence
+    for (var i = defs.length - 1; i >= 0; i -= 1) { // later-added plugins take precedence
         var def = defs[i];
         var meta = def.parseMeta(raw);
         if (meta) {
@@ -3081,9 +3043,7 @@ function getInitialDate(options, dateEnv) {
     if (initialDateInput != null) {
         return dateEnv.createMarker(initialDateInput);
     }
-    else {
-        return getNow(options.now, dateEnv); // getNow already returns unzoned
-    }
+    return getNow(options.now, dateEnv); // getNow already returns unzoned
 }
 function getNow(nowInput, dateEnv) {
     if (typeof nowInput === 'function') {
@@ -3122,7 +3082,7 @@ var CalendarApi = /** @class */ (function () {
         this.dispatch({
             type: 'SET_OPTION',
             optionName: name,
-            rawOptionValue: val
+            rawOptionValue: val,
         });
     };
     CalendarApi.prototype.getOption = function (name) {
@@ -3169,7 +3129,7 @@ var CalendarApi = /** @class */ (function () {
                     _this.dispatch({
                         type: 'SET_OPTION',
                         optionName: 'visibleRange',
-                        rawOptionValue: dateOrRange
+                        rawOptionValue: dateOrRange,
                     });
                 }
                 else {
@@ -3177,14 +3137,14 @@ var CalendarApi = /** @class */ (function () {
                     _this.dispatch({
                         type: 'CHANGE_VIEW_TYPE',
                         viewType: viewType,
-                        dateMarker: dateEnv.createMarker(dateOrRange)
+                        dateMarker: dateEnv.createMarker(dateOrRange),
                     });
                 }
             }
             else {
                 _this.dispatch({
                     type: 'CHANGE_VIEW_TYPE',
-                    viewType: viewType
+                    viewType: viewType,
                 });
             }
         });
@@ -3202,13 +3162,13 @@ var CalendarApi = /** @class */ (function () {
             this.dispatch({
                 type: 'CHANGE_VIEW_TYPE',
                 viewType: spec.type,
-                dateMarker: dateMarker
+                dateMarker: dateMarker,
             });
         }
         else {
             this.dispatch({
                 type: 'CHANGE_DATE',
-                dateMarker: dateMarker
+                dateMarker: dateMarker,
             });
         }
     };
@@ -3222,7 +3182,7 @@ var CalendarApi = /** @class */ (function () {
         for (var viewType in viewSpecs) {
             viewTypes.push(viewType);
         }
-        for (i = 0; i < viewTypes.length; i++) {
+        for (i = 0; i < viewTypes.length; i += 1) {
             spec = viewSpecs[viewTypes[i]];
             if (spec) {
                 if (spec.singleUnit === unit) {
@@ -3230,6 +3190,7 @@ var CalendarApi = /** @class */ (function () {
                 }
             }
         }
+        return null;
     };
     // Current Date
     // -----------------------------------------------------------------------------------------------------------------
@@ -3246,7 +3207,7 @@ var CalendarApi = /** @class */ (function () {
         this.unselect();
         this.dispatch({
             type: 'CHANGE_DATE',
-            dateMarker: state.dateEnv.addYears(state.currentDate, -1)
+            dateMarker: state.dateEnv.addYears(state.currentDate, -1),
         });
     };
     CalendarApi.prototype.nextYear = function () {
@@ -3254,7 +3215,7 @@ var CalendarApi = /** @class */ (function () {
         this.unselect();
         this.dispatch({
             type: 'CHANGE_DATE',
-            dateMarker: state.dateEnv.addYears(state.currentDate, 1)
+            dateMarker: state.dateEnv.addYears(state.currentDate, 1),
         });
     };
     CalendarApi.prototype.today = function () {
@@ -3262,7 +3223,7 @@ var CalendarApi = /** @class */ (function () {
         this.unselect();
         this.dispatch({
             type: 'CHANGE_DATE',
-            dateMarker: getNow(state.calendarOptions.now, state.dateEnv)
+            dateMarker: getNow(state.calendarOptions.now, state.dateEnv),
         });
     };
     CalendarApi.prototype.gotoDate = function (zonedDateInput) {
@@ -3270,7 +3231,7 @@ var CalendarApi = /** @class */ (function () {
         this.unselect();
         this.dispatch({
             type: 'CHANGE_DATE',
-            dateMarker: state.dateEnv.createMarker(zonedDateInput)
+            dateMarker: state.dateEnv.createMarker(zonedDateInput),
         });
     };
     CalendarApi.prototype.incrementDate = function (deltaInput) {
@@ -3280,7 +3241,7 @@ var CalendarApi = /** @class */ (function () {
             this.unselect();
             this.dispatch({
                 type: 'CHANGE_DATE',
-                dateMarker: state.dateEnv.add(state.currentDate, delta)
+                dateMarker: state.dateEnv.add(state.currentDate, delta),
             });
         }
     };
@@ -3317,19 +3278,18 @@ var CalendarApi = /** @class */ (function () {
             else {
                 selectionInput = {
                     start: dateOrObj,
-                    end: null
+                    end: null,
                 };
             }
         }
         else {
             selectionInput = {
                 start: dateOrObj,
-                end: endDate
+                end: endDate,
             };
         }
         var state = this.getCurrentData();
-        var selection = parseDateSpan(selectionInput, state.dateEnv, createDuration({ days: 1 }) // TODO: cache this?
-        );
+        var selection = parseDateSpan(selectionInput, state.dateEnv, createDuration({ days: 1 }));
         if (selection) { // throw parse error otherwise?
             this.dispatch({ type: 'SELECT_DATES', selection: selection });
             triggerDateSelect(selection, null, state);
@@ -3354,7 +3314,7 @@ var CalendarApi = /** @class */ (function () {
             if (!currentData.eventStore.defs[def.defId]) {
                 this.dispatch({
                     type: 'ADD_EVENTS',
-                    eventStore: eventTupleToStore({ def: def, instance: instance }) // TODO: better util for two args?
+                    eventStore: eventTupleToStore({ def: def, instance: instance }),
                 });
                 this.triggerEventAdd(eventInput);
             }
@@ -3373,19 +3333,17 @@ var CalendarApi = /** @class */ (function () {
         else if (sourceInput != null) { // an ID. accepts a number too
             var sourceApi = this.getEventSourceById(sourceInput); // TODO: use an internal function
             if (!sourceApi) {
-                console.warn('Could not find an event source with ID "' + sourceInput + '"'); // TODO: test
+                console.warn("Could not find an event source with ID \"" + sourceInput + "\""); // TODO: test
                 return null;
             }
-            else {
-                eventSource = sourceApi.internalEventSource;
-            }
+            eventSource = sourceApi.internalEventSource;
         }
         var tuple = parseEvent(eventInput, eventSource, state, false);
         if (tuple) {
             var newEventApi = new EventApi(state, tuple.def, tuple.def.recurringDef ? null : tuple.instance);
             this.dispatch({
                 type: 'ADD_EVENTS',
-                eventStore: eventTupleToStore(tuple)
+                eventStore: eventTupleToStore(tuple),
             });
             this.triggerEventAdd(newEventApi);
             return newEventApi;
@@ -3401,9 +3359,9 @@ var CalendarApi = /** @class */ (function () {
             revert: function () {
                 _this.dispatch({
                     type: 'REMOVE_EVENTS',
-                    eventStore: eventApiToStore(eventApi)
+                    eventStore: eventApiToStore(eventApi),
                 });
-            }
+            },
         });
     };
     // TODO: optimize
@@ -3417,12 +3375,10 @@ var CalendarApi = /** @class */ (function () {
                 if (def.recurringDef) {
                     return new EventApi(state, def, null);
                 }
-                else {
-                    for (var instanceId in instances) {
-                        var instance = instances[instanceId];
-                        if (instance.defId === def.defId) {
-                            return new EventApi(state, def, instance);
-                        }
+                for (var instanceId in instances) {
+                    var instance = instances[instanceId];
+                    if (instance.defId === def.defId) {
+                        return new EventApi(state, def, instance);
                     }
                 }
             }
@@ -3465,7 +3421,7 @@ var CalendarApi = /** @class */ (function () {
             if (!state.eventSources[sourceInput.internalEventSource.sourceId]) {
                 this.dispatch({
                     type: 'ADD_EVENT_SOURCES',
-                    sources: [sourceInput.internalEventSource]
+                    sources: [sourceInput.internalEventSource],
                 });
             }
             return sourceInput;
@@ -3508,12 +3464,12 @@ var EventApi = /** @class */ (function () {
     EventApi.prototype.setProp = function (name, val) {
         var _a, _b;
         if (name in EVENT_DATE_REFINERS) {
-            console.warn("Could not set date-related prop 'name'. Use one of the date-related methods instead.");
+            console.warn('Could not set date-related prop \'name\'. Use one of the date-related methods instead.');
         }
         else if (name in EVENT_NON_DATE_REFINERS) {
             val = EVENT_NON_DATE_REFINERS[name](val);
             this.mutate({
-                standardProps: (_a = {}, _a[name] = val, _a)
+                standardProps: (_a = {}, _a[name] = val, _a),
             });
         }
         else if (name in EVENT_UI_REFINERS) {
@@ -3528,7 +3484,7 @@ var EventApi = /** @class */ (function () {
                 ui = (_b = {}, _b[name] = val, _b);
             }
             this.mutate({
-                standardProps: { ui: ui }
+                standardProps: { ui: ui },
             });
         }
         else {
@@ -3538,7 +3494,7 @@ var EventApi = /** @class */ (function () {
     EventApi.prototype.setExtendedProp = function (name, val) {
         var _a;
         this.mutate({
-            extendedProps: (_a = {}, _a[name] = val, _a)
+            extendedProps: (_a = {}, _a[name] = val, _a),
         });
     };
     EventApi.prototype.setStart = function (startInput, options) {
@@ -3651,14 +3607,12 @@ var EventApi = /** @class */ (function () {
         if (this._def.hasEnd) {
             return dateEnv.formatRange(instance.range.start, instance.range.end, formatter, {
                 forcedStartTzo: instance.forcedStartTzo,
-                forcedEndTzo: instance.forcedEndTzo
+                forcedEndTzo: instance.forcedEndTzo,
             });
         }
-        else {
-            return dateEnv.format(instance.range.start, formatter, {
-                forcedTzo: instance.forcedStartTzo
-            });
-        }
+        return dateEnv.format(instance.range.start, formatter, {
+            forcedTzo: instance.forcedStartTzo,
+        });
     };
     EventApi.prototype.mutate = function (mutation) {
         var instance = this._instance;
@@ -3678,8 +3632,8 @@ var EventApi = /** @class */ (function () {
                     backgroundColor: '',
                     borderColor: '',
                     textColor: '',
-                    classNames: []
-                }
+                    classNames: [],
+                },
             };
             relevantEvents_1 = applyMutationToEventStore(relevantEvents_1, eventConfigBase, mutation, context_1);
             var oldEvent = new EventApi(context_1, def, instance); // snapshot
@@ -3687,7 +3641,7 @@ var EventApi = /** @class */ (function () {
             this._instance = relevantEvents_1.instances[instance.instanceId];
             context_1.dispatch({
                 type: 'MERGE_EVENTS',
-                eventStore: relevantEvents_1
+                eventStore: relevantEvents_1,
             });
             context_1.emitter.trigger('eventChange', {
                 oldEvent: oldEvent,
@@ -3696,9 +3650,9 @@ var EventApi = /** @class */ (function () {
                 revert: function () {
                     context_1.dispatch({
                         type: 'REMOVE_EVENTS',
-                        eventStore: relevantEvents_1
+                        eventStore: relevantEvents_1,
                     });
-                }
+                },
             });
         }
     };
@@ -3707,7 +3661,7 @@ var EventApi = /** @class */ (function () {
         var asStore = eventApiToStore(this);
         context.dispatch({
             type: 'REMOVE_EVENTS',
-            eventStore: asStore
+            eventStore: asStore,
         });
         context.emitter.trigger('eventRemove', {
             event: this,
@@ -3715,9 +3669,9 @@ var EventApi = /** @class */ (function () {
             revert: function () {
                 context.dispatch({
                     type: 'MERGE_EVENTS',
-                    eventStore: asStore
+                    eventStore: asStore,
                 });
-            }
+            },
         });
     };
     Object.defineProperty(EventApi.prototype, "source", {
@@ -3755,7 +3709,7 @@ var EventApi = /** @class */ (function () {
             if (instance) {
                 return this._context.dateEnv.formatIso(instance.range.start, {
                     omitTime: this._def.allDay,
-                    forcedTzo: instance.forcedStartTzo
+                    forcedTzo: instance.forcedStartTzo,
                 });
             }
             return '';
@@ -3769,7 +3723,7 @@ var EventApi = /** @class */ (function () {
             if (instance && this._def.hasEnd) {
                 return this._context.dateEnv.formatIso(instance.range.end, {
                     omitTime: this._def.allDay,
-                    forcedTzo: instance.forcedEndTzo
+                    forcedTzo: instance.forcedEndTzo,
                 });
             }
             return '';
@@ -3929,7 +3883,7 @@ function eventApiToStore(eventApi) {
     return {
         defs: (_a = {}, _a[def.defId] = def, _a),
         instances: instance
-            ? (_b = {}, _b[instance.instanceId] = instance, _b) : {}
+            ? (_b = {}, _b[instance.instanceId] = instance, _b) : {},
     };
 }
 function buildEventApis(eventStore, context, excludeInstance) {
@@ -3979,7 +3933,7 @@ var ISO_RE = /^\s*(\d{4})(-?(\d{2})(-?(\d{2})([T ](\d{2}):?(\d{2})(:?(\d{2})(\.(
 function parse(str) {
     var m = ISO_RE.exec(str);
     if (m) {
-        var marker = new Date(Date.UTC(Number(m[1]), m[3] ? Number(m[3]) - 1 : 0, Number(m[5] || 1), Number(m[7] || 0), Number(m[8] || 0), Number(m[10] || 0), m[12] ? Number('0.' + m[12]) * 1000 : 0));
+        var marker = new Date(Date.UTC(Number(m[1]), m[3] ? Number(m[3]) - 1 : 0, Number(m[5] || 1), Number(m[7] || 0), Number(m[8] || 0), Number(m[10] || 0), m[12] ? Number("0." + m[12]) * 1000 : 0));
         if (isValidDate(marker)) {
             var timeZoneOffset = null;
             if (m[13]) {
@@ -3989,7 +3943,7 @@ function parse(str) {
             return {
                 marker: marker,
                 isTimeUnspecified: !m[6],
-                timeZoneOffset: timeZoneOffset
+                timeZoneOffset: timeZoneOffset,
             };
         }
     }
@@ -4034,11 +3988,9 @@ var DateEnv = /** @class */ (function () {
         if (this.canComputeOffset) {
             return this.timestampToMarker(new Date().valueOf());
         }
-        else {
-            // if we can't compute the current date val for a timezone,
-            // better to give the current local date vals than UTC
-            return arrayToUtcDate(dateToLocalArray(new Date()));
-        }
+        // if we can't compute the current date val for a timezone,
+        // better to give the current local date vals than UTC
+        return arrayToUtcDate(dateToLocalArray(new Date()));
     };
     DateEnv.prototype.createMarkerMeta = function (input) {
         if (typeof input === 'string') {
@@ -4193,41 +4145,42 @@ var DateEnv = /** @class */ (function () {
         if (unit === 'year') {
             return this.startOfYear(m);
         }
-        else if (unit === 'month') {
+        if (unit === 'month') {
             return this.startOfMonth(m);
         }
-        else if (unit === 'week') {
+        if (unit === 'week') {
             return this.startOfWeek(m);
         }
-        else if (unit === 'day') {
+        if (unit === 'day') {
             return startOfDay(m);
         }
-        else if (unit === 'hour') {
+        if (unit === 'hour') {
             return startOfHour(m);
         }
-        else if (unit === 'minute') {
+        if (unit === 'minute') {
             return startOfMinute(m);
         }
-        else if (unit === 'second') {
+        if (unit === 'second') {
             return startOfSecond(m);
         }
+        return null;
     };
     DateEnv.prototype.startOfYear = function (m) {
         return this.calendarSystem.arrayToMarker([
-            this.calendarSystem.getMarkerYear(m)
+            this.calendarSystem.getMarkerYear(m),
         ]);
     };
     DateEnv.prototype.startOfMonth = function (m) {
         return this.calendarSystem.arrayToMarker([
             this.calendarSystem.getMarkerYear(m),
-            this.calendarSystem.getMarkerMonth(m)
+            this.calendarSystem.getMarkerMonth(m),
         ]);
     };
     DateEnv.prototype.startOfWeek = function (m) {
         return this.calendarSystem.arrayToMarker([
             this.calendarSystem.getMarkerYear(m),
             this.calendarSystem.getMarkerMonth(m),
-            m.getUTCDate() - ((m.getUTCDay() - this.weekDow + 7) % 7)
+            m.getUTCDate() - ((m.getUTCDay() - this.weekDow + 7) % 7),
         ]);
     };
     // Week Number
@@ -4235,9 +4188,7 @@ var DateEnv = /** @class */ (function () {
         if (this.weekNumberFunc) {
             return this.weekNumberFunc(this.toDate(marker));
         }
-        else {
-            return weekOfYear(marker, this.weekDow, this.weekDoy);
-        }
+        return weekOfYear(marker, this.weekDow, this.weekDoy);
     };
     // TODO: choke on timeZoneName: long
     DateEnv.prototype.format = function (marker, formatter, dateOptions) {
@@ -4246,7 +4197,7 @@ var DateEnv = /** @class */ (function () {
             marker: marker,
             timeZoneOffset: dateOptions.forcedTzo != null ?
                 dateOptions.forcedTzo :
-                this.offsetForMarker(marker)
+                this.offsetForMarker(marker),
         }, this);
     };
     DateEnv.prototype.formatRange = function (start, end, formatter, dateOptions) {
@@ -4258,12 +4209,12 @@ var DateEnv = /** @class */ (function () {
             marker: start,
             timeZoneOffset: dateOptions.forcedStartTzo != null ?
                 dateOptions.forcedStartTzo :
-                this.offsetForMarker(start)
+                this.offsetForMarker(start),
         }, {
             marker: end,
             timeZoneOffset: dateOptions.forcedEndTzo != null ?
                 dateOptions.forcedEndTzo :
-                this.offsetForMarker(end)
+                this.offsetForMarker(end),
         }, this, dateOptions.defaultSeparator);
     };
     /*
@@ -4288,21 +4239,19 @@ var DateEnv = /** @class */ (function () {
         if (this.timeZone === 'local') {
             return arrayToUtcDate(dateToLocalArray(new Date(ms)));
         }
-        else if (this.timeZone === 'UTC' || !this.namedTimeZoneImpl) {
+        if (this.timeZone === 'UTC' || !this.namedTimeZoneImpl) {
             return new Date(ms);
         }
-        else {
-            return arrayToUtcDate(this.namedTimeZoneImpl.timestampToArray(ms));
-        }
+        return arrayToUtcDate(this.namedTimeZoneImpl.timestampToArray(ms));
     };
     DateEnv.prototype.offsetForMarker = function (m) {
         if (this.timeZone === 'local') {
             return -arrayToLocalDate(dateToUtcArray(m)).getTimezoneOffset(); // convert "inverse" offset to "normal" offset
         }
-        else if (this.timeZone === 'UTC') {
+        if (this.timeZone === 'UTC') {
             return 0;
         }
-        else if (this.namedTimeZoneImpl) {
+        if (this.namedTimeZoneImpl) {
             return this.namedTimeZoneImpl.offsetForArray(dateToUtcArray(m));
         }
         return null;
@@ -4312,17 +4261,14 @@ var DateEnv = /** @class */ (function () {
         if (this.timeZone === 'local') {
             return arrayToLocalDate(dateToUtcArray(m));
         }
-        else if (this.timeZone === 'UTC') {
+        if (this.timeZone === 'UTC') {
             return new Date(m.valueOf()); // make sure it's a copy
         }
-        else if (!this.namedTimeZoneImpl) {
+        if (!this.namedTimeZoneImpl) {
             return new Date(m.valueOf() - (forcedTzo || 0));
         }
-        else {
-            return new Date(m.valueOf() -
-                this.namedTimeZoneImpl.offsetForArray(dateToUtcArray(m)) * 1000 * 60 // convert minutes -> ms
-            );
-        }
+        return new Date(m.valueOf() -
+            this.namedTimeZoneImpl.offsetForArray(dateToUtcArray(m)) * 1000 * 60);
     };
     return DateEnv;
 }());
@@ -4333,7 +4279,7 @@ var RAW_EN_LOCALE = {
     code: 'en',
     week: {
         dow: 0,
-        doy: 4 // 4 days need to be within the year to be considered the first week
+        doy: 4,
     },
     direction: 'ltr',
     buttonText: {
@@ -4346,18 +4292,18 @@ var RAW_EN_LOCALE = {
         month: 'month',
         week: 'week',
         day: 'day',
-        list: 'list'
+        list: 'list',
     },
     weekText: 'W',
     allDayText: 'all-day',
     moreLinkText: 'more',
-    noEventsText: 'No events to display'
+    noEventsText: 'No events to display',
 };
 function organizeRawLocales(explicitRawLocales) {
     var defaultCode = explicitRawLocales.length > 0 ? explicitRawLocales[0].code : 'en';
     var allRawLocales = globalLocales.concat(explicitRawLocales);
     var rawLocaleMap = {
-        en: RAW_EN_LOCALE // necessary?
+        en: RAW_EN_LOCALE,
     };
     for (var _i = 0, allRawLocales_1 = allRawLocales; _i < allRawLocales_1.length; _i++) {
         var rawLocale = allRawLocales_1[_i];
@@ -4365,16 +4311,14 @@ function organizeRawLocales(explicitRawLocales) {
     }
     return {
         map: rawLocaleMap,
-        defaultCode: defaultCode
+        defaultCode: defaultCode,
     };
 }
 function buildLocale(inputSingular, available) {
     if (typeof inputSingular === 'object' && !Array.isArray(inputSingular)) {
         return parseLocale(inputSingular.code, [inputSingular.code], inputSingular);
     }
-    else {
-        return queryLocale(inputSingular, available);
-    }
+    return queryLocale(inputSingular, available);
 }
 function queryLocale(codeArg, available) {
     var codes = [].concat(codeArg || []); // will convert to array
@@ -4382,9 +4326,9 @@ function queryLocale(codeArg, available) {
     return parseLocale(codeArg, codes, raw);
 }
 function queryRawLocale(codes, available) {
-    for (var i = 0; i < codes.length; i++) {
+    for (var i = 0; i < codes.length; i += 1) {
         var parts = codes[i].toLocaleLowerCase().split('-');
-        for (var j = parts.length; j > 0; j--) {
+        for (var j = parts.length; j > 0; j -= 1) {
             var simpleId = parts.slice(0, j).join('-');
             if (available[simpleId]) {
                 return available[simpleId];
@@ -4403,7 +4347,7 @@ function parseLocale(codeArg, codes, raw) {
         codes: codes,
         week: week,
         simpleNumberFormat: new Intl.NumberFormat(codeArg),
-        options: merged
+        options: merged,
     };
 }
 
@@ -4416,11 +4360,10 @@ function formatDate(dateInput, options) {
         return '';
     }
     return dateEnv.format(dateMeta.marker, formatter, {
-        forcedTzo: dateMeta.forcedTzo
+        forcedTzo: dateMeta.forcedTzo,
     });
 }
-function formatRange(startInput, endInput, options // mixture of env and formatter settings
-) {
+function formatRange(startInput, endInput, options) {
     var dateEnv = buildDateEnv(typeof options === 'object' && options ? options : {}); // pass in if non-null object
     var formatter = createFormatter(options);
     var startMeta = dateEnv.createMarkerMeta(startInput);
@@ -4432,7 +4375,7 @@ function formatRange(startInput, endInput, options // mixture of env and formatt
         forcedStartTzo: startMeta.forcedTzo,
         forcedEndTzo: endMeta.forcedTzo,
         isEndExclusive: options.isEndExclusive,
-        defaultSeparator: BASE_OPTION_DEFAULTS.defaultRangeSeparator
+        defaultSeparator: BASE_OPTION_DEFAULTS.defaultRangeSeparator,
     });
 }
 // TODO: more DRY and optimized
@@ -4447,7 +4390,7 @@ var DEF_DEFAULTS = {
     daysOfWeek: [1, 2, 3, 4, 5],
     display: 'inverse-background',
     classNames: 'fc-non-business',
-    groupId: '_businessHours' // so multiple defs get grouped
+    groupId: '_businessHours',
 };
 /*
 TODO: pass around as EventDefHash!!!
@@ -4462,9 +4405,7 @@ function refineInputs(input) {
     }
     else if (Array.isArray(input)) {
         // if specifying an array, every sub-definition NEEDS a day-of-week
-        rawDefs = input.filter(function (rawDef) {
-            return rawDef.daysOfWeek;
-        });
+        rawDefs = input.filter(function (rawDef) { return rawDef.daysOfWeek; });
     }
     else if (typeof input === 'object' && input) { // non-null object
         rawDefs = [input];
@@ -4472,9 +4413,7 @@ function refineInputs(input) {
     else { // is probably false
         rawDefs = [];
     }
-    rawDefs = rawDefs.map(function (rawDef) {
-        return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, DEF_DEFAULTS), rawDef);
-    });
+    rawDefs = rawDefs.map(function (rawDef) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, DEF_DEFAULTS), rawDef)); });
     return rawDefs;
 }
 
@@ -4490,7 +4429,7 @@ function intersectRects(rect1, rect2) {
         left: Math.max(rect1.left, rect2.left),
         right: Math.min(rect1.right, rect2.right),
         top: Math.max(rect1.top, rect2.top),
-        bottom: Math.min(rect1.bottom, rect2.bottom)
+        bottom: Math.min(rect1.bottom, rect2.bottom),
     };
     if (res.left < res.right && res.top < res.bottom) {
         return res;
@@ -4502,28 +4441,28 @@ function translateRect(rect, deltaX, deltaY) {
         left: rect.left + deltaX,
         right: rect.right + deltaX,
         top: rect.top + deltaY,
-        bottom: rect.bottom + deltaY
+        bottom: rect.bottom + deltaY,
     };
 }
 // Returns a new point that will have been moved to reside within the given rectangle
 function constrainPoint(point, rect) {
     return {
         left: Math.min(Math.max(point.left, rect.left), rect.right),
-        top: Math.min(Math.max(point.top, rect.top), rect.bottom)
+        top: Math.min(Math.max(point.top, rect.top), rect.bottom),
     };
 }
 // Returns a point that is the center of the given rectangle
 function getRectCenter(rect) {
     return {
         left: (rect.left + rect.right) / 2,
-        top: (rect.top + rect.bottom) / 2
+        top: (rect.top + rect.bottom) / 2,
     };
 }
 // Subtracts point2's coordinates from point1's coordinates, returning a delta
 function diffPoints(point1, point2) {
     return {
         left: point1.left - point2.left,
-        top: point1.top - point2.top
+        top: point1.top - point2.top,
     };
 }
 
@@ -4575,9 +4514,7 @@ var Splitter = /** @class */ (function () {
         var eventDrags = this.splitEventDrag(props.eventDrag);
         var eventResizes = this.splitEventResize(props.eventResize);
         var splitProps = {};
-        this.eventUiBuilders = mapHash(keyInfos, function (info, key) {
-            return _this.eventUiBuilders[key] || memoize(buildEventUiForKey);
-        });
+        this.eventUiBuilders = mapHash(keyInfos, function (info, key) { return _this.eventUiBuilders[key] || memoize(buildEventUiForKey); });
         for (var key in keyInfos) {
             var keyInfo = keyInfos[key];
             var eventStore = eventStores[key] || EMPTY_EVENT_STORE;
@@ -4589,7 +4526,7 @@ var Splitter = /** @class */ (function () {
                 eventUiBases: buildEventUi(props.eventUiBases[''], keyInfo.ui, individualUi[key]),
                 eventSelection: eventStore.instances[props.eventSelection] ? props.eventSelection : '',
                 eventDrag: eventDrags[key] || null,
-                eventResize: eventResizes[key] || null
+                eventResize: eventResizes[key] || null,
             };
         }
         return splitProps;
@@ -4607,9 +4544,7 @@ var Splitter = /** @class */ (function () {
     };
     Splitter.prototype._getKeysForEventDefs = function (eventStore) {
         var _this = this;
-        return mapHash(eventStore.defs, function (eventDef) {
-            return _this.getKeysForEventDef(eventDef);
-        });
+        return mapHash(eventStore.defs, function (eventDef) { return _this.getKeysForEventDef(eventDef); });
     };
     Splitter.prototype._splitEventStore = function (eventStore, defKeys) {
         var defs = eventStore.defs, instances = eventStore.instances;
@@ -4652,8 +4587,7 @@ var Splitter = /** @class */ (function () {
     Splitter.prototype._splitInteraction = function (interaction) {
         var splitStates = {};
         if (interaction) {
-            var affectedStores_1 = this._splitEventStore(interaction.affectedEvents, this._getKeysForEventDefs(interaction.affectedEvents) // can't use cached. might be events from other calendar
-            );
+            var affectedStores_1 = this._splitEventStore(interaction.affectedEvents, this._getKeysForEventDefs(interaction.affectedEvents));
             // can't rely on defKeys because event data is mutated
             var mutatedKeysByDefId = this._getKeysForEventDefs(interaction.mutatedEvents);
             var mutatedStores_1 = this._splitEventStore(interaction.mutatedEvents, mutatedKeysByDefId);
@@ -4662,7 +4596,7 @@ var Splitter = /** @class */ (function () {
                     splitStates[key] = {
                         affectedEvents: affectedStores_1[key] || EMPTY_EVENT_STORE,
                         mutatedEvents: mutatedStores_1[key] || EMPTY_EVENT_STORE,
-                        isEvent: interaction.isEvent
+                        isEvent: interaction.isEvent,
                     };
                 }
             };
@@ -4686,7 +4620,7 @@ function buildEventUiForKey(allUi, eventUiForKey, individualUi) {
         baseParts.push(eventUiForKey);
     }
     var stuff = {
-        '': combineEventUis(baseParts)
+        '': combineEventUis(baseParts),
     };
     if (individualUi) {
         Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(stuff, individualUi);
@@ -4701,13 +4635,13 @@ function getDateMeta(date, todayRange, nowDate, dateProfile) {
         isOther: Boolean(dateProfile && !rangeContainsMarker(dateProfile.currentRange, date)),
         isToday: Boolean(todayRange && rangeContainsMarker(todayRange, date)),
         isPast: Boolean(nowDate ? (date < nowDate) : todayRange ? (date < todayRange.start) : false),
-        isFuture: Boolean(nowDate ? (date > nowDate) : todayRange ? (date >= todayRange.end) : false)
+        isFuture: Boolean(nowDate ? (date > nowDate) : todayRange ? (date >= todayRange.end) : false),
     };
 }
 function getDayClassNames(meta, theme) {
     var classNames = [
         'fc-day',
-        'fc-day-' + DAY_IDS[meta.dow]
+        "fc-day-" + DAY_IDS[meta.dow],
     ];
     if (meta.isDisabled) {
         classNames.push('fc-day-disabled');
@@ -4732,7 +4666,7 @@ function getDayClassNames(meta, theme) {
 function getSlotClassNames(meta, theme) {
     var classNames = [
         'fc-slot',
-        'fc-slot-' + DAY_IDS[meta.dow]
+        "fc-slot-" + DAY_IDS[meta.dow],
     ];
     if (meta.isDisabled) {
         classNames.push('fc-slot-disabled');
@@ -4756,7 +4690,7 @@ function buildNavLinkData(date, type) {
     if (type === void 0) { type = 'day'; }
     return JSON.stringify({
         date: formatDayString(date),
-        type: type
+        type: type,
     });
 }
 
@@ -4776,7 +4710,7 @@ function computeIsRtlScrollbarOnLeft() {
         border: 0,
         padding: 0,
         overflow: 'scroll',
-        direction: 'rtl'
+        direction: 'rtl',
     });
     outerEl.innerHTML = '<div></div>';
     document.body.appendChild(outerEl);
@@ -4805,7 +4739,7 @@ function computeScrollbarWidths() {
 function computeScrollbarWidthsForEl(el) {
     return {
         x: el.offsetHeight - el.clientHeight,
-        y: el.offsetWidth - el.clientWidth
+        y: el.offsetWidth - el.clientWidth,
     };
 }
 
@@ -4826,7 +4760,7 @@ function computeEdges(el, getPadding) {
         borderBottom: borderBottom,
         scrollbarBottom: scrollbarBottom,
         scrollbarLeft: 0,
-        scrollbarRight: 0
+        scrollbarRight: 0,
     };
     if (getIsRtlScrollbarOnLeft() && computedStyle.direction === 'rtl') { // is the scrollbar on the left side?
         res.scrollbarLeft = scrollbarLeftRight;
@@ -4850,7 +4784,7 @@ function computeInnerRect(el, goWithinPadding, doFromWindowViewport) {
         left: outerRect.left + edges.borderLeft + edges.scrollbarLeft,
         right: outerRect.right - edges.borderRight - edges.scrollbarRight,
         top: outerRect.top + edges.borderTop,
-        bottom: outerRect.bottom - edges.borderBottom - edges.scrollbarBottom
+        bottom: outerRect.bottom - edges.borderBottom - edges.scrollbarBottom,
     };
     if (goWithinPadding) {
         res.left += edges.paddingLeft;
@@ -4866,7 +4800,7 @@ function computeRect(el) {
         left: rect.left + window.pageXOffset,
         top: rect.top + window.pageYOffset,
         right: rect.right + window.pageXOffset,
-        bottom: rect.bottom + window.pageYOffset
+        bottom: rect.bottom + window.pageYOffset,
     };
 }
 function computeHeightAndMargins(el) {
@@ -4904,14 +4838,14 @@ function unpromisify(func, success, failure) {
     var wrappedSuccess = function () {
         if (!isResolved) {
             isResolved = true;
-            success.apply(this, arguments);
+            success.apply(this, arguments); // eslint-disable-line prefer-rest-params
         }
     };
     var wrappedFailure = function () {
         if (!isResolved) {
             isResolved = true;
             if (failure) {
-                failure.apply(this, arguments);
+                failure.apply(this, arguments); // eslint-disable-line prefer-rest-params
             }
         }
     };
@@ -4964,9 +4898,7 @@ function addToHash(hash, type, handler) {
 function removeFromHash(hash, type, handler) {
     if (handler) {
         if (hash[type]) {
-            hash[type] = hash[type].filter(function (func) {
-                return func !== handler;
-            });
+            hash[type] = hash[type].filter(function (func) { return func !== handler; });
         }
     }
     else {
@@ -5019,28 +4951,28 @@ var PositionCache = /** @class */ (function () {
     // Given a left offset (from document left), returns the index of the el that it horizontally intersects.
     // If no intersection is made, returns undefined.
     PositionCache.prototype.leftToIndex = function (leftPosition) {
-        var lefts = this.lefts;
-        var rights = this.rights;
+        var _a = this, lefts = _a.lefts, rights = _a.rights;
         var len = lefts.length;
         var i;
-        for (i = 0; i < len; i++) {
+        for (i = 0; i < len; i += 1) {
             if (leftPosition >= lefts[i] && leftPosition < rights[i]) {
                 return i;
             }
         }
+        return undefined; // TODO: better
     };
     // Given a top offset (from document top), returns the index of the el that it vertically intersects.
     // If no intersection is made, returns undefined.
     PositionCache.prototype.topToIndex = function (topPosition) {
-        var tops = this.tops;
-        var bottoms = this.bottoms;
+        var _a = this, tops = _a.tops, bottoms = _a.bottoms;
         var len = tops.length;
         var i;
-        for (i = 0; i < len; i++) {
+        for (i = 0; i < len; i += 1) {
             if (topPosition >= tops[i] && topPosition < bottoms[i]) {
                 return i;
             }
         }
+        return undefined; // TODO: better
     };
     // Gets the width of the element at the given index
     PositionCache.prototype.getWidth = function (leftIndex) {
@@ -5053,6 +4985,7 @@ var PositionCache = /** @class */ (function () {
     return PositionCache;
 }());
 
+/* eslint max-classes-per-file: "off" */
 /*
 An object for getting/setting scroll-related information for an element.
 Internally, this is done very differently for window versus DOM element,
@@ -5191,7 +5124,7 @@ var Theme = /** @class */ (function () {
             className = this.iconClasses[buttonName];
         }
         if (className) {
-            return this.baseIconClass + ' ' + className;
+            return this.baseIconClass + " " + className;
         }
         return '';
     };
@@ -5200,7 +5133,7 @@ var Theme = /** @class */ (function () {
         if (this.iconOverrideCustomButtonOption) {
             className = customButtonProps[this.iconOverrideCustomButtonOption];
             if (className) {
-                return this.baseIconClass + ' ' + this.applyIconOverridePrefix(className);
+                return this.baseIconClass + " " + this.applyIconOverridePrefix(className);
             }
         }
         return '';
@@ -5238,7 +5171,7 @@ var ScrollResponder = /** @class */ (function () {
     };
     ScrollResponder.prototype.fireInitialScroll = function () {
         this.handleScrollRequest({
-            time: this.scrollTime
+            time: this.scrollTime,
         });
     };
     ScrollResponder.prototype.drain = function () {
@@ -5249,7 +5182,7 @@ var ScrollResponder = /** @class */ (function () {
     return ScrollResponder;
 }());
 
-var ViewContextType = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createContext"])({}); // for Components
+var ViewContextType = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createContext"])({}); // for Components
 function buildViewContext(viewSpec, viewApi, viewOptions, dateProfileGenerator, dateEnv, theme, pluginHooks, dispatch, getCurrentData, emitter, calendarApi, registerInteractiveComponent, unregisterInteractiveComponent) {
     return {
         dateEnv: dateEnv,
@@ -5274,10 +5207,11 @@ function buildViewContext(viewSpec, viewApi, viewOptions, dateProfileGenerator, 
             return new ScrollResponder(execFunc, emitter, createDuration(viewOptions.scrollTime));
         },
         registerInteractiveComponent: registerInteractiveComponent,
-        unregisterInteractiveComponent: unregisterInteractiveComponent
+        unregisterInteractiveComponent: unregisterInteractiveComponent,
     };
 }
 
+/* eslint max-classes-per-file: off */
 var PureComponent = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(PureComponent, _super);
     function PureComponent() {
@@ -5285,6 +5219,7 @@ var PureComponent = /** @class */ (function (_super) {
     }
     PureComponent.prototype.shouldComponentUpdate = function (nextProps, nextState) {
         if (this.debug) {
+            // eslint-disable-next-line no-console
             console.log(getUnequalProps(nextProps, this.props), getUnequalProps(nextState, this.state));
         }
         return !compareObjs(this.props, nextProps, this.propEquality) ||
@@ -5294,7 +5229,7 @@ var PureComponent = /** @class */ (function (_super) {
     PureComponent.addStateEquality = addStateEquality;
     PureComponent.contextType = ViewContextType;
     return PureComponent;
-}(_vdom__WEBPACK_IMPORTED_MODULE_2__["Component"]));
+}(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Component"]));
 PureComponent.prototype.propEquality = {};
 PureComponent.prototype.stateEquality = {};
 var BaseComponent = /** @class */ (function (_super) {
@@ -5342,17 +5277,14 @@ function reduceEventStore(eventStore, action, eventSources, dateProfile, context
             if (dateProfile) {
                 return expandRecurring(eventStore, dateProfile.activeRange, context);
             }
-            else {
-                return eventStore;
-            }
+            return eventStore;
         case 'REMOVE_EVENTS':
             return excludeSubEventStore(eventStore, action.eventStore);
         case 'REMOVE_EVENT_SOURCE':
             return excludeEventsBySourceId(eventStore, action.sourceId);
         case 'REMOVE_ALL_EVENT_SOURCES':
-            return filterEventStoreDefs(eventStore, function (eventDef) {
-                return !eventDef.sourceId; // only keep events with no source id
-            });
+            return filterEventStoreDefs(eventStore, function (eventDef) { return (!eventDef.sourceId // only keep events with no source id
+            ); });
         case 'REMOVE_ALL_EVENTS':
             return createEmptyEventStore();
         default:
@@ -5415,27 +5347,21 @@ function rezoneEventStoreDates(eventStore, oldDateEnv, newDateEnv) {
         if (def.allDay || def.recurringDef) {
             return instance; // isn't dependent on timezone
         }
-        else {
-            return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, instance), { range: {
-                    start: newDateEnv.createMarker(oldDateEnv.toDate(instance.range.start, instance.forcedStartTzo)),
-                    end: newDateEnv.createMarker(oldDateEnv.toDate(instance.range.end, instance.forcedEndTzo))
-                }, forcedStartTzo: newDateEnv.canComputeOffset ? null : instance.forcedStartTzo, forcedEndTzo: newDateEnv.canComputeOffset ? null : instance.forcedEndTzo });
-        }
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, instance), { range: {
+                start: newDateEnv.createMarker(oldDateEnv.toDate(instance.range.start, instance.forcedStartTzo)),
+                end: newDateEnv.createMarker(oldDateEnv.toDate(instance.range.end, instance.forcedEndTzo)),
+            }, forcedStartTzo: newDateEnv.canComputeOffset ? null : instance.forcedStartTzo, forcedEndTzo: newDateEnv.canComputeOffset ? null : instance.forcedEndTzo });
     });
     return { defs: defs, instances: instances };
 }
 function excludeEventsBySourceId(eventStore, sourceId) {
-    return filterEventStoreDefs(eventStore, function (eventDef) {
-        return eventDef.sourceId !== sourceId;
-    });
+    return filterEventStoreDefs(eventStore, function (eventDef) { return eventDef.sourceId !== sourceId; });
 }
 // QUESTION: why not just return instances? do a general object-property-exclusion util
 function excludeInstances(eventStore, removals) {
     return {
         defs: eventStore.defs,
-        instances: filterHash(eventStore.instances, function (instance) {
-            return !removals[instance.instanceId];
-        })
+        instances: filterHash(eventStore.instances, function (instance) { return !removals[instance.instanceId]; }),
     };
 }
 
@@ -5472,12 +5398,12 @@ function isInteractionPropsValid(state, context, dateSpanMeta, filterConfig) {
     var subjectInstances = subjectEventStore.instances;
     var subjectConfigs = compileEventUis(subjectDefs, interaction.isEvent ?
         state.eventUiBases :
-        { '': currentState.selectionConfig } // if not a real event, validate as a selection
-    );
+        { '': currentState.selectionConfig });
     if (filterConfig) {
         subjectConfigs = mapHash(subjectConfigs, filterConfig);
     }
-    var otherEventStore = excludeInstances(state.eventStore, interaction.affectedEvents.instances); // exclude the subject events. TODO: exclude defs too?
+    // exclude the subject events. TODO: exclude defs too?
+    var otherEventStore = excludeInstances(state.eventStore, interaction.affectedEvents.instances);
     var otherDefs = otherEventStore.defs;
     var otherInstances = otherEventStore.instances;
     var otherConfigs = compileEventUis(otherDefs, state.eventUiBases);
@@ -5506,8 +5432,7 @@ function isInteractionPropsValid(state, context, dateSpanMeta, filterConfig) {
                     return false;
                 }
                 if (eventOverlapFunc && !eventOverlapFunc(new EventApi(context, otherDefs[otherInstance.defId], otherInstance), // still event
-                new EventApi(context, subjectDef, subjectInstance) // moving event
-                )) {
+                new EventApi(context, subjectDef, subjectInstance))) {
                     return false;
                 }
             }
@@ -5588,17 +5513,14 @@ function allConstraintsPass(constraints, subjectRange, otherEventStore, business
 function constraintToRanges(constraint, subjectRange, // for expanding a recurring constraint, or expanding business hours
 otherEventStore, // for if constraint is an even group ID
 businessHoursUnexpanded, // for if constraint is 'businessHours'
-context // for expanding businesshours
-) {
+context) {
     if (constraint === 'businessHours') {
         return eventStoreToRanges(expandRecurring(businessHoursUnexpanded, subjectRange, context));
     }
-    else if (typeof constraint === 'string') { // an group ID
-        return eventStoreToRanges(filterEventStoreDefs(otherEventStore, function (eventDef) {
-            return eventDef.groupId === constraint;
-        }));
+    if (typeof constraint === 'string') { // an group ID
+        return eventStoreToRanges(filterEventStoreDefs(otherEventStore, function (eventDef) { return eventDef.groupId === constraint; }));
     }
-    else if (typeof constraint === 'object' && constraint) { // non-null object
+    if (typeof constraint === 'object' && constraint) { // non-null object
         return eventStoreToRanges(expandRecurring(constraint, subjectRange, context));
     }
     return []; // if it's false
@@ -5728,7 +5650,7 @@ function createPlugin(input) {
         contentTypeHandlers: input.contentTypeHandlers || {},
         listenerRefiners: input.listenerRefiners || {},
         optionRefiners: input.optionRefiners || {},
-        propSetHandlers: input.propSetHandlers || {}
+        propSetHandlers: input.propSetHandlers || {},
     };
 }
 function buildPluginHooks(pluginDefs, globalDefs) {
@@ -5766,7 +5688,7 @@ function buildPluginHooks(pluginDefs, globalDefs) {
         contentTypeHandlers: {},
         listenerRefiners: {},
         optionRefiners: {},
-        propSetHandlers: {}
+        propSetHandlers: {},
     };
     function addDefs(defs) {
         for (var _i = 0, defs_1 = defs; _i < defs_1.length; _i++) {
@@ -5831,7 +5753,7 @@ function combineHooks(hooks0, hooks1) {
         contentTypeHandlers: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, hooks0.contentTypeHandlers), hooks1.contentTypeHandlers),
         listenerRefiners: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, hooks0.listenerRefiners), hooks1.listenerRefiners),
         optionRefiners: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, hooks0.optionRefiners), hooks1.optionRefiners),
-        propSetHandlers: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, hooks0.propSetHandlers), hooks1.propSetHandlers)
+        propSetHandlers: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, hooks0.propSetHandlers), hooks1.propSetHandlers),
     };
 }
 
@@ -5847,7 +5769,7 @@ StandardTheme.prototype.classes = {
     tableCellShaded: 'fc-cell-shaded',
     buttonGroup: 'fc-button-group',
     button: 'fc-button fc-button-primary',
-    buttonActive: 'fc-button-active'
+    buttonActive: 'fc-button-active',
 };
 StandardTheme.prototype.baseIconClass = 'fc-icon';
 StandardTheme.prototype.iconClasses = {
@@ -5855,13 +5777,13 @@ StandardTheme.prototype.iconClasses = {
     prev: 'fc-icon-chevron-left',
     next: 'fc-icon-chevron-right',
     prevYear: 'fc-icon-chevrons-left',
-    nextYear: 'fc-icon-chevrons-right'
+    nextYear: 'fc-icon-chevrons-right',
 };
 StandardTheme.prototype.rtlIconClasses = {
     prev: 'fc-icon-chevron-right',
     next: 'fc-icon-chevron-left',
     prevYear: 'fc-icon-chevrons-right',
-    nextYear: 'fc-icon-chevrons-left'
+    nextYear: 'fc-icon-chevrons-left',
 };
 StandardTheme.prototype.iconOverrideOption = 'buttonIcons'; // TODO: make TS-friendly
 StandardTheme.prototype.iconOverrideCustomButtonOption = 'icon';
@@ -5891,10 +5813,8 @@ function ensureViewDef(viewType, hash, defaultConfigs, overrideConfigs) {
 function buildViewDef(viewType, hash, defaultConfigs, overrideConfigs) {
     var defaultConfig = defaultConfigs[viewType];
     var overrideConfig = overrideConfigs[viewType];
-    var queryProp = function (name) {
-        return (defaultConfig && defaultConfig[name] !== null) ? defaultConfig[name] :
-            ((overrideConfig && overrideConfig[name] !== null) ? overrideConfig[name] : null);
-    };
+    var queryProp = function (name) { return ((defaultConfig && defaultConfig[name] !== null) ? defaultConfig[name] :
+        ((overrideConfig && overrideConfig[name] !== null) ? overrideConfig[name] : null)); };
     var theComponent = queryProp('component');
     var superType = queryProp('superType');
     var superDef = null;
@@ -5914,16 +5834,17 @@ function buildViewDef(viewType, hash, defaultConfigs, overrideConfigs) {
         type: viewType,
         component: theComponent,
         defaults: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, (superDef ? superDef.defaults : {})), (defaultConfig ? defaultConfig.rawOptions : {})),
-        overrides: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, (superDef ? superDef.overrides : {})), (overrideConfig ? overrideConfig.rawOptions : {}))
+        overrides: Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, (superDef ? superDef.overrides : {})), (overrideConfig ? overrideConfig.rawOptions : {})),
     };
 }
 
+/* eslint max-classes-per-file: off */
 // NOTE: in JSX, you should always use this class with <HookProps> arg. otherwise, will default to any???
 var RenderHook = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(RenderHook, _super);
     function RenderHook() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.rootElRef = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
+        _this.rootElRef = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
         _this.handleRootEl = function (el) {
             setRef(_this.rootElRef, el);
             if (_this.props.elRef) {
@@ -5936,20 +5857,21 @@ var RenderHook = /** @class */ (function (_super) {
         var _this = this;
         var props = this.props;
         var hookProps = props.hookProps;
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: props.didMount, willUnmount: props.willUnmount, elRef: this.handleRootEl }, function (rootElRef) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHook, { hookProps: hookProps, content: props.content, defaultContent: props.defaultContent, backupElRef: _this.rootElRef }, function (innerElRef, innerContent) { return props.children(rootElRef, normalizeClassNames(props.classNames, hookProps), innerElRef, innerContent); })); }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: props.didMount, willUnmount: props.willUnmount, elRef: this.handleRootEl }, function (rootElRef) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHook, { hookProps: hookProps, content: props.content, defaultContent: props.defaultContent, backupElRef: _this.rootElRef }, function (innerElRef, innerContent) { return props.children(rootElRef, normalizeClassNames(props.classNames, hookProps), innerElRef, innerContent); })); }));
     };
     return RenderHook;
 }(BaseComponent));
+// TODO: rename to be about function, not default. use in above type
 // for forcing rerender of components that use the ContentHook
-var CustomContentRenderContext = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createContext"])(0);
+var CustomContentRenderContext = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createContext"])(0);
 function ContentHook(props) {
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(CustomContentRenderContext.Consumer, null, function (renderId) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHookInner, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ renderId: renderId }, props))); }));
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(CustomContentRenderContext.Consumer, null, function (renderId) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHookInner, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ renderId: renderId }, props))); }));
 }
 var ContentHookInner = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(ContentHookInner, _super);
     function ContentHookInner() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.innerElRef = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
+        _this.innerElRef = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
         return _this;
     }
     ContentHookInner.prototype.render = function () {
@@ -5960,6 +5882,11 @@ var ContentHookInner = /** @class */ (function (_super) {
     };
     ContentHookInner.prototype.componentDidUpdate = function () {
         this.updateCustomContent();
+    };
+    ContentHookInner.prototype.componentWillUnmount = function () {
+        if (this.customContentInfo && this.customContentInfo.destroy) {
+            this.customContentInfo.destroy();
+        }
     };
     ContentHookInner.prototype.renderInnerContent = function () {
         var contentTypeHandlers = this.context.pluginHooks.contentTypeHandlers;
@@ -5978,11 +5905,8 @@ var ContentHookInner = /** @class */ (function (_super) {
                 // look for a prop that would indicate a custom content handler is needed
                 for (var contentKey in contentTypeHandlers) {
                     if (innerContent[contentKey] !== undefined) {
-                        customContentInfo = this.customContentInfo = {
-                            contentKey: contentKey,
-                            contentVal: innerContent[contentKey],
-                            handler: contentTypeHandlers[contentKey]()
-                        };
+                        var stuff = contentTypeHandlers[contentKey]();
+                        customContentInfo = this.customContentInfo = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ contentKey: contentKey, contentVal: innerContent[contentKey] }, stuff);
                         break;
                     }
                 }
@@ -5998,7 +5922,7 @@ var ContentHookInner = /** @class */ (function (_super) {
     };
     ContentHookInner.prototype.updateCustomContent = function () {
         if (this.customContentInfo) {
-            this.customContentInfo.handler(this.innerElRef.current || this.props.backupElRef.current, // the element to render into
+            this.customContentInfo.render(this.innerElRef.current || this.props.backupElRef.current, // the element to render into
             this.customContentInfo.contentVal);
         }
     };
@@ -6021,11 +5945,15 @@ var MountHook = /** @class */ (function (_super) {
     };
     MountHook.prototype.componentDidMount = function () {
         var callback = this.props.didMount;
-        callback && callback(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, this.props.hookProps), { el: this.rootEl }));
+        if (callback) {
+            callback(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, this.props.hookProps), { el: this.rootEl }));
+        }
     };
     MountHook.prototype.componentWillUnmount = function () {
         var callback = this.props.willUnmount;
-        callback && callback(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, this.props.hookProps), { el: this.rootEl }));
+        if (callback) {
+            callback(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, this.props.hookProps), { el: this.rootEl }));
+        }
     };
     return MountHook;
 }(BaseComponent));
@@ -6050,11 +5978,9 @@ function normalizeClassNames(classNames, hookProps) {
 }
 function normalizeContent(input, hookProps) {
     if (typeof input === 'function') {
-        return input(hookProps, _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"]); // give the function the vdom-creation func
+        return input(hookProps, _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"]); // give the function the vdom-creation func
     }
-    else {
-        return input;
-    }
+    return input;
 }
 
 var ViewRoot = /** @class */ (function (_super) {
@@ -6069,7 +5995,7 @@ var ViewRoot = /** @class */ (function (_super) {
         var options = context.options;
         var hookProps = { view: context.viewApi };
         var customClassNames = this.normalizeClassNames(options.viewClassNames, hookProps);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: options.viewDidMount, willUnmount: options.viewWillUnmount, elRef: props.elRef }, function (rootElRef) { return props.children(rootElRef, ["fc-" + props.viewSpec.type + "-view", 'fc-view'].concat(customClassNames)); }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: options.viewDidMount, willUnmount: options.viewWillUnmount, elRef: props.elRef }, function (rootElRef) { return props.children(rootElRef, ["fc-" + props.viewSpec.type + "-view", 'fc-view'].concat(customClassNames)); }));
     };
     return ViewRoot;
 }(BaseComponent));
@@ -6089,25 +6015,21 @@ function parseViewConfig(input) {
     return {
         superType: rawOptions.type,
         component: component,
-        rawOptions: rawOptions // includes type and component too :(
+        rawOptions: rawOptions,
     };
 }
 function createViewHookComponent(options) {
-    return function (viewProps) {
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewRoot, { viewSpec: context.viewSpec }, function (rootElRef, viewClassNames) {
-            var hookProps = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, viewProps), { nextDayThreshold: context.options.nextDayThreshold });
-            return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.classNames, content: options.content, didMount: options.didMount, willUnmount: options.willUnmount, elRef: rootElRef }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: viewClassNames.concat(customClassNames).join(' '), ref: rootElRef }, innerContent)); }));
-        })); }));
-    };
+    return function (viewProps) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewRoot, { viewSpec: context.viewSpec }, function (viewElRef, viewClassNames) {
+        var hookProps = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, viewProps), { nextDayThreshold: context.options.nextDayThreshold });
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.classNames, content: options.content, didMount: options.didMount, willUnmount: options.willUnmount, elRef: viewElRef }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: viewClassNames.concat(customClassNames).join(' '), ref: rootElRef }, innerContent)); }));
+    })); })); };
 }
 
 function buildViewSpecs(defaultInputs, optionOverrides, dynamicOptionOverrides, localeDefaults) {
     var defaultConfigs = parseViewConfigs(defaultInputs);
     var overrideConfigs = parseViewConfigs(optionOverrides.views);
     var viewDefs = compileViewDefs(defaultConfigs, overrideConfigs);
-    return mapHash(viewDefs, function (viewDef) {
-        return buildViewSpec(viewDef, overrideConfigs, optionOverrides, dynamicOptionOverrides, localeDefaults);
-    });
+    return mapHash(viewDefs, function (viewDef) { return buildViewSpec(viewDef, overrideConfigs, optionOverrides, dynamicOptionOverrides, localeDefaults); });
 }
 function buildViewSpec(viewDef, overrideConfigs, optionOverrides, dynamicOptionOverrides, localeDefaults) {
     var durationInput = viewDef.overrides.duration ||
@@ -6141,6 +6063,7 @@ function buildViewSpec(viewDef, overrideConfigs, optionOverrides, dynamicOptionO
         if (buttonTextMap[singleUnit] != null) {
             return buttonTextMap[singleUnit];
         }
+        return null;
     };
     return {
         type: viewDef.type,
@@ -6156,7 +6079,7 @@ function buildViewSpec(viewDef, overrideConfigs, optionOverrides, dynamicOptionO
         buttonTextDefault: queryButtonText(localeDefaults) ||
             viewDef.defaults.buttonText ||
             queryButtonText(BASE_OPTION_DEFAULTS) ||
-            viewDef.type // fall back to given view name
+            viewDef.type,
     };
 }
 // hack to get memoization working
@@ -6245,8 +6168,7 @@ var DateProfileGenerator = /** @class */ (function () {
             slotMaxTime: props.slotMaxTime,
             isValid: isValid,
             // how far the current date will move for a prev/next operation
-            dateIncrement: this.buildDateIncrement(currentInfo.duration)
-            // pass a fallback (might be null) ^
+            dateIncrement: this.buildDateIncrement(currentInfo.duration),
         };
     };
     // Builds an object with optional start/end properties.
@@ -6296,8 +6218,7 @@ var DateProfileGenerator = /** @class */ (function () {
     // slotMinTime or slotMaxTime causes the range to expand.
     DateProfileGenerator.prototype.adjustActiveRange = function (range) {
         var _a = this.props, dateEnv = _a.dateEnv, usesMinMaxTime = _a.usesMinMaxTime, slotMinTime = _a.slotMinTime, slotMaxTime = _a.slotMaxTime;
-        var start = range.start;
-        var end = range.end;
+        var start = range.start, end = range.end;
         if (usesMinMaxTime) {
             // expand active range if slotMinTime is negative (why not when positive?)
             if (asRoughDays(slotMinTime) < 0) {
@@ -6371,7 +6292,7 @@ var DateProfileGenerator = /** @class */ (function () {
         do {
             end = addDays(end, 1);
             if (!this.isHiddenDay(end)) {
-                runningCount++;
+                runningCount += 1;
             }
         } while (runningCount < dayCount);
         return { start: start, end: end };
@@ -6404,15 +6325,13 @@ var DateProfileGenerator = /** @class */ (function () {
         if (dateIncrement) {
             return dateIncrement;
         }
-        else if ((customAlignment = this.props.dateAlignment)) {
+        if ((customAlignment = this.props.dateAlignment)) {
             return createDuration(1, customAlignment);
         }
-        else if (fallback) {
+        if (fallback) {
             return fallback;
         }
-        else {
-            return createDuration({ days: 1 });
-        }
+        return createDuration({ days: 1 });
     };
     DateProfileGenerator.prototype.refineRange = function (rangeInput) {
         if (rangeInput) {
@@ -6435,9 +6354,9 @@ var DateProfileGenerator = /** @class */ (function () {
         if (this.props.weekends === false) {
             hiddenDays.push(0, 6); // 0=sunday, 6=saturday
         }
-        for (i = 0; i < 7; i++) {
+        for (i = 0; i < 7; i += 1) {
             if (!(isHiddenDayHash[i] = hiddenDays.indexOf(i) !== -1)) {
-                dayCnt++;
+                dayCnt += 1;
             }
         }
         if (!dayCnt) {
@@ -6448,8 +6367,7 @@ var DateProfileGenerator = /** @class */ (function () {
     // Remove days from the beginning and end of the range that are computed as hidden.
     // If the whole range is trimmed off, returns null
     DateProfileGenerator.prototype.trimHiddenDays = function (range) {
-        var start = range.start;
-        var end = range.end;
+        var start = range.start, end = range.end;
         if (start) {
             start = this.skipHiddenDays(start);
         }
@@ -6488,7 +6406,7 @@ var DateProfileGenerator = /** @class */ (function () {
 function reduceViewType(viewType, action) {
     switch (action.type) {
         case 'CHANGE_VIEW_TYPE':
-            return viewType = action.viewType;
+            viewType = action.viewType;
     }
     return viewType;
 }
@@ -6549,9 +6467,7 @@ function reduceEventSources(eventSources, action, dateProfile, context) {
             if (dateProfile) {
                 return fetchDirtySources(eventSources, activeRange, context);
             }
-            else {
-                return eventSources;
-            }
+            return eventSources;
         case 'FETCH_EVENT_SOURCES':
             return fetchSourcesByIds(eventSources, action.sourceIds ? // why no type?
                 arrayToHash(action.sourceIds) :
@@ -6573,7 +6489,7 @@ function computeEventSourceLoadingLevel(eventSources) {
     var cnt = 0;
     for (var sourceId in eventSources) {
         if (eventSources[sourceId].isFetching) {
-            cnt++;
+            cnt += 1;
         }
     }
     return cnt;
@@ -6590,26 +6506,20 @@ function addSources(eventSourceHash, sources, fetchRange, context) {
     return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventSourceHash), hash);
 }
 function removeSource(eventSourceHash, sourceId) {
-    return filterHash(eventSourceHash, function (eventSource) {
-        return eventSource.sourceId !== sourceId;
-    });
+    return filterHash(eventSourceHash, function (eventSource) { return eventSource.sourceId !== sourceId; });
 }
 function fetchDirtySources(sourceHash, fetchRange, context) {
-    return fetchSourcesByIds(sourceHash, filterHash(sourceHash, function (eventSource) {
-        return isSourceDirty(eventSource, fetchRange, context);
-    }), fetchRange, context);
+    return fetchSourcesByIds(sourceHash, filterHash(sourceHash, function (eventSource) { return isSourceDirty(eventSource, fetchRange, context); }), fetchRange, context);
 }
 function isSourceDirty(eventSource, fetchRange, context) {
     if (!doesSourceNeedRange(eventSource, context)) {
         return !eventSource.latestFetchId;
     }
-    else {
-        return !context.options.lazyFetching ||
-            !eventSource.fetchRange ||
-            eventSource.isFetching || // always cancel outdated in-progress fetches
-            fetchRange.start < eventSource.fetchRange.start ||
-            fetchRange.end > eventSource.fetchRange.end;
-    }
+    return !context.options.lazyFetching ||
+        !eventSource.fetchRange ||
+        eventSource.isFetching || // always cancel outdated in-progress fetches
+        fetchRange.start < eventSource.fetchRange.start ||
+        fetchRange.end > eventSource.fetchRange.end;
 }
 function fetchSourcesByIds(prevSources, sourceIdHash, fetchRange, context) {
     var nextSources = {};
@@ -6631,7 +6541,7 @@ function fetchSource(eventSource, fetchRange, context) {
     sourceDef.fetch({
         eventSource: eventSource,
         range: fetchRange,
-        context: context
+        context: context,
     }, function (res) {
         var rawEvents = res.rawEvents;
         if (options.eventSourceSuccess) {
@@ -6645,7 +6555,7 @@ function fetchSource(eventSource, fetchRange, context) {
             sourceId: eventSource.sourceId,
             fetchId: fetchId,
             fetchRange: fetchRange,
-            rawEvents: rawEvents
+            rawEvents: rawEvents,
         });
     }, function (error) {
         console.warn(error.message, error);
@@ -6660,7 +6570,7 @@ function fetchSource(eventSource, fetchRange, context) {
             sourceId: eventSource.sourceId,
             fetchId: fetchId,
             fetchRange: fetchRange,
-            error: error
+            error: error,
         });
     });
     return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventSource), { isFetching: true, latestFetchId: fetchId });
@@ -6670,15 +6580,12 @@ function receiveResponse(sourceHash, sourceId, fetchId, fetchRange) {
     var eventSource = sourceHash[sourceId];
     if (eventSource && // not already removed
         fetchId === eventSource.latestFetchId) {
-        return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, sourceHash), (_a = {}, _a[sourceId] = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventSource), { isFetching: false, fetchRange: fetchRange // also serves as a marker that at least one fetch has completed
-         }), _a));
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, sourceHash), (_a = {}, _a[sourceId] = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventSource), { isFetching: false, fetchRange: fetchRange }), _a));
     }
     return sourceHash;
 }
 function excludeStaticSources(eventSources, context) {
-    return filterHash(eventSources, function (eventSource) {
-        return doesSourceNeedRange(eventSource, context);
-    });
+    return filterHash(eventSources, function (eventSource) { return doesSourceNeedRange(eventSource, context); });
 }
 function parseInitialSources(rawOptions, context) {
     var refiners = buildEventSourceRefiners(context);
@@ -6736,7 +6643,7 @@ function reduceEventDrag(currentDrag, action) {
             return {
                 affectedEvents: newDrag.affectedEvents,
                 mutatedEvents: newDrag.mutatedEvents,
-                isEvent: newDrag.isEvent
+                isEvent: newDrag.isEvent,
             };
         default:
             return currentDrag;
@@ -6753,7 +6660,7 @@ function reduceEventResize(currentResize, action) {
             return {
                 affectedEvents: newResize.affectedEvents,
                 mutatedEvents: newResize.mutatedEvents,
-                isEvent: newResize.isEvent
+                isEvent: newResize.isEvent,
             };
         default:
             return currentResize;
@@ -6766,63 +6673,57 @@ function parseToolbars(calendarOptions, calendarOptionOverrides, theme, viewSpec
     var footerToolbar = calendarOptions.footerToolbar ? parseToolbar(calendarOptions.footerToolbar, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons) : null;
     return { headerToolbar: headerToolbar, footerToolbar: footerToolbar, viewsWithButtons: viewsWithButtons };
 }
-function parseToolbar(sectionStrHash, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons // dump side effects
-) {
+function parseToolbar(sectionStrHash, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons) {
     return mapHash(sectionStrHash, function (sectionStr) { return parseSection(sectionStr, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons); });
 }
 /*
 BAD: querying icons and text here. should be done at render time
 */
-function parseSection(sectionStr, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons // dump side effects
-) {
+function parseSection(sectionStr, calendarOptions, calendarOptionOverrides, theme, viewSpecs, calendarApi, viewsWithButtons) {
     var isRtl = calendarOptions.direction === 'rtl';
     var calendarCustomButtons = calendarOptions.customButtons || {};
     var calendarButtonTextOverrides = calendarOptionOverrides.buttonText || {};
     var calendarButtonText = calendarOptions.buttonText || {};
     var sectionSubstrs = sectionStr ? sectionStr.split(' ') : [];
-    return sectionSubstrs.map(function (buttonGroupStr) {
-        return buttonGroupStr.split(',').map(function (buttonName) {
-            if (buttonName === 'title') {
-                return { buttonName: buttonName };
-            }
-            else {
-                var customButtonProps_1;
-                var viewSpec = void 0;
-                var buttonClick = void 0;
-                var buttonIcon = void 0; // only one of these will be set
-                var buttonText = void 0; // "
-                if ((customButtonProps_1 = calendarCustomButtons[buttonName])) {
-                    buttonClick = function (ev) {
-                        if (customButtonProps_1.click) {
-                            customButtonProps_1.click.call(ev.target, ev, ev.target);
-                        }
-                    };
-                    (buttonIcon = theme.getCustomButtonIconClass(customButtonProps_1)) ||
-                        (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
-                        (buttonText = customButtonProps_1.text);
+    return sectionSubstrs.map(function (buttonGroupStr) { return (buttonGroupStr.split(',').map(function (buttonName) {
+        if (buttonName === 'title') {
+            return { buttonName: buttonName };
+        }
+        var customButtonProps;
+        var viewSpec;
+        var buttonClick;
+        var buttonIcon; // only one of these will be set
+        var buttonText; // "
+        if ((customButtonProps = calendarCustomButtons[buttonName])) {
+            buttonClick = function (ev) {
+                if (customButtonProps.click) {
+                    customButtonProps.click.call(ev.target, ev, ev.target);
                 }
-                else if ((viewSpec = viewSpecs[buttonName])) {
-                    viewsWithButtons.push(buttonName);
-                    buttonClick = function () {
-                        calendarApi.changeView(buttonName);
-                    };
-                    (buttonText = viewSpec.buttonTextOverride) ||
-                        (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
-                        (buttonText = viewSpec.buttonTextDefault);
-                }
-                else if (calendarApi[buttonName]) { // a calendarApi method
-                    buttonClick = function () {
-                        calendarApi[buttonName]();
-                    };
-                    (buttonText = calendarButtonTextOverrides[buttonName]) ||
-                        (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
-                        (buttonText = calendarButtonText[buttonName]);
-                    //            ^ everything else is considered default
-                }
-                return { buttonName: buttonName, buttonClick: buttonClick, buttonIcon: buttonIcon, buttonText: buttonText };
-            }
-        });
-    });
+            };
+            (buttonIcon = theme.getCustomButtonIconClass(customButtonProps)) ||
+                (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
+                (buttonText = customButtonProps.text);
+        }
+        else if ((viewSpec = viewSpecs[buttonName])) {
+            viewsWithButtons.push(buttonName);
+            buttonClick = function () {
+                calendarApi.changeView(buttonName);
+            };
+            (buttonText = viewSpec.buttonTextOverride) ||
+                (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
+                (buttonText = viewSpec.buttonTextDefault);
+        }
+        else if (calendarApi[buttonName]) { // a calendarApi method
+            buttonClick = function () {
+                calendarApi[buttonName]();
+            };
+            (buttonText = calendarButtonTextOverrides[buttonName]) ||
+                (buttonIcon = theme.getIconClass(buttonName, isRtl)) ||
+                (buttonText = calendarButtonText[buttonName]);
+            //            ^ everything else is considered default
+        }
+        return { buttonName: buttonName, buttonClick: buttonClick, buttonIcon: buttonIcon, buttonText: buttonText };
+    })); });
 }
 
 var eventSourceDef = {
@@ -6835,12 +6736,12 @@ var eventSourceDef = {
     },
     fetch: function (arg, success) {
         success({
-            rawEvents: arg.eventSource.meta
+            rawEvents: arg.eventSource.meta,
         });
-    }
+    },
 };
 var arrayEventSourcePlugin = createPlugin({
-    eventSourceDefs: [eventSourceDef]
+    eventSourceDefs: [eventSourceDef],
 });
 
 var eventSourceDef$1 = {
@@ -6855,12 +6756,11 @@ var eventSourceDef$1 = {
         var func = arg.eventSource.meta;
         unpromisify(func.bind(null, buildRangeApiWithTimeZone(arg.range, dateEnv)), function (rawEvents) {
             success({ rawEvents: rawEvents }); // needs an object response
-        }, failure // send errorObj directly to failure callback
-        );
-    }
+        }, failure);
+    },
 };
 var funcEventSourcePlugin = createPlugin({
-    eventSourceDefs: [eventSourceDef$1]
+    eventSourceDefs: [eventSourceDef$1],
 });
 
 function requestJson(method, url, params, successCallback, failureCallback) {
@@ -6912,7 +6812,7 @@ function injectQueryStringParams(url, params) {
 function encodeParams(params) {
     var parts = [];
     for (var key in params) {
-        parts.push(encodeURIComponent(key) + '=' + encodeURIComponent(params[key]));
+        parts.push(encodeURIComponent(key) + "=" + encodeURIComponent(params[key]));
     }
     return parts.join('&');
 }
@@ -6922,7 +6822,7 @@ var JSON_FEED_EVENT_SOURCE_REFINERS = {
     extraParams: identity,
     startParam: String,
     endParam: String,
-    timeZoneParam: String
+    timeZoneParam: String,
 };
 
 var eventSourceDef$2 = {
@@ -6934,7 +6834,7 @@ var eventSourceDef$2 = {
                 extraParams: refined.extraParams,
                 startParam: refined.startParam,
                 endParam: refined.endParam,
-                timeZoneParam: refined.timeZoneParam
+                timeZoneParam: refined.timeZoneParam,
             };
         }
         return null;
@@ -6947,11 +6847,11 @@ var eventSourceDef$2 = {
         }, function (errorMessage, xhr) {
             failure({ message: errorMessage, xhr: xhr });
         });
-    }
+    },
 };
 var jsonFeedEventSourcePlugin = createPlugin({
     eventSourceRefiners: JSON_FEED_EVENT_SOURCE_REFINERS,
-    eventSourceDefs: [eventSourceDef$2]
+    eventSourceDefs: [eventSourceDef$2],
 });
 function buildRequestParams(meta, range, context) {
     var dateEnv = context.dateEnv, options = context.options;
@@ -6996,7 +6896,7 @@ var SIMPLE_RECURRING_REFINERS = {
     endTime: createDuration,
     duration: createDuration,
     startRecur: identity,
-    endRecur: identity
+    endRecur: identity,
 };
 
 var recurring = {
@@ -7007,7 +6907,7 @@ var recurring = {
                 startTime: refined.startTime || null,
                 endTime: refined.endTime || null,
                 startRecur: refined.startRecur ? dateEnv.createMarker(refined.startRecur) : null,
-                endRecur: refined.endRecur ? dateEnv.createMarker(refined.endRecur) : null
+                endRecur: refined.endRecur ? dateEnv.createMarker(refined.endRecur) : null,
             };
             var duration = void 0;
             if (refined.duration) {
@@ -7019,7 +6919,7 @@ var recurring = {
             return {
                 allDayGuess: Boolean(!refined.startTime && !refined.endTime),
                 duration: duration,
-                typeData: recurringData // doesn't need endTime anymore but oh well
+                typeData: recurringData,
             };
         }
         return null;
@@ -7029,14 +6929,12 @@ var recurring = {
         if (clippedFramingRange) {
             return expandRanges(typeData.daysOfWeek, typeData.startTime, clippedFramingRange, dateEnv);
         }
-        else {
-            return [];
-        }
-    }
+        return [];
+    },
 };
 var simpleRecurringEventsPlugin = createPlugin({
     recurringTypes: [recurring],
-    eventRefiners: SIMPLE_RECURRING_REFINERS
+    eventRefiners: SIMPLE_RECURRING_REFINERS,
 });
 function expandRanges(daysOfWeek, startTime, framingRange, dateEnv) {
     var dowHash = daysOfWeek ? arrayToHash(daysOfWeek) : null;
@@ -7067,8 +6965,8 @@ var changeHandlerPlugin = createPlugin({
         events: function (events, context) {
             handleEventSources([events], context);
         },
-        eventSources: handleEventSources
-    }
+        eventSources: handleEventSources,
+    },
 });
 /*
 BUG: if `event` was supplied, all previously-given `eventSources` will be wiped out
@@ -7079,7 +6977,7 @@ function handleEventSources(inputs, context) {
     for (var _i = 0, inputs_1 = inputs; _i < inputs_1.length; _i++) {
         var input = inputs_1[_i];
         var inputFound = false;
-        for (var i = 0; i < unfoundSources.length; i++) {
+        for (var i = 0; i < unfoundSources.length; i += 1) {
             if (unfoundSources[i]._raw === input) {
                 unfoundSources.splice(i, 1); // delete
                 inputFound = true;
@@ -7094,7 +6992,7 @@ function handleEventSources(inputs, context) {
         var unfoundSource = unfoundSources_1[_a];
         context.dispatch({
             type: 'REMOVE_EVENT_SOURCE',
-            sourceId: unfoundSource.sourceId
+            sourceId: unfoundSource.sourceId,
         });
     }
     for (var _b = 0, newInputs_1 = newInputs; _b < newInputs_1.length; _b++) {
@@ -7126,14 +7024,14 @@ var globalPlugins = [
     changeHandlerPlugin,
     createPlugin({
         contentTypeHandlers: {
-            html: function () { return injectHtml; },
-            domNodes: function () { return injectDomNodes; }
+            html: function () { return ({ render: injectHtml }); },
+            domNodes: function () { return ({ render: injectDomNodes }); },
         },
         propSetHandlers: {
             dateProfile: handleDateProfile,
-            eventStore: handleEventStore
-        }
-    })
+            eventStore: handleEventStore,
+        },
+    }),
 ];
 function injectHtml(el, html) {
     el.innerHTML = html;
@@ -7185,7 +7083,8 @@ var DelayedRunner = /** @class */ (function () {
                 delete pauseDepths[scope];
             }
             else {
-                var depth = --pauseDepths[scope];
+                pauseDepths[scope] -= 1;
+                var depth = pauseDepths[scope];
                 if (depth <= 0) {
                     delete pauseDepths[scope];
                 }
@@ -7224,6 +7123,7 @@ var DelayedRunner = /** @class */ (function () {
     };
     return DelayedRunner;
 }());
+
 var TaskRunner = /** @class */ (function () {
     function TaskRunner(runTaskOption, drainedOption) {
         this.runTaskOption = runTaskOption;
@@ -7278,7 +7178,7 @@ function buildTitle(dateProfile, viewOptions, dateEnv) {
     }
     return dateEnv.formatRange(range.start, range.end, createFormatter(viewOptions.titleFormat || buildTitleFormat(dateProfile)), {
         isEndExclusive: dateProfile.isRangeAllDay,
-        defaultSeparator: viewOptions.titleRangeSeparator
+        defaultSeparator: viewOptions.titleRangeSeparator,
     });
 }
 // Generates the format string that should be used to generate the title for the current date range.
@@ -7288,20 +7188,16 @@ function buildTitleFormat(dateProfile) {
     if (currentRangeUnit === 'year') {
         return { year: 'numeric' };
     }
-    else if (currentRangeUnit === 'month') {
+    if (currentRangeUnit === 'month') {
         return { year: 'numeric', month: 'long' }; // like "September 2014"
     }
-    else {
-        var days = diffWholeDays(dateProfile.currentRange.start, dateProfile.currentRange.end);
-        if (days !== null && days > 1) {
-            // multi-day range. shorter, like "Sep 9 - 10 2014"
-            return { year: 'numeric', month: 'short', day: 'numeric' };
-        }
-        else {
-            // one day. longer, like "September 9 2014"
-            return { year: 'numeric', month: 'long', day: 'numeric' };
-        }
+    var days = diffWholeDays(dateProfile.currentRange.start, dateProfile.currentRange.end);
+    if (days !== null && days > 1) {
+        // multi-day range. shorter, like "Sep 9 - 10 2014"
+        return { year: 'numeric', month: 'short', day: 'numeric' };
     }
+    // one day. longer, like "September 9 2014"
+    return { year: 'numeric', month: 'long', day: 'numeric' };
 }
 
 // in future refactor, do the redux-style function(state=initial) for initial-state
@@ -7332,9 +7228,7 @@ var CalendarDataManager = /** @class */ (function () {
         this.currentViewOptionsInput = {};
         this.currentViewOptionsRefined = {};
         this.currentCalendarOptionsRefiners = {};
-        this.getCurrentData = function () {
-            return _this.data;
-        };
+        this.getCurrentData = function () { return _this.data; };
         this.dispatch = function (action) {
             _this.actionRunner.request(action); // protects against recursive calls to _handleAction
         };
@@ -7361,7 +7255,7 @@ var CalendarDataManager = /** @class */ (function () {
             calendarApi: props.calendarApi,
             dispatch: this.dispatch,
             emitter: this.emitter,
-            getCurrentData: this.getCurrentData
+            getCurrentData: this.getCurrentData,
         };
         // needs to be after setThisContext
         for (var _i = 0, _a = optionsData.pluginHooks.contextInit; _i < _a.length; _i++) {
@@ -7385,7 +7279,7 @@ var CalendarDataManager = /** @class */ (function () {
             eventSelection: '',
             eventDrag: null,
             eventResize: null,
-            selectionConfig: this.buildViewUiProps(calendarContext).selectionConfig
+            selectionConfig: this.buildViewUiProps(calendarContext).selectionConfig,
         };
         var contextAndState = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, calendarContext), initialState);
         for (var _b = 0, _c = optionsData.pluginHooks.reducers; _b < _c.length; _b++) {
@@ -7404,7 +7298,7 @@ var CalendarDataManager = /** @class */ (function () {
         props.optionOverrides = append
             ? Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, props.optionOverrides), optionOverrides) : optionOverrides;
         this.actionRunner.request({
-            type: 'NOTHING'
+            type: 'NOTHING',
         });
     };
     CalendarDataManager.prototype._handleAction = function (action) {
@@ -7425,10 +7319,9 @@ var CalendarDataManager = /** @class */ (function () {
             calendarApi: props.calendarApi,
             dispatch: this.dispatch,
             emitter: emitter,
-            getCurrentData: this.getCurrentData
+            getCurrentData: this.getCurrentData,
         };
-        var currentDate = state.currentDate;
-        var dateProfile = state.dateProfile;
+        var currentDate = state.currentDate, dateProfile = state.dateProfile;
         if (this.data && this.data.dateProfileGenerator !== currentViewData.dateProfileGenerator) { // hack
             dateProfile = currentViewData.dateProfileGenerator.build(currentDate);
         }
@@ -7463,7 +7356,7 @@ var CalendarDataManager = /** @class */ (function () {
             dateSelection: reduceDateSelection(state.dateSelection, action),
             eventSelection: reduceSelectedEvent(state.eventSelection, action),
             eventDrag: reduceEventDrag(state.eventDrag, action),
-            eventResize: reduceEventResize(state.eventResize, action)
+            eventResize: reduceEventResize(state.eventResize, action),
         };
         var contextAndState = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, calendarContext), newState);
         for (var _i = 0, _c = optionsData.pluginHooks.reducers; _i < _c.length; _i++) {
@@ -7523,7 +7416,7 @@ var CalendarDataManager = /** @class */ (function () {
             theme: theme,
             toolbarConfig: toolbarConfig,
             localeDefaults: localeDefaults,
-            availableRawLocales: availableLocaleData.map
+            availableRawLocales: availableLocaleData.map,
         };
     };
     // always called from behind a memoizer
@@ -7531,7 +7424,7 @@ var CalendarDataManager = /** @class */ (function () {
         var _a = mergeRawOptions([
             BASE_OPTION_DEFAULTS,
             optionOverrides,
-            dynamicOptionOverrides
+            dynamicOptionOverrides,
         ]), locales = _a.locales, locale = _a.locale;
         var availableLocaleData = this.organizeRawLocales(locales);
         var availableRawLocales = availableLocaleData.map;
@@ -7543,7 +7436,7 @@ var CalendarDataManager = /** @class */ (function () {
             BASE_OPTION_DEFAULTS,
             localeDefaults,
             optionOverrides,
-            dynamicOptionOverrides
+            dynamicOptionOverrides,
         ]);
         var refined = {};
         var currentRaw = this.currentCalendarOptionsInput;
@@ -7552,7 +7445,9 @@ var CalendarDataManager = /** @class */ (function () {
         for (var optionName in raw) {
             if (optionName !== 'plugins') { // because plugins is special-cased
                 if (raw[optionName] === currentRaw[optionName] ||
-                    (COMPLEX_OPTION_COMPARATORS[optionName] && (optionName in currentRaw) && COMPLEX_OPTION_COMPARATORS[optionName](currentRaw[optionName], raw[optionName]))) {
+                    (COMPLEX_OPTION_COMPARATORS[optionName] &&
+                        (optionName in currentRaw) &&
+                        COMPLEX_OPTION_COMPARATORS[optionName](currentRaw[optionName], raw[optionName]))) {
                     refined[optionName] = currentRefined[optionName];
                 }
                 else if (refiners[optionName]) {
@@ -7574,7 +7469,7 @@ var CalendarDataManager = /** @class */ (function () {
             pluginHooks: pluginHooks,
             availableLocaleData: availableLocaleData,
             localeDefaults: localeDefaults,
-            extra: extra
+            extra: extra,
         };
     };
     CalendarDataManager.prototype._computeCurrentViewData = function (viewType, optionsData, optionOverrides, dynamicOptionOverrides) {
@@ -7603,7 +7498,7 @@ var CalendarDataManager = /** @class */ (function () {
             validRangeInput: refinedOptions.validRange,
             visibleRangeInput: refinedOptions.visibleRange,
             monthMode: refinedOptions.monthMode,
-            fixedWeekCount: refinedOptions.fixedWeekCount
+            fixedWeekCount: refinedOptions.fixedWeekCount,
         });
         var viewApi = this.buildViewApi(viewType, this.getCurrentData, optionsData.dateEnv);
         return { viewSpec: viewSpec, options: refinedOptions, dateProfileGenerator: dateProfileGenerator, viewApi: viewApi };
@@ -7615,7 +7510,7 @@ var CalendarDataManager = /** @class */ (function () {
             localeDefaults,
             optionOverrides,
             viewSpec.optionOverrides,
-            dynamicOptionOverrides
+            dynamicOptionOverrides,
         ]);
         var refiners = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, BASE_OPTION_REFINERS), CALENDAR_LISTENER_REFINERS), CALENDAR_OPTION_REFINERS), VIEW_OPTION_REFINERS), pluginHooks.listenerRefiners), pluginHooks.optionRefiners);
         var refined = {};
@@ -7649,7 +7544,7 @@ var CalendarDataManager = /** @class */ (function () {
         return {
             rawOptions: this.currentViewOptionsInput,
             refinedOptions: this.currentViewOptionsRefined,
-            extra: extra
+            extra: extra,
         };
     };
     return CalendarDataManager;
@@ -7665,7 +7560,7 @@ function buildDateEnv$1(timeZone, explicitLocale, weekNumberCalculation, firstDa
         firstDay: firstDay,
         weekText: weekText,
         cmdFormatter: pluginHooks.cmdFormatter,
-        defaultSeparator: defaultSeparator
+        defaultSeparator: defaultSeparator,
     });
 }
 function buildTheme(options, pluginHooks) {
@@ -7680,9 +7575,7 @@ function buildViewApi(type, getCurrentData, dateEnv) {
     return new ViewApi(type, getCurrentData, dateEnv);
 }
 function buildEventUiBySource(eventSources) {
-    return mapHash(eventSources, function (eventSource) {
-        return eventSource.ui;
-    });
+    return mapHash(eventSources, function (eventSource) { return eventSource.ui; });
 }
 function buildEventUiBases(eventDefs, eventUiSingleBase, eventUiBySource) {
     var eventUiBases = { '': eventUiSingleBase };
@@ -7708,14 +7601,13 @@ function buildViewUiProps(calendarContext) {
             backgroundColor: options.eventBackgroundColor,
             borderColor: options.eventBorderColor,
             textColor: options.eventTextColor,
-            color: options.eventColor
-            // classNames: options.eventClassNames // render hook will handle this
+            color: options.eventColor,
         }, calendarContext),
         selectionConfig: createEventUi({
             constraint: options.selectConstraint,
             overlap: typeof options.selectOverlap === 'boolean' ? options.selectOverlap : undefined,
-            allow: options.selectAllow
-        }, calendarContext)
+            allow: options.selectAllow,
+        }, calendarContext),
     };
 }
 function parseContextBusinessHours(calendarContext) {
@@ -7745,7 +7637,7 @@ var CalendarDataProvider = /** @class */ (function (_super) {
         _this.dataManager = new CalendarDataManager({
             optionOverrides: props.optionOverrides,
             calendarApi: props.calendarApi,
-            onData: _this.handleData
+            onData: _this.handleData,
         });
         return _this;
     }
@@ -7759,7 +7651,7 @@ var CalendarDataProvider = /** @class */ (function (_super) {
         }
     };
     return CalendarDataProvider;
-}(_vdom__WEBPACK_IMPORTED_MODULE_2__["Component"]));
+}(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Component"]));
 
 // HELPERS
 /*
@@ -7789,7 +7681,7 @@ function parseInteractionSettings(component, input) {
     return {
         component: component,
         el: input.el,
-        useEventCenter: input.useEventCenter != null ? input.useEventCenter : true
+        useEventCenter: input.useEventCenter != null ? input.useEventCenter : true,
     };
 }
 function interactionSettingsToStore(settings) {
@@ -7844,7 +7736,7 @@ var DRAG_META_REFINERS = {
     startTime: createDuration,
     duration: createDuration,
     create: Boolean,
-    sourceId: String
+    sourceId: String,
 };
 function parseDragMeta(raw) {
     var _a = refineProps(raw, DRAG_META_REFINERS), refined = _a.refined, extra = _a.extra;
@@ -7853,9 +7745,52 @@ function parseDragMeta(raw) {
         duration: refined.duration || null,
         create: refined.create != null ? refined.create : true,
         sourceId: refined.sourceId,
-        leftoverProps: extra
+        leftoverProps: extra,
     };
 }
+
+var ToolbarSection = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(ToolbarSection, _super);
+    function ToolbarSection() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ToolbarSection.prototype.render = function () {
+        var _this = this;
+        var children = this.props.widgetGroups.map(function (widgetGroup) { return _this.renderWidgetGroup(widgetGroup); });
+        return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['div', { className: 'fc-toolbar-chunk' }], children));
+    };
+    ToolbarSection.prototype.renderWidgetGroup = function (widgetGroup) {
+        var props = this.props;
+        var theme = this.context.theme;
+        var children = [];
+        var isOnlyButtons = true;
+        for (var _i = 0, widgetGroup_1 = widgetGroup; _i < widgetGroup_1.length; _i++) {
+            var widget = widgetGroup_1[_i];
+            var buttonName = widget.buttonName, buttonClick = widget.buttonClick, buttonText = widget.buttonText, buttonIcon = widget.buttonIcon;
+            if (buttonName === 'title') {
+                isOnlyButtons = false;
+                children.push(Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("h2", { className: "fc-toolbar-title" }, props.title));
+            }
+            else {
+                var ariaAttrs = buttonIcon ? { 'aria-label': buttonName } : {};
+                var buttonClasses = ["fc-" + buttonName + "-button", theme.getClass('button')];
+                if (buttonName === props.activeButton) {
+                    buttonClasses.push(theme.getClass('buttonActive'));
+                }
+                var isDisabled = (!props.isTodayEnabled && buttonName === 'today') ||
+                    (!props.isPrevEnabled && buttonName === 'prev') ||
+                    (!props.isNextEnabled && buttonName === 'next');
+                children.push(Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("button", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ disabled: isDisabled, className: buttonClasses.join(' '), onClick: buttonClick, type: "button" }, ariaAttrs), buttonText || (buttonIcon ? Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", { className: buttonIcon }) : '')));
+            }
+        }
+        if (children.length > 1) {
+            var groupClassName = (isOnlyButtons && theme.getClass('buttonGroup')) || '';
+            return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['div', { className: groupClassName }], children));
+        }
+        return children[0];
+    };
+    return ToolbarSection;
+}(BaseComponent));
 
 var Toolbar = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(Toolbar, _super);
@@ -7865,7 +7800,8 @@ var Toolbar = /** @class */ (function (_super) {
     Toolbar.prototype.render = function () {
         var _a = this.props, model = _a.model, extraClassName = _a.extraClassName;
         var forceLtr = false;
-        var startContent, endContent;
+        var startContent;
+        var endContent;
         var centerContent = model.center;
         if (model.left) {
             forceLtr = true;
@@ -7884,62 +7820,18 @@ var Toolbar = /** @class */ (function (_super) {
         var classNames = [
             extraClassName || '',
             'fc-toolbar',
-            forceLtr ? 'fc-toolbar-ltr' : ''
+            forceLtr ? 'fc-toolbar-ltr' : '',
         ];
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: classNames.join(' ') },
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: classNames.join(' ') },
             this.renderSection('start', startContent || []),
             this.renderSection('center', centerContent || []),
             this.renderSection('end', endContent || [])));
     };
     Toolbar.prototype.renderSection = function (key, widgetGroups) {
         var props = this.props;
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ToolbarSection, { key: key, widgetGroups: widgetGroups, title: props.title, activeButton: props.activeButton, isTodayEnabled: props.isTodayEnabled, isPrevEnabled: props.isPrevEnabled, isNextEnabled: props.isNextEnabled }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ToolbarSection, { key: key, widgetGroups: widgetGroups, title: props.title, activeButton: props.activeButton, isTodayEnabled: props.isTodayEnabled, isPrevEnabled: props.isPrevEnabled, isNextEnabled: props.isNextEnabled }));
     };
     return Toolbar;
-}(BaseComponent));
-var ToolbarSection = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(ToolbarSection, _super);
-    function ToolbarSection() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    ToolbarSection.prototype.render = function () {
-        var _this = this;
-        var children = this.props.widgetGroups.map(function (widgetGroup) { return _this.renderWidgetGroup(widgetGroup); });
-        return _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['div', { className: 'fc-toolbar-chunk' }], children));
-    };
-    ToolbarSection.prototype.renderWidgetGroup = function (widgetGroup) {
-        var props = this.props;
-        var theme = this.context.theme;
-        var children = [];
-        var isOnlyButtons = true;
-        for (var _i = 0, widgetGroup_1 = widgetGroup; _i < widgetGroup_1.length; _i++) {
-            var widget = widgetGroup_1[_i];
-            var buttonName = widget.buttonName, buttonClick = widget.buttonClick, buttonText = widget.buttonText, buttonIcon = widget.buttonIcon;
-            if (buttonName === 'title') {
-                isOnlyButtons = false;
-                children.push(Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("h2", { className: 'fc-toolbar-title' }, props.title));
-            }
-            else {
-                var ariaAttrs = buttonIcon ? { 'aria-label': buttonName } : {};
-                var buttonClasses = ['fc-' + buttonName + '-button', theme.getClass('button')];
-                if (buttonName === props.activeButton) {
-                    buttonClasses.push(theme.getClass('buttonActive'));
-                }
-                var isDisabled = (!props.isTodayEnabled && buttonName === 'today') ||
-                    (!props.isPrevEnabled && buttonName === 'prev') ||
-                    (!props.isNextEnabled && buttonName === 'next');
-                children.push(Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("button", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ disabled: isDisabled, className: buttonClasses.join(' '), onClick: buttonClick, type: 'button' }, ariaAttrs), buttonText || (buttonIcon ? Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", { className: buttonIcon }) : '')));
-            }
-        }
-        if (children.length > 1) {
-            var groupClassName = (isOnlyButtons && theme.getClass('buttonGroup')) || '';
-            return _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['div', { className: groupClassName }], children));
-        }
-        else {
-            return children[0];
-        }
-    };
-    return ToolbarSection;
 }(BaseComponent));
 
 // TODO: do function component?
@@ -7948,7 +7840,7 @@ var ViewContainer = /** @class */ (function (_super) {
     function ViewContainer() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = {
-            availableWidth: null
+            availableWidth: null,
         };
         _this.handleEl = function (el) {
             _this.el = el;
@@ -7967,7 +7859,7 @@ var ViewContainer = /** @class */ (function (_super) {
             'fc-view-harness',
             (aspectRatio || props.liquid || props.height)
                 ? 'fc-view-harness-active' // harness controls the height
-                : 'fc-view-harness-passive' // let the view do the height
+                : 'fc-view-harness-passive',
         ];
         var height = '';
         var paddingBottom = '';
@@ -7980,13 +7872,13 @@ var ViewContainer = /** @class */ (function (_super) {
                 // because will cause lots of unnecessary scrollbars within scrollgrid.
                 // BETTER: don't start rendering ANYTHING yet until we know container width
                 // NOTE: why not always use paddingBottom? Causes height oscillation (issue 5606)
-                paddingBottom = (1 / aspectRatio) * 100 + '%';
+                paddingBottom = (1 / aspectRatio) * 100 + "%";
             }
         }
         else {
             height = props.height || '';
         }
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: this.handleEl, onClick: props.onClick, className: classNames.join(' '), style: { height: height, paddingBottom: paddingBottom } }, props.children));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: this.handleEl, onClick: props.onClick, className: classNames.join(' '), style: { height: height, paddingBottom: paddingBottom } }, props.children));
     };
     ViewContainer.prototype.componentDidMount = function () {
         this.context.addResizeHandler(this.handleResize);
@@ -8025,7 +7917,7 @@ var EventClicking = /** @class */ (function (_super) {
                     el: segEl,
                     event: new EventApi(component.context, seg.eventRange.def, seg.eventRange.instance),
                     jsEvent: ev,
-                    view: context.viewApi
+                    view: context.viewApi,
                 });
                 if (url && !ev.defaultPrevented) {
                     window.location.href = url;
@@ -8081,7 +7973,7 @@ var EventHovering = /** @class */ (function (_super) {
                 el: segEl,
                 event: new EventApi(context, seg.eventRange.def, seg.eventRange.instance),
                 jsEvent: ev,
-                view: context.viewApi
+                view: context.viewApi,
             });
         }
     };
@@ -8096,8 +7988,8 @@ var CalendarContent = /** @class */ (function (_super) {
         _this.buildViewPropTransformers = memoize(buildViewPropTransformers);
         _this.buildToolbarProps = memoize(buildToolbarProps);
         _this.handleNavLinkClick = buildDelegationHandler('a[data-navlink]', _this._handleNavLinkClick.bind(_this));
-        _this.headerRef = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
-        _this.footerRef = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
+        _this.headerRef = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
+        _this.footerRef = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
         _this.interactionsStore = {};
         // Component Registration
         // -----------------------------------------------------------------------------------------------------------------
@@ -8105,12 +7997,10 @@ var CalendarContent = /** @class */ (function (_super) {
             var settings = parseInteractionSettings(component, settingsInput);
             var DEFAULT_INTERACTIONS = [
                 EventClicking,
-                EventHovering
+                EventHovering,
             ];
             var interactionClasses = DEFAULT_INTERACTIONS.concat(_this.props.pluginHooks.componentInteractions);
-            var interactions = interactionClasses.map(function (interactionClass) {
-                return new interactionClass(settings);
-            });
+            var interactions = interactionClasses.map(function (TheInteractionClass) { return new TheInteractionClass(settings); });
             _this.interactionsStore[component.uid] = interactions;
             interactionSettingsStore[component.uid] = settings;
         };
@@ -8162,21 +8052,17 @@ var CalendarContent = /** @class */ (function (_super) {
             viewAspectRatio = Math.max(options.aspectRatio, 0.5); // prevent from getting too tall
         }
         var viewContext = this.buildViewContext(props.viewSpec, props.viewApi, props.options, props.dateProfileGenerator, props.dateEnv, props.theme, props.pluginHooks, props.dispatch, props.getCurrentData, props.emitter, props.calendarApi, this.registerInteractiveComponent, this.unregisterInteractiveComponent);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Provider, { value: viewContext },
-            toolbarConfig.headerToolbar &&
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Toolbar, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: this.headerRef, extraClassName: 'fc-header-toolbar', model: toolbarConfig.headerToolbar }, toolbarProps)),
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContainer, { liquid: viewVGrow, height: viewHeight, aspectRatio: viewAspectRatio, onClick: this.handleNavLinkClick },
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Provider, { value: viewContext },
+            toolbarConfig.headerToolbar && (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Toolbar, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: this.headerRef, extraClassName: "fc-header-toolbar", model: toolbarConfig.headerToolbar }, toolbarProps))),
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContainer, { liquid: viewVGrow, height: viewHeight, aspectRatio: viewAspectRatio, onClick: this.handleNavLinkClick },
                 this.renderView(props),
                 this.buildAppendContent()),
-            toolbarConfig.footerToolbar &&
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Toolbar, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: this.footerRef, extraClassName: 'fc-footer-toolbar', model: toolbarConfig.footerToolbar }, toolbarProps))));
+            toolbarConfig.footerToolbar && (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Toolbar, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: this.footerRef, extraClassName: "fc-footer-toolbar", model: toolbarConfig.footerToolbar }, toolbarProps)))));
     };
     CalendarContent.prototype.componentDidMount = function () {
         var props = this.props;
         this.calendarInteractions = props.pluginHooks.calendarInteractions
-            .map(function (calendarInteractionClass) {
-            return new calendarInteractionClass(props);
-        });
+            .map(function (CalendarInteractionClass) { return new CalendarInteractionClass(props); });
         window.addEventListener('resize', this.handleWindowResize);
         var propSetHandlers = props.pluginHooks.propSetHandlers;
         for (var propName in propSetHandlers) {
@@ -8222,7 +8108,7 @@ var CalendarContent = /** @class */ (function (_super) {
     CalendarContent.prototype.buildAppendContent = function () {
         var props = this.props;
         var children = props.pluginHooks.viewContainerAppends.map(function (buildAppendContent) { return buildAppendContent(props); });
-        return _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])([_vdom__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {}], children));
+        return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])([_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {}], children));
     };
     CalendarContent.prototype.renderView = function (props) {
         var pluginHooks = props.pluginHooks;
@@ -8237,7 +8123,7 @@ var CalendarContent = /** @class */ (function (_super) {
             eventDrag: props.eventDrag,
             eventResize: props.eventResize,
             isHeightAuto: props.isHeightAuto,
-            forPrint: props.forPrint
+            forPrint: props.forPrint,
         };
         var transformers = this.buildViewPropTransformers(pluginHooks.viewPropsTransformers);
         for (var _i = 0, transformers_1 = transformers; _i < transformers_1.length; _i++) {
@@ -8245,7 +8131,7 @@ var CalendarContent = /** @class */ (function (_super) {
             Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(viewProps, transformer.transform(viewProps, props));
         }
         var ViewComponent = viewSpec.component;
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewComponent, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, viewProps)));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewComponent, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, viewProps)));
     };
     return CalendarContent;
 }(PureComponent));
@@ -8259,15 +8145,13 @@ function buildToolbarProps(viewSpec, dateProfile, dateProfileGenerator, currentD
         activeButton: viewSpec.type,
         isTodayEnabled: todayInfo.isValid && !rangeContainsMarker(dateProfile.currentRange, now),
         isPrevEnabled: prevInfo.isValid,
-        isNextEnabled: nextInfo.isValid
+        isNextEnabled: nextInfo.isValid,
     };
 }
 // Plugin
 // -----------------------------------------------------------------------------------------------------------------
 function buildViewPropTransformers(theClasses) {
-    return theClasses.map(function (theClass) {
-        return new theClass();
-    });
+    return theClasses.map(function (TheClass) { return new TheClass(); });
 }
 
 var CalendarRoot = /** @class */ (function (_super) {
@@ -8275,7 +8159,7 @@ var CalendarRoot = /** @class */ (function (_super) {
     function CalendarRoot() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = {
-            forPrint: false
+            forPrint: false,
         };
         _this.handleBeforePrint = function () {
             _this.setState({ forPrint: true });
@@ -8294,8 +8178,8 @@ var CalendarRoot = /** @class */ (function (_super) {
         var classNames = [
             'fc',
             forPrint ? 'fc-media-print' : 'fc-media-screen',
-            'fc-direction-' + options.direction,
-            props.theme.getClass('root')
+            "fc-direction-" + options.direction,
+            props.theme.getClass('root'),
         ];
         if (!getCanVGrowWithinCell()) {
             classNames.push('fc-liquid-hack');
@@ -8322,15 +8206,17 @@ function computeFallbackHeaderFormat(datesRepDistinctDays, dayCnt) {
     if (!datesRepDistinctDays || dayCnt > 10) {
         return createFormatter({ weekday: 'short' }); // "Sat"
     }
-    else if (dayCnt > 1) {
+    if (dayCnt > 1) {
         return createFormatter({ weekday: 'short', month: 'numeric', day: 'numeric', omitCommas: true }); // "Sat 11/12"
     }
-    else {
-        return createFormatter({ weekday: 'long' }); // "Saturday"
-    }
+    return createFormatter({ weekday: 'long' }); // "Saturday"
 }
 
 var CLASS_NAME = 'fc-col-header-cell'; // do the cushion too? no
+function renderInner(hookProps) {
+    return hookProps.text;
+}
+
 var TableDateCell = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(TableDateCell, _super);
     function TableDateCell() {
@@ -8348,15 +8234,15 @@ var TableDateCell = /** @class */ (function (_super) {
             ? { 'data-navlink': buildNavLinkData(date), tabIndex: 0 }
             : {};
         var hookProps = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ date: dateEnv.toDate(date), view: viewApi }, props.extraHookProps), { text: text }), dayMeta);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.dayHeaderClassNames, content: options.dayHeaderContent, defaultContent: renderInner, didMount: options.dayHeaderDidMount, willUnmount: options.dayHeaderWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("th", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-date": !dayMeta.isDisabled ? formatDayString(date) : undefined, colSpan: props.colSpan }, props.extraDataAttrs),
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-scrollgrid-sync-inner' }, !dayMeta.isDisabled &&
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: innerElRef, className: [
-                        'fc-col-header-cell-cushion',
-                        props.isSticky ? 'fc-sticky' : ''
-                    ].join(' ') }, navLinkAttrs), innerContent)))); }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.dayHeaderClassNames, content: options.dayHeaderContent, defaultContent: renderInner, didMount: options.dayHeaderDidMount, willUnmount: options.dayHeaderWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("th", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-date": !dayMeta.isDisabled ? formatDayString(date) : undefined, colSpan: props.colSpan }, props.extraDataAttrs),
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-scrollgrid-sync-inner" }, !dayMeta.isDisabled && (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: innerElRef, className: [
+                    'fc-col-header-cell-cushion',
+                    props.isSticky ? 'fc-sticky' : '',
+                ].join(' ') }, navLinkAttrs), innerContent))))); }));
     };
     return TableDateCell;
 }(BaseComponent));
+
 var TableDowCell = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(TableDowCell, _super);
     function TableDowCell() {
@@ -8372,24 +8258,21 @@ var TableDowCell = /** @class */ (function (_super) {
             isFuture: false,
             isPast: false,
             isToday: false,
-            isOther: false
+            isOther: false,
         };
         var classNames = [CLASS_NAME].concat(getDayClassNames(dateMeta, theme), props.extraClassNames || []);
         var text = dateEnv.format(date, props.dayHeaderFormat);
         var hookProps = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ // TODO: make this public?
             date: date }, dateMeta), { view: viewApi }), props.extraHookProps), { text: text });
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.dayHeaderClassNames, content: options.dayHeaderContent, defaultContent: renderInner, didMount: options.dayHeaderDidMount, willUnmount: options.dayHeaderWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("th", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: rootElRef, className: classNames.concat(customClassNames).join(' '), colSpan: props.colSpan }, props.extraDataAttrs),
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-scrollgrid-sync-inner' },
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", { className: [
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.dayHeaderClassNames, content: options.dayHeaderContent, defaultContent: renderInner, didMount: options.dayHeaderDidMount, willUnmount: options.dayHeaderWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("th", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ ref: rootElRef, className: classNames.concat(customClassNames).join(' '), colSpan: props.colSpan }, props.extraDataAttrs),
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-scrollgrid-sync-inner" },
+                Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", { className: [
                         'fc-col-header-cell-cushion',
-                        props.isSticky ? 'fc-sticky' : ''
+                        props.isSticky ? 'fc-sticky' : '',
                     ].join(' '), ref: innerElRef }, innerContent)))); }));
     };
     return TableDowCell;
 }(BaseComponent));
-function renderInner(hookProps) {
-    return hookProps.text;
-}
 
 var NowTimer = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(NowTimer, _super);
@@ -8425,7 +8308,7 @@ var NowTimer = /** @class */ (function (_super) {
         return {
             currentState: { nowDate: currentUnitStart, todayRange: buildDayRange(currentUnitStart) },
             nextState: { nowDate: nextUnitStart, todayRange: buildDayRange(nextUnitStart) },
-            waitMs: waitMs
+            waitMs: waitMs,
         };
     };
     NowTimer.prototype.setTimeout = function () {
@@ -8444,7 +8327,7 @@ var NowTimer = /** @class */ (function (_super) {
     };
     NowTimer.contextType = ViewContextType;
     return NowTimer;
-}(_vdom__WEBPACK_IMPORTED_MODULE_2__["Component"]));
+}(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Component"]));
 function buildDayRange(date) {
     var start = startOfDay(date);
     var end = addDays(start, 1);
@@ -8462,11 +8345,9 @@ var DayHeader = /** @class */ (function (_super) {
         var context = this.context;
         var _a = this.props, dates = _a.dates, dateProfile = _a.dateProfile, datesRepDistinctDays = _a.datesRepDistinctDays, renderIntro = _a.renderIntro;
         var dayHeaderFormat = this.createDayHeaderFormatter(context.options.dayHeaderFormat, datesRepDistinctDays, dates.length);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(NowTimer, { unit: 'day' }, function (nowDate, todayRange) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("tr", null,
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(NowTimer, { unit: "day" }, function (nowDate, todayRange) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("tr", null,
             renderIntro && renderIntro(),
-            dates.map(function (date) { return (datesRepDistinctDays ?
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(TableDateCell, { key: date.toISOString(), date: date, dateProfile: dateProfile, todayRange: todayRange, colCnt: dates.length, dayHeaderFormat: dayHeaderFormat }) :
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(TableDowCell, { key: date.getUTCDay(), dow: date.getUTCDay(), dayHeaderFormat: dayHeaderFormat })); }))); }));
+            dates.map(function (date) { return (datesRepDistinctDays ? (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(TableDateCell, { key: date.toISOString(), date: date, dateProfile: dateProfile, todayRange: todayRange, colCnt: dates.length, dayHeaderFormat: dayHeaderFormat })) : (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(TableDowCell, { key: date.getUTCDay(), dow: date.getUTCDay(), dayHeaderFormat: dayHeaderFormat }))); }))); }));
     };
     return DayHeader;
 }(BaseComponent));
@@ -8486,7 +8367,7 @@ var DaySeriesModel = /** @class */ (function () {
                 indices.push(dayIndex + 0.5); // mark that it's between indices
             }
             else {
-                dayIndex++;
+                dayIndex += 1;
                 indices.push(dayIndex);
                 dates.push(date);
             }
@@ -8509,12 +8390,10 @@ var DaySeriesModel = /** @class */ (function () {
                 firstIndex: clippedFirstIndex,
                 lastIndex: clippedLastIndex,
                 isStart: firstIndex === clippedFirstIndex,
-                isEnd: lastIndex === clippedLastIndex
+                isEnd: lastIndex === clippedLastIndex,
             };
         }
-        else {
-            return null;
-        }
+        return null;
     };
     // Given a date, returns its chronolocial cell-index from the first cell of the grid.
     // If the date lies between cells (because of hiddenDays), returns a floating-point value between offsets.
@@ -8527,12 +8406,10 @@ var DaySeriesModel = /** @class */ (function () {
         if (dayOffset < 0) {
             return indices[0] - 1;
         }
-        else if (dayOffset >= indices.length) {
+        if (dayOffset >= indices.length) {
             return indices[indices.length - 1] + 1;
         }
-        else {
-            return indices[dayOffset];
-        }
+        return indices[dayOffset];
     };
     return DaySeriesModel;
 }());
@@ -8546,7 +8423,7 @@ var DayTableModel = /** @class */ (function () {
         if (breakOnWeeks) {
             // count columns until the day-of-week repeats
             firstDay = dates[0].getUTCDay();
-            for (daysPerRow = 1; daysPerRow < dates.length; daysPerRow++) {
+            for (daysPerRow = 1; daysPerRow < dates.length; daysPerRow += 1) {
                 if (dates[daysPerRow].getUTCDay() === firstDay) {
                     break;
                 }
@@ -8565,9 +8442,9 @@ var DayTableModel = /** @class */ (function () {
     }
     DayTableModel.prototype.buildCells = function () {
         var rows = [];
-        for (var row = 0; row < this.rowCnt; row++) {
+        for (var row = 0; row < this.rowCnt; row += 1) {
             var cells = [];
-            for (var col = 0; col < this.colCnt; col++) {
+            for (var col = 0; col < this.colCnt; col += 1) {
                 cells.push(this.buildCell(row, col));
             }
             rows.push(cells);
@@ -8578,12 +8455,12 @@ var DayTableModel = /** @class */ (function () {
         var date = this.daySeries.dates[row * this.colCnt + col];
         return {
             key: date.toISOString(),
-            date: date
+            date: date,
         };
     };
     DayTableModel.prototype.buildHeaderDates = function () {
         var dates = [];
-        for (var col = 0; col < this.colCnt; col++) {
+        for (var col = 0; col < this.colCnt; col += 1) {
             dates.push(this.cells[0][col].date);
         }
         return dates;
@@ -8603,7 +8480,7 @@ var DayTableModel = /** @class */ (function () {
                     firstCol: index % colCnt,
                     lastCol: (nextIndex - 1) % colCnt,
                     isStart: seriesSeg.isStart && index === firstIndex,
-                    isEnd: seriesSeg.isEnd && (nextIndex - 1) === lastIndex
+                    isEnd: seriesSeg.isEnd && (nextIndex - 1) === lastIndex,
                 });
                 index = nextIndex;
             }
@@ -8636,7 +8513,7 @@ var Slicer = /** @class */ (function () {
             bgEventSegs: eventSegs.bg,
             eventDrag: this.sliceEventDrag.apply(this, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])([props.eventDrag, eventUiBases, dateProfile, nextDayThreshold], extraArgs)),
             eventResize: this.sliceEventResize.apply(this, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])([props.eventResize, eventUiBases, dateProfile, nextDayThreshold], extraArgs)),
-            eventSelection: props.eventSelection
+            eventSelection: props.eventSelection,
         }; // TODO: give interactionSegs?
     };
     Slicer.prototype.sliceNowDate = function (// does not memoize
@@ -8671,12 +8548,10 @@ var Slicer = /** @class */ (function () {
             var rangeRes = sliceEventStore(eventStore, eventUiBases, computeActiveRange(dateProfile, Boolean(nextDayThreshold)), nextDayThreshold);
             return {
                 bg: this.sliceEventRanges(rangeRes.bg, extraArgs),
-                fg: this.sliceEventRanges(rangeRes.fg, extraArgs)
+                fg: this.sliceEventRanges(rangeRes.fg, extraArgs),
             };
         }
-        else {
-            return { bg: [], fg: [] };
-        }
+        return { bg: [], fg: [] };
     };
     Slicer.prototype._sliceInteraction = function (interaction, eventUiBases, dateProfile, nextDayThreshold) {
         var extraArgs = [];
@@ -8690,7 +8565,7 @@ var Slicer = /** @class */ (function () {
         return {
             segs: this.sliceEventRanges(rangeRes.fg, extraArgs),
             affectedInstances: interaction.affectedEvents.instances,
-            isEvent: interaction.isEvent
+            isEvent: interaction.isEvent,
         };
     };
     Slicer.prototype._sliceDateSpan = function (dateSpan, eventUiBases, context) {
@@ -8729,7 +8604,7 @@ var Slicer = /** @class */ (function () {
         if (this.forceDayIfListItem && eventRange.ui.display === 'list-item') {
             dateRange = {
                 start: dateRange.start,
-                end: addDays(dateRange.start, 1)
+                end: addDays(dateRange.start, 1),
             };
         }
         var segs = this.sliceRange.apply(this, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])([dateRange], extraArgs));
@@ -8755,7 +8630,7 @@ function computeActiveRange(dateProfile, isComponentAllDay) {
     }
     return {
         start: addMs(range.start, dateProfile.slotMinTime.milliseconds),
-        end: addMs(range.end, dateProfile.slotMaxTime.milliseconds - 864e5) // 864e5 = ms in a day
+        end: addMs(range.end, dateProfile.slotMaxTime.milliseconds - 864e5),
     };
 }
 
@@ -8783,7 +8658,7 @@ var Scroller = /** @class */ (function (_super) {
                 className.push('fc-scroller-liquid');
             }
         }
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: this.handleEl, className: className.join(' '), style: {
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: this.handleEl, className: className.join(' '), style: {
                 overflowX: props.overflowX,
                 overflowY: props.overflowY,
                 left: (isAbsolute && -(props.overcomeLeft || 0)) || '',
@@ -8792,7 +8667,7 @@ var Scroller = /** @class */ (function (_super) {
                 marginLeft: (!isAbsolute && -(props.overcomeLeft || 0)) || '',
                 marginRight: (!isAbsolute && -(props.overcomeRight || 0)) || '',
                 marginBottom: (!isAbsolute && -(props.overcomeBottom || 0)) || '',
-                maxHeight: props.maxHeight || ''
+                maxHeight: props.maxHeight || '',
             } }, props.children));
     };
     Scroller.prototype.needsXScrolling = function () {
@@ -8805,7 +8680,7 @@ var Scroller = /** @class */ (function (_super) {
         var el = this.el;
         var realClientWidth = this.el.getBoundingClientRect().width - this.getYScrollbarWidth();
         var children = el.children;
-        for (var i = 0; i < children.length; i++) {
+        for (var i = 0; i < children.length; i += 1) {
             var childEl = children[i];
             if (childEl.getBoundingClientRect().width > realClientWidth) {
                 return true;
@@ -8823,7 +8698,7 @@ var Scroller = /** @class */ (function (_super) {
         var el = this.el;
         var realClientHeight = this.el.getBoundingClientRect().height - this.getXScrollbarWidth();
         var children = el.children;
-        for (var i = 0; i < children.length; i++) {
+        for (var i = 0; i < children.length; i += 1) {
             var childEl = children[i];
             if (childEl.getBoundingClientRect().height > realClientHeight) {
                 return true;
@@ -8835,17 +8710,13 @@ var Scroller = /** @class */ (function (_super) {
         if (VISIBLE_HIDDEN_RE.test(this.props.overflowX)) {
             return 0;
         }
-        else {
-            return this.el.offsetHeight - this.el.clientHeight; // only works because we guarantee no borders. TODO: add to CSS with important?
-        }
+        return this.el.offsetHeight - this.el.clientHeight; // only works because we guarantee no borders. TODO: add to CSS with important?
     };
     Scroller.prototype.getYScrollbarWidth = function () {
         if (VISIBLE_HIDDEN_RE.test(this.props.overflowY)) {
             return 0;
         }
-        else {
-            return this.el.offsetWidth - this.el.clientWidth; // only works because we guarantee no borders. TODO: add to CSS with important?
-        }
+        return this.el.offsetWidth - this.el.clientWidth; // only works because we guarantee no borders. TODO: add to CSS with important?
     };
     return Scroller;
 }(BaseComponent));
@@ -8866,15 +8737,19 @@ var RefMap = /** @class */ (function () {
             var removed = false;
             var added = false;
             if (val !== null) {
-                removed = (key in currentMap); // for bug... ACTUALLY: can probably do away with this now that callers don't share numeric indices anymore
+                // for bug... ACTUALLY: can probably do away with this now that callers don't share numeric indices anymore
+                removed = (key in currentMap);
                 currentMap[key] = val;
                 depths[key] = (depths[key] || 0) + 1;
                 added = true;
             }
-            else if (--depths[key] === 0) {
-                delete currentMap[key];
-                delete _this.callbackMap[key];
-                removed = true;
+            else {
+                depths[key] -= 1;
+                if (!depths[key]) {
+                    delete currentMap[key];
+                    delete _this.callbackMap[key];
+                    removed = true;
+                }
             }
             if (_this.masterCallback) {
                 if (removed) {
@@ -8929,17 +8804,17 @@ function renderChunkContent(sectionConfig, chunkConfig, arg) {
     var expandRows = arg.expandRows;
     var content = typeof chunkConfig.content === 'function' ?
         chunkConfig.content(arg) :
-        Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])('table', {
+        Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])('table', {
             className: [
                 chunkConfig.tableClassName,
-                sectionConfig.syncRowHeights ? 'fc-scrollgrid-sync-table' : ''
+                sectionConfig.syncRowHeights ? 'fc-scrollgrid-sync-table' : '',
             ].join(' '),
             style: {
                 minWidth: arg.tableMinWidth,
                 width: arg.clientWidth,
-                height: expandRows ? arg.clientHeight : '' // css `height` on a <table> serves as a min-height
-            }
-        }, arg.tableColGroupNode, Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])('tbody', {}, typeof chunkConfig.rowContent === 'function' ? chunkConfig.rowContent(arg) : chunkConfig.rowContent));
+                height: expandRows ? arg.clientHeight : '',
+            },
+        }, arg.tableColGroupNode, Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])('tbody', {}, typeof chunkConfig.rowContent === 'function' ? chunkConfig.rowContent(arg) : chunkConfig.rowContent));
     return content;
 }
 function isColPropsEqual(cols0, cols1) {
@@ -8955,14 +8830,14 @@ function renderMicroColGroup(cols, shrinkWidth) {
     for (var _i = 0, cols_1 = cols; _i < cols_1.length; _i++) {
         var colProps = cols_1[_i];
         var span = colProps.span || 1;
-        for (var i = 0; i < span; i++) {
-            colNodes.push(Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("col", { style: {
+        for (var i = 0; i < span; i += 1) {
+            colNodes.push(Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("col", { style: {
                     width: colProps.width === 'shrink' ? sanitizeShrinkWidth(shrinkWidth) : (colProps.width || ''),
-                    minWidth: colProps.minWidth || ''
+                    minWidth: colProps.minWidth || '',
                 } }));
         }
     }
-    return _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['colgroup', {}], colNodes));
+    return _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['colgroup', {}], colNodes));
 }
 function sanitizeShrinkWidth(shrinkWidth) {
     /* why 4? if we do 0, it will kill any border, which are needed for computeSmallestCellWidth
@@ -8981,7 +8856,7 @@ function hasShrinkWidth(cols) {
 function getScrollGridClassNames(liquid, context) {
     var classNames = [
         'fc-scrollgrid',
-        context.theme.getClass('table')
+        context.theme.getClass('table'),
     ];
     if (liquid) {
         classNames.push('fc-scrollgrid-liquid');
@@ -8991,8 +8866,8 @@ function getScrollGridClassNames(liquid, context) {
 function getSectionClassNames(sectionConfig, wholeTableVGrow) {
     var classNames = [
         'fc-scrollgrid-section',
-        'fc-scrollgrid-section-' + sectionConfig.type,
-        sectionConfig.className // used?
+        "fc-scrollgrid-section-" + sectionConfig.type,
+        sectionConfig.className,
     ];
     if (wholeTableVGrow && sectionConfig.liquid && sectionConfig.maxHeight == null) {
         classNames.push('fc-scrollgrid-section-liquid');
@@ -9003,9 +8878,9 @@ function getSectionClassNames(sectionConfig, wholeTableVGrow) {
     return classNames;
 }
 function renderScrollShim(arg) {
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-scrollgrid-sticky-shim', style: {
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-scrollgrid-sticky-shim", style: {
             width: arg.clientWidth,
-            minWidth: arg.tableMinWidth
+            minWidth: arg.tableMinWidth,
         } }));
 }
 function getStickyHeaderDates(options) {
@@ -9028,14 +8903,15 @@ var SimpleScrollGrid = /** @class */ (function (_super) {
     function SimpleScrollGrid() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.processCols = memoize(function (a) { return a; }, isColPropsEqual); // so we get same `cols` props every time
-        _this.renderMicroColGroup = memoize(renderMicroColGroup); // yucky to memoize VNodes, but much more efficient for consumers
+        // yucky to memoize VNodes, but much more efficient for consumers
+        _this.renderMicroColGroup = memoize(renderMicroColGroup);
         _this.scrollerRefs = new RefMap();
         _this.scrollerElRefs = new RefMap(_this._handleScrollerEl.bind(_this));
         _this.state = {
             shrinkWidth: null,
             forceYScrollbars: false,
             scrollerClientWidths: {},
-            scrollerClientHeights: {}
+            scrollerClientHeights: {},
         };
         // TODO: can do a really simple print-view. dont need to join rows
         _this.handleSizing = function () {
@@ -9058,31 +8934,31 @@ var SimpleScrollGrid = /** @class */ (function (_super) {
         var footSectionNodes = [];
         while (configI < configCnt && (currentConfig = sectionConfigs[configI]).type === 'header') {
             headSectionNodes.push(this.renderSection(currentConfig, configI, microColGroupNode));
-            configI++;
+            configI += 1;
         }
         while (configI < configCnt && (currentConfig = sectionConfigs[configI]).type === 'body') {
             bodySectionNodes.push(this.renderSection(currentConfig, configI, microColGroupNode));
-            configI++;
+            configI += 1;
         }
         while (configI < configCnt && (currentConfig = sectionConfigs[configI]).type === 'footer') {
             footSectionNodes.push(this.renderSection(currentConfig, configI, microColGroupNode));
-            configI++;
+            configI += 1;
         }
         // firefox bug: when setting height on table and there is a thead or tfoot,
         // the necessary height:100% on the liquid-height body section forces the *whole* table to be taller. (bug #5524)
         // use getCanVGrowWithinCell as a way to detect table-stupid firefox.
         // if so, use a simpler dom structure, jam everything into a lone tbody.
         var isBuggy = !getCanVGrowWithinCell();
-        return Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])('table', {
+        return Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])('table', {
             className: classNames.join(' '),
-            style: { height: props.height }
-        }, Boolean(!isBuggy && headSectionNodes.length) && _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['thead', {}], headSectionNodes)), Boolean(!isBuggy && bodySectionNodes.length) && _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tbody', {}], bodySectionNodes)), Boolean(!isBuggy && footSectionNodes.length) && _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tfoot', {}], footSectionNodes)), isBuggy && _vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tbody', {}], headSectionNodes, bodySectionNodes, footSectionNodes)));
+            style: { height: props.height },
+        }, Boolean(!isBuggy && headSectionNodes.length) && _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['thead', {}], headSectionNodes)), Boolean(!isBuggy && bodySectionNodes.length) && _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tbody', {}], bodySectionNodes)), Boolean(!isBuggy && footSectionNodes.length) && _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tfoot', {}], footSectionNodes)), isBuggy && _vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__spreadArrays"])(['tbody', {}], headSectionNodes, bodySectionNodes, footSectionNodes)));
     };
     SimpleScrollGrid.prototype.renderSection = function (sectionConfig, sectionI, microColGroupNode) {
         if ('outerContent' in sectionConfig) {
-            return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(_vdom__WEBPACK_IMPORTED_MODULE_2__["Fragment"], { key: sectionConfig.key }, sectionConfig.outerContent));
+            return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Fragment"], { key: sectionConfig.key }, sectionConfig.outerContent));
         }
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("tr", { key: sectionConfig.key, className: getSectionClassNames(sectionConfig, this.props.liquid).join(' ') }, this.renderChunkTd(sectionConfig, sectionI, microColGroupNode, sectionConfig.chunk)));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("tr", { key: sectionConfig.key, className: getSectionClassNames(sectionConfig, this.props.liquid).join(' ') }, this.renderChunkTd(sectionConfig, sectionI, microColGroupNode, sectionConfig.chunk)));
     };
     SimpleScrollGrid.prototype.renderChunkTd = function (sectionConfig, sectionI, microColGroupNode, chunkConfig) {
         if ('outerContent' in chunkConfig) {
@@ -9106,11 +8982,12 @@ var SimpleScrollGrid = /** @class */ (function (_super) {
             expandRows: sectionConfig.expandRows,
             syncRowHeights: false,
             rowSyncHeights: [],
-            reportRowHeightChange: function () { }
+            reportRowHeightChange: function () { },
         });
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("td", { ref: chunkConfig.elRef },
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-scroller-harness' + (isLiquid ? ' fc-scroller-harness-liquid' : '') },
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Scroller, { ref: this.scrollerRefs.createRef(sectionI), elRef: this.scrollerElRefs.createRef(sectionI), overflowY: overflowY, overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute: true /* because its within a harness */ }, content))));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("td", { ref: chunkConfig.elRef },
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-scroller-harness" + (isLiquid ? ' fc-scroller-harness-liquid' : '') },
+                Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(Scroller, { ref: this.scrollerRefs.createRef(sectionI), elRef: this.scrollerElRefs.createRef(sectionI), overflowY: overflowY, overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute // because its within a harness
+                    : true }, content))));
     };
     SimpleScrollGrid.prototype._handleScrollerEl = function (scrollerEl, key) {
         var sectionI = parseInt(key, 10);
@@ -9140,22 +9017,21 @@ var SimpleScrollGrid = /** @class */ (function (_super) {
         var forceYScrollbars = false;
         var scrollerClientWidths = {};
         var scrollerClientHeights = {};
-        for (var sectionI = 0; sectionI < sectionCnt; sectionI++) { // along edge
+        for (var sectionI = 0; sectionI < sectionCnt; sectionI += 1) { // along edge
             var scroller = scrollerRefs.currentMap[sectionI];
             if (scroller && scroller.needsYScrolling()) {
                 forceYScrollbars = true;
                 break;
             }
         }
-        for (var sectionI = 0; sectionI < sectionCnt; sectionI++) { // along edge
+        for (var sectionI = 0; sectionI < sectionCnt; sectionI += 1) { // along edge
             var scrollerEl = scrollerElRefs.currentMap[sectionI];
             if (scrollerEl) {
                 var harnessEl = scrollerEl.parentNode; // TODO: weird way to get this. need harness b/c doesn't include table borders
                 scrollerClientWidths[sectionI] = Math.floor(harnessEl.getBoundingClientRect().width - (forceYScrollbars
                     ? scrollbarWidth.y // use global because scroller might not have scrollbars yet but will need them in future
                     : 0));
-                scrollerClientHeights[sectionI] = Math.floor(harnessEl.getBoundingClientRect().height // never has horizontal scrollbars
-                );
+                scrollerClientHeights[sectionI] = Math.floor(harnessEl.getBoundingClientRect().height);
             }
         }
         return { forceYScrollbars: forceYScrollbars, scrollerClientWidths: scrollerClientWidths, scrollerClientHeights: scrollerClientHeights };
@@ -9164,14 +9040,14 @@ var SimpleScrollGrid = /** @class */ (function (_super) {
 }(BaseComponent));
 SimpleScrollGrid.addStateEquality({
     scrollerClientWidths: isPropsEqual,
-    scrollerClientHeights: isPropsEqual
+    scrollerClientHeights: isPropsEqual,
 });
 
 var EventRoot = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(EventRoot, _super);
     function EventRoot() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.elRef = Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
+        _this.elRef = Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createRef"])();
         return _this;
     }
     EventRoot.prototype.render = function () {
@@ -9198,10 +9074,10 @@ var EventRoot = /** @class */ (function (_super) {
             isToday: Boolean(props.isToday),
             isSelected: Boolean(props.isSelected),
             isDragging: Boolean(props.isDragging),
-            isResizing: Boolean(props.isResizing)
+            isResizing: Boolean(props.isResizing),
         };
         var standardClassNames = getEventClassNames(hookProps).concat(ui.classNames);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.eventClassNames, content: options.eventContent, defaultContent: props.defaultContent, didMount: options.eventDidMount, willUnmount: options.eventWillUnmount, elRef: this.elRef }, function (rootElRef, customClassNames, innerElRef, innerContent) { return props.children(rootElRef, standardClassNames.concat(customClassNames), innerElRef, innerContent, hookProps); }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.eventClassNames, content: options.eventContent, defaultContent: props.defaultContent, didMount: options.eventDidMount, willUnmount: options.eventWillUnmount, elRef: this.elRef }, function (rootElRef, customClassNames, innerElRef, innerContent) { return props.children(rootElRef, standardClassNames.concat(customClassNames), innerElRef, innerContent, hookProps); }));
     };
     EventRoot.prototype.componentDidMount = function () {
         setElSeg(this.elRef.current, this.props.seg);
@@ -9229,46 +9105,72 @@ var StandardEvent = /** @class */ (function (_super) {
         var seg = props.seg;
         var timeFormat = context.options.eventTimeFormat || props.defaultTimeFormat;
         var timeText = buildSegTimeText(seg, timeFormat, context, props.defaultDisplayEventTime, props.defaultDisplayEventEnd);
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(EventRoot, { seg: seg, timeText: timeText, disableDragging: props.disableDragging, disableResizing: props.disableResizing, defaultContent: props.defaultContent || renderInnerContent, isDragging: props.isDragging, isResizing: props.isResizing, isDateSelecting: props.isDateSelecting, isSelected: props.isSelected, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ className: props.extraClassNames.concat(classNames).join(' '), style: {
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(EventRoot, { seg: seg, timeText: timeText, disableDragging: props.disableDragging, disableResizing: props.disableResizing, defaultContent: props.defaultContent || renderInnerContent, isDragging: props.isDragging, isResizing: props.isResizing, isDateSelecting: props.isDateSelecting, isSelected: props.isSelected, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ className: props.extraClassNames.concat(classNames).join(' '), style: {
                 borderColor: hookProps.borderColor,
-                backgroundColor: hookProps.backgroundColor
+                backgroundColor: hookProps.backgroundColor,
             }, ref: rootElRef }, getSegAnchorAttrs(seg)),
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-main', ref: innerElRef, style: { color: hookProps.textColor } }, innerContent),
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-main", ref: innerElRef, style: { color: hookProps.textColor } }, innerContent),
             hookProps.isStartResizable &&
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-resizer fc-event-resizer-start' }),
+                Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-resizer fc-event-resizer-start" }),
             hookProps.isEndResizable &&
-                Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-resizer fc-event-resizer-end' }))); }));
+                Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-resizer fc-event-resizer-end" }))); }));
     };
     return StandardEvent;
 }(BaseComponent));
 function renderInnerContent(innerProps) {
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-main-frame' },
-        innerProps.timeText &&
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-time' }, innerProps.timeText),
-        Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-title-container' },
-            Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-title fc-sticky' }, innerProps.event.title || Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(_vdom__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, "\u00A0")))));
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-main-frame" },
+        innerProps.timeText && (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-time" }, innerProps.timeText)),
+        Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-title-container" },
+            Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-title fc-sticky" }, innerProps.event.title || Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, "\u00A0")))));
 }
 function getSegAnchorAttrs(seg) {
     var url = seg.eventRange.def.url;
     return url ? { href: url } : {};
 }
 
-var NowIndicatorRoot = function (props) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) {
+var NowIndicatorRoot = function (props) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) {
     var options = context.options;
     var hookProps = {
         isAxis: props.isAxis,
         date: context.dateEnv.toDate(props.date),
-        view: context.viewApi
+        view: context.viewApi,
     };
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.nowIndicatorClassNames, content: options.nowIndicatorContent, didMount: options.nowIndicatorDidMount, willUnmount: options.nowIndicatorWillUnmount }, props.children));
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.nowIndicatorClassNames, content: options.nowIndicatorContent, didMount: options.nowIndicatorDidMount, willUnmount: options.nowIndicatorWillUnmount }, props.children));
 })); };
 
 var DAY_NUM_FORMAT = createFormatter({ day: 'numeric' });
+var DayCellContent = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(DayCellContent, _super);
+    function DayCellContent() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DayCellContent.prototype.render = function () {
+        var _a = this, props = _a.props, context = _a.context;
+        var options = context.options;
+        var hookProps = refineDayCellHookProps({
+            date: props.date,
+            dateProfile: props.dateProfile,
+            todayRange: props.todayRange,
+            showDayNumber: props.showDayNumber,
+            extraProps: props.extraHookProps,
+            viewApi: context.viewApi,
+            dateEnv: context.dateEnv,
+        });
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHook, { hookProps: hookProps, content: options.dayCellContent, defaultContent: props.defaultContent }, props.children));
+    };
+    return DayCellContent;
+}(BaseComponent));
+function refineDayCellHookProps(raw) {
+    var date = raw.date, dateEnv = raw.dateEnv;
+    var dayMeta = getDateMeta(date, raw.todayRange, null, raw.dateProfile);
+    return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ date: dateEnv.toDate(date), view: raw.viewApi }, dayMeta), { dayNumberText: raw.showDayNumber ? dateEnv.format(date, DAY_NUM_FORMAT) : '' }), raw.extraProps);
+}
+
 var DayCellRoot = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(DayCellRoot, _super);
     function DayCellRoot() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.refineHookProps = memoizeObjArg(refineHookProps);
+        _this.refineHookProps = memoizeObjArg(refineDayCellHookProps);
         _this.normalizeClassNames = buildClassNameNormalizer();
         return _this;
     }
@@ -9282,64 +9184,38 @@ var DayCellRoot = /** @class */ (function (_super) {
             showDayNumber: props.showDayNumber,
             extraProps: props.extraHookProps,
             viewApi: context.viewApi,
-            dateEnv: context.dateEnv
+            dateEnv: context.dateEnv,
         });
         var classNames = getDayClassNames(hookProps, context.theme).concat(hookProps.isDisabled
             ? [] // don't use custom classNames if disabled
             : this.normalizeClassNames(options.dayCellClassNames, hookProps));
         var dataAttrs = hookProps.isDisabled ? {} : {
-            'data-date': formatDayString(props.date)
+            'data-date': formatDayString(props.date),
         };
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: options.dayCellDidMount, willUnmount: options.dayCellWillUnmount, elRef: props.elRef }, function (rootElRef) { return props.children(rootElRef, classNames, dataAttrs, hookProps.isDisabled); }));
+        return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(MountHook, { hookProps: hookProps, didMount: options.dayCellDidMount, willUnmount: options.dayCellWillUnmount, elRef: props.elRef }, function (rootElRef) { return props.children(rootElRef, classNames, dataAttrs, hookProps.isDisabled); }));
     };
     return DayCellRoot;
 }(BaseComponent));
-var DayCellContent = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(DayCellContent, _super);
-    function DayCellContent() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    DayCellContent.prototype.render = function () {
-        var _a = this, props = _a.props, context = _a.context;
-        var options = context.options;
-        var hookProps = refineHookProps({
-            date: props.date,
-            dateProfile: props.dateProfile,
-            todayRange: props.todayRange,
-            showDayNumber: props.showDayNumber,
-            extraProps: props.extraHookProps,
-            viewApi: context.viewApi,
-            dateEnv: context.dateEnv
-        });
-        return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ContentHook, { hookProps: hookProps, content: options.dayCellContent, defaultContent: props.defaultContent }, props.children));
-    };
-    return DayCellContent;
-}(BaseComponent));
-function refineHookProps(raw) {
-    var date = raw.date, dateEnv = raw.dateEnv;
-    var dayMeta = getDateMeta(date, raw.todayRange, null, raw.dateProfile);
-    return Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({ date: dateEnv.toDate(date), view: raw.viewApi }, dayMeta), { dayNumberText: raw.showDayNumber ? dateEnv.format(date, DAY_NUM_FORMAT) : '' }), raw.extraProps);
-}
 
 function renderFill(fillType) {
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-" + fillType }));
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-" + fillType }));
 }
-var BgEvent = function (props) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(EventRoot, { defaultContent: renderInnerContent$1, seg: props.seg /* uselesss i think */, timeText: '' /* weird */, disableDragging: true, disableResizing: true, isDragging: false, isResizing: false, isDateSelecting: false, isSelected: false, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: rootElRef, className: ['fc-bg-event'].concat(classNames).join(' '), style: {
-        backgroundColor: hookProps.backgroundColor
+var BgEvent = function (props) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(EventRoot, { defaultContent: renderInnerContent$1, seg: props.seg /* uselesss i think */, timeText: "", disableDragging: true, disableResizing: true, isDragging: false, isResizing: false, isDateSelecting: false, isSelected: false, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { ref: rootElRef, className: ['fc-bg-event'].concat(classNames).join(' '), style: {
+        backgroundColor: hookProps.backgroundColor,
     } }, innerContent)); })); };
 function renderInnerContent$1(props) {
     var title = props.event.title;
-    return title && (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: 'fc-event-title' }, props.event.title));
+    return title && (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", { className: "fc-event-title" }, props.event.title));
 }
 
-var WeekNumberRoot = function (props) { return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) {
+var WeekNumberRoot = function (props) { return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(ViewContextType.Consumer, null, function (context) {
     var dateEnv = context.dateEnv, options = context.options;
     var date = props.date;
     var format = options.weekNumberFormat || props.defaultFormat;
     var num = dateEnv.computeWeekNumber(date); // TODO: somehow use for formatting as well?
     var text = dateEnv.format(date, format);
     var hookProps = { num: num, text: text, date: date };
-    return (Object(_vdom__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.weekNumberClassNames, content: options.weekNumberContent, defaultContent: renderInner$1, didMount: options.weekNumberDidMount, willUnmount: options.weekNumberWillUnmount }, props.children));
+    return (Object(_vdom_js__WEBPACK_IMPORTED_MODULE_2__["createElement"])(RenderHook, { hookProps: hookProps, classNames: options.weekNumberClassNames, content: options.weekNumberContent, defaultContent: renderInner$1, didMount: options.weekNumberDidMount, willUnmount: options.weekNumberWillUnmount }, props.children));
 })); };
 function renderInner$1(innerProps) {
     return innerProps.text;
@@ -9347,7 +9223,7 @@ function renderInner$1(innerProps) {
 
 // exports
 // --------------------------------------------------------------------------------------------------
-var version = '5.3.1'; // important to type it, so .d.ts has generic string
+var version = '5.3.2'; // important to type it, so .d.ts has generic string
 
 
 //# sourceMappingURL=main.js.map
@@ -9622,19 +9498,20 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 /*!***************************************************!*\
   !*** ./node_modules/@fullcalendar/common/vdom.js ***!
   \***************************************************/
-/*! exports provided: Component, createElement, render, createRef, Fragment, createContext, flushToDom */
+/*! exports provided: Component, Fragment, createContext, createElement, createRef, flushToDom, render, unmountComponentAtNode */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return Component; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return createElement; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return createRef; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return Fragment; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return createContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return createElement; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return createRef; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flushToDom", function() { return flushToDom; });
-
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unmountComponentAtNode", function() { return unmountComponentAtNode; });
+/// <reference types="@fullcalendar/core-preact" />
 if (typeof FullCalendarVDom === 'undefined') {
     throw new Error('Please import the top-level fullcalendar lib before attempting to import a plugin.');
 }
@@ -9645,6 +9522,9 @@ var createRef = FullCalendarVDom.createRef;
 var Fragment = FullCalendarVDom.Fragment;
 var createContext = FullCalendarVDom.createContext;
 var flushToDom = FullCalendarVDom.flushToDom;
+var unmountComponentAtNode = FullCalendarVDom.unmountComponentAtNode;
+
+
 
 
 /***/ }),
@@ -9653,28 +9533,30 @@ var flushToDom = FullCalendarVDom.flushToDom;
 /*!*************************************************!*\
   !*** ./node_modules/@fullcalendar/core/main.js ***!
   \*************************************************/
-/*! exports provided: Component, createElement, render, createRef, Fragment, createContext, flushToDom, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations, Calendar */
+/*! exports provided: Component, Fragment, createContext, createElement, createRef, flushToDom, render, unmountComponentAtNode, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations, Calendar */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Calendar", function() { return Calendar; });
-/* harmony import */ var _vdom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vdom */ "./node_modules/@fullcalendar/core/vdom.js");
+/* harmony import */ var _vdom_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vdom.js */ "./node_modules/@fullcalendar/core/vdom.js");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/@fullcalendar/core/node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fullcalendar/common */ "./node_modules/@fullcalendar/common/main.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["Component"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["createElement"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["createRef"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["Fragment"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["createContext"]; });
 
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["createElement"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["createRef"]; });
+
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flushToDom", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["flushToDom"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unmountComponentAtNode", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["unmountComponentAtNode"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BASE_OPTION_DEFAULTS", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["BASE_OPTION_DEFAULTS"]; });
 
@@ -10077,7 +9959,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "wholeDivideDurations", function() { return _fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["wholeDivideDurations"]; });
 
 /*!
-FullCalendar v5.3.1
+FullCalendar v5.3.2
 Docs & License: https://fullcalendar.io/
 (c) 2020 Adam Shaw
 */
@@ -10120,7 +10002,7 @@ var Calendar = /** @class */ (function (_super) {
             }
             else if (_this.isRendered) {
                 _this.isRendered = false;
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["render"])(null, _this.el);
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_2__["unmountComponentAtNode"])(_this.el);
                 _this.setClassNames([]);
                 _this.setHeight('');
             }
@@ -10132,7 +10014,7 @@ var Calendar = /** @class */ (function (_super) {
             optionOverrides: optionOverrides,
             calendarApi: _this,
             onAction: _this.handleAction,
-            onData: _this.handleData
+            onData: _this.handleData,
         });
         return _this;
     }
@@ -10148,7 +10030,7 @@ var Calendar = /** @class */ (function (_super) {
             this.isRendering = true;
         }
         else {
-            this.customContentRenderId++;
+            this.customContentRenderId += 1;
         }
         this.renderRunner.request();
         if (wasRendering) {
@@ -10481,26 +10363,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var preact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! preact */ "./node_modules/preact/dist/preact.module.js");
 
 
-(typeof globalThis !== 'undefined' ? globalThis : window).FullCalendarVDom = {
-    Component: preact__WEBPACK_IMPORTED_MODULE_1__["Component"],
-    createElement: preact__WEBPACK_IMPORTED_MODULE_1__["createElement"],
-    render: preact__WEBPACK_IMPORTED_MODULE_1__["render"],
-    createRef: preact__WEBPACK_IMPORTED_MODULE_1__["createRef"],
-    Fragment: preact__WEBPACK_IMPORTED_MODULE_1__["Fragment"],
-    createContext: createContext,
-    flushToDom: flushToDom
-};
 
-
-
+var globalObj = typeof globalThis !== 'undefined' ? globalThis : window; // // TODO: streamline when killing IE11 support
+if (globalObj.FullCalendarVDom) {
+    console.warn('FullCalendar VDOM already loaded');
+}
+else {
+    globalObj.FullCalendarVDom = {
+        Component: preact__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        createElement: preact__WEBPACK_IMPORTED_MODULE_1__["createElement"],
+        render: preact__WEBPACK_IMPORTED_MODULE_1__["render"],
+        createRef: preact__WEBPACK_IMPORTED_MODULE_1__["createRef"],
+        Fragment: preact__WEBPACK_IMPORTED_MODULE_1__["Fragment"],
+        createContext: createContext,
+        flushToDom: flushToDom,
+        unmountComponentAtNode: unmountComponentAtNode,
+    };
+}
+// HACKS...
+// TODO: lock version
+// TODO: link gh issues
 function flushToDom() {
-    var oldDebounceRendering = preact__WEBPACK_IMPORTED_MODULE_1__["options"].debounceRendering; 
+    var oldDebounceRendering = preact__WEBPACK_IMPORTED_MODULE_1__["options"].debounceRendering; // orig
     var callbackQ = [];
     function execCallbackSync(callback) {
         callbackQ.push(callback);
     }
     preact__WEBPACK_IMPORTED_MODULE_1__["options"].debounceRendering = execCallbackSync;
-    preact__WEBPACK_IMPORTED_MODULE_1__["render"](preact__WEBPACK_IMPORTED_MODULE_1__["createElement"](FakeComponent, {}), document.createElement('div'));
+    Object(preact__WEBPACK_IMPORTED_MODULE_1__["render"])(Object(preact__WEBPACK_IMPORTED_MODULE_1__["createElement"])(FakeComponent, {}), document.createElement('div'));
     while (callbackQ.length) {
         callbackQ.shift()();
     }
@@ -10511,22 +10401,22 @@ var FakeComponent = /** @class */ (function (_super) {
     function FakeComponent() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    FakeComponent.prototype.render = function () { return preact__WEBPACK_IMPORTED_MODULE_1__["createElement"]('div', {}); };
+    FakeComponent.prototype.render = function () { return Object(preact__WEBPACK_IMPORTED_MODULE_1__["createElement"])('div', {}); };
     FakeComponent.prototype.componentDidMount = function () { this.setState({}); };
     return FakeComponent;
 }(preact__WEBPACK_IMPORTED_MODULE_1__["Component"]));
 function createContext(defaultValue) {
-    var ContextType = preact__WEBPACK_IMPORTED_MODULE_1__["createContext"](defaultValue);
+    var ContextType = Object(preact__WEBPACK_IMPORTED_MODULE_1__["createContext"])(defaultValue);
     var origProvider = ContextType.Provider;
     ContextType.Provider = function () {
         var _this = this;
         var isNew = !this.getChildContext;
-        var children = origProvider.apply(this, arguments);
+        var children = origProvider.apply(this, arguments); // eslint-disable-line prefer-rest-params
         if (isNew) {
             var subs_1 = [];
             this.shouldComponentUpdate = function (_props) {
                 if (_this.props.value !== _props.value) {
-                    subs_1.some(function (c) {
+                    subs_1.forEach(function (c) {
                         c.context = _props.value;
                         c.forceUpdate();
                     });
@@ -10544,6 +10434,9 @@ function createContext(defaultValue) {
         return children;
     };
     return ContextType;
+}
+function unmountComponentAtNode(node) {
+    Object(preact__WEBPACK_IMPORTED_MODULE_1__["render"])(null, node);
 }
 
 
@@ -10631,15 +10524,15 @@ var TableView = /** @class */ (function (_super) {
                 chunk: {
                     elRef: this.headerElRef,
                     tableClassName: 'fc-col-header',
-                    rowContent: headerRowContent
-                }
+                    rowContent: headerRowContent,
+                },
             });
         }
         sections.push({
             type: 'body',
             key: 'body',
             liquid: true,
-            chunk: { content: bodyContent }
+            chunk: { content: bodyContent },
         });
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-daygrid'].concat(classNames).join(' ') },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["SimpleScrollGrid"], { liquid: !props.isHeightAuto && !props.forPrint, cols: [] /* TODO: make optional? */, sections: sections }))); }));
@@ -10662,8 +10555,8 @@ var TableView = /** @class */ (function (_super) {
                         key: 'main',
                         elRef: this.headerElRef,
                         tableClassName: 'fc-col-header',
-                        rowContent: headerRowContent
-                    }]
+                        rowContent: headerRowContent,
+                    }],
             });
         }
         sections.push({
@@ -10672,8 +10565,8 @@ var TableView = /** @class */ (function (_super) {
             liquid: true,
             chunks: [{
                     key: 'main',
-                    content: bodyContent
-                }]
+                    content: bodyContent,
+                }],
         });
         if (stickyFooterScrollbar) {
             sections.push({
@@ -10682,8 +10575,8 @@ var TableView = /** @class */ (function (_super) {
                 isSticky: true,
                 chunks: [{
                         key: 'main',
-                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"]
-                    }]
+                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"],
+                    }],
             });
         }
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-daygrid'].concat(classNames).join(' ') },
@@ -10694,7 +10587,7 @@ var TableView = /** @class */ (function (_super) {
 
 function splitSegsByRow(segs, rowCnt) {
     var byRow = [];
-    for (var i = 0; i < rowCnt; i++) {
+    for (var i = 0; i < rowCnt; i += 1) {
         byRow[i] = [];
     }
     for (var _i = 0, segs_1 = segs; _i < segs_1.length; _i++) {
@@ -10705,7 +10598,7 @@ function splitSegsByRow(segs, rowCnt) {
 }
 function splitSegsByFirstCol(segs, colCnt) {
     var byCol = [];
-    for (var i = 0; i < colCnt; i++) {
+    for (var i = 0; i < colCnt; i += 1) {
         byCol[i] = [];
     }
     for (var _i = 0, segs_2 = segs; _i < segs_2.length; _i++) {
@@ -10717,16 +10610,16 @@ function splitSegsByFirstCol(segs, colCnt) {
 function splitInteractionByRow(ui, rowCnt) {
     var byRow = [];
     if (!ui) {
-        for (var i = 0; i < rowCnt; i++) {
+        for (var i = 0; i < rowCnt; i += 1) {
             byRow[i] = null;
         }
     }
     else {
-        for (var i = 0; i < rowCnt; i++) {
+        for (var i = 0; i < rowCnt; i += 1) {
             byRow[i] = {
                 affectedInstances: ui.affectedInstances,
                 isEvent: ui.isEvent,
-                segs: []
+                segs: [],
             };
         }
         for (var _i = 0, _a = ui.segs; _i < _a.length; _i++) {
@@ -10735,6 +10628,25 @@ function splitInteractionByRow(ui, rowCnt) {
         }
     }
     return byRow;
+}
+
+var TableCellTop = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TableCellTop, _super);
+    function TableCellTop() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TableCellTop.prototype.render = function () {
+        var props = this.props;
+        var navLinkAttrs = this.context.options.navLinks
+            ? { 'data-navlink': Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(props.date), tabIndex: 0 }
+            : {};
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellContent"], { date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, showDayNumber: props.showDayNumber, extraHookProps: props.extraHookProps, defaultContent: renderTopInner }, function (innerElRef, innerContent) { return ((innerContent || props.forceDayTop) && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-day-top", ref: innerElRef },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: "fc-daygrid-day-number" }, navLinkAttrs), innerContent || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, "\u00A0"))))); }));
+    };
+    return TableCellTop;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+function renderTopInner(props) {
+    return props.dayNumberText;
 }
 
 var DEFAULT_WEEK_NUM_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({ week: 'narrow' });
@@ -10757,7 +10669,7 @@ var TableCell = /** @class */ (function (_super) {
                     hiddenSegs: hiddenSegs,
                     moreCnt: props.moreCnt,
                     dayEl: _this.rootEl,
-                    ev: ev
+                    ev: ev,
                 });
             }
         };
@@ -10771,54 +10683,32 @@ var TableCell = /** @class */ (function (_super) {
         var hookProps = {
             num: props.moreCnt,
             text: props.buildMoreLinkText(props.moreCnt),
-            view: viewApi
+            view: viewApi,
         };
         var navLinkAttrs = options.navLinks
             ? { 'data-navlink': Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(date, 'week'), tabIndex: 0 }
             : {};
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellRoot"], { date: date, dateProfile: dateProfile, todayRange: props.todayRange, showDayNumber: props.showDayNumber, extraHookProps: props.extraHookProps, elRef: this.handleRootEl }, function (rootElRef, classNames, rootDataAttrs, isDisabled) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: rootElRef, className: ['fc-daygrid-day'].concat(classNames, props.extraClassNames || []).join(' ') }, rootDataAttrs, props.extraDataAttrs),
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-day-frame fc-scrollgrid-sync-inner', ref: props.innerElRef /* different from hook system! RENAME */ },
-                props.showWeekNumber &&
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["WeekNumberRoot"], { date: date, defaultFormat: DEFAULT_WEEK_NUM_FORMAT }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: rootElRef, className: ['fc-daygrid-week-number'].concat(classNames).join(' ') }, navLinkAttrs), innerContent)); }),
-                !isDisabled &&
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableCellTop, { date: date, dateProfile: dateProfile, showDayNumber: props.showDayNumber, forceDayTop: props.forceDayTop, todayRange: props.todayRange, extraHookProps: props.extraHookProps }),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-day-events', ref: props.fgContentElRef, style: { paddingBottom: props.fgPaddingBottom } },
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellRoot"], { date: date, dateProfile: dateProfile, todayRange: props.todayRange, showDayNumber: props.showDayNumber, extraHookProps: props.extraHookProps, elRef: this.handleRootEl }, function (dayElRef, dayClassNames, rootDataAttrs, isDisabled) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: dayElRef, className: ['fc-daygrid-day'].concat(dayClassNames, props.extraClassNames || []).join(' ') }, rootDataAttrs, props.extraDataAttrs),
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-day-frame fc-scrollgrid-sync-inner", ref: props.innerElRef /* different from hook system! RENAME */ },
+                props.showWeekNumber && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["WeekNumberRoot"], { date: date, defaultFormat: DEFAULT_WEEK_NUM_FORMAT }, function (weekElRef, weekClassNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: weekElRef, className: ['fc-daygrid-week-number'].concat(weekClassNames).join(' ') }, navLinkAttrs), innerContent)); })),
+                !isDisabled && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableCellTop, { date: date, dateProfile: dateProfile, showDayNumber: props.showDayNumber, forceDayTop: props.forceDayTop, todayRange: props.todayRange, extraHookProps: props.extraHookProps })),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-day-events", ref: props.fgContentElRef, style: { paddingBottom: props.fgPaddingBottom } },
                     props.fgContent,
-                    Boolean(props.moreCnt) &&
-                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-day-bottom', style: { marginTop: props.moreMarginTop } },
-                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.moreLinkClassNames, content: options.moreLinkContent, defaultContent: renderMoreLinkInner, didMount: options.moreLinkDidMount, willUnmount: options.moreLinkWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", { onClick: _this.handleMoreLinkClick, ref: rootElRef, className: ['fc-daygrid-more-link'].concat(classNames).join(' ') }, innerContent)); }))),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-day-bg' }, props.bgContent)))); }));
+                    Boolean(props.moreCnt) && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-day-bottom", style: { marginTop: props.moreMarginTop } },
+                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.moreLinkClassNames, content: options.moreLinkContent, defaultContent: renderMoreLinkInner, didMount: options.moreLinkDidMount, willUnmount: options.moreLinkWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", { ref: rootElRef, className: ['fc-daygrid-more-link'].concat(classNames).join(' '), onClick: _this.handleMoreLinkClick }, innerContent)); })))),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-day-bg" }, props.bgContent)))); }));
     };
     return TableCell;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
-function renderTopInner(props) {
-    return props.dayNumberText;
-}
 function renderMoreLinkInner(props) {
     return props.text;
 }
-var TableCellTop = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TableCellTop, _super);
-    function TableCellTop() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    TableCellTop.prototype.render = function () {
-        var props = this.props;
-        var navLinkAttrs = this.context.options.navLinks
-            ? { 'data-navlink': Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(props.date), tabIndex: 0 }
-            : {};
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellContent"], { date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, showDayNumber: props.showDayNumber, extraHookProps: props.extraHookProps, defaultContent: renderTopInner }, function (innerElRef, innerContent) { return ((innerContent || props.forceDayTop) &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-day-top', ref: innerElRef },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: 'fc-daygrid-day-number' }, navLinkAttrs), innerContent || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, "\u00A0")))); }));
-    };
-    return TableCellTop;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
 
 var DEFAULT_TABLE_EVENT_TIME_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({
     hour: 'numeric',
     minute: '2-digit',
     omitZeroMinute: true,
-    meridiem: 'narrow'
+    meridiem: 'narrow',
 });
 function hasListItemDisplay(seg) {
     var display = seg.eventRange.ui.display;
@@ -10846,10 +10736,9 @@ var TableListItemEvent = /** @class */ (function (_super) {
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
 function renderInnerContent(innerProps) {
     return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null,
-        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-event-dot', style: { borderColor: innerProps.borderColor || innerProps.backgroundColor } }),
-        innerProps.timeText &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-event-time' }, innerProps.timeText),
-        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-event-title' }, innerProps.event.title || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, "\u00A0"))));
+        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-event-dot", style: { borderColor: innerProps.borderColor || innerProps.backgroundColor } }),
+        innerProps.timeText && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-event-time" }, innerProps.timeText)),
+        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-event-title" }, innerProps.event.title || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, "\u00A0"))));
 }
 function getSegAnchorAttrs(seg) {
     var url = seg.eventRange.def.url;
@@ -10877,7 +10766,7 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
     var segMarginTops = {}; // simetimes populated for each seg
     var moreTops = {};
     var paddingBottoms = {}; // for each cell's inner-wrapper div
-    for (var i = 0; i < colCnt; i++) {
+    for (var i = 0; i < colCnt; i += 1) {
         colPlacements.push([]);
         moreCnts.push(0);
     }
@@ -10898,7 +10787,7 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
         limitByMaxRows(moreCnts, segIsHidden, colPlacements, dayMaxEventRows); // populates moreCnts/segIsHidden
     }
     // computes segTops/segMarginTops/moreTops/paddingBottoms
-    for (var col = 0; col < colCnt; col++) {
+    for (var col = 0; col < colCnt; col += 1) {
         var placements = colPlacements[col];
         var currentNonAbsBottom = 0;
         var currentAbsHeight = 0;
@@ -10929,7 +10818,7 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
     }
     function placeSeg(seg, segHeight) {
         if (!tryPlaceSegAt(seg, segHeight, 0)) {
-            for (var col = seg.firstCol; col <= seg.lastCol; col++) {
+            for (var col = seg.firstCol; col <= seg.lastCol; col += 1) {
                 for (var _i = 0, _a = colPlacements[col]; _i < _a.length; _i++) { // will repeat multi-day segs!!!!!!! bad!!!!!!
                     var placement = _a[_i];
                     if (tryPlaceSegAt(seg, segHeight, placement.bottom)) {
@@ -10941,27 +10830,25 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
     }
     function tryPlaceSegAt(seg, segHeight, top) {
         if (canPlaceSegAt(seg, segHeight, top)) {
-            for (var col = seg.firstCol; col <= seg.lastCol; col++) {
+            for (var col = seg.firstCol; col <= seg.lastCol; col += 1) {
                 var placements = colPlacements[col];
                 var insertionIndex = 0;
                 while (insertionIndex < placements.length &&
                     top >= placements[insertionIndex].top) {
-                    insertionIndex++;
+                    insertionIndex += 1;
                 }
                 placements.splice(insertionIndex, 0, {
                     seg: seg,
                     top: top,
-                    bottom: top + segHeight
+                    bottom: top + segHeight,
                 });
             }
             return true;
         }
-        else {
-            return false;
-        }
+        return false;
     }
     function canPlaceSegAt(seg, segHeight, top) {
-        for (var col = seg.firstCol; col <= seg.lastCol; col++) {
+        for (var col = seg.firstCol; col <= seg.lastCol; col += 1) {
             for (var _i = 0, _a = colPlacements[col]; _i < _a.length; _i++) {
                 var placement = _a[_i];
                 if (top < placement.bottom && top + segHeight > placement.top) { // collide?
@@ -10979,9 +10866,9 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
     }
     var segsByFirstCol = colPlacements.map(extractFirstColSegs); // operates on the sorted cols
     var segsByEachCol = colPlacements.map(function (placements, col) {
-        var segs = extractAllColSegs(placements);
-        segs = resliceDaySegs(segs, cellModels[col].date, col);
-        return segs;
+        var segsForCols = extractAllColSegs(placements);
+        segsForCols = resliceDaySegs(segsForCols, cellModels[col].date, col);
+        return segsForCols;
     });
     return {
         segsByFirstCol: segsByFirstCol,
@@ -10991,7 +10878,7 @@ cellModels, segs, dayMaxEvents, dayMaxEventRows, eventHeights, maxContentHeight,
         segMarginTops: segMarginTops,
         moreCnts: moreCnts,
         moreTops: moreTops,
-        paddingBottoms: paddingBottoms
+        paddingBottoms: paddingBottoms,
     };
 }
 function extractFirstColSegs(oneColPlacements, col) {
@@ -11013,19 +10900,13 @@ function extractAllColSegs(oneColPlacements) {
     return segs;
 }
 function limitByMaxHeight(hiddenCnts, segIsHidden, colPlacements, maxContentHeight) {
-    limitEvents(hiddenCnts, segIsHidden, colPlacements, true, function (placement) {
-        return placement.bottom <= maxContentHeight;
-    });
+    limitEvents(hiddenCnts, segIsHidden, colPlacements, true, function (placement) { return placement.bottom <= maxContentHeight; });
 }
 function limitByMaxEvents(hiddenCnts, segIsHidden, colPlacements, dayMaxEvents) {
-    limitEvents(hiddenCnts, segIsHidden, colPlacements, false, function (placement, levelIndex) {
-        return levelIndex < dayMaxEvents;
-    });
+    limitEvents(hiddenCnts, segIsHidden, colPlacements, false, function (placement, levelIndex) { return levelIndex < dayMaxEvents; });
 }
 function limitByMaxRows(hiddenCnts, segIsHidden, colPlacements, dayMaxEventRows) {
-    limitEvents(hiddenCnts, segIsHidden, colPlacements, true, function (placement, levelIndex) {
-        return levelIndex < dayMaxEventRows;
-    });
+    limitEvents(hiddenCnts, segIsHidden, colPlacements, true, function (placement, levelIndex) { return levelIndex < dayMaxEventRows; });
 }
 /*
 populates the given hiddenCnts/segIsHidden, which are supplied empty.
@@ -11035,10 +10916,10 @@ function limitEvents(hiddenCnts, segIsHidden, colPlacements, _moreLinkConsumesLe
     var colCnt = hiddenCnts.length;
     var segIsVisible = {}; // TODO: instead, use segIsHidden with true/false?
     var visibleColPlacements = []; // will mirror colPlacements
-    for (var col = 0; col < colCnt; col++) {
+    for (var col = 0; col < colCnt; col += 1) {
         visibleColPlacements.push([]);
     }
-    for (var col = 0; col < colCnt; col++) {
+    for (var col = 0; col < colCnt; col += 1) {
         var placements = colPlacements[col];
         var level = 0;
         for (var _i = 0, placements_2 = placements; _i < placements_2.length; _i++) {
@@ -11051,7 +10932,7 @@ function limitEvents(hiddenCnts, segIsHidden, colPlacements, _moreLinkConsumesLe
             }
             // only considered a level if the seg had height
             if (placement.top !== placement.bottom) {
-                level++;
+                level += 1;
             }
         }
     }
@@ -11060,7 +10941,7 @@ function limitEvents(hiddenCnts, segIsHidden, colPlacements, _moreLinkConsumesLe
         var instanceId = seg.eventRange.instance.instanceId;
         if (!segIsVisible[instanceId]) {
             segIsVisible[instanceId] = true;
-            for (var col = seg.firstCol; col <= seg.lastCol; col++) {
+            for (var col = seg.firstCol; col <= seg.lastCol; col += 1) {
                 visibleColPlacements[col].push(placement);
             }
         }
@@ -11070,9 +10951,10 @@ function limitEvents(hiddenCnts, segIsHidden, colPlacements, _moreLinkConsumesLe
         var instanceId = seg.eventRange.instance.instanceId;
         if (!segIsHidden[instanceId]) {
             segIsHidden[instanceId] = true;
-            for (var col = seg.firstCol; col <= seg.lastCol; col++) {
-                var hiddenCnt = ++hiddenCnts[col];
-                if (moreLinkConsumesLevel && hiddenCnt === 1) {
+            for (var col = seg.firstCol; col <= seg.lastCol; col += 1) {
+                hiddenCnts[col] += 1;
+                var hiddenCnt = hiddenCnts[col];
+                if (moreLinkConsumesLevel && hiddenCnt === 1 && currentLevel > 0) {
                     var doomedLevel = currentLevel - 1;
                     while (visibleColPlacements[col].length > doomedLevel) {
                         recordHidden(visibleColPlacements[col].pop(), // removes
@@ -11100,7 +10982,7 @@ function resliceDaySegs(segs, dayDate, colIndex) {
                     def: eventRange.def,
                     ui: Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, eventRange.ui), { durationEditable: false }),
                     instance: eventRange.instance,
-                    range: slicedRange
+                    range: slicedRange,
                 }, isStart: seg.isStart && slicedRange.start.valueOf() === origRange.start.valueOf(), isEnd: seg.isEnd && slicedRange.end.valueOf() === origRange.end.valueOf() }));
         }
     }
@@ -11119,7 +11001,7 @@ var TableRow = /** @class */ (function (_super) {
         _this.state = {
             framePositions: null,
             maxContentHeight: null,
-            segHeights: {}
+            segHeights: {},
         };
         return _this;
     }
@@ -11141,8 +11023,7 @@ var TableRow = /** @class */ (function (_super) {
             props.cells.map(function (cell, col) {
                 var normalFgNodes = _this.renderFgSegs(segsByFirstCol[col], segIsHidden, segTops, segMarginTops, selectedInstanceHash, props.todayRange);
                 var mirrorFgNodes = _this.renderFgSegs(mirrorSegsByCol[col], {}, segTops, // use same tops as real rendering
-                {}, {}, props.todayRange, Boolean(props.eventDrag), Boolean(props.eventResize), false // date-selecting (because mirror is never drawn for date selection)
-                );
+                {}, {}, props.todayRange, Boolean(props.eventDrag), Boolean(props.eventResize), false);
                 return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableCell, { key: cell.key, elRef: _this.cellElRefs.createRef(cell.key), innerElRef: _this.frameElRefs.createRef(cell.key) /* FF <td> problem, but okay to use for left/right. TODO: rename prop */, dateProfile: props.dateProfile, date: cell.date, showDayNumber: props.showDayNumbers, showWeekNumber: props.showWeekNumbers && col === 0, forceDayTop: props.showWeekNumbers /* even displaying weeknum for row, not necessarily day */, todayRange: props.todayRange, extraHookProps: cell.extraHookProps, extraDataAttrs: cell.extraDataAttrs, extraClassNames: cell.extraClassNames, moreCnt: moreCnts[col], buildMoreLinkText: props.buildMoreLinkText, onMoreClick: props.onMoreClick, segIsHidden: segIsHidden, moreMarginTop: moreTops[col] /* rename */, segsByEachCol: segsByEachCol[col], fgPaddingBottom: paddingBottoms[col], fgContentElRef: _this.fgElRefs.createRef(cell.key), fgContent: ( // Fragment scopes the keys
                     Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null,
                         Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, normalFgNodes),
@@ -11165,21 +11046,17 @@ var TableRow = /** @class */ (function (_super) {
         if (props.eventDrag && props.eventDrag.segs.length) { // messy check
             return props.eventDrag.segs;
         }
-        else if (props.eventResize && props.eventResize.segs.length) { // messy check
+        if (props.eventResize && props.eventResize.segs.length) { // messy check
             return props.eventResize.segs;
         }
-        else {
-            return props.dateSelectionSegs;
-        }
+        return props.dateSelectionSegs;
     };
     TableRow.prototype.getMirrorSegs = function () {
         var props = this.props;
         if (props.eventResize && props.eventResize.segs.length) { // messy check
             return props.eventResize.segs;
         }
-        else {
-            return [];
-        }
+        return [];
     };
     TableRow.prototype.renderFgSegs = function (segs, segIsHidden, // does NOT mean display:hidden
     segTops, segMarginTops, selectedInstanceHash, todayRange, isDragging, isResizing, isDateSelecting) {
@@ -11195,7 +11072,8 @@ var TableRow = /** @class */ (function (_super) {
                 var isMirror = isDragging || isResizing || isDateSelecting;
                 var isSelected = selectedInstanceHash[instanceId];
                 var isInvisible = segIsHidden[instanceId] || isSelected;
-                var isAbsolute = segIsHidden[instanceId] || isMirror || seg.firstCol !== seg.lastCol || !seg.isStart || !seg.isEnd; // TODO: simpler way? NOT DRY
+                // TODO: simpler way? NOT DRY
+                var isAbsolute = segIsHidden[instanceId] || isMirror || seg.firstCol !== seg.lastCol || !seg.isStart || !seg.isEnd;
                 var marginTop = void 0;
                 var top_1 = void 0;
                 var left = void 0;
@@ -11217,15 +11095,15 @@ var TableRow = /** @class */ (function (_super) {
                 /*
                 known bug: events that are force to be list-item but span multiple days still take up space in later columns
                 */
-                nodes.push(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-event-harness' + (isAbsolute ? ' fc-daygrid-event-harness-abs' : ''), key: instanceId, ref: isMirror ? null : this.segHarnessRefs.createRef(instanceId + ':' + seg.firstCol) /* in print mode when in mult cols, could collide */, style: {
+                nodes.push(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-event-harness' + (isAbsolute ? ' fc-daygrid-event-harness-abs' : ''), key: instanceId, 
+                    // in print mode when in mult cols, could collide
+                    ref: isMirror ? null : this.segHarnessRefs.createRef(instanceId + ':' + seg.firstCol), style: {
                         visibility: isInvisible ? 'hidden' : '',
                         marginTop: marginTop || '',
                         top: top_1 || '',
                         left: left || '',
-                        right: right || ''
-                    } }, hasListItemDisplay(seg) ?
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableListItemEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: isDragging, isSelected: instanceId === eventSelection, defaultDisplayEventEnd: defaultDisplayEventEnd }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange))) :
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableBlockEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: isDragging, isResizing: isResizing, isDateSelecting: isDateSelecting, isSelected: instanceId === eventSelection, defaultDisplayEventEnd: defaultDisplayEventEnd }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange)))));
+                        right: right || '',
+                    } }, hasListItemDisplay(seg) ? (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableListItemEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: isDragging, isSelected: instanceId === eventSelection, defaultDisplayEventEnd: defaultDisplayEventEnd }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange)))) : (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableBlockEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: isDragging, isResizing: isResizing, isDateSelecting: isDateSelecting, isSelected: instanceId === eventSelection, defaultDisplayEventEnd: defaultDisplayEventEnd }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange))))));
             }
         }
         return nodes;
@@ -11240,12 +11118,12 @@ var TableRow = /** @class */ (function (_super) {
                 var seg = segs_2[_i];
                 var leftRightCss = isRtl ? {
                     right: 0,
-                    left: framePositions.lefts[seg.lastCol] - framePositions.lefts[seg.firstCol]
+                    left: framePositions.lefts[seg.lastCol] - framePositions.lefts[seg.firstCol],
                 } : {
                     left: 0,
                     right: framePositions.rights[seg.firstCol] - framePositions.rights[seg.lastCol],
                 };
-                nodes.push(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { key: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildEventRangeKey"])(seg.eventRange), className: 'fc-daygrid-bg-harness', style: leftRightCss }, fillType === 'bg-event' ?
+                nodes.push(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { key: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildEventRangeKey"])(seg.eventRange), className: "fc-daygrid-bg-harness", style: leftRightCss }, fillType === 'bg-event' ?
                     Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BgEvent"], Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange))) :
                     Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderFill"])(fillType)));
             }
@@ -11261,14 +11139,14 @@ var TableRow = /** @class */ (function (_super) {
                     var originEl = this.rootElRef.current;
                     this.setState({
                         framePositions: new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["PositionCache"](originEl, frameEls, true, // isHorizontal
-                        false)
+                        false),
                     });
                 }
             }
             var limitByContentHeight = props.dayMaxEvents === true || props.dayMaxEventRows === true;
             this.setState({
                 segHeights: this.computeSegHeights(),
-                maxContentHeight: limitByContentHeight ? this.computeMaxContentHeight() : null
+                maxContentHeight: limitByContentHeight ? this.computeMaxContentHeight() : null,
             });
         }
     };
@@ -11288,7 +11166,7 @@ var TableRow = /** @class */ (function (_super) {
     return TableRow;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
 TableRow.addStateEquality({
-    segHeights: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["isPropsEqual"]
+    segHeights: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["isPropsEqual"],
 });
 
 var PADDING_FROM_VIEWPORT = 10;
@@ -11328,11 +11206,11 @@ var Popover = /** @class */ (function (_super) {
         var props = this.props;
         var classNames = [
             'fc-popover',
-            theme.getClass('popover')
+            theme.getClass('popover'),
         ].concat(props.extraClassNames || []);
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: classNames.join(' ') }, props.extraAttrs, { ref: this.handleRootEl }),
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-popover-header ' + theme.getClass('popoverHeader') },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: 'fc-popover-title' }, props.title),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: "fc-popover-title" }, props.title),
                 Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: 'fc-popover-close ' + theme.getIconClass('close'), onClick: this.handleCloseClick })),
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-popover-body ' + theme.getClass('popoverContent') }, props.children)));
     };
@@ -11385,7 +11263,7 @@ var MorePopover = /** @class */ (function (_super) {
             if (popoverEl) {
                 _this.context.registerInteractiveComponent(_this, {
                     el: popoverEl,
-                    useEventCenter: false
+                    useEventCenter: false,
                 });
             }
             else {
@@ -11401,14 +11279,12 @@ var MorePopover = /** @class */ (function (_super) {
         var title = dateEnv.format(date, options.dayPopoverFormat);
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellRoot"], { date: date, dateProfile: dateProfile, todayRange: todayRange, elRef: this.handlePopoverEl }, function (rootElRef, dayClassNames, dataAttrs) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(Popover, { elRef: rootElRef, title: title, extraClassNames: ['fc-more-popover'].concat(dayClassNames), extraAttrs: dataAttrs, onClose: props.onCloseClick, alignmentEl: props.alignmentEl, topAlignmentEl: props.topAlignmentEl },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellContent"], { date: date, dateProfile: dateProfile, todayRange: todayRange }, function (innerElRef, innerContent) { return (innerContent &&
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-more-popover-misc', ref: innerElRef }, innerContent)); }),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-more-popover-misc", ref: innerElRef }, innerContent)); }),
             props.segs.map(function (seg) {
                 var instanceId = seg.eventRange.instance.instanceId;
-                return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-daygrid-event-harness', key: instanceId, style: {
-                        visibility: hiddenInstances[instanceId] ? 'hidden' : ''
-                    } }, hasListItemDisplay(seg) ?
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableListItemEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: false, isSelected: instanceId === selectedInstanceId, defaultDisplayEventEnd: false }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange))) :
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableBlockEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: false, isResizing: false, isDateSelecting: false, isSelected: instanceId === selectedInstanceId, defaultDisplayEventEnd: false }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange)))));
+                return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-daygrid-event-harness", key: instanceId, style: {
+                        visibility: hiddenInstances[instanceId] ? 'hidden' : '',
+                    } }, hasListItemDisplay(seg) ? (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableListItemEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: false, isSelected: instanceId === selectedInstanceId, defaultDisplayEventEnd: false }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange)))) : (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableBlockEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: false, isResizing: false, isDateSelecting: false, isSelected: instanceId === selectedInstanceId, defaultDisplayEventEnd: false }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, todayRange))))));
             }))); }));
     };
     MorePopover.prototype.queryHit = function (positionLeft, positionTop, elWidth, elHeight) {
@@ -11418,18 +11294,19 @@ var MorePopover = /** @class */ (function (_super) {
                 component: this,
                 dateSpan: {
                     allDay: true,
-                    range: { start: date, end: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDays"])(date, 1) }
+                    range: { start: date, end: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDays"])(date, 1) },
                 },
                 dayEl: this.popoverEl,
                 rect: {
                     left: 0,
                     top: 0,
                     right: elWidth,
-                    bottom: elHeight
+                    bottom: elHeight,
                 },
-                layer: 1
+                layer: 1,
             };
         }
+        return null;
     };
     MorePopover.prototype.isPopover = function () {
         return true; // gross
@@ -11450,7 +11327,7 @@ var Table = /** @class */ (function (_super) {
         _this.buildBuildMoreLinkText = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["memoize"])(buildBuildMoreLinkText);
         _this.rowRefs = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RefMap"]();
         _this.state = {
-            morePopoverState: null
+            morePopoverState: null,
         };
         _this.handleRootEl = function (rootEl) {
             _this.rootEl = rootEl;
@@ -11467,7 +11344,7 @@ var Table = /** @class */ (function (_super) {
                     start: dateEnv.toDate(range.start),
                     end: dateEnv.toDate(range.end),
                     isStart: seg.isStart,
-                    isEnd: seg.isEnd
+                    isEnd: seg.isEnd,
                 };
             }
             if (typeof clickOption === 'function') {
@@ -11477,12 +11354,12 @@ var Table = /** @class */ (function (_super) {
                     allSegs: arg.allSegs.map(segForPublic),
                     hiddenSegs: arg.hiddenSegs.map(segForPublic),
                     jsEvent: arg.ev,
-                    view: context.viewApi
+                    view: context.viewApi,
                 }); // hack to handle void
             }
             if (!clickOption || clickOption === 'popover') {
                 _this.setState({
-                    morePopoverState: Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, arg), { currentFgEventSegs: _this.props.fgEventSegs })
+                    morePopoverState: Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, arg), { currentFgEventSegs: _this.props.fgEventSegs }),
                 });
             }
             else if (typeof clickOption === 'string') { // a view name
@@ -11491,7 +11368,7 @@ var Table = /** @class */ (function (_super) {
         };
         _this.handleMorePopoverClose = function () {
             _this.setState({
-                morePopoverState: null
+                morePopoverState: null,
             });
         };
         return _this;
@@ -11520,37 +11397,35 @@ var Table = /** @class */ (function (_super) {
         var classNames = [
             'fc-daygrid-body',
             limitViaBalanced ? 'fc-daygrid-body-balanced' : 'fc-daygrid-body-unbalanced',
-            expandRows ? '' : 'fc-daygrid-body-natural' // will height of one row depend on the others?
+            expandRows ? '' : 'fc-daygrid-body-natural',
         ];
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: classNames.join(' '), ref: this.handleRootEl, style: {
                 // these props are important to give this wrapper correct dimensions for interactions
                 // TODO: if we set it here, can we avoid giving to inner tables?
                 width: props.clientWidth,
-                minWidth: props.tableMinWidth
+                minWidth: props.tableMinWidth,
             } },
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: 'day' }, function (nowDate, todayRange) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null,
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { className: 'fc-scrollgrid-sync-table', style: {
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: "day" }, function (nowDate, todayRange) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null,
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { className: "fc-scrollgrid-sync-table", style: {
                         width: props.clientWidth,
                         minWidth: props.tableMinWidth,
-                        height: expandRows ? props.clientHeight : ''
+                        height: expandRows ? props.clientHeight : '',
                     } },
                     props.colGroupNode,
                     Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null, props.cells.map(function (cells, row) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TableRow, { ref: _this.rowRefs.createRef(row), key: cells.length
                             ? cells[0].date.toISOString() /* best? or put key on cell? or use diff formatter? */
                             : row // in case there are no cells (like when resource view is loading)
                         , showDayNumbers: rowCnt > 1, showWeekNumbers: props.showWeekNumbers, todayRange: todayRange, dateProfile: dateProfile, cells: cells, renderIntro: props.renderRowIntro, businessHourSegs: businessHourSegsByRow[row], eventSelection: props.eventSelection, bgEventSegs: bgEventSegsByRow[row].filter(isSegAllDay) /* hack */, fgEventSegs: fgEventSegsByRow[row], dateSelectionSegs: dateSelectionSegsByRow[row], eventDrag: eventDragByRow[row], eventResize: eventResizeByRow[row], dayMaxEvents: dayMaxEvents, dayMaxEventRows: dayMaxEventRows, clientWidth: props.clientWidth, clientHeight: props.clientHeight, buildMoreLinkText: buildMoreLinkText, onMoreClick: _this.handleMoreLinkClick })); }))),
-                (!props.forPrint && morePopoverState && morePopoverState.currentFgEventSegs === props.fgEventSegs) && // clear popover on event mod
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(MorePopover, { date: morePopoverState.date, dateProfile: dateProfile, segs: morePopoverState.allSegs, alignmentEl: morePopoverState.dayEl, topAlignmentEl: rowCnt === 1 ? props.headerAlignElRef.current : null, onCloseClick: _this.handleMorePopoverClose, selectedInstanceId: props.eventSelection, hiddenInstances: // yuck
-                        (props.eventDrag ? props.eventDrag.affectedInstances : null) ||
-                            (props.eventResize ? props.eventResize.affectedInstances : null) ||
-                            {}, todayRange: todayRange }))); })));
+                (!props.forPrint && morePopoverState && morePopoverState.currentFgEventSegs === props.fgEventSegs) && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(MorePopover, { date: morePopoverState.date, dateProfile: dateProfile, segs: morePopoverState.allSegs, alignmentEl: morePopoverState.dayEl, topAlignmentEl: rowCnt === 1 ? props.headerAlignElRef.current : null, onCloseClick: _this.handleMorePopoverClose, selectedInstanceId: props.eventSelection, hiddenInstances: // yuck
+                    (props.eventDrag ? props.eventDrag.affectedInstances : null) ||
+                        (props.eventResize ? props.eventResize.affectedInstances : null) ||
+                        {}, todayRange: todayRange })))); })));
     };
     // Hit System
     // ----------------------------------------------------------------------------------------------------
     Table.prototype.prepareHits = function () {
         this.rowPositions = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["PositionCache"](this.rootEl, this.rowRefs.collect().map(function (rowObj) { return rowObj.getCellEls()[0]; }), // first cell el in each row. TODO: not optimal
-        false, true // vertical
-        );
+        false, true);
         this.colPositions = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["PositionCache"](this.rootEl, this.rowRefs.currentMap[0].getCellEls(), // cell els in first row
         true, // horizontal
         false);
@@ -11565,17 +11440,18 @@ var Table = /** @class */ (function (_super) {
                 col: col,
                 dateSpan: {
                     range: this.getCellRange(row, col),
-                    allDay: true
+                    allDay: true,
                 },
                 dayEl: this.getCellEl(row, col),
                 relativeRect: {
                     left: colPositions.lefts[col],
                     right: colPositions.rights[col],
                     top: rowPositions.tops[row],
-                    bottom: rowPositions.bottoms[row]
-                }
+                    bottom: rowPositions.bottoms[row],
+                },
             };
         }
+        return null;
     };
     Table.prototype.getCellEl = function (row, col) {
         return this.rowRefs.currentMap[row].getCellEls()[col]; // TODO: not optimal
@@ -11591,15 +11467,24 @@ function buildBuildMoreLinkText(moreLinkTextInput) {
     if (typeof moreLinkTextInput === 'function') {
         return moreLinkTextInput;
     }
-    else {
-        return function (num) {
-            return "+" + num + " " + moreLinkTextInput;
-        };
-    }
+    return function (num) { return "+" + num + " " + moreLinkTextInput; };
 }
 function isSegAllDay(seg) {
     return seg.eventRange.def.allDay;
 }
+
+var DayTableSlicer = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTableSlicer, _super);
+    function DayTableSlicer() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.forceDayIfListItem = true;
+        return _this;
+    }
+    DayTableSlicer.prototype.sliceRange = function (dateRange, dayTableModel) {
+        return dayTableModel.sliceRange(dateRange);
+    };
+    return DayTableSlicer;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Slicer"]));
 
 var DayTable = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTable, _super);
@@ -11635,26 +11520,15 @@ var DayTable = /** @class */ (function (_super) {
                     left: rawHit.relativeRect.left,
                     right: rawHit.relativeRect.right,
                     top: rawHit.relativeRect.top,
-                    bottom: rawHit.relativeRect.bottom
+                    bottom: rawHit.relativeRect.bottom,
                 },
-                layer: 0
+                layer: 0,
             };
         }
+        return null;
     };
     return DayTable;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
-var DayTableSlicer = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTableSlicer, _super);
-    function DayTableSlicer() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.forceDayIfListItem = true;
-        return _this;
-    }
-    DayTableSlicer.prototype.sliceRange = function (dateRange, dayTableModel) {
-        return dayTableModel.sliceRange(dateRange);
-    };
-    return DayTableSlicer;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Slicer"]));
 
 var DayTableView = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTableView, _super);
@@ -11670,8 +11544,7 @@ var DayTableView = /** @class */ (function (_super) {
         var _a = this.context, options = _a.options, dateProfileGenerator = _a.dateProfileGenerator;
         var props = this.props;
         var dayTableModel = this.buildDayTableModel(props.dateProfile, dateProfileGenerator);
-        var headerContent = options.dayHeaders &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayHeader"], { ref: this.headerRef, dateProfile: props.dateProfile, dates: dayTableModel.headerDates, datesRepDistinctDays: dayTableModel.rowCnt === 1 });
+        var headerContent = options.dayHeaders && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayHeader"], { ref: this.headerRef, dateProfile: props.dateProfile, dates: dayTableModel.headerDates, datesRepDistinctDays: dayTableModel.rowCnt === 1 }));
         var bodyContent = function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(DayTable, { ref: _this.tableRef, dateProfile: props.dateProfile, dayTableModel: dayTableModel, businessHours: props.businessHours, dateSelection: props.dateSelection, eventStore: props.eventStore, eventUiBases: props.eventUiBases, eventSelection: props.eventSelection, eventDrag: props.eventDrag, eventResize: props.eventResize, nextDayThreshold: options.nextDayThreshold, colGroupNode: contentArg.tableColGroupNode, tableMinWidth: contentArg.tableMinWidth, dayMaxEvents: options.dayMaxEvents, dayMaxEventRows: options.dayMaxEventRows, showWeekNumbers: options.weekNumbers, expandRows: !props.isHeightAuto, headerAlignElRef: _this.headerElRef, clientWidth: contentArg.clientWidth, clientHeight: contentArg.clientHeight, forPrint: props.forPrint })); };
         return options.dayMinWidth
             ? this.renderHScrollLayout(headerContent, bodyContent, dayTableModel.colCnt, options.dayMinWidth)
@@ -11731,23 +11604,23 @@ var main = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createPlugi
     views: {
         dayGrid: {
             component: DayTableView,
-            dateProfileGeneratorClass: TableDateProfileGenerator
+            dateProfileGeneratorClass: TableDateProfileGenerator,
         },
         dayGridDay: {
             type: 'dayGrid',
-            duration: { days: 1 }
+            duration: { days: 1 },
         },
         dayGridWeek: {
             type: 'dayGrid',
-            duration: { weeks: 1 }
+            duration: { weeks: 1 },
         },
         dayGridMonth: {
             type: 'dayGrid',
             duration: { months: 1 },
             monthMode: true,
-            fixedWeekCount: true
-        }
-    }
+            fixedWeekCount: true,
+        },
+    },
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (main);
@@ -12036,7 +11909,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fullcalendar/common */ "./node_modules/@fullcalendar/common/main.js");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/@fullcalendar/interaction/node_modules/tslib/tslib.es6.js");
 /*!
-FullCalendar v5.3.1
+FullCalendar v5.3.2
 Docs & License: https://fullcalendar.io/
 (c) 2020 Adam Shaw
 */
@@ -12118,8 +11991,7 @@ var PointerDragging = /** @class */ (function () {
                 // attach a handler to get called when ANY scroll action happens on the page.
                 // this was impossible to do with normal on/off because 'scroll' doesn't bubble.
                 // http://stackoverflow.com/a/32954565/96342
-                window.addEventListener('scroll', _this.handleTouchScroll, true // useCapture
-                );
+                window.addEventListener('scroll', _this.handleTouchScroll, true);
             }
         };
         this.handleTouchMove = function (ev) {
@@ -12154,7 +12026,7 @@ var PointerDragging = /** @class */ (function () {
                     pageX: pageX,
                     pageY: pageY,
                     deltaX: pageX - _this.origPageX,
-                    deltaY: pageY - _this.origPageY
+                    deltaY: pageY - _this.origPageY,
                 });
             }
         };
@@ -12192,9 +12064,7 @@ var PointerDragging = /** @class */ (function () {
         if (this.selector) {
             return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["elementClosest"])(ev.target, this.selector);
         }
-        else {
-            return this.containerEl;
-        }
+        return this.containerEl;
     };
     PointerDragging.prototype.shouldIgnoreMouse = function () {
         return ignoreMouseDepth || this.isTouchDragging;
@@ -12247,7 +12117,7 @@ var PointerDragging = /** @class */ (function () {
             pageX: ev.pageX,
             pageY: ev.pageY,
             deltaX: deltaX,
-            deltaY: deltaY
+            deltaY: deltaY,
         };
     };
     PointerDragging.prototype.createEventFromTouch = function (ev, isFirst) {
@@ -12282,7 +12152,7 @@ var PointerDragging = /** @class */ (function () {
             pageX: pageX,
             pageY: pageY,
             deltaX: deltaX,
-            deltaY: deltaY
+            deltaY: deltaY,
         };
     };
     return PointerDragging;
@@ -12294,20 +12164,22 @@ function isPrimaryMouseButton(ev) {
 // Ignoring fake mouse events generated by touch
 // ----------------------------------------------------------------------------------------------------
 function startIgnoringMouse() {
-    ignoreMouseDepth++;
+    ignoreMouseDepth += 1;
     setTimeout(function () {
-        ignoreMouseDepth--;
+        ignoreMouseDepth -= 1;
     }, _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["config"].touchMouseIgnoreWait);
 }
 // We want to attach touchmove as early as possible for Safari
 // ----------------------------------------------------------------------------------------------------
 function listenerCreated() {
-    if (!(listenerCnt++)) {
+    listenerCnt += 1;
+    if (listenerCnt === 1) {
         window.addEventListener('touchmove', onWindowTouchMove, { passive: false });
     }
 }
 function listenerDestroyed() {
-    if (!(--listenerCnt)) {
+    listenerCnt -= 1;
+    if (!listenerCnt) {
         window.removeEventListener('touchmove', onWindowTouchMove, { passive: false });
     }
 }
@@ -12358,13 +12230,11 @@ var ElementMirror = /** @class */ (function () {
                 this.updateElPosition(); // because was not updating the position while invisible
             }
         }
-        else {
-            if (this.isVisible) {
-                if (this.mirrorEl) {
-                    this.mirrorEl.style.display = 'none';
-                }
-                this.isVisible = bool;
+        else if (this.isVisible) {
+            if (this.mirrorEl) {
+                this.mirrorEl.style.display = 'none';
             }
+            this.isVisible = bool;
         }
     };
     // always async
@@ -12394,7 +12264,7 @@ var ElementMirror = /** @class */ (function () {
                 'left ' + revertDuration + 'ms';
         Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["applyStyle"])(mirrorEl, {
             left: finalSourceElRect.left,
-            top: finalSourceElRect.top
+            top: finalSourceElRect.top,
         });
         Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["whenTransitionDone"])(mirrorEl, function () {
             mirrorEl.style.transition = '';
@@ -12412,7 +12282,7 @@ var ElementMirror = /** @class */ (function () {
         if (this.sourceEl && this.isVisible) {
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["applyStyle"])(this.getMirrorEl(), {
                 left: this.sourceElRect.left + this.deltaX,
-                top: this.sourceElRect.top + this.deltaY
+                top: this.sourceElRect.top + this.deltaY,
             });
         }
     };
@@ -12434,7 +12304,7 @@ var ElementMirror = /** @class */ (function () {
                 height: sourceElRect.bottom - sourceElRect.top,
                 right: 'auto',
                 bottom: 'auto',
-                margin: 0
+                margin: 0,
             });
             this.parentNode.appendChild(mirrorEl);
         }
@@ -12519,6 +12389,7 @@ var ScrollGeomCache = /** @class */ (function (_super) {
     };
     return ScrollGeomCache;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["ScrollController"]));
+
 var ElementScrollGeomCache = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(ElementScrollGeomCache, _super);
     function ElementScrollGeomCache(el, doesListening) {
@@ -12532,6 +12403,7 @@ var ElementScrollGeomCache = /** @class */ (function (_super) {
     };
     return ElementScrollGeomCache;
 }(ScrollGeomCache));
+
 var WindowScrollGeomCache = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__extends"])(WindowScrollGeomCache, _super);
     function WindowScrollGeomCache(doesListening) {
@@ -12545,7 +12417,7 @@ var WindowScrollGeomCache = /** @class */ (function (_super) {
             left: this.scrollLeft,
             right: this.scrollLeft + this.clientWidth,
             top: this.scrollTop,
-            bottom: this.scrollTop + this.clientHeight
+            bottom: this.scrollTop + this.clientHeight,
         };
     };
     // the window is the only scroll object that changes it's rectangle relative
@@ -12655,7 +12527,7 @@ var AutoScroller = /** @class */ (function () {
         var edgeThreshold = this.edgeThreshold;
         var invDistance = edgeThreshold - edge.distance;
         var velocity = // the closer to the edge, the faster we scroll
-         (invDistance * invDistance) / (edgeThreshold * edgeThreshold) * // quadratic
+         ((invDistance * invDistance) / (edgeThreshold * edgeThreshold)) * // quadratic
             this.maxVelocity * seconds;
         var sign = 1;
         switch (edge.name) {
@@ -12711,9 +12583,7 @@ var AutoScroller = /** @class */ (function () {
             if (el === window) {
                 return new WindowScrollGeomCache(false); // false = don't listen to user-generated scrolls
             }
-            else {
-                return new ElementScrollGeomCache(el, false); // false = don't listen to user-generated scrolls
-            }
+            return new ElementScrollGeomCache(el, false); // false = don't listen to user-generated scrolls
         });
     };
     AutoScroller.prototype.queryScrollEls = function () {
@@ -12870,8 +12740,7 @@ var FeaturefulElementDragging = /** @class */ (function (_super) {
     FeaturefulElementDragging.prototype.tryStopDrag = function (ev) {
         // .stop() is ALWAYS asynchronous, which we NEED because we want all pointerup events
         // that come from the document to fire beforehand. much more convenient this way.
-        this.mirror.stop(this.mirrorNeedsRevert, this.stopDrag.bind(this, ev) // bound with args
-        );
+        this.mirror.stop(this.mirrorNeedsRevert, this.stopDrag.bind(this, ev));
     };
     FeaturefulElementDragging.prototype.stopDrag = function (ev) {
         this.isDragging = false;
@@ -12905,9 +12774,7 @@ var OffsetTracker = /** @class */ (function () {
     function OffsetTracker(el) {
         this.origRect = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["computeRect"])(el);
         // will work fine for divs that have overflow:hidden
-        this.scrollCaches = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["getClippingParents"])(el).map(function (el) {
-            return new ElementScrollGeomCache(el, true); // listen=true
-        });
+        this.scrollCaches = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["getClippingParents"])(el).map(function (scrollEl) { return new ElementScrollGeomCache(scrollEl, true); });
     }
     OffsetTracker.prototype.destroy = function () {
         for (var _i = 0, _a = this.scrollCaches; _i < _a.length; _i++) {
@@ -12982,7 +12849,8 @@ var HitDragging = /** @class */ (function () {
             _this.processFirstCoord(ev);
             if (_this.initialHit || !_this.requireInitial) {
                 dragging.setIgnoreMove(false);
-                _this.emitter.trigger('pointerdown', ev); // TODO: fire this before computing processFirstCoord, so listeners can cancel. this gets fired by almost every handler :(
+                // TODO: fire this before computing processFirstCoord, so listeners can cancel. this gets fired by almost every handler :(
+                _this.emitter.trigger('pointerdown', ev);
             }
             else {
                 dragging.setIgnoreMove(true);
@@ -13125,7 +12993,7 @@ function buildDatePointApi(span, dateEnv) {
     return {
         date: dateEnv.toDate(span.range.start),
         dateStr: dateEnv.formatIso(span.range.start, { omitTime: span.allDay }),
-        allDay: span.allDay
+        allDay: span.allDay,
     };
 }
 
@@ -13259,7 +13127,7 @@ function joinHitsIntoSelection(hit0, hit1, dateSelectionTransformers) {
         dateSpan0.range.start,
         dateSpan0.range.end,
         dateSpan1.range.start,
-        dateSpan1.range.end
+        dateSpan1.range.end,
     ];
     ms.sort(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["compareNumbers"]);
     var props = {};
@@ -13269,7 +13137,7 @@ function joinHitsIntoSelection(hit0, hit1, dateSelectionTransformers) {
         if (res === false) {
             return null;
         }
-        else if (res) {
+        if (res) {
             Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(props, res);
         }
     }
@@ -13308,7 +13176,12 @@ var EventDragging = /** @class */ (function (_super) {
                 (ev.isTouch && eventInstanceId !== component.props.eventSelection) ?
                     getComponentTouchDelay$1(component) :
                     null;
-            mirror.parentNode = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["elementClosest"])(origTarget, '.fc');
+            if (options.fixedMirrorParent) {
+                mirror.parentNode = options.fixedMirrorParent;
+            }
+            else {
+                mirror.parentNode = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["elementClosest"])(origTarget, '.fc');
+            }
             mirror.revertDuration = options.dragRevertDuration;
             var isValid = component.isValidSegDownEl(origTarget) &&
                 !Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["elementClosest"])(origTarget, '.fc-event-resizer'); // NOT on a resizer
@@ -13338,7 +13211,7 @@ var EventDragging = /** @class */ (function (_super) {
                     el: _this.subjectEl,
                     event: new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["EventApi"](initialContext, eventRange.def, eventRange.instance),
                     jsEvent: ev.origEvent,
-                    view: initialContext.viewApi
+                    view: initialContext.viewApi,
                 });
             }
         };
@@ -13357,14 +13230,14 @@ var EventDragging = /** @class */ (function (_super) {
             var interaction = {
                 affectedEvents: relevantEvents,
                 mutatedEvents: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createEmptyEventStore"])(),
-                isEvent: true
+                isEvent: true,
             };
             if (hit) {
                 var receivingComponent = hit.component;
                 receivingContext = receivingComponent.context;
                 var receivingOptions = receivingContext.options;
                 if (initialContext === receivingContext ||
-                    receivingOptions.editable && receivingOptions.droppable) {
+                    (receivingOptions.editable && receivingOptions.droppable)) {
                     mutation = computeEventMutation(initialHit, hit, receivingContext.getCurrentData().pluginHooks.eventDragMutationMassagers);
                     if (mutation) {
                         mutatedRelevantEvents = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["applyMutationToEventStore"])(relevantEvents, receivingContext.getCurrentData().eventUiBases, mutation, receivingContext);
@@ -13424,7 +13297,7 @@ var EventDragging = /** @class */ (function (_super) {
                     el: _this.subjectEl,
                     event: eventApi,
                     jsEvent: ev.origEvent,
-                    view: initialView
+                    view: initialView,
                 });
                 if (validMutation) {
                     // dropped within same calendar
@@ -13432,7 +13305,7 @@ var EventDragging = /** @class */ (function (_super) {
                         var updatedEventApi = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["EventApi"](initialContext_1, mutatedRelevantEvents_1.defs[eventDef.defId], eventInstance ? mutatedRelevantEvents_1.instances[eventInstance.instanceId] : null);
                         initialContext_1.dispatch({
                             type: 'MERGE_EVENTS',
-                            eventStore: mutatedRelevantEvents_1
+                            eventStore: mutatedRelevantEvents_1,
                         });
                         var eventChangeArg = {
                             oldEvent: eventApi,
@@ -13441,9 +13314,9 @@ var EventDragging = /** @class */ (function (_super) {
                             revert: function () {
                                 initialContext_1.dispatch({
                                     type: 'MERGE_EVENTS',
-                                    eventStore: relevantEvents_1 // the pre-change data
+                                    eventStore: relevantEvents_1,
                                 });
-                            }
+                            },
                         };
                         var transformed = {};
                         for (var _i = 0, _b = initialContext_1.getCurrentData().pluginHooks.eventDropTransformers; _i < _b.length; _i++) {
@@ -13461,14 +13334,14 @@ var EventDragging = /** @class */ (function (_super) {
                             revert: function () {
                                 initialContext_1.dispatch({
                                     type: 'MERGE_EVENTS',
-                                    eventStore: relevantEvents_1
+                                    eventStore: relevantEvents_1,
                                 });
-                            }
+                            },
                         };
                         initialContext_1.emitter.trigger('eventLeave', Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventRemoveArg), { draggedEl: ev.subjectEl, view: initialView }));
                         initialContext_1.dispatch({
                             type: 'REMOVE_EVENTS',
-                            eventStore: relevantEvents_1
+                            eventStore: relevantEvents_1,
                         });
                         initialContext_1.emitter.trigger('eventRemove', eventRemoveArg);
                         var addedEventDef = mutatedRelevantEvents_1.defs[eventDef.defId];
@@ -13476,7 +13349,7 @@ var EventDragging = /** @class */ (function (_super) {
                         var addedEventApi = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["EventApi"](receivingContext_1, addedEventDef, addedEventInstance);
                         receivingContext_1.dispatch({
                             type: 'MERGE_EVENTS',
-                            eventStore: mutatedRelevantEvents_1
+                            eventStore: mutatedRelevantEvents_1,
                         });
                         var eventAddArg = {
                             event: addedEventApi,
@@ -13484,15 +13357,15 @@ var EventDragging = /** @class */ (function (_super) {
                             revert: function () {
                                 receivingContext_1.dispatch({
                                     type: 'REMOVE_EVENTS',
-                                    eventStore: mutatedRelevantEvents_1
+                                    eventStore: mutatedRelevantEvents_1,
                                 });
-                            }
+                            },
                         };
                         receivingContext_1.emitter.trigger('eventAdd', eventAddArg);
                         if (ev.isTouch) {
                             receivingContext_1.dispatch({
                                 type: 'SELECT_EVENT',
-                                eventInstanceId: eventInstance.instanceId
+                                eventInstanceId: eventInstance.instanceId,
                             });
                         }
                         receivingContext_1.emitter.trigger('drop', Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, buildDatePointApiWithContext(finalHit.dateSpan, receivingContext_1)), { draggedEl: ev.subjectEl, jsEvent: ev.origEvent, view: finalHit.component.context.viewApi }));
@@ -13537,8 +13410,8 @@ var EventDragging = /** @class */ (function (_super) {
                     state: {
                         affectedEvents: state.affectedEvents,
                         mutatedEvents: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createEmptyEventStore"])(),
-                        isEvent: true
-                    }
+                        isEvent: true,
+                    },
                 });
                 // completely clear the old calendar if it wasn't the initial
             }
@@ -13598,7 +13471,7 @@ function computeEventMutation(hit0, hit1, massagers) {
     }
     var mutation = {
         datesDelta: delta,
-        standardProps: standardProps
+        standardProps: standardProps,
     };
     for (var _i = 0, massagers_1 = massagers; _i < massagers_1.length; _i++) {
         var massager = massagers_1[_i];
@@ -13648,7 +13521,7 @@ var EventResizing = /** @class */ (function (_super) {
                 el: segEl,
                 event: new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["EventApi"](context, eventRange.def, eventRange.instance),
                 jsEvent: ev.origEvent,
-                view: context.viewApi
+                view: context.viewApi,
             });
         };
         _this.handleHitUpdate = function (hit, isFinal, ev) {
@@ -13662,7 +13535,7 @@ var EventResizing = /** @class */ (function (_super) {
             var interaction = {
                 affectedEvents: relevantEvents,
                 mutatedEvents: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createEmptyEventStore"])(),
-                isEvent: true
+                isEvent: true,
             };
             if (hit) {
                 mutation = computeMutation(initialHit, hit, ev.subjectEl.classList.contains('fc-event-resizer-start'), eventInstance.range, context.pluginHooks.eventResizeJoinTransforms);
@@ -13680,7 +13553,7 @@ var EventResizing = /** @class */ (function (_super) {
             if (mutatedRelevantEvents) {
                 context.dispatch({
                     type: 'SET_EVENT_RESIZE',
-                    state: interaction
+                    state: interaction,
                 });
             }
             else {
@@ -13711,13 +13584,13 @@ var EventResizing = /** @class */ (function (_super) {
                 el: _this.draggingSegEl,
                 event: eventApi,
                 jsEvent: ev.origEvent,
-                view: context.viewApi
+                view: context.viewApi,
             });
             if (_this.validMutation) {
                 var updatedEventApi = new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["EventApi"](context, mutatedRelevantEvents.defs[eventDef.defId], eventInstance ? mutatedRelevantEvents.instances[eventInstance.instanceId] : null);
                 context.dispatch({
                     type: 'MERGE_EVENTS',
-                    eventStore: mutatedRelevantEvents
+                    eventStore: mutatedRelevantEvents,
                 });
                 var eventChangeArg = {
                     oldEvent: eventApi,
@@ -13726,9 +13599,9 @@ var EventResizing = /** @class */ (function (_super) {
                     revert: function () {
                         context.dispatch({
                             type: 'MERGE_EVENTS',
-                            eventStore: relevantEvents // the pre-change events
+                            eventStore: relevantEvents,
                         });
-                    }
+                    },
                 };
                 context.emitter.trigger('eventResize', Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])({}, eventChangeArg), { el: _this.draggingSegEl, startDelta: _this.validMutation.startDelta || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createDuration"])(0), endDelta: _this.validMutation.endDelta || Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createDuration"])(0), jsEvent: ev.origEvent, view: context.viewApi }));
                 context.emitter.trigger('eventChange', eventChangeArg);
@@ -13774,7 +13647,7 @@ function computeMutation(hit0, hit1, isFromStart, instanceRange, transforms) {
         if (res === false) {
             return null;
         }
-        else if (res) {
+        if (res) {
             Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__assign"])(props, res);
         }
     }
@@ -13784,11 +13657,9 @@ function computeMutation(hit0, hit1, isFromStart, instanceRange, transforms) {
             return props;
         }
     }
-    else {
-        if (dateEnv.add(instanceRange.end, delta) > instanceRange.start) {
-            props.endDelta = delta;
-            return props;
-        }
+    else if (dateEnv.add(instanceRange.end, delta) > instanceRange.start) {
+        props.endDelta = delta;
+        return props;
     }
     return null;
 }
@@ -13850,6 +13721,9 @@ var UnselectAuto = /** @class */ (function () {
     return UnselectAuto;
 }());
 
+var OPTION_REFINERS = {
+    fixedMirrorParent: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
+};
 var LISTENER_REFINERS = {
     dateClick: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
     eventDragStart: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
@@ -13860,7 +13734,7 @@ var LISTENER_REFINERS = {
     eventResize: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
     drop: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
     eventReceive: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
-    eventLeave: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"]
+    eventLeave: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["identity"],
 };
 
 /*
@@ -13886,7 +13760,7 @@ var ExternalElementDragging = /** @class */ (function () {
             var interaction = {
                 affectedEvents: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createEmptyEventStore"])(),
                 mutatedEvents: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createEmptyEventStore"])(),
-                isEvent: _this.dragMeta.create
+                isEvent: _this.dragMeta.create,
             };
             if (hit) {
                 receivingContext = hit.component.context;
@@ -13928,12 +13802,12 @@ var ExternalElementDragging = /** @class */ (function () {
                     var addingEvents_1 = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["eventTupleToStore"])(droppableEvent);
                     receivingContext.dispatch({
                         type: 'MERGE_EVENTS',
-                        eventStore: addingEvents_1
+                        eventStore: addingEvents_1,
                     });
                     if (pev.isTouch) {
                         receivingContext.dispatch({
                             type: 'SELECT_EVENT',
-                            eventInstanceId: droppableEvent.instance.instanceId
+                            eventInstanceId: droppableEvent.instance.instanceId,
                         });
                     }
                     // signal that an external event landed
@@ -13943,11 +13817,11 @@ var ExternalElementDragging = /** @class */ (function () {
                         revert: function () {
                             receivingContext.dispatch({
                                 type: 'REMOVE_EVENTS',
-                                eventStore: addingEvents_1
+                                eventStore: addingEvents_1,
                             });
                         },
                         draggedEl: pev.subjectEl,
-                        view: finalView
+                        view: finalView,
                     });
                 }
             }
@@ -13965,12 +13839,10 @@ var ExternalElementDragging = /** @class */ (function () {
         if (typeof this.suppliedDragMeta === 'object') {
             return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["parseDragMeta"])(this.suppliedDragMeta);
         }
-        else if (typeof this.suppliedDragMeta === 'function') {
+        if (typeof this.suppliedDragMeta === 'function') {
             return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["parseDragMeta"])(this.suppliedDragMeta(subjectEl));
         }
-        else {
-            return getDragMetaFromEl(subjectEl);
-        }
+        return getDragMetaFromEl(subjectEl);
     };
     ExternalElementDragging.prototype.displayDrag = function (nextContext, state) {
         var prevContext = this.receivingContext;
@@ -13991,7 +13863,7 @@ var ExternalElementDragging = /** @class */ (function () {
         if (typeof dropAccept === 'function') {
             return dropAccept.call(receivingContext.calendarApi, el);
         }
-        else if (typeof dropAccept === 'string' && dropAccept) {
+        if (typeof dropAccept === 'string' && dropAccept) {
             return Boolean(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["elementMatches"])(el, dropAccept));
         }
         return true;
@@ -14076,7 +13948,7 @@ var ExternalDraggable = /** @class */ (function () {
         }
         dragging.emitter.on('pointerdown', this.handlePointerDown);
         dragging.emitter.on('dragstart', this.handleDragStart);
-        new ExternalElementDragging(dragging, settings.eventData);
+        new ExternalElementDragging(dragging, settings.eventData); // eslint-disable-line no-new
     }
     ExternalDraggable.prototype.destroy = function () {
         this.dragging.destroy();
@@ -14177,7 +14049,7 @@ var ThirdPartyDraggable = /** @class */ (function () {
         if (typeof settings.mirrorSelector === 'string') {
             dragging.mirrorSelector = settings.mirrorSelector;
         }
-        new ExternalElementDragging(dragging, settings.eventData);
+        new ExternalElementDragging(dragging, settings.eventData); // eslint-disable-line no-new
     }
     ThirdPartyDraggable.prototype.destroy = function () {
         this.dragging.destroy();
@@ -14189,7 +14061,8 @@ var main = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__["createPlugi
     componentInteractions: [DateClicking, DateSelecting, EventDragging, EventResizing],
     calendarInteractions: [UnselectAuto],
     elementDraggingImpl: FeaturefulElementDragging,
-    listenerRefiners: LISTENER_REFINERS
+    optionRefiners: OPTION_REFINERS,
+    listenerRefiners: LISTENER_REFINERS,
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (main);
@@ -14507,7 +14380,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fullcalendar/common */ "./node_modules/@fullcalendar/common/main.js");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ "./node_modules/@fullcalendar/list/node_modules/tslib/tslib.es6.js");
 /*!
-FullCalendar v5.3.1
+FullCalendar v5.3.2
 Docs & License: https://fullcalendar.io/
 (c) 2020 Adam Shaw
 */
@@ -14525,8 +14398,10 @@ var ListViewHeaderRow = /** @class */ (function (_super) {
         var _a = this.props, dayDate = _a.dayDate, todayRange = _a.todayRange;
         var _b = this.context, theme = _b.theme, dateEnv = _b.dateEnv, options = _b.options, viewApi = _b.viewApi;
         var dayMeta = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getDateMeta"])(dayDate, todayRange);
-        var text = options.listDayFormat ? dateEnv.format(dayDate, options.listDayFormat) : ''; // will ever be falsy?
-        var sideText = options.listDaySideFormat ? dateEnv.format(dayDate, options.listDaySideFormat) : ''; // will ever be falsy? also, BAD NAME "alt"
+        // will ever be falsy?
+        var text = options.listDayFormat ? dateEnv.format(dayDate, options.listDayFormat) : '';
+        // will ever be falsy? also, BAD NAME "alt"
+        var sideText = options.listDaySideFormat ? dateEnv.format(dayDate, options.listDaySideFormat) : '';
         var navLinkData = options.navLinks
             ? Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(dayDate)
             : null;
@@ -14546,16 +14421,14 @@ function renderInnerContent(props) {
         ? { 'data-navlink': props.navLinkData, tabIndex: 0 }
         : {};
     return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null,
-        props.text &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: 'fc-list-day-text' }, navLinkAttrs), props.text),
-        props.sideText &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: 'fc-list-day-side-text' }, navLinkAttrs), props.sideText)));
+        props.text && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: "fc-list-day-text" }, navLinkAttrs), props.text)),
+        props.sideText && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ className: "fc-list-day-side-text" }, navLinkAttrs), props.sideText))));
 }
 
 var DEFAULT_TIME_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({
     hour: 'numeric',
     minute: '2-digit',
-    meridiem: 'short'
+    meridiem: 'short',
 });
 var ListViewEventRow = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(ListViewEventRow, _super);
@@ -14566,11 +14439,12 @@ var ListViewEventRow = /** @class */ (function (_super) {
         var _a = this, props = _a.props, context = _a.context;
         var seg = props.seg;
         var timeFormat = context.options.eventTimeFormat || DEFAULT_TIME_FORMAT;
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["EventRoot"], { seg: seg, timeText: '' /* BAD. because of all-day content */, disableDragging: true, disableResizing: true, defaultContent: renderEventInnerContent, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday, isSelected: props.isSelected, isDragging: props.isDragging, isResizing: props.isResizing, isDateSelecting: props.isDateSelecting }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: ['fc-list-event', hookProps.event.url ? 'fc-event-forced-url' : ''].concat(classNames).join(' '), ref: rootElRef },
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["EventRoot"], { seg: seg, timeText: "" // BAD. because of all-day content
+            , disableDragging: true, disableResizing: true, defaultContent: renderEventInnerContent, isPast: props.isPast, isFuture: props.isFuture, isToday: props.isToday, isSelected: props.isSelected, isDragging: props.isDragging, isResizing: props.isResizing, isDateSelecting: props.isDateSelecting }, function (rootElRef, classNames, innerElRef, innerContent, hookProps) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: ['fc-list-event', hookProps.event.url ? 'fc-event-forced-url' : ''].concat(classNames).join(' '), ref: rootElRef },
             buildTimeContent(seg, timeFormat, context),
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-list-event-graphic' },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: 'fc-list-event-dot', style: { borderColor: hookProps.borderColor || hookProps.backgroundColor } })),
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-list-event-title', ref: innerElRef }, innerContent))); }));
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: "fc-list-event-graphic" },
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: "fc-list-event-dot", style: { borderColor: hookProps.borderColor || hookProps.backgroundColor } })),
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: "fc-list-event-title", ref: innerElRef }, innerContent))); }));
     };
     return ListViewEventRow;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
@@ -14607,13 +14481,11 @@ function buildTimeContent(seg, timeFormat, context) {
         if (doAllDay) {
             var hookProps = {
                 text: context.options.allDayText,
-                view: context.viewApi
+                view: context.viewApi,
             };
             return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.allDayClassNames, content: options.allDayContent, defaultContent: renderAllDayInner, didMount: options.allDayDidMount, willUnmount: options.allDayWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: ['fc-list-event-time'].concat(classNames).join(' '), ref: rootElRef }, innerContent)); }));
         }
-        else {
-            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-list-event-time' }, timeText));
-        }
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: "fc-list-event-time" }, timeText));
     }
     return null;
 }
@@ -14633,7 +14505,7 @@ var ListView = /** @class */ (function (_super) {
         _this.setRootEl = function (rootEl) {
             if (rootEl) {
                 _this.context.registerInteractiveComponent(_this, {
-                    el: rootEl
+                    el: rootEl,
                 });
             }
             else {
@@ -14648,7 +14520,7 @@ var ListView = /** @class */ (function (_super) {
         var extraClassNames = [
             'fc-list',
             context.theme.getClass('table'),
-            context.options.stickyHeaderDates !== false ? 'fc-list-sticky' : ''
+            context.options.stickyHeaderDates !== false ? 'fc-list-sticky' : '',
         ];
         var _b = this.computeDateVars(props.dateProfile), dayDates = _b.dayDates, dayRanges = _b.dayRanges;
         var eventSegs = this.eventStoreToSegs(props.eventStore, props.eventUiBases, dayRanges);
@@ -14661,17 +14533,17 @@ var ListView = /** @class */ (function (_super) {
         var _a = this.context, options = _a.options, viewApi = _a.viewApi;
         var hookProps = {
             text: options.noEventsText,
-            view: viewApi
+            view: viewApi,
         };
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.noEventsClassNames, content: options.noEventsContent, defaultContent: renderNoEventsInner, didMount: options.noEventsDidMount, willUnmount: options.noEventsWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: ['fc-list-empty'].concat(classNames).join(' '), ref: rootElRef },
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-list-empty-cushion', ref: innerElRef }, innerContent))); }));
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-list-empty-cushion", ref: innerElRef }, innerContent))); }));
     };
     ListView.prototype.renderSegList = function (allSegs, dayDates) {
         var _a = this.context, theme = _a.theme, options = _a.options;
         var segsByDay = groupSegsByDay(allSegs); // sparse array
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: 'day' }, function (nowDate, todayRange) {
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: "day" }, function (nowDate, todayRange) {
             var innerNodes = [];
-            for (var dayIndex = 0; dayIndex < segsByDay.length; dayIndex++) {
+            for (var dayIndex = 0; dayIndex < segsByDay.length; dayIndex += 1) {
                 var daySegs = segsByDay[dayIndex];
                 if (daySegs) { // sparse array, so might be undefined
                     var dayStr = dayDates[dayIndex].toISOString();
@@ -14708,7 +14580,7 @@ var ListView = /** @class */ (function (_super) {
         var segRange;
         var seg;
         var segs = [];
-        for (dayIndex = 0; dayIndex < dayRanges.length; dayIndex++) {
+        for (dayIndex = 0; dayIndex < dayRanges.length; dayIndex += 1) {
             segRange = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["intersectRanges"])(range, dayRanges[dayIndex]);
             if (segRange) {
                 seg = {
@@ -14718,7 +14590,7 @@ var ListView = /** @class */ (function (_super) {
                     end: segRange.end,
                     isStart: eventRange.isStart && segRange.start.valueOf() === range.start.valueOf(),
                     isEnd: eventRange.isEnd && segRange.end.valueOf() === range.end.valueOf(),
-                    dayIndex: dayIndex
+                    dayIndex: dayIndex,
                 };
                 segs.push(seg);
                 // detect when range won't go fully into the next day,
@@ -14749,7 +14621,7 @@ function computeDateVars(dateProfile) {
         dayDates.push(dayStart);
         dayRanges.push({
             start: dayStart,
-            end: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDays"])(dayStart, 1)
+            end: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDays"])(dayStart, 1),
         });
         dayStart = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDays"])(dayStart, 1);
     }
@@ -14760,7 +14632,7 @@ function groupSegsByDay(segs) {
     var segsByDay = []; // sparse array
     var i;
     var seg;
-    for (i = 0; i < segs.length; i++) {
+    for (i = 0; i < segs.length; i += 1) {
         seg = segs[i];
         (segsByDay[seg.dayIndex] || (segsByDay[seg.dayIndex] = []))
             .push(seg);
@@ -14774,8 +14646,7 @@ var OPTION_REFINERS = {
     noEventsClassNames: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["identity"],
     noEventsContent: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["identity"],
     noEventsDidMount: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["identity"],
-    noEventsWillUnmount: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["identity"]
-    // noEventsText is defined in base options
+    noEventsWillUnmount: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["identity"],
 };
 function createFalsableFormatter(input) {
     return input === false ? null : Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])(input);
@@ -14787,30 +14658,30 @@ var main = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createPlugi
         list: {
             component: ListView,
             buttonTextKey: 'list',
-            listDayFormat: { month: 'long', day: 'numeric', year: 'numeric' } // like "January 1, 2016"
+            listDayFormat: { month: 'long', day: 'numeric', year: 'numeric' },
         },
         listDay: {
             type: 'list',
             duration: { days: 1 },
-            listDayFormat: { weekday: 'long' } // day-of-week is all we need. full date is probably in headerToolbar
+            listDayFormat: { weekday: 'long' },
         },
         listWeek: {
             type: 'list',
             duration: { weeks: 1 },
             listDayFormat: { weekday: 'long' },
-            listDaySideFormat: { month: 'long', day: 'numeric', year: 'numeric' }
+            listDaySideFormat: { month: 'long', day: 'numeric', year: 'numeric' },
         },
         listMonth: {
             type: 'list',
             duration: { month: 1 },
-            listDaySideFormat: { weekday: 'long' } // day-of-week is nice-to-have
+            listDaySideFormat: { weekday: 'long' },
         },
         listYear: {
             type: 'list',
             duration: { year: 1 },
-            listDaySideFormat: { weekday: 'long' } // day-of-week is nice-to-have
-        }
-    }
+            listDaySideFormat: { weekday: 'long' },
+        },
+    },
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (main);
@@ -15137,7 +15008,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ "./node_modules/@fullcalendar/timegrid/node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fullcalendar/daygrid */ "./node_modules/@fullcalendar/daygrid/main.js");
 /*!
-FullCalendar v5.3.1
+FullCalendar v5.3.2
 Docs & License: https://fullcalendar.io/
 (c) 2020 Adam Shaw
 */
@@ -15155,30 +15026,312 @@ var AllDaySplitter = /** @class */ (function (_super) {
     AllDaySplitter.prototype.getKeyInfo = function () {
         return {
             allDay: {},
-            timed: {}
+            timed: {},
         };
     };
     AllDaySplitter.prototype.getKeysForDateSpan = function (dateSpan) {
         if (dateSpan.allDay) {
             return ['allDay'];
         }
-        else {
-            return ['timed'];
-        }
+        return ['timed'];
     };
     AllDaySplitter.prototype.getKeysForEventDef = function (eventDef) {
         if (!eventDef.allDay) {
             return ['timed'];
         }
-        else if (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["hasBgRendering"])(eventDef)) {
+        if (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["hasBgRendering"])(eventDef)) {
             return ['timed', 'allDay'];
         }
-        else {
-            return ['allDay'];
-        }
+        return ['allDay'];
     };
     return AllDaySplitter;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Splitter"]));
+
+var DEFAULT_SLAT_LABEL_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({
+    hour: 'numeric',
+    minute: '2-digit',
+    omitZeroMinute: true,
+    meridiem: 'short',
+});
+function TimeColsAxisCell(props) {
+    var classNames = [
+        'fc-timegrid-slot',
+        'fc-timegrid-slot-label',
+        props.isLabeled ? 'fc-scrollgrid-shrink' : 'fc-timegrid-slot-minor',
+    ];
+    return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewContextType"].Consumer, null, function (context) {
+        if (!props.isLabeled) {
+            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: classNames.join(' '), "data-time": props.isoTimeStr }));
+        }
+        var dateEnv = context.dateEnv, options = context.options, viewApi = context.viewApi;
+        var labelFormat = // TODO: fully pre-parse
+         options.slotLabelFormat == null ? DEFAULT_SLAT_LABEL_FORMAT :
+            Array.isArray(options.slotLabelFormat) ? Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])(options.slotLabelFormat[0]) :
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])(options.slotLabelFormat);
+        var hookProps = {
+            level: 0,
+            time: props.time,
+            date: dateEnv.toDate(props.date),
+            view: viewApi,
+            text: dateEnv.format(props.date, labelFormat),
+        };
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.slotLabelClassNames, content: options.slotLabelContent, defaultContent: renderInnerContent, didMount: options.slotLabelDidMount, willUnmount: options.slotLabelWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-time": props.isoTimeStr },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-slot-label-frame fc-scrollgrid-shrink-frame" },
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-slot-label-cushion fc-scrollgrid-shrink-cushion", ref: innerElRef }, innerContent)))); }));
+    }));
+}
+function renderInnerContent(props) {
+    return props.text;
+}
+
+var TimeBodyAxis = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeBodyAxis, _super);
+    function TimeBodyAxis() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TimeBodyAxis.prototype.render = function () {
+        return this.props.slatMetas.map(function (slatMeta) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { key: slatMeta.key },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsAxisCell, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, slatMeta)))); });
+    };
+    return TimeBodyAxis;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
+var DEFAULT_WEEK_NUM_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({ week: 'short' });
+var AUTO_ALL_DAY_MAX_EVENT_ROWS = 5;
+var TimeColsView = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColsView, _super);
+    function TimeColsView() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.allDaySplitter = new AllDaySplitter(); // for use by subclasses
+        _this.headerElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
+        _this.rootElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
+        _this.scrollerElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
+        _this.state = {
+            slatCoords: null,
+        };
+        _this.handleScrollTopRequest = function (scrollTop) {
+            var scrollerEl = _this.scrollerElRef.current;
+            if (scrollerEl) { // TODO: not sure how this could ever be null. weirdness with the reducer
+                scrollerEl.scrollTop = scrollTop;
+            }
+        };
+        /* Header Render Methods
+        ------------------------------------------------------------------------------------------------------------------*/
+        _this.renderHeadAxis = function (frameHeight) {
+            if (frameHeight === void 0) { frameHeight = ''; }
+            var options = _this.context.options;
+            var dateProfile = _this.props.dateProfile;
+            var range = dateProfile.renderRange;
+            var dayCnt = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["diffDays"])(range.start, range.end);
+            var navLinkAttrs = (options.navLinks && dayCnt === 1) // only do in day views (to avoid doing in week views that dont need it)
+                ? { 'data-navlink': Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(range.start, 'week'), tabIndex: 0 }
+                : {};
+            if (options.weekNumbers) {
+                return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["WeekNumberRoot"], { date: range.start, defaultFormat: DEFAULT_WEEK_NUM_FORMAT }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("th", { ref: rootElRef, className: [
+                        'fc-timegrid-axis',
+                        'fc-scrollgrid-shrink',
+                    ].concat(classNames).join(' ') },
+                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-axis-frame fc-scrollgrid-shrink-frame fc-timegrid-axis-frame-liquid", style: { height: frameHeight } },
+                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: innerElRef, className: "fc-timegrid-axis-cushion fc-scrollgrid-shrink-cushion fc-scrollgrid-sync-inner" }, navLinkAttrs), innerContent)))); }));
+            }
+            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("th", { className: "fc-timegrid-axis" },
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-axis-frame", style: { height: frameHeight } })));
+        };
+        /* Table Component Render Methods
+        ------------------------------------------------------------------------------------------------------------------*/
+        // only a one-way height sync. we don't send the axis inner-content height to the DayGrid,
+        // but DayGrid still needs to have classNames on inner elements in order to measure.
+        _this.renderTableRowAxis = function (rowHeight) {
+            var _a = _this.context, options = _a.options, viewApi = _a.viewApi;
+            var hookProps = {
+                text: options.allDayText,
+                view: viewApi,
+            };
+            return (
+            // TODO: make reusable hook. used in list view too
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.allDayClassNames, content: options.allDayContent, defaultContent: renderAllDayInner, didMount: options.allDayDidMount, willUnmount: options.allDayWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: [
+                    'fc-timegrid-axis',
+                    'fc-scrollgrid-shrink',
+                ].concat(classNames).join(' ') },
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-axis-frame fc-scrollgrid-shrink-frame' + (rowHeight == null ? ' fc-timegrid-axis-frame-liquid' : ''), style: { height: rowHeight } },
+                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: "fc-timegrid-axis-cushion fc-scrollgrid-shrink-cushion fc-scrollgrid-sync-inner", ref: innerElRef }, innerContent)))); }));
+        };
+        _this.handleSlatCoords = function (slatCoords) {
+            _this.setState({ slatCoords: slatCoords });
+        };
+        return _this;
+    }
+    // rendering
+    // ----------------------------------------------------------------------------------------------------
+    TimeColsView.prototype.renderSimpleLayout = function (headerRowContent, allDayContent, timeContent) {
+        var _a = this, context = _a.context, props = _a.props;
+        var sections = [];
+        var stickyHeaderDates = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyHeaderDates"])(context.options);
+        if (headerRowContent) {
+            sections.push({
+                type: 'header',
+                key: 'header',
+                isSticky: stickyHeaderDates,
+                chunk: {
+                    elRef: this.headerElRef,
+                    tableClassName: 'fc-col-header',
+                    rowContent: headerRowContent,
+                },
+            });
+        }
+        if (allDayContent) {
+            sections.push({
+                type: 'body',
+                key: 'all-day',
+                chunk: { content: allDayContent },
+            });
+            sections.push({
+                type: 'body',
+                key: 'all-day-divider',
+                outerContent: ( // TODO: rename to cellContent so don't need to define <tr>?
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: "fc-scrollgrid-section" },
+                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-timegrid-divider ' + context.theme.getClass('tableCellShaded') }))),
+            });
+        }
+        sections.push({
+            type: 'body',
+            key: 'body',
+            liquid: true,
+            expandRows: Boolean(context.options.expandRows),
+            chunk: {
+                scrollerElRef: this.scrollerElRef,
+                content: timeContent,
+            },
+        });
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec, elRef: this.rootElRef }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: ['fc-timegrid'].concat(classNames).join(' '), ref: rootElRef },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["SimpleScrollGrid"], { liquid: !props.isHeightAuto && !props.forPrint, cols: [{ width: 'shrink' }], sections: sections }))); }));
+    };
+    TimeColsView.prototype.renderHScrollLayout = function (headerRowContent, allDayContent, timeContent, colCnt, dayMinWidth, slatMetas, slatCoords) {
+        var _this = this;
+        var ScrollGrid = this.context.pluginHooks.scrollGridImpl;
+        if (!ScrollGrid) {
+            throw new Error('No ScrollGrid implementation');
+        }
+        var _a = this, context = _a.context, props = _a.props;
+        var stickyHeaderDates = !props.forPrint && Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyHeaderDates"])(context.options);
+        var stickyFooterScrollbar = !props.forPrint && Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyFooterScrollbar"])(context.options);
+        var sections = [];
+        if (headerRowContent) {
+            sections.push({
+                type: 'header',
+                key: 'header',
+                isSticky: stickyHeaderDates,
+                syncRowHeights: true,
+                chunks: [
+                    {
+                        key: 'axis',
+                        rowContent: function (arg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", null, _this.renderHeadAxis(arg.rowSyncHeights[0]))); },
+                    },
+                    {
+                        key: 'cols',
+                        elRef: this.headerElRef,
+                        tableClassName: 'fc-col-header',
+                        rowContent: headerRowContent,
+                    },
+                ],
+            });
+        }
+        if (allDayContent) {
+            sections.push({
+                type: 'body',
+                key: 'all-day',
+                syncRowHeights: true,
+                chunks: [
+                    {
+                        key: 'axis',
+                        rowContent: function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", null, _this.renderTableRowAxis(contentArg.rowSyncHeights[0]))); },
+                    },
+                    {
+                        key: 'cols',
+                        content: allDayContent,
+                    },
+                ],
+            });
+            sections.push({
+                key: 'all-day-divider',
+                type: 'body',
+                outerContent: ( // TODO: rename to cellContent so don't need to define <tr>?
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: "fc-scrollgrid-section" },
+                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { colSpan: 2, className: 'fc-timegrid-divider ' + context.theme.getClass('tableCellShaded') }))),
+            });
+        }
+        var isNowIndicator = context.options.nowIndicator;
+        sections.push({
+            type: 'body',
+            key: 'body',
+            liquid: true,
+            expandRows: Boolean(context.options.expandRows),
+            chunks: [
+                {
+                    key: 'axis',
+                    content: function (arg) { return (
+                    // TODO: make this now-indicator arrow more DRY with TimeColsContent
+                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-axis-chunk" },
+                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { style: { height: arg.expandRows ? arg.clientHeight : '' } },
+                            arg.tableColGroupNode,
+                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null,
+                                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeBodyAxis, { slatMetas: slatMetas }))),
+                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-now-indicator-container" },
+                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: isNowIndicator ? 'minute' : 'day' /* hacky */ }, function (nowDate) {
+                                var nowIndicatorTop = isNowIndicator &&
+                                    slatCoords &&
+                                    slatCoords.safeComputeTop(nowDate); // might return void
+                                if (typeof nowIndicatorTop === 'number') {
+                                    return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: true, date: nowDate }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-arrow'].concat(classNames).join(' '), style: { top: nowIndicatorTop } }, innerContent)); }));
+                                }
+                                return null;
+                            })))); },
+                },
+                {
+                    key: 'cols',
+                    scrollerElRef: this.scrollerElRef,
+                    content: timeContent,
+                },
+            ],
+        });
+        if (stickyFooterScrollbar) {
+            sections.push({
+                key: 'footer',
+                type: 'footer',
+                isSticky: true,
+                chunks: [
+                    {
+                        key: 'axis',
+                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"],
+                    },
+                    {
+                        key: 'cols',
+                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"],
+                    },
+                ],
+            });
+        }
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec, elRef: this.rootElRef }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: ['fc-timegrid'].concat(classNames).join(' '), ref: rootElRef },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(ScrollGrid, { liquid: !props.isHeightAuto && !props.forPrint, colGroups: [
+                    { width: 'shrink', cols: [{ width: 'shrink' }] },
+                    { cols: [{ span: colCnt, minWidth: dayMinWidth }] },
+                ], sections: sections }))); }));
+    };
+    /* Dimensions
+    ------------------------------------------------------------------------------------------------------------------*/
+    TimeColsView.prototype.getAllDayMaxEventProps = function () {
+        var _a = this.context.options, dayMaxEvents = _a.dayMaxEvents, dayMaxEventRows = _a.dayMaxEventRows;
+        if (dayMaxEvents === true || dayMaxEventRows === true) { // is auto?
+            dayMaxEvents = undefined;
+            dayMaxEventRows = AUTO_ALL_DAY_MAX_EVENT_ROWS; // make sure "auto" goes to a real number
+        }
+        return { dayMaxEvents: dayMaxEvents, dayMaxEventRows: dayMaxEventRows };
+    };
+    return TimeColsView;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
+function renderAllDayInner(hookProps) {
+    return hookProps.text;
+}
 
 var TimeColsSlatsCoords = /** @class */ (function () {
     function TimeColsSlatsCoords(positions, dateProfile, slatMetas) {
@@ -15196,6 +15349,7 @@ var TimeColsSlatsCoords = /** @class */ (function () {
                 return this.computeTimeTop(Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createDuration"])(timeMs));
             }
         }
+        return null;
     };
     // Computes the top coordinate, relative to the bounds of the grid, of the given date.
     // A `startOfDayDate` must be given for avoiding ambiguity over how to treat midnight.
@@ -15211,8 +15365,10 @@ var TimeColsSlatsCoords = /** @class */ (function () {
     TimeColsSlatsCoords.prototype.computeTimeTop = function (duration) {
         var _a = this, positions = _a.positions, dateProfile = _a.dateProfile, slatMetas = _a.slatMetas;
         var len = positions.els.length;
-        var slotDurationMs = slatMetas[1].date.valueOf() - slatMetas[0].date.valueOf(); // we assume dates are uniform
-        var slatCoverage = (duration.milliseconds - Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(dateProfile.slotMinTime)) / slotDurationMs; // floating-point value of # of slots covered
+        // we assume dates are uniform
+        var slotDurationMs = slatMetas[1].date.valueOf() - slatMetas[0].date.valueOf();
+        // floating-point value of # of slots covered
+        var slatCoverage = (duration.milliseconds - Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(dateProfile.slotMinTime)) / slotDurationMs;
         var slatIndex;
         var slatRemainder;
         // compute a floating-point number for how many slats should be progressed through.
@@ -15233,15 +15389,34 @@ var TimeColsSlatsCoords = /** @class */ (function () {
     return TimeColsSlatsCoords;
 }());
 
-// potential nice values for the slot-duration and interval-duration
-// from largest to smallest
-var STOCK_SUB_DURATIONS = [
-    { hours: 1 },
-    { minutes: 30 },
-    { minutes: 15 },
-    { seconds: 30 },
-    { seconds: 15 }
-];
+var TimeColsSlatsBody = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColsSlatsBody, _super);
+    function TimeColsSlatsBody() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TimeColsSlatsBody.prototype.render = function () {
+        var _a = this, props = _a.props, context = _a.context;
+        var options = context.options;
+        var slatElRefs = props.slatElRefs;
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null, props.slatMetas.map(function (slatMeta, i) {
+            var hookProps = {
+                time: slatMeta.time,
+                date: context.dateEnv.toDate(slatMeta.date),
+                view: context.viewApi,
+            };
+            var classNames = [
+                'fc-timegrid-slot',
+                'fc-timegrid-slot-lane',
+                slatMeta.isLabeled ? '' : 'fc-timegrid-slot-minor',
+            ];
+            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { key: slatMeta.key, ref: slatElRefs.createRef(slatMeta.key) },
+                props.axis && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsAxisCell, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, slatMeta))),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.slotLaneClassNames, content: options.slotLaneContent, didMount: options.slotLaneDidMount, willUnmount: options.slotLaneWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-time": slatMeta.isoTimeStr }, innerContent)); })));
+        })));
+    };
+    return TimeColsSlatsBody;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
 /*
 for the horizontal "slats" that run width-wise. Has a time axis on a side. Depends on RTL.
 */
@@ -15255,11 +15430,11 @@ var TimeColsSlats = /** @class */ (function (_super) {
     }
     TimeColsSlats.prototype.render = function () {
         var _a = this, props = _a.props, context = _a.context;
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-slots', ref: this.rootElRef },
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-slots", ref: this.rootElRef },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { className: context.theme.getClass('table'), style: {
                     minWidth: props.tableMinWidth,
                     width: props.clientWidth,
-                    height: props.minHeight
+                    height: props.minHeight,
                 } },
                 props.tableColGroupNode /* relies on there only being a single <col> for the axis */,
                 Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsSlatsBody, { slatElRefs: this.slatElRefs, axis: props.axis, slatMetas: props.slatMetas }))));
@@ -15282,8 +15457,7 @@ var TimeColsSlats = /** @class */ (function (_super) {
         ) {
             var rootEl = this.rootElRef.current;
             if (rootEl.offsetHeight) { // not hidden by css
-                props.onCoords(new TimeColsSlatsCoords(new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["PositionCache"](this.rootElRef.current, collectSlatEls(this.slatElRefs.currentMap, props.slatMetas), false, true // vertical
-                ), this.props.dateProfile, props.slatMetas));
+                props.onCoords(new TimeColsSlatsCoords(new _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["PositionCache"](this.rootElRef.current, collectSlatEls(this.slatElRefs.currentMap, props.slatMetas), false, true), this.props.dateProfile, props.slatMetas));
             }
         }
     };
@@ -15292,367 +15466,15 @@ var TimeColsSlats = /** @class */ (function (_super) {
 function collectSlatEls(elMap, slatMetas) {
     return slatMetas.map(function (slatMeta) { return elMap[slatMeta.key]; });
 }
-var TimeColsSlatsBody = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColsSlatsBody, _super);
-    function TimeColsSlatsBody() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    TimeColsSlatsBody.prototype.render = function () {
-        var _a = this, props = _a.props, context = _a.context;
-        var options = context.options;
-        var slatElRefs = props.slatElRefs;
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null, props.slatMetas.map(function (slatMeta, i) {
-            var hookProps = {
-                time: slatMeta.time,
-                date: context.dateEnv.toDate(slatMeta.date),
-                view: context.viewApi
-            };
-            var classNames = [
-                'fc-timegrid-slot',
-                'fc-timegrid-slot-lane',
-                slatMeta.isLabeled ? '' : 'fc-timegrid-slot-minor'
-            ];
-            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { key: slatMeta.key, ref: slatElRefs.createRef(slatMeta.key) },
-                props.axis &&
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsAxisCell, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, slatMeta)),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.slotLaneClassNames, content: options.slotLaneContent, didMount: options.slotLaneDidMount, willUnmount: options.slotLaneWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-time": slatMeta.isoTimeStr }, innerContent)); })));
-        })));
-    };
-    return TimeColsSlatsBody;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
-var DEFAULT_SLAT_LABEL_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({
-    hour: 'numeric',
-    minute: '2-digit',
-    omitZeroMinute: true,
-    meridiem: 'short'
-});
-function TimeColsAxisCell(props) {
-    var classNames = [
-        'fc-timegrid-slot',
-        'fc-timegrid-slot-label',
-        props.isLabeled ? 'fc-scrollgrid-shrink' : 'fc-timegrid-slot-minor'
-    ];
-    return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewContextType"].Consumer, null, function (context) {
-        if (!props.isLabeled) {
-            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: classNames.join(' '), "data-time": props.isoTimeStr }));
-        }
-        else {
-            var dateEnv = context.dateEnv, options = context.options, viewApi = context.viewApi;
-            var labelFormat = // TODO: fully pre-parse
-             options.slotLabelFormat == null ? DEFAULT_SLAT_LABEL_FORMAT :
-                Array.isArray(options.slotLabelFormat) ? Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])(options.slotLabelFormat[0]) :
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])(options.slotLabelFormat);
-            var hookProps = {
-                level: 0,
-                time: props.time,
-                date: dateEnv.toDate(props.date),
-                view: viewApi,
-                text: dateEnv.format(props.date, labelFormat)
-            };
-            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.slotLabelClassNames, content: options.slotLabelContent, defaultContent: renderInnerContent, didMount: options.slotLabelDidMount, willUnmount: options.slotLabelWillUnmount }, function (rootElRef, customClassNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: classNames.concat(customClassNames).join(' '), "data-time": props.isoTimeStr },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-slot-label-frame fc-scrollgrid-shrink-frame' },
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-slot-label-cushion fc-scrollgrid-shrink-cushion', ref: innerElRef }, innerContent)))); }));
-        }
-    }));
-}
-function renderInnerContent(props) {
-    return props.text;
-}
-function buildSlatMetas(slotMinTime, slotMaxTime, explicitLabelInterval, slotDuration, dateEnv) {
-    var dayStart = new Date(0);
-    var slatTime = slotMinTime;
-    var slatIterator = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createDuration"])(0);
-    var labelInterval = explicitLabelInterval || computeLabelInterval(slotDuration);
-    var metas = [];
-    while (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(slatTime) < Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(slotMaxTime)) {
-        var date = dateEnv.add(dayStart, slatTime);
-        var isLabeled = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["wholeDivideDurations"])(slatIterator, labelInterval) !== null;
-        metas.push({
-            date: date,
-            time: slatTime,
-            key: date.toISOString(),
-            isoTimeStr: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["formatIsoTimeString"])(date),
-            isLabeled: isLabeled
-        });
-        slatTime = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDurations"])(slatTime, slotDuration);
-        slatIterator = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDurations"])(slatIterator, slotDuration);
-    }
-    return metas;
-}
-// Computes an automatic value for slotLabelInterval
-function computeLabelInterval(slotDuration) {
-    var i;
-    var labelInterval;
-    var slotsPerLabel;
-    // find the smallest stock label interval that results in more than one slots-per-label
-    for (i = STOCK_SUB_DURATIONS.length - 1; i >= 0; i--) {
-        labelInterval = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createDuration"])(STOCK_SUB_DURATIONS[i]);
-        slotsPerLabel = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["wholeDivideDurations"])(labelInterval, slotDuration);
-        if (slotsPerLabel !== null && slotsPerLabel > 1) {
-            return labelInterval;
-        }
-    }
-    return slotDuration; // fall back
-}
-
-var DEFAULT_WEEK_NUM_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({ week: 'short' });
-var AUTO_ALL_DAY_MAX_EVENT_ROWS = 5;
-var TimeColsView = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColsView, _super);
-    function TimeColsView() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.allDaySplitter = new AllDaySplitter(); // for use by subclasses
-        _this.headerElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
-        _this.rootElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
-        _this.scrollerElRef = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createRef"])();
-        _this.state = {
-            slatCoords: null
-        };
-        _this.handleScrollTopRequest = function (scrollTop) {
-            var scrollerEl = _this.scrollerElRef.current;
-            if (scrollerEl) { // TODO: not sure how this could ever be null. weirdness with the reducer
-                scrollerEl.scrollTop = scrollTop;
-            }
-        };
-        /* Header Render Methods
-        ------------------------------------------------------------------------------------------------------------------*/
-        _this.renderHeadAxis = function (frameHeight) {
-            if (frameHeight === void 0) { frameHeight = ''; }
-            var options = _this.context.options;
-            var dateProfile = _this.props.dateProfile;
-            var range = dateProfile.renderRange;
-            var dayCnt = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["diffDays"])(range.start, range.end);
-            var navLinkAttrs = (options.navLinks && dayCnt === 1) // only do in day views (to avoid doing in week views that dont need it)
-                ? { 'data-navlink': Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildNavLinkData"])(range.start, 'week'), tabIndex: 0 }
-                : {};
-            if (options.weekNumbers) {
-                return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["WeekNumberRoot"], { date: range.start, defaultFormat: DEFAULT_WEEK_NUM_FORMAT }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("th", { ref: rootElRef, className: [
-                        'fc-timegrid-axis',
-                        'fc-scrollgrid-shrink'
-                    ].concat(classNames).join(' ') },
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-axis-frame fc-scrollgrid-shrink-frame fc-timegrid-axis-frame-liquid', style: { height: frameHeight } },
-                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("a", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: innerElRef, className: 'fc-timegrid-axis-cushion fc-scrollgrid-shrink-cushion fc-scrollgrid-sync-inner' }, navLinkAttrs), innerContent)))); }));
-            }
-            return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("th", { className: 'fc-timegrid-axis' },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-axis-frame', style: { height: frameHeight } })));
-        };
-        /* Table Component Render Methods
-        ------------------------------------------------------------------------------------------------------------------*/
-        // only a one-way height sync. we don't send the axis inner-content height to the DayGrid,
-        // but DayGrid still needs to have classNames on inner elements in order to measure.
-        _this.renderTableRowAxis = function (rowHeight) {
-            var _a = _this.context, options = _a.options, viewApi = _a.viewApi;
-            var hookProps = {
-                text: options.allDayText,
-                view: viewApi
-            };
-            return (
-            // TODO: make reusable hook. used in list view too
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["RenderHook"], { hookProps: hookProps, classNames: options.allDayClassNames, content: options.allDayContent, defaultContent: renderAllDayInner, didMount: options.allDayDidMount, willUnmount: options.allDayWillUnmount }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { ref: rootElRef, className: [
-                    'fc-timegrid-axis',
-                    'fc-scrollgrid-shrink'
-                ].concat(classNames).join(' ') },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-axis-frame fc-scrollgrid-shrink-frame' + (rowHeight == null ? ' fc-timegrid-axis-frame-liquid' : ''), style: { height: rowHeight } },
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", { className: 'fc-timegrid-axis-cushion fc-scrollgrid-shrink-cushion fc-scrollgrid-sync-inner', ref: innerElRef }, innerContent)))); }));
-        };
-        _this.handleSlatCoords = function (slatCoords) {
-            _this.setState({ slatCoords: slatCoords });
-        };
-        return _this;
-    }
-    // rendering
-    // ----------------------------------------------------------------------------------------------------
-    TimeColsView.prototype.renderSimpleLayout = function (headerRowContent, allDayContent, timeContent) {
-        var _a = this, context = _a.context, props = _a.props;
-        var sections = [];
-        var stickyHeaderDates = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyHeaderDates"])(context.options);
-        if (headerRowContent) {
-            sections.push({
-                type: 'header',
-                key: 'header',
-                isSticky: stickyHeaderDates,
-                chunk: {
-                    elRef: this.headerElRef,
-                    tableClassName: 'fc-col-header',
-                    rowContent: headerRowContent
-                }
-            });
-        }
-        if (allDayContent) {
-            sections.push({
-                type: 'body',
-                key: 'all-day',
-                chunk: { content: allDayContent }
-            });
-            sections.push({
-                type: 'body',
-                key: 'all-day-divider',
-                outerContent: ( // TODO: rename to cellContent so don't need to define <tr>?
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: 'fc-scrollgrid-section' },
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-timegrid-divider ' + context.theme.getClass('tableCellShaded') })))
-            });
-        }
-        sections.push({
-            type: 'body',
-            key: 'body',
-            liquid: true,
-            expandRows: Boolean(context.options.expandRows),
-            chunk: {
-                scrollerElRef: this.scrollerElRef,
-                content: timeContent
-            }
-        });
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec, elRef: this.rootElRef }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: ['fc-timegrid'].concat(classNames).join(' '), ref: rootElRef },
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["SimpleScrollGrid"], { liquid: !props.isHeightAuto && !props.forPrint, cols: [{ width: 'shrink' }], sections: sections }))); }));
-    };
-    TimeColsView.prototype.renderHScrollLayout = function (headerRowContent, allDayContent, timeContent, colCnt, dayMinWidth, slatMetas, slatCoords // yuck
-    ) {
-        var _this = this;
-        var ScrollGrid = this.context.pluginHooks.scrollGridImpl;
-        if (!ScrollGrid) {
-            throw new Error('No ScrollGrid implementation');
-        }
-        var _a = this, context = _a.context, props = _a.props;
-        var stickyHeaderDates = !props.forPrint && Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyHeaderDates"])(context.options);
-        var stickyFooterScrollbar = !props.forPrint && Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getStickyFooterScrollbar"])(context.options);
-        var sections = [];
-        if (headerRowContent) {
-            sections.push({
-                type: 'header',
-                key: 'header',
-                isSticky: stickyHeaderDates,
-                syncRowHeights: true,
-                chunks: [
-                    {
-                        key: 'axis',
-                        rowContent: function (arg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", null, _this.renderHeadAxis(arg.rowSyncHeights[0]))); }
-                    },
-                    {
-                        key: 'cols',
-                        elRef: this.headerElRef,
-                        tableClassName: 'fc-col-header',
-                        rowContent: headerRowContent
-                    }
-                ]
-            });
-        }
-        if (allDayContent) {
-            sections.push({
-                type: 'body',
-                key: 'all-day',
-                syncRowHeights: true,
-                chunks: [
-                    {
-                        key: 'axis',
-                        rowContent: function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", null, _this.renderTableRowAxis(contentArg.rowSyncHeights[0]))); },
-                    },
-                    {
-                        key: 'cols',
-                        content: allDayContent
-                    }
-                ]
-            });
-            sections.push({
-                key: 'all-day-divider',
-                type: 'body',
-                outerContent: ( // TODO: rename to cellContent so don't need to define <tr>?
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { className: 'fc-scrollgrid-section' },
-                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { colSpan: 2, className: 'fc-timegrid-divider ' + context.theme.getClass('tableCellShaded') })))
-            });
-        }
-        var isNowIndicator = context.options.nowIndicator;
-        sections.push({
-            type: 'body',
-            key: 'body',
-            liquid: true,
-            expandRows: Boolean(context.options.expandRows),
-            chunks: [
-                {
-                    key: 'axis',
-                    content: function (arg) {
-                        // TODO: make this now-indicator arrow more DRY with TimeColsContent
-                        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-axis-chunk' },
-                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { style: { height: arg.expandRows ? arg.clientHeight : '' } },
-                                arg.tableColGroupNode,
-                                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null,
-                                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeBodyAxis, { slatMetas: slatMetas }))),
-                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-now-indicator-container' },
-                                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowTimer"], { unit: isNowIndicator ? 'minute' : 'day' /* hacky */ }, function (nowDate) {
-                                    var nowIndicatorTop = isNowIndicator &&
-                                        slatCoords &&
-                                        slatCoords.safeComputeTop(nowDate); // might return void
-                                    if (typeof nowIndicatorTop === 'number') {
-                                        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: true, date: nowDate }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-arrow'].concat(classNames).join(' '), style: { top: nowIndicatorTop } }, innerContent)); }));
-                                    }
-                                    return null;
-                                }))));
-                    }
-                },
-                {
-                    key: 'cols',
-                    scrollerElRef: this.scrollerElRef,
-                    content: timeContent
-                }
-            ]
-        });
-        if (stickyFooterScrollbar) {
-            sections.push({
-                key: 'footer',
-                type: 'footer',
-                isSticky: true,
-                chunks: [
-                    {
-                        key: 'axis',
-                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"]
-                    },
-                    {
-                        key: 'cols',
-                        content: _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderScrollShim"]
-                    }
-                ]
-            });
-        }
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["ViewRoot"], { viewSpec: context.viewSpec, elRef: this.rootElRef }, function (rootElRef, classNames) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: ['fc-timegrid'].concat(classNames).join(' '), ref: rootElRef },
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(ScrollGrid, { liquid: !props.isHeightAuto && !props.forPrint, colGroups: [
-                    { width: 'shrink', cols: [{ width: 'shrink' }] },
-                    { cols: [{ span: colCnt, minWidth: dayMinWidth }] }
-                ], sections: sections }))); }));
-    };
-    /* Dimensions
-    ------------------------------------------------------------------------------------------------------------------*/
-    TimeColsView.prototype.getAllDayMaxEventProps = function () {
-        var _a = this.context.options, dayMaxEvents = _a.dayMaxEvents, dayMaxEventRows = _a.dayMaxEventRows;
-        if (dayMaxEvents === true || dayMaxEventRows === true) { // is auto?
-            dayMaxEvents = undefined;
-            dayMaxEventRows = AUTO_ALL_DAY_MAX_EVENT_ROWS; // make sure "auto" goes to a real number
-        }
-        return { dayMaxEvents: dayMaxEvents, dayMaxEventRows: dayMaxEventRows };
-    };
-    return TimeColsView;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
-function renderAllDayInner(hookProps) {
-    return hookProps.text;
-}
-var TimeBodyAxis = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeBodyAxis, _super);
-    function TimeBodyAxis() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    TimeBodyAxis.prototype.render = function () {
-        return this.props.slatMetas.map(function (slatMeta) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", { key: slatMeta.key },
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsAxisCell, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, slatMeta)))); });
-    };
-    return TimeBodyAxis;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
 
 function splitSegsByCol(segs, colCnt) {
     var segsByCol = [];
     var i;
-    for (i = 0; i < colCnt; i++) {
+    for (i = 0; i < colCnt; i += 1) {
         segsByCol.push([]);
     }
     if (segs) {
-        for (i = 0; i < segs.length; i++) {
+        for (i = 0; i < segs.length; i += 1) {
             segsByCol[segs[i].col].push(segs[i]);
         }
     }
@@ -15661,16 +15483,16 @@ function splitSegsByCol(segs, colCnt) {
 function splitInteractionByCol(ui, colCnt) {
     var byRow = [];
     if (!ui) {
-        for (var i = 0; i < colCnt; i++) {
+        for (var i = 0; i < colCnt; i += 1) {
             byRow[i] = null;
         }
     }
     else {
-        for (var i = 0; i < colCnt; i++) {
+        for (var i = 0; i < colCnt; i += 1) {
             byRow[i] = {
                 affectedInstances: ui.affectedInstances,
                 isEvent: ui.isEvent,
-                segs: []
+                segs: [],
             };
         }
         for (var _i = 0, _a = ui.segs; _i < _a.length; _i++) {
@@ -15731,10 +15553,10 @@ function buildSlotSegLevels(segs) {
     var i;
     var seg;
     var j;
-    for (i = 0; i < segs.length; i++) {
+    for (i = 0; i < segs.length; i += 1) {
         seg = segs[i];
         // go through all the levels and stop on the first level where there are no collisions
-        for (j = 0; j < levels.length; j++) {
+        for (j = 0; j < levels.length; j += 1) {
             if (!computeSlotSegCollisions(seg, levels[j]).length) {
                 break;
             }
@@ -15748,7 +15570,7 @@ function buildSlotSegLevels(segs) {
 // Append into an optionally-supplied `results` array and return.
 function computeSlotSegCollisions(seg, otherSegs, results) {
     if (results === void 0) { results = []; }
-    for (var i = 0; i < otherSegs.length; i++) {
+    for (var i = 0; i < otherSegs.length; i += 1) {
         if (isSlotSegCollision(seg, otherSegs[i])) {
             results.push(otherSegs[i]);
         }
@@ -15767,12 +15589,12 @@ function computeForwardSlotSegs(levels) {
     var j;
     var seg;
     var k;
-    for (i = 0; i < levels.length; i++) {
+    for (i = 0; i < levels.length; i += 1) {
         level = levels[i];
-        for (j = 0; j < level.length; j++) {
+        for (j = 0; j < level.length; j += 1) {
             seg = level[j];
             seg.forwardSegs = [];
-            for (k = i + 1; k < levels.length; k++) {
+            for (k = i + 1; k < levels.length; k += 1) {
                 computeSlotSegCollisions(seg, levels[k], seg.forwardSegs);
             }
         }
@@ -15786,7 +15608,7 @@ function computeSlotSegPressures(seg) {
     var i;
     var forwardSeg;
     if (seg.forwardPressure == null) { // not already computed
-        for (i = 0; i < forwardSegs.length; i++) {
+        for (i = 0; i < forwardSegs.length; i += 1) {
             forwardSeg = forwardSegs[i];
             // figure out the child's maximum forward path
             computeSlotSegPressures(forwardSeg);
@@ -15827,7 +15649,7 @@ function computeSegForwardBack(seg, seriesBackwardPressure, seriesBackwardCoord,
                 (seriesBackwardPressure + 1); // # of segments in the series
         // use this segment's coordinates to computed the coordinates of the less-pressurized
         // forward segments
-        for (i = 0; i < forwardSegs.length; i++) {
+        for (i = 0; i < forwardSegs.length; i += 1) {
             computeSegForwardBack(forwardSegs[i], 0, seg.forwardCoord, eventOrderSpecs);
         }
     }
@@ -15838,14 +15660,10 @@ function sortForwardSegs(forwardSegs, eventOrderSpecs) {
         // put higher-pressure first
         { field: 'forwardPressure', order: -1 },
         // put segments that are closer to initial edge first (and favor ones with no coords yet)
-        { field: 'backwardCoord', order: 1 }
+        { field: 'backwardCoord', order: 1 },
     ].concat(eventOrderSpecs);
-    objs.sort(function (obj0, obj1) {
-        return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["compareByFieldSpecs"])(obj0, obj1, specs);
-    });
-    return objs.map(function (c) {
-        return c._seg;
-    });
+    objs.sort(function (obj0, obj1) { return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["compareByFieldSpecs"])(obj0, obj1, specs); });
+    return objs.map(function (c) { return c._seg; });
 }
 function buildTimeGridSegCompareObj(seg) {
     var obj = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildSegCompareObj"])(seg);
@@ -15857,7 +15675,7 @@ function buildTimeGridSegCompareObj(seg) {
 var DEFAULT_TIME_FORMAT = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createFormatter"])({
     hour: 'numeric',
     minute: '2-digit',
-    meridiem: false
+    meridiem: false,
 });
 var TimeColEvent = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColEvent, _super);
@@ -15867,7 +15685,7 @@ var TimeColEvent = /** @class */ (function (_super) {
     TimeColEvent.prototype.render = function () {
         var classNames = [
             'fc-timegrid-event',
-            'fc-v-event'
+            'fc-v-event',
         ];
         if (this.props.isCondensed) {
             classNames.push('fc-timegrid-event-condensed');
@@ -15875,6 +15693,19 @@ var TimeColEvent = /** @class */ (function (_super) {
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["StandardEvent"], Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, this.props, { defaultTimeFormat: DEFAULT_TIME_FORMAT, extraClassNames: classNames })));
     };
     return TimeColEvent;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
+var TimeColMisc = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColMisc, _super);
+    function TimeColMisc() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TimeColMisc.prototype.render = function () {
+        var props = this.props;
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellContent"], { date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, extraHookProps: props.extraHookProps }, function (innerElRef, innerContent) { return (innerContent &&
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-misc", ref: innerElRef }, innerContent)); }));
+    };
+    return TimeColMisc;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
 
 _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["config"].timeGridEventCondensedHeight = 30;
@@ -15896,16 +15727,14 @@ var TimeCol = /** @class */ (function (_super) {
             (props.eventResize && props.eventResize.affectedInstances) ||
             {};
         return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellRoot"], { elRef: props.elRef, date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, extraHookProps: props.extraHookProps }, function (rootElRef, classNames, dataAttrs) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ ref: rootElRef, className: ['fc-timegrid-col'].concat(classNames, props.extraClassNames || []).join(' ') }, dataAttrs, props.extraDataAttrs),
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-frame' },
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-bg' },
+            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-frame" },
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-bg" },
                     _this.renderFillSegs(props.businessHourSegs, 'non-business'),
                     _this.renderFillSegs(props.bgEventSegs, 'bg-event'),
                     _this.renderFillSegs(props.dateSelectionSegs, 'highlight')),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-events' }, _this.renderFgSegs(props.fgEventSegs, interactionAffectedInstances)),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-events' }, _this.renderFgSegs(mirrorSegs, {}, Boolean(props.eventDrag), Boolean(props.eventResize), Boolean(isSelectMirror)
-                // TODO: pass in left/right instead of using only computeSegTopBottomCss
-                )),
-                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-now-indicator-container' }, _this.renderNowIndicator(props.nowIndicatorSegs)),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-events" }, _this.renderFgSegs(props.fgEventSegs, interactionAffectedInstances)),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-events" }, _this.renderFgSegs(mirrorSegs, {}, Boolean(props.eventDrag), Boolean(props.eventResize), Boolean(isSelectMirror))),
+                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-now-indicator-container" }, _this.renderNowIndicator(props.nowIndicatorSegs)),
                 Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColMisc, { date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, extraHookProps: props.extraHookProps })))); }));
     };
     TimeCol.prototype.renderFgSegs = function (segs, segIsInvisible, isDragging, isResizing, isDateSelecting) {
@@ -15913,15 +15742,16 @@ var TimeCol = /** @class */ (function (_super) {
         if (props.forPrint) {
             return this.renderPrintFgSegs(segs);
         }
-        else if (props.slatCoords) {
+        if (props.slatCoords) {
             return this.renderPositionedFgSegs(segs, segIsInvisible, isDragging, isResizing, isDateSelecting);
         }
+        return null;
     };
     TimeCol.prototype.renderPrintFgSegs = function (segs) {
         var _a = this, props = _a.props, context = _a.context;
         // not DRY
         segs = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["sortEventSegs"])(segs, context.options.eventOrder);
-        return segs.map(function (seg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-event-harness', key: seg.eventRange.instance.instanceId },
+        return segs.map(function (seg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-event-harness", key: seg.eventRange.instance.instanceId },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: false, isResizing: false, isDateSelecting: false, isSelected: false, isCondensed: false }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, props.todayRange, props.nowDate))))); });
     };
     TimeCol.prototype.renderPositionedFgSegs = function (segs, segIsInvisible, isDragging, isResizing, isDateSelecting) {
@@ -15933,8 +15763,10 @@ var TimeCol = /** @class */ (function (_super) {
         return segs.map(function (seg) {
             var instanceId = seg.eventRange.instance.instanceId;
             var isMirror = isDragging || isResizing || isDateSelecting;
-            var positionCss = isMirror ? Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ left: 0, right: 0 }, _this.computeSegTopBottomCss(seg)) :
-                _this.computeFgSegPositionCss(seg);
+            var positionCss = isMirror
+                // will span entire column width
+                // also, won't assign z-index, which is good, fc-event-mirror will overpower other harnesses
+                ? Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ left: 0, right: 0 }, _this.computeSegTopBottomCss(seg)) : _this.computeFgSegPositionCss(seg);
             return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-event-harness' + (seg.level > 0 ? ' fc-timegrid-event-harness-inset' : ''), key: instanceId, style: Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ visibility: segIsInvisible[instanceId] ? 'hidden' : '' }, positionCss) },
                 Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColEvent, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg, isDragging: isDragging, isResizing: isResizing, isDateSelecting: isDateSelecting, isSelected: instanceId === props.eventSelection, isCondensed: (seg.bottom - seg.top) < _fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["config"].timeGridEventCondensedHeight }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, props.todayRange, props.nowDate)))));
         });
@@ -15943,11 +15775,11 @@ var TimeCol = /** @class */ (function (_super) {
         var _this = this;
         var _a = this, context = _a.context, props = _a.props;
         if (!props.slatCoords) {
-            return;
+            return null;
         }
         // BAD: assigns TO THE SEGS THEMSELVES
         computeSegVerticals(segs, props.date, props.slatCoords, context.options.eventMinHeight);
-        var children = segs.map(function (seg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { key: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildEventRangeKey"])(seg.eventRange), className: 'fc-timegrid-bg-harness', style: _this.computeSegTopBottomCss(seg) }, fillType === 'bg-event' ?
+        var children = segs.map(function (seg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { key: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["buildEventRangeKey"])(seg.eventRange), className: "fc-timegrid-bg-harness", style: _this.computeSegTopBottomCss(seg) }, fillType === 'bg-event' ?
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BgEvent"], Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({ seg: seg }, Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["getSegMeta"])(seg, props.todayRange, props.nowDate))) :
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["renderFill"])(fillType))); });
         return Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, children);
@@ -15955,9 +15787,11 @@ var TimeCol = /** @class */ (function (_super) {
     TimeCol.prototype.renderNowIndicator = function (segs) {
         var _a = this.props, slatCoords = _a.slatCoords, date = _a.date;
         if (!slatCoords) {
-            return;
+            return null;
         }
-        return segs.map(function (seg, i) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: false, date: date, key: i /* key doesn't matter. will only ever be one */ }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-line'].concat(classNames).join(' '), style: { top: slatCoords.computeDateTop(seg.start, date) } }, innerContent)); })); });
+        return segs.map(function (seg, i) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: false, date: date, 
+            // key doesn't matter. will only ever be one
+            key: i }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-line'].concat(classNames).join(' '), style: { top: slatCoords.computeDateTop(seg.start, date) } }, innerContent)); })); });
     };
     TimeCol.prototype.computeFgSegPositionCss = function (seg) {
         var _a = this.context, isRtl = _a.isRtl, options = _a.options;
@@ -15981,7 +15815,7 @@ var TimeCol = /** @class */ (function (_super) {
         var props = {
             zIndex: seg.level + 1,
             left: left * 100 + '%',
-            right: right * 100 + '%'
+            right: right * 100 + '%',
         };
         if (shouldOverlap && seg.forwardPressure) {
             // add padding to the edge so that forward stacked events don't cover the resizer's icon
@@ -15992,22 +15826,10 @@ var TimeCol = /** @class */ (function (_super) {
     TimeCol.prototype.computeSegTopBottomCss = function (seg) {
         return {
             top: seg.top,
-            bottom: -seg.bottom
+            bottom: -seg.bottom,
         };
     };
     return TimeCol;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
-var TimeColMisc = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(TimeColMisc, _super);
-    function TimeColMisc() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    TimeColMisc.prototype.render = function () {
-        var props = this.props;
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayCellContent"], { date: props.date, dateProfile: props.dateProfile, todayRange: props.todayRange, extraHookProps: props.extraHookProps }, function (innerElRef, innerContent) { return (innerContent &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-misc', ref: innerElRef }, innerContent)); }));
-    };
-    return TimeColMisc;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
 
 var TimeColsContent = /** @class */ (function (_super) {
@@ -16039,19 +15861,17 @@ var TimeColsContent = /** @class */ (function (_super) {
         var dateSelectionSegsByRow = this.splitDateSelectionSegs(props.dateSelectionSegs, colCnt);
         var eventDragByRow = this.splitEventDrag(props.eventDrag, colCnt);
         var eventResizeByRow = this.splitEventResize(props.eventResize, colCnt);
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-cols', ref: this.rootElRef },
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-cols", ref: this.rootElRef },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("table", { style: {
                     minWidth: props.tableMinWidth,
-                    width: props.clientWidth
+                    width: props.clientWidth,
                 } },
                 props.tableColGroupNode,
                 Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tbody", null,
                     Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("tr", null,
-                        props.axis &&
-                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: 'fc-timegrid-col fc-timegrid-axis' },
-                                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-col-frame' },
-                                    Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-now-indicator-container' }, typeof nowIndicatorTop === 'number' &&
-                                        Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: true, date: props.nowDate }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-arrow'].concat(classNames).join(' '), style: { top: nowIndicatorTop } }, innerContent)); })))),
+                        props.axis && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("td", { className: "fc-timegrid-col fc-timegrid-axis" },
+                            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-col-frame" },
+                                Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-now-indicator-container" }, typeof nowIndicatorTop === 'number' && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["NowIndicatorRoot"], { isAxis: true, date: props.nowDate }, function (rootElRef, classNames, innerElRef, innerContent) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-arrow'].concat(classNames).join(' '), style: { top: nowIndicatorTop } }, innerContent)); })))))),
                         props.cells.map(function (cell, i) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeCol, { key: cell.key, elRef: _this.cellElRefs.createRef(cell.key), dateProfile: props.dateProfile, date: cell.date, nowDate: props.nowDate, todayRange: props.todayRange, extraHookProps: cell.extraHookProps, extraDataAttrs: cell.extraDataAttrs, extraClassNames: cell.extraClassNames, fgEventSegs: fgEventSegsByRow[i], bgEventSegs: bgEventSegsByRow[i], businessHourSegs: businessHourSegsByRow[i], nowIndicatorSegs: nowIndicatorSegsByRow[i], dateSelectionSegs: dateSelectionSegsByRow[i], eventDrag: eventDragByRow[i], eventResize: eventResizeByRow[i], slatCoords: props.slatCoords, eventSelection: props.eventSelection, forPrint: props.forPrint })); }))))));
     };
     TimeColsContent.prototype.componentDidMount = function () {
@@ -16083,7 +15903,7 @@ var TimeCols = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.processSlotOptions = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["memoize"])(processSlotOptions);
         _this.state = {
-            slatCoords: null
+            slatCoords: null,
         };
         _this.handleScrollRequest = function (request) {
             var onScrollTopRequest = _this.props.onScrollTopRequest;
@@ -16093,12 +15913,13 @@ var TimeCols = /** @class */ (function (_super) {
                     var top_1 = slatCoords.computeTimeTop(request.time);
                     top_1 = Math.ceil(top_1); // zoom can give weird floating-point values. rather scroll a little bit further
                     if (top_1) {
-                        top_1++;
-                    } // to overcome top border that slots beyond the first have. looks better
+                        top_1 += 1; // to overcome top border that slots beyond the first have. looks better
+                    }
                     onScrollTopRequest(top_1);
                 }
                 return true;
             }
+            return false;
         };
         _this.handleColCoords = function (colCoords) {
             _this.colCoords = colCoords;
@@ -16113,11 +15934,11 @@ var TimeCols = /** @class */ (function (_super) {
     }
     TimeCols.prototype.render = function () {
         var _a = this, props = _a.props, state = _a.state;
-        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: 'fc-timegrid-body', ref: props.rootElRef, style: {
+        return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", { className: "fc-timegrid-body", ref: props.rootElRef, style: {
                 // these props are important to give this wrapper correct dimensions for interactions
                 // TODO: if we set it here, can we avoid giving to inner tables?
                 width: props.clientWidth,
-                minWidth: props.tableMinWidth
+                minWidth: props.tableMinWidth,
             } },
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsSlats, { axis: props.axis, dateProfile: props.dateProfile, slatMetas: props.slatMetas, clientWidth: props.clientWidth, minHeight: props.expandRows ? props.clientHeight : '', tableMinWidth: props.tableMinWidth, tableColGroupNode: props.axis ? props.tableColGroupNode : null /* axis depends on the colgroup's shrinking */, onCoords: this.handleSlatCoords }),
             Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(TimeColsContent, { cells: props.cells, axis: props.axis, dateProfile: props.dateProfile, businessHourSegs: props.businessHourSegs, bgEventSegs: props.bgEventSegs, fgEventSegs: props.fgEventSegs, dateSelectionSegs: props.dateSelectionSegs, eventSelection: props.eventSelection, eventDrag: props.eventDrag, eventResize: props.eventResize, todayRange: props.todayRange, nowDate: props.nowDate, nowIndicatorSegs: props.nowIndicatorSegs, clientWidth: props.clientWidth, tableMinWidth: props.tableMinWidth, tableColGroupNode: props.tableColGroupNode, slatCoords: state.slatCoords, onColCoords: this.handleColCoords, forPrint: props.forPrint })));
@@ -16153,17 +15974,18 @@ var TimeCols = /** @class */ (function (_super) {
                 col: colIndex,
                 dateSpan: {
                     range: { start: start, end: end },
-                    allDay: false
+                    allDay: false,
                 },
                 dayEl: colCoords.els[colIndex],
                 relativeRect: {
                     left: colCoords.lefts[colIndex],
                     right: colCoords.rights[colIndex],
                     top: slatTop,
-                    bottom: slatTop + slatHeight
-                }
+                    bottom: slatTop + slatHeight,
+                },
             };
         }
+        return null;
     };
     return TimeCols;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
@@ -16177,6 +15999,30 @@ function processSlotOptions(slotDuration, snapDurationOverride) {
     }
     return { snapDuration: snapDuration, snapsPerSlot: snapsPerSlot };
 }
+
+var DayTimeColsSlicer = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTimeColsSlicer, _super);
+    function DayTimeColsSlicer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DayTimeColsSlicer.prototype.sliceRange = function (range, dayRanges) {
+        var segs = [];
+        for (var col = 0; col < dayRanges.length; col += 1) {
+            var segRange = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["intersectRanges"])(range, dayRanges[col]);
+            if (segRange) {
+                segs.push({
+                    start: segRange.start,
+                    end: segRange.end,
+                    isStart: segRange.start.valueOf() === range.start.valueOf(),
+                    isEnd: segRange.end.valueOf() === range.end.valueOf(),
+                    col: col,
+                });
+            }
+        }
+        return segs;
+    };
+    return DayTimeColsSlicer;
+}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Slicer"]));
 
 var DayTimeCols = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTimeCols, _super);
@@ -16216,11 +16062,12 @@ var DayTimeCols = /** @class */ (function (_super) {
                     left: rawHit.relativeRect.left,
                     right: rawHit.relativeRect.right,
                     top: rawHit.relativeRect.top,
-                    bottom: rawHit.relativeRect.bottom
+                    bottom: rawHit.relativeRect.bottom,
                 },
-                layer: 0
+                layer: 0,
             };
         }
+        return null;
     };
     return DayTimeCols;
 }(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DateComponent"]));
@@ -16230,34 +16077,57 @@ function buildDayRanges(dayTableModel, dateProfile, dateEnv) {
         var date = _a[_i];
         ranges.push({
             start: dateEnv.add(date, dateProfile.slotMinTime),
-            end: dateEnv.add(date, dateProfile.slotMaxTime)
+            end: dateEnv.add(date, dateProfile.slotMaxTime),
         });
     }
     return ranges;
 }
-var DayTimeColsSlicer = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTimeColsSlicer, _super);
-    function DayTimeColsSlicer() {
-        return _super !== null && _super.apply(this, arguments) || this;
+
+// potential nice values for the slot-duration and interval-duration
+// from largest to smallest
+var STOCK_SUB_DURATIONS = [
+    { hours: 1 },
+    { minutes: 30 },
+    { minutes: 15 },
+    { seconds: 30 },
+    { seconds: 15 },
+];
+function buildSlatMetas(slotMinTime, slotMaxTime, explicitLabelInterval, slotDuration, dateEnv) {
+    var dayStart = new Date(0);
+    var slatTime = slotMinTime;
+    var slatIterator = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createDuration"])(0);
+    var labelInterval = explicitLabelInterval || computeLabelInterval(slotDuration);
+    var metas = [];
+    while (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(slatTime) < Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["asRoughMs"])(slotMaxTime)) {
+        var date = dateEnv.add(dayStart, slatTime);
+        var isLabeled = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["wholeDivideDurations"])(slatIterator, labelInterval) !== null;
+        metas.push({
+            date: date,
+            time: slatTime,
+            key: date.toISOString(),
+            isoTimeStr: Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["formatIsoTimeString"])(date),
+            isLabeled: isLabeled,
+        });
+        slatTime = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDurations"])(slatTime, slotDuration);
+        slatIterator = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["addDurations"])(slatIterator, slotDuration);
     }
-    DayTimeColsSlicer.prototype.sliceRange = function (range, dayRanges) {
-        var segs = [];
-        for (var col = 0; col < dayRanges.length; col++) {
-            var segRange = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["intersectRanges"])(range, dayRanges[col]);
-            if (segRange) {
-                segs.push({
-                    start: segRange.start,
-                    end: segRange.end,
-                    isStart: segRange.start.valueOf() === range.start.valueOf(),
-                    isEnd: segRange.end.valueOf() === range.end.valueOf(),
-                    col: col
-                });
-            }
+    return metas;
+}
+// Computes an automatic value for slotLabelInterval
+function computeLabelInterval(slotDuration) {
+    var i;
+    var labelInterval;
+    var slotsPerLabel;
+    // find the smallest stock label interval that results in more than one slots-per-label
+    for (i = STOCK_SUB_DURATIONS.length - 1; i >= 0; i -= 1) {
+        labelInterval = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createDuration"])(STOCK_SUB_DURATIONS[i]);
+        slotsPerLabel = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["wholeDivideDurations"])(labelInterval, slotDuration);
+        if (slotsPerLabel !== null && slotsPerLabel > 1) {
+            return labelInterval;
         }
-        return segs;
-    };
-    return DayTimeColsSlicer;
-}(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["Slicer"]));
+    }
+    return slotDuration; // fall back
+}
 
 var DayTimeColsView = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__extends"])(DayTimeColsView, _super);
@@ -16278,10 +16148,9 @@ var DayTimeColsView = /** @class */ (function (_super) {
         var dayMinWidth = options.dayMinWidth;
         var hasAttachedAxis = !dayMinWidth;
         var hasDetachedAxis = dayMinWidth;
-        var headerContent = options.dayHeaders &&
-            Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayHeader"], { dates: dayTableModel.headerDates, dateProfile: dateProfile, datesRepDistinctDays: true, renderIntro: hasAttachedAxis ? this.renderHeadAxis : null });
-        var allDayContent = (options.allDaySlot !== false) && (function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_3__["DayTable"], Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, splitProps['allDay'], { dateProfile: dateProfile, dayTableModel: dayTableModel, nextDayThreshold: options.nextDayThreshold, tableMinWidth: contentArg.tableMinWidth, colGroupNode: contentArg.tableColGroupNode, renderRowIntro: hasAttachedAxis ? _this.renderTableRowAxis : null, showWeekNumbers: false, expandRows: false, headerAlignElRef: _this.headerElRef, clientWidth: contentArg.clientWidth, clientHeight: contentArg.clientHeight, forPrint: props.forPrint }, _this.getAllDayMaxEventProps()))); });
-        var timeGridContent = function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(DayTimeCols, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, splitProps['timed'], { dayTableModel: dayTableModel, dateProfile: dateProfile, axis: hasAttachedAxis, slotDuration: options.slotDuration, slatMetas: slatMetas, forPrint: props.forPrint, tableColGroupNode: contentArg.tableColGroupNode, tableMinWidth: contentArg.tableMinWidth, clientWidth: contentArg.clientWidth, clientHeight: contentArg.clientHeight, onSlatCoords: _this.handleSlatCoords, expandRows: contentArg.expandRows, onScrollTopRequest: _this.handleScrollTopRequest }))); };
+        var headerContent = options.dayHeaders && (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["DayHeader"], { dates: dayTableModel.headerDates, dateProfile: dateProfile, datesRepDistinctDays: true, renderIntro: hasAttachedAxis ? this.renderHeadAxis : null }));
+        var allDayContent = (options.allDaySlot !== false) && (function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_3__["DayTable"], Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, splitProps.allDay, { dateProfile: dateProfile, dayTableModel: dayTableModel, nextDayThreshold: options.nextDayThreshold, tableMinWidth: contentArg.tableMinWidth, colGroupNode: contentArg.tableColGroupNode, renderRowIntro: hasAttachedAxis ? _this.renderTableRowAxis : null, showWeekNumbers: false, expandRows: false, headerAlignElRef: _this.headerElRef, clientWidth: contentArg.clientWidth, clientHeight: contentArg.clientHeight, forPrint: props.forPrint }, _this.getAllDayMaxEventProps()))); });
+        var timeGridContent = function (contentArg) { return (Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createElement"])(DayTimeCols, Object(tslib__WEBPACK_IMPORTED_MODULE_2__["__assign"])({}, splitProps.timed, { dayTableModel: dayTableModel, dateProfile: dateProfile, axis: hasAttachedAxis, slotDuration: options.slotDuration, slatMetas: slatMetas, forPrint: props.forPrint, tableColGroupNode: contentArg.tableColGroupNode, tableMinWidth: contentArg.tableMinWidth, clientWidth: contentArg.clientWidth, clientHeight: contentArg.clientHeight, onSlatCoords: _this.handleSlatCoords, expandRows: contentArg.expandRows, onScrollTopRequest: _this.handleScrollTopRequest }))); };
         return hasDetachedAxis
             ? this.renderHScrollLayout(headerContent, allDayContent, timeGridContent, dayTableModel.colCnt, dayMinWidth, slatMetas, this.state.slatCoords)
             : this.renderSimpleLayout(headerContent, allDayContent, timeGridContent);
@@ -16294,7 +16163,7 @@ function buildTimeColsModel(dateProfile, dateProfileGenerator) {
 }
 
 var OPTION_REFINERS = {
-    allDaySlot: Boolean
+    allDaySlot: Boolean,
 };
 
 var main = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createPlugin"])({
@@ -16306,17 +16175,17 @@ var main = Object(_fullcalendar_common__WEBPACK_IMPORTED_MODULE_1__["createPlugi
             usesMinMaxTime: true,
             allDaySlot: true,
             slotDuration: '00:30:00',
-            slotEventOverlap: true // a bad name. confused with overlap/constraint system
+            slotEventOverlap: true,
         },
         timeGridDay: {
             type: 'timeGrid',
-            duration: { days: 1 }
+            duration: { days: 1 },
         },
         timeGridWeek: {
             type: 'timeGrid',
-            duration: { weeks: 1 }
-        }
-    }
+            duration: { weeks: 1 },
+        },
+    },
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (main);
@@ -16625,7 +16494,7 @@ var FullCalendar = vue__WEBPACK_IMPORTED_MODULE_1___default.a.extend({
     mounted: function () {
         var internal = this.$options;
         internal.scopedSlotOptions = Object(_utils__WEBPACK_IMPORTED_MODULE_4__["mapHash"])(this.$scopedSlots, _custom_content_type__WEBPACK_IMPORTED_MODULE_5__["wrapVDomGenerator"]); // needed for buildOptions
-        var calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_2__["Calendar"](this.$el, this.buildOptions(this.options));
+        var calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_2__["Calendar"](this.$el, this.buildOptions(this.options, this));
         internal.calendar = calendar;
         calendar.render();
     },
@@ -16646,11 +16515,11 @@ function initData() {
         renderId: 0
     };
 }
-function buildOptions(suppliedOptions) {
+function buildOptions(suppliedOptions, parent) {
     var internal = this.$options;
     suppliedOptions = suppliedOptions || {};
     return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, internal.scopedSlotOptions), suppliedOptions), { plugins: (suppliedOptions.plugins || []).concat([
-            _custom_content_type__WEBPACK_IMPORTED_MODULE_5__["VueContentTypePlugin"]
+            Object(_custom_content_type__WEBPACK_IMPORTED_MODULE_5__["createVueContentTypePlugin"])(parent)
         ]) });
 }
 function getApi() {
@@ -16666,7 +16535,7 @@ function buildWatchers() {
             handler: function (options) {
                 var calendar = this.getApi();
                 calendar.pauseRendering();
-                calendar.resetOptions(this.buildOptions(options));
+                calendar.resetOptions(this.buildOptions(options, this));
                 this.renderId++; // will queue a rerender
             }
         }
@@ -16705,13 +16574,13 @@ function buildWatchers() {
 /*!********************************************************************!*\
   !*** ./node_modules/@fullcalendar/vue/dist/custom-content-type.js ***!
   \********************************************************************/
-/*! exports provided: wrapVDomGenerator, VueContentTypePlugin */
+/*! exports provided: wrapVDomGenerator, createVueContentTypePlugin */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapVDomGenerator", function() { return wrapVDomGenerator; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VueContentTypePlugin", function() { return VueContentTypePlugin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createVueContentTypePlugin", function() { return createVueContentTypePlugin; });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fullcalendar/core */ "./node_modules/@fullcalendar/core/main.js");
@@ -16725,15 +16594,17 @@ function wrapVDomGenerator(vDomGenerator) {
         return { vue: vDomGenerator(props) };
     };
 }
-var VueContentTypePlugin = Object(_fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createPlugin"])({
-    contentTypeHandlers: {
-        vue: buildVDomHandler // looks for the `vue` key
-    }
-});
-function buildVDomHandler() {
+function createVueContentTypePlugin(parent) {
+    return Object(_fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createPlugin"])({
+        contentTypeHandlers: {
+            vue: function () { return buildVDomHandler(parent); },
+        }
+    });
+}
+function buildVDomHandler(parent) {
     var currentEl;
     var v; // the Vue instance
-    return function (el, vDomContent) {
+    function render(el, vDomContent) {
         if (currentEl !== el) {
             if (currentEl && v) { // if changing elements, recreate the vue
                 v.$destroy();
@@ -16741,7 +16612,7 @@ function buildVDomHandler() {
             currentEl = el;
         }
         if (!v) {
-            v = initVue(vDomContent);
+            v = initVue(vDomContent, parent);
             // vue's mount method *replaces* the given element. create an artificial inner el
             var innerEl = document.createElement('span');
             el.appendChild(innerEl);
@@ -16750,15 +16621,19 @@ function buildVDomHandler() {
         else {
             v.content = vDomContent;
         }
-    };
+    }
+    function destroy() {
+        if (v) { // needed?
+            v.$destroy();
+        }
+    }
+    return { render: render, destroy: destroy };
 }
-function initVue(initialContent) {
+function initVue(initialContent, parent) {
     return new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-        props: {
-            content: Array
-        },
-        propsData: {
-            content: initialContent
+        parent: parent,
+        data: {
+            content: initialContent,
         },
         render: function (h) {
             var content = this.content;
@@ -16781,7 +16656,7 @@ function initVue(initialContent) {
 /*!*****************************************************!*\
   !*** ./node_modules/@fullcalendar/vue/dist/main.js ***!
   \*****************************************************/
-/*! exports provided: install, default, Component, createElement, render, createRef, Fragment, createContext, flushToDom, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations, Calendar */
+/*! exports provided: install, default, Component, Fragment, createContext, createElement, createRef, flushToDom, render, unmountComponentAtNode, BASE_OPTION_DEFAULTS, BASE_OPTION_REFINERS, BaseComponent, BgEvent, CalendarApi, CalendarContent, CalendarDataManager, CalendarDataProvider, CalendarRoot, ContentHook, CustomContentRenderContext, DateComponent, DateEnv, DateProfileGenerator, DayCellContent, DayCellRoot, DayHeader, DaySeriesModel, DayTableModel, DelayedRunner, ElementDragging, ElementScrollController, Emitter, EventApi, EventRoot, EventSourceApi, Interaction, MountHook, NamedTimeZoneImpl, NowIndicatorRoot, NowTimer, PositionCache, RefMap, RenderHook, ScrollController, ScrollResponder, Scroller, SimpleScrollGrid, Slicer, Splitter, StandardEvent, TableDateCell, TableDowCell, Theme, ViewApi, ViewContextType, ViewRoot, WeekNumberRoot, WindowScrollController, addDays, addDurations, addMs, addWeeks, allowContextMenu, allowSelection, applyMutationToEventStore, applyStyle, applyStyleProp, asCleanDays, asRoughMinutes, asRoughMs, asRoughSeconds, buildClassNameNormalizer, buildEventApis, buildEventRangeKey, buildHashFromArray, buildNavLinkData, buildSegCompareObj, buildSegTimeText, collectFromHash, combineEventUis, compareByFieldSpec, compareByFieldSpecs, compareNumbers, compareObjs, computeEdges, computeFallbackHeaderFormat, computeHeightAndMargins, computeInnerRect, computeRect, computeSegDraggable, computeSegEndResizable, computeSegStartResizable, computeShrinkWidth, computeSmallestCellWidth, computeVisibleDayRange, config, constrainPoint, createDuration, createEmptyEventStore, createEventInstance, createEventUi, createFormatter, createPlugin, diffDates, diffDayAndTime, diffDays, diffPoints, diffWeeks, diffWholeDays, diffWholeWeeks, disableCursor, elementClosest, elementMatches, enableCursor, eventTupleToStore, filterEventStoreDefs, filterHash, findDirectChildren, findElements, flexibleCompare, formatDate, formatDayString, formatIsoTimeString, formatRange, getAllowYScrolling, getCanVGrowWithinCell, getClippingParents, getDateMeta, getDayClassNames, getDefaultEventEnd, getElSeg, getEventClassNames, getIsRtlScrollbarOnLeft, getRectCenter, getRelevantEvents, getScrollGridClassNames, getScrollbarWidths, getSectionClassNames, getSectionHasLiquidHeight, getSegMeta, getSlotClassNames, getStickyFooterScrollbar, getStickyHeaderDates, getUnequalProps, globalLocales, globalPlugins, greatestDurationDenominator, guid, hasBgRendering, hasShrinkWidth, identity, interactionSettingsStore, interactionSettingsToStore, intersectRanges, intersectRects, isArraysEqual, isColPropsEqual, isDateSpansEqual, isInt, isInteractionValid, isMultiDayRange, isPropsEqual, isPropsValid, isValidDate, listenBySelector, mapHash, memoize, memoizeArraylike, memoizeHashlike, memoizeObjArg, mergeEventStores, multiplyDuration, padStart, parseBusinessHours, parseClassNames, parseDragMeta, parseEventDef, parseFieldSpecs, parseMarker, pointInsideRect, preventContextMenu, preventDefault, preventSelection, rangeContainsMarker, rangeContainsRange, rangesEqual, rangesIntersect, refineEventDef, refineProps, removeElement, removeExact, renderChunkContent, renderFill, renderMicroColGroup, renderScrollShim, requestJson, sanitizeShrinkWidth, setElSeg, setRef, sliceEventStore, sliceEvents, sortEventSegs, startOfDay, translateRect, triggerDateSelect, unpromisify, version, whenTransitionDone, wholeDivideDurations, Calendar */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16791,17 +16666,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fullcalendar/core */ "./node_modules/@fullcalendar/core/main.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Component", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["Component"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createElement"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createRef"]; });
-
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["Fragment"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createContext", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createContext"]; });
 
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createElement"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["createRef"]; });
+
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flushToDom", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["flushToDom"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unmountComponentAtNode", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["unmountComponentAtNode"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BASE_OPTION_DEFAULTS", function() { return _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__["BASE_OPTION_DEFAULTS"]; });
 
@@ -19562,8 +19439,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
 //
 //
 //
@@ -78600,8 +78475,8 @@ Popper.Defaults = Defaults;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return O; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hydrate", function() { return S; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return h; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return h; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createElement", function() { return v; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return v; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Fragment", function() { return p; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRef", function() { return y; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isValidElement", function() { return l; });
@@ -78611,7 +78486,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toChildArray", function() { return b; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__u", function() { return L; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "options", function() { return n; });
-var n,l,u,i,t,o,r,f={},e=[],c=/acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;function s(n,l){for(var u in l)n[u]=l[u];return n}function a(n){var l=n.parentNode;l&&l.removeChild(n)}function h(n,l,u){var i,t,o,r=arguments,f={};for(o in l)"key"==o?i=l[o]:"ref"==o?t=l[o]:f[o]=l[o];if(arguments.length>3)for(u=[u],o=3;o<arguments.length;o++)u.push(r[o]);if(null!=u&&(f.children=u),"function"==typeof n&&null!=n.defaultProps)for(o in n.defaultProps)void 0===f[o]&&(f[o]=n.defaultProps[o]);return v(n,f,i,t,null)}function v(l,u,i,t,o){var r={type:l,props:u,key:i,ref:t,__k:null,__:null,__b:0,__e:null,__d:void 0,__c:null,__h:null,constructor:void 0,__v:o};return null==o&&(r.__v=r),null!=n.vnode&&n.vnode(r),r}function y(){return{current:null}}function p(n){return n.children}function d(n,l){this.props=n,this.context=l}function _(n,l){if(null==l)return n.__?_(n.__,n.__.__k.indexOf(n)+1):null;for(var u;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e)return u.__e;return"function"==typeof n.type?_(n):null}function w(n){var l,u;if(null!=(n=n.__)&&null!=n.__c){for(n.__e=n.__c.base=null,l=0;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e){n.__e=n.__c.base=u.__e;break}return w(n)}}function k(l){(!l.__d&&(l.__d=!0)&&u.push(l)&&!g.__r++||t!==n.debounceRendering)&&((t=n.debounceRendering)||i)(g)}function g(){for(var n;g.__r=u.length;)n=u.sort(function(n,l){return n.__v.__b-l.__v.__b}),u=[],n.some(function(n){var l,u,i,t,o,r,f;n.__d&&(r=(o=(l=n).__v).__e,(f=l.__P)&&(u=[],(i=s({},o)).__v=i,t=$(f,o,i,l.__n,void 0!==f.ownerSVGElement,null!=o.__h?[r]:null,u,null==r?_(o):r,o.__h),j(u,o),t!=r&&w(o)))})}function m(n,l,u,i,t,o,r,c,s,h){var y,d,w,k,g,m,b,A=i&&i.__k||e,P=A.length;for(s==f&&(s=null!=r?r[0]:P?_(i,0):null),u.__k=[],y=0;y<l.length;y++)if(null!=(k=u.__k[y]=null==(k=l[y])||"boolean"==typeof k?null:"string"==typeof k||"number"==typeof k?v(null,k,null,null,k):Array.isArray(k)?v(p,{children:k},null,null,null):null!=k.__e||null!=k.__c?v(k.type,k.props,k.key,null,k.__v):k)){if(k.__=u,k.__b=u.__b+1,null===(w=A[y])||w&&k.key==w.key&&k.type===w.type)A[y]=void 0;else for(d=0;d<P;d++){if((w=A[d])&&k.key==w.key&&k.type===w.type){A[d]=void 0;break}w=null}g=$(n,k,w=w||f,t,o,r,c,s,h),(d=k.ref)&&w.ref!=d&&(b||(b=[]),w.ref&&b.push(w.ref,null,k),b.push(d,k.__c||g,k)),null!=g?(null==m&&(m=g),s=x(n,k,w,A,r,g,s),h||"option"!=u.type?"function"==typeof u.type&&(u.__d=s):n.value=""):s&&w.__e==s&&s.parentNode!=n&&(s=_(w))}if(u.__e=m,null!=r&&"function"!=typeof u.type)for(y=r.length;y--;)null!=r[y]&&a(r[y]);for(y=P;y--;)null!=A[y]&&L(A[y],A[y]);if(b)for(y=0;y<b.length;y++)I(b[y],b[++y],b[++y])}function b(n,l){return l=l||[],null==n||"boolean"==typeof n||(Array.isArray(n)?n.some(function(n){b(n,l)}):l.push(n)),l}function x(n,l,u,i,t,o,r){var f,e,c;if(void 0!==l.__d)f=l.__d,l.__d=void 0;else if(t==u||o!=r||null==o.parentNode)n:if(null==r||r.parentNode!==n)n.appendChild(o),f=null;else{for(e=r,c=0;(e=e.nextSibling)&&c<i.length;c+=2)if(e==o)break n;n.insertBefore(o,r),f=r}return void 0!==f?f:o.nextSibling}function A(n,l,u,i,t){var o;for(o in u)"children"===o||"key"===o||o in l||C(n,o,null,u[o],i);for(o in l)t&&"function"!=typeof l[o]||"children"===o||"key"===o||"value"===o||"checked"===o||u[o]===l[o]||C(n,o,l[o],u[o],i)}function P(n,l,u){"-"===l[0]?n.setProperty(l,u):n[l]=null==u?"":"number"!=typeof u||c.test(l)?u:u+"px"}function C(n,l,u,i,t){var o,r,f;if(t&&"className"==l&&(l="class"),"style"===l)if("string"==typeof u)n.style.cssText=u;else{if("string"==typeof i&&(n.style.cssText=i=""),i)for(l in i)u&&l in u||P(n.style,l,"");if(u)for(l in u)i&&u[l]===i[l]||P(n.style,l,u[l])}else"o"===l[0]&&"n"===l[1]?(o=l!==(l=l.replace(/Capture$/,"")),(r=l.toLowerCase())in n&&(l=r),l=l.slice(2),n.l||(n.l={}),n.l[l+o]=u,f=o?N:z,u?i||n.addEventListener(l,f,o):n.removeEventListener(l,f,o)):"list"!==l&&"tagName"!==l&&"form"!==l&&"type"!==l&&"size"!==l&&"download"!==l&&"href"!==l&&!t&&l in n?n[l]=null==u?"":u:"function"!=typeof u&&"dangerouslySetInnerHTML"!==l&&(l!==(l=l.replace(/xlink:?/,""))?null==u||!1===u?n.removeAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase()):n.setAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase(),u):null==u||!1===u&&!/^ar/.test(l)?n.removeAttribute(l):n.setAttribute(l,u))}function z(l){this.l[l.type+!1](n.event?n.event(l):l)}function N(l){this.l[l.type+!0](n.event?n.event(l):l)}function T(n,l,u){var i,t;for(i=0;i<n.__k.length;i++)(t=n.__k[i])&&(t.__=n,t.__e&&("function"==typeof t.type&&t.__k.length>1&&T(t,l,u),l=x(u,t,t,n.__k,null,t.__e,l),"function"==typeof n.type&&(n.__d=l)))}function $(l,u,i,t,o,r,f,e,c){var a,h,v,y,_,w,k,g,b,x,A,P=u.type;if(void 0!==u.constructor)return null;null!=i.__h&&(c=i.__h,e=u.__e=i.__e,u.__h=null,r=[e]),(a=n.__b)&&a(u);try{n:if("function"==typeof P){if(g=u.props,b=(a=P.contextType)&&t[a.__c],x=a?b?b.props.value:a.__:t,i.__c?k=(h=u.__c=i.__c).__=h.__E:("prototype"in P&&P.prototype.render?u.__c=h=new P(g,x):(u.__c=h=new d(g,x),h.constructor=P,h.render=M),b&&b.sub(h),h.props=g,h.state||(h.state={}),h.context=x,h.__n=t,v=h.__d=!0,h.__h=[]),null==h.__s&&(h.__s=h.state),null!=P.getDerivedStateFromProps&&(h.__s==h.state&&(h.__s=s({},h.__s)),s(h.__s,P.getDerivedStateFromProps(g,h.__s))),y=h.props,_=h.state,v)null==P.getDerivedStateFromProps&&null!=h.componentWillMount&&h.componentWillMount(),null!=h.componentDidMount&&h.__h.push(h.componentDidMount);else{if(null==P.getDerivedStateFromProps&&g!==y&&null!=h.componentWillReceiveProps&&h.componentWillReceiveProps(g,x),!h.__e&&null!=h.shouldComponentUpdate&&!1===h.shouldComponentUpdate(g,h.__s,x)||u.__v===i.__v){h.props=g,h.state=h.__s,u.__v!==i.__v&&(h.__d=!1),h.__v=u,u.__e=i.__e,u.__k=i.__k,h.__h.length&&f.push(h),T(u,e,l);break n}null!=h.componentWillUpdate&&h.componentWillUpdate(g,h.__s,x),null!=h.componentDidUpdate&&h.__h.push(function(){h.componentDidUpdate(y,_,w)})}h.context=x,h.props=g,h.state=h.__s,(a=n.__r)&&a(u),h.__d=!1,h.__v=u,h.__P=l,a=h.render(h.props,h.state,h.context),h.state=h.__s,null!=h.getChildContext&&(t=s(s({},t),h.getChildContext())),v||null==h.getSnapshotBeforeUpdate||(w=h.getSnapshotBeforeUpdate(y,_)),A=null!=a&&a.type==p&&null==a.key?a.props.children:a,m(l,Array.isArray(A)?A:[A],u,i,t,o,r,f,e,c),h.base=u.__e,u.__h=null,h.__h.length&&f.push(h),k&&(h.__E=h.__=null),h.__e=!1}else null==r&&u.__v===i.__v?(u.__k=i.__k,u.__e=i.__e):u.__e=H(i.__e,u,i,t,o,r,f,c);(a=n.diffed)&&a(u)}catch(l){u.__v=null,(c||null!=r)&&(u.__e=e,u.__h=!!c,r[r.indexOf(e)]=null),n.__e(l,u,i)}return u.__e}function j(l,u){n.__c&&n.__c(u,l),l.some(function(u){try{l=u.__h,u.__h=[],l.some(function(n){n.call(u)})}catch(l){n.__e(l,u.__v)}})}function H(n,l,u,i,t,o,r,c){var s,a,h,v,y,p=u.props,d=l.props;if(t="svg"===l.type||t,null!=o)for(s=0;s<o.length;s++)if(null!=(a=o[s])&&((null===l.type?3===a.nodeType:a.localName===l.type)||n==a)){n=a,o[s]=null;break}if(null==n){if(null===l.type)return document.createTextNode(d);n=t?document.createElementNS("http://www.w3.org/2000/svg",l.type):document.createElement(l.type,d.is&&{is:d.is}),o=null,c=!1}if(null===l.type)p===d||c&&n.data===d||(n.data=d);else{if(null!=o&&(o=e.slice.call(n.childNodes)),h=(p=u.props||f).dangerouslySetInnerHTML,v=d.dangerouslySetInnerHTML,!c){if(null!=o)for(p={},y=0;y<n.attributes.length;y++)p[n.attributes[y].name]=n.attributes[y].value;(v||h)&&(v&&(h&&v.__html==h.__html||v.__html===n.innerHTML)||(n.innerHTML=v&&v.__html||""))}A(n,d,p,t,c),v?l.__k=[]:(s=l.props.children,m(n,Array.isArray(s)?s:[s],l,u,i,"foreignObject"!==l.type&&t,o,r,f,c)),c||("value"in d&&void 0!==(s=d.value)&&(s!==n.value||"progress"===l.type&&!s)&&C(n,"value",s,p.value,!1),"checked"in d&&void 0!==(s=d.checked)&&s!==n.checked&&C(n,"checked",s,p.checked,!1))}return n}function I(l,u,i){try{"function"==typeof l?l(u):l.current=u}catch(l){n.__e(l,i)}}function L(l,u,i){var t,o,r;if(n.unmount&&n.unmount(l),(t=l.ref)&&(t.current&&t.current!==l.__e||I(t,null,u)),i||"function"==typeof l.type||(i=null!=(o=l.__e)),l.__e=l.__d=void 0,null!=(t=l.__c)){if(t.componentWillUnmount)try{t.componentWillUnmount()}catch(l){n.__e(l,u)}t.base=t.__P=null}if(t=l.__k)for(r=0;r<t.length;r++)t[r]&&L(t[r],u,i);null!=o&&a(o)}function M(n,l,u){return this.constructor(n,u)}function O(l,u,i){var t,r,c;n.__&&n.__(l,u),r=(t=i===o)?null:i&&i.__k||u.__k,l=h(p,null,[l]),c=[],$(u,(t?u:i||u).__k=l,r||f,f,void 0!==u.ownerSVGElement,i&&!t?[i]:r?null:u.childNodes.length?e.slice.call(u.childNodes):null,c,i||f,t),j(c,l)}function S(n,l){O(n,l,o)}function q(n,l,u){var i,t,o,r=arguments,f=s({},n.props);for(o in l)"key"==o?i=l[o]:"ref"==o?t=l[o]:f[o]=l[o];if(arguments.length>3)for(u=[u],o=3;o<arguments.length;o++)u.push(r[o]);return null!=u&&(f.children=u),v(n.type,f,i||n.key,t||n.ref,null)}function B(n,l){var u={__c:l="__cC"+r++,__:n,Consumer:function(n,l){return n.children(l)},Provider:function(n,u,i){return this.getChildContext||(u=[],(i={})[l]=this,this.getChildContext=function(){return i},this.shouldComponentUpdate=function(n){this.props.value!==n.value&&u.some(k)},this.sub=function(n){u.push(n);var l=n.componentWillUnmount;n.componentWillUnmount=function(){u.splice(u.indexOf(n),1),l&&l.call(n)}}),n.children}};return u.Provider.__=u.Consumer.contextType=u}n={__e:function(n,l){for(var u,i,t,o=l.__h;l=l.__;)if((u=l.__c)&&!u.__)try{if((i=u.constructor)&&null!=i.getDerivedStateFromError&&(u.setState(i.getDerivedStateFromError(n)),t=u.__d),null!=u.componentDidCatch&&(u.componentDidCatch(n),t=u.__d),t)return l.__h=o,u.__E=u}catch(l){n=l}throw n}},l=function(n){return null!=n&&void 0===n.constructor},d.prototype.setState=function(n,l){var u;u=null!=this.__s&&this.__s!==this.state?this.__s:this.__s=s({},this.state),"function"==typeof n&&(n=n(s({},u),this.props)),n&&s(u,n),null!=n&&this.__v&&(l&&this.__h.push(l),k(this))},d.prototype.forceUpdate=function(n){this.__v&&(this.__e=!0,n&&this.__h.push(n),k(this))},d.prototype.render=p,u=[],i="function"==typeof Promise?Promise.prototype.then.bind(Promise.resolve()):setTimeout,g.__r=0,o=f,r=0;
+var n,l,u,i,t,o,r,f={},e=[],c=/acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;function s(n,l){for(var u in l)n[u]=l[u];return n}function a(n){var l=n.parentNode;l&&l.removeChild(n)}function v(n,l,u){var i,t,o,r=arguments,f={};for(o in l)"key"==o?i=l[o]:"ref"==o?t=l[o]:f[o]=l[o];if(arguments.length>3)for(u=[u],o=3;o<arguments.length;o++)u.push(r[o]);if(null!=u&&(f.children=u),"function"==typeof n&&null!=n.defaultProps)for(o in n.defaultProps)void 0===f[o]&&(f[o]=n.defaultProps[o]);return h(n,f,i,t,null)}function h(l,u,i,t,o){var r={type:l,props:u,key:i,ref:t,__k:null,__:null,__b:0,__e:null,__d:void 0,__c:null,__h:null,constructor:void 0,__v:null==o?++n.__v:o};return null!=n.vnode&&n.vnode(r),r}function y(){return{current:null}}function p(n){return n.children}function d(n,l){this.props=n,this.context=l}function _(n,l){if(null==l)return n.__?_(n.__,n.__.__k.indexOf(n)+1):null;for(var u;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e)return u.__e;return"function"==typeof n.type?_(n):null}function w(n){var l,u;if(null!=(n=n.__)&&null!=n.__c){for(n.__e=n.__c.base=null,l=0;l<n.__k.length;l++)if(null!=(u=n.__k[l])&&null!=u.__e){n.__e=n.__c.base=u.__e;break}return w(n)}}function k(l){(!l.__d&&(l.__d=!0)&&u.push(l)&&!g.__r++||t!==n.debounceRendering)&&((t=n.debounceRendering)||i)(g)}function g(){for(var n;g.__r=u.length;)n=u.sort(function(n,l){return n.__v.__b-l.__v.__b}),u=[],n.some(function(n){var l,u,i,t,o,r,f;n.__d&&(r=(o=(l=n).__v).__e,(f=l.__P)&&(u=[],(i=s({},o)).__v=o.__v+1,t=$(f,o,i,l.__n,void 0!==f.ownerSVGElement,null!=o.__h?[r]:null,u,null==r?_(o):r,o.__h),j(u,o),t!=r&&w(o)))})}function m(n,l,u,i,t,o,r,c,s,v){var y,d,w,k,g,m,b,A=i&&i.__k||e,P=A.length;for(s==f&&(s=null!=r?r[0]:P?_(i,0):null),u.__k=[],y=0;y<l.length;y++)if(null!=(k=u.__k[y]=null==(k=l[y])||"boolean"==typeof k?null:"string"==typeof k||"number"==typeof k?h(null,k,null,null,k):Array.isArray(k)?h(p,{children:k},null,null,null):null!=k.__e||null!=k.__c?h(k.type,k.props,k.key,null,k.__v):k)){if(k.__=u,k.__b=u.__b+1,null===(w=A[y])||w&&k.key==w.key&&k.type===w.type)A[y]=void 0;else for(d=0;d<P;d++){if((w=A[d])&&k.key==w.key&&k.type===w.type){A[d]=void 0;break}w=null}g=$(n,k,w=w||f,t,o,r,c,s,v),(d=k.ref)&&w.ref!=d&&(b||(b=[]),w.ref&&b.push(w.ref,null,k),b.push(d,k.__c||g,k)),null!=g?(null==m&&(m=g),s=x(n,k,w,A,r,g,s),v||"option"!=u.type?"function"==typeof u.type&&(u.__d=s):n.value=""):s&&w.__e==s&&s.parentNode!=n&&(s=_(w))}if(u.__e=m,null!=r&&"function"!=typeof u.type)for(y=r.length;y--;)null!=r[y]&&a(r[y]);for(y=P;y--;)null!=A[y]&&L(A[y],A[y]);if(b)for(y=0;y<b.length;y++)I(b[y],b[++y],b[++y])}function b(n,l){return l=l||[],null==n||"boolean"==typeof n||(Array.isArray(n)?n.some(function(n){b(n,l)}):l.push(n)),l}function x(n,l,u,i,t,o,r){var f,e,c;if(void 0!==l.__d)f=l.__d,l.__d=void 0;else if(t==u||o!=r||null==o.parentNode)n:if(null==r||r.parentNode!==n)n.appendChild(o),f=null;else{for(e=r,c=0;(e=e.nextSibling)&&c<i.length;c+=2)if(e==o)break n;n.insertBefore(o,r),f=r}return void 0!==f?f:o.nextSibling}function A(n,l,u,i,t){var o;for(o in u)"children"===o||"key"===o||o in l||C(n,o,null,u[o],i);for(o in l)t&&"function"!=typeof l[o]||"children"===o||"key"===o||"value"===o||"checked"===o||u[o]===l[o]||C(n,o,l[o],u[o],i)}function P(n,l,u){"-"===l[0]?n.setProperty(l,u):n[l]=null==u?"":"number"!=typeof u||c.test(l)?u:u+"px"}function C(n,l,u,i,t){var o,r,f;if(t&&"className"==l&&(l="class"),"style"===l)if("string"==typeof u)n.style.cssText=u;else{if("string"==typeof i&&(n.style.cssText=i=""),i)for(l in i)u&&l in u||P(n.style,l,"");if(u)for(l in u)i&&u[l]===i[l]||P(n.style,l,u[l])}else"o"===l[0]&&"n"===l[1]?(o=l!==(l=l.replace(/Capture$/,"")),(r=l.toLowerCase())in n&&(l=r),l=l.slice(2),n.l||(n.l={}),n.l[l+o]=u,f=o?N:z,u?i||n.addEventListener(l,f,o):n.removeEventListener(l,f,o)):"list"!==l&&"tagName"!==l&&"form"!==l&&"type"!==l&&"size"!==l&&"download"!==l&&"href"!==l&&!t&&l in n?n[l]=null==u?"":u:"function"!=typeof u&&"dangerouslySetInnerHTML"!==l&&(l!==(l=l.replace(/xlink:?/,""))?null==u||!1===u?n.removeAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase()):n.setAttributeNS("http://www.w3.org/1999/xlink",l.toLowerCase(),u):null==u||!1===u&&!/^ar/.test(l)?n.removeAttribute(l):n.setAttribute(l,u))}function z(l){this.l[l.type+!1](n.event?n.event(l):l)}function N(l){this.l[l.type+!0](n.event?n.event(l):l)}function T(n,l,u){var i,t;for(i=0;i<n.__k.length;i++)(t=n.__k[i])&&(t.__=n,t.__e&&("function"==typeof t.type&&t.__k.length>1&&T(t,l,u),l=x(u,t,t,n.__k,null,t.__e,l),"function"==typeof n.type&&(n.__d=l)))}function $(l,u,i,t,o,r,f,e,c){var a,v,h,y,_,w,k,g,b,x,A,P=u.type;if(void 0!==u.constructor)return null;null!=i.__h&&(c=i.__h,e=u.__e=i.__e,u.__h=null,r=[e]),(a=n.__b)&&a(u);try{n:if("function"==typeof P){if(g=u.props,b=(a=P.contextType)&&t[a.__c],x=a?b?b.props.value:a.__:t,i.__c?k=(v=u.__c=i.__c).__=v.__E:("prototype"in P&&P.prototype.render?u.__c=v=new P(g,x):(u.__c=v=new d(g,x),v.constructor=P,v.render=M),b&&b.sub(v),v.props=g,v.state||(v.state={}),v.context=x,v.__n=t,h=v.__d=!0,v.__h=[]),null==v.__s&&(v.__s=v.state),null!=P.getDerivedStateFromProps&&(v.__s==v.state&&(v.__s=s({},v.__s)),s(v.__s,P.getDerivedStateFromProps(g,v.__s))),y=v.props,_=v.state,h)null==P.getDerivedStateFromProps&&null!=v.componentWillMount&&v.componentWillMount(),null!=v.componentDidMount&&v.__h.push(v.componentDidMount);else{if(null==P.getDerivedStateFromProps&&g!==y&&null!=v.componentWillReceiveProps&&v.componentWillReceiveProps(g,x),!v.__e&&null!=v.shouldComponentUpdate&&!1===v.shouldComponentUpdate(g,v.__s,x)||u.__v===i.__v){v.props=g,v.state=v.__s,u.__v!==i.__v&&(v.__d=!1),v.__v=u,u.__e=i.__e,u.__k=i.__k,v.__h.length&&f.push(v),T(u,e,l);break n}null!=v.componentWillUpdate&&v.componentWillUpdate(g,v.__s,x),null!=v.componentDidUpdate&&v.__h.push(function(){v.componentDidUpdate(y,_,w)})}v.context=x,v.props=g,v.state=v.__s,(a=n.__r)&&a(u),v.__d=!1,v.__v=u,v.__P=l,a=v.render(v.props,v.state,v.context),v.state=v.__s,null!=v.getChildContext&&(t=s(s({},t),v.getChildContext())),h||null==v.getSnapshotBeforeUpdate||(w=v.getSnapshotBeforeUpdate(y,_)),A=null!=a&&a.type==p&&null==a.key?a.props.children:a,m(l,Array.isArray(A)?A:[A],u,i,t,o,r,f,e,c),v.base=u.__e,u.__h=null,v.__h.length&&f.push(v),k&&(v.__E=v.__=null),v.__e=!1}else null==r&&u.__v===i.__v?(u.__k=i.__k,u.__e=i.__e):u.__e=H(i.__e,u,i,t,o,r,f,c);(a=n.diffed)&&a(u)}catch(l){u.__v=null,(c||null!=r)&&(u.__e=e,u.__h=!!c,r[r.indexOf(e)]=null),n.__e(l,u,i)}return u.__e}function j(l,u){n.__c&&n.__c(u,l),l.some(function(u){try{l=u.__h,u.__h=[],l.some(function(n){n.call(u)})}catch(l){n.__e(l,u.__v)}})}function H(n,l,u,i,t,o,r,c){var s,a,v,h,y,p=u.props,d=l.props;if(t="svg"===l.type||t,null!=o)for(s=0;s<o.length;s++)if(null!=(a=o[s])&&((null===l.type?3===a.nodeType:a.localName===l.type)||n==a)){n=a,o[s]=null;break}if(null==n){if(null===l.type)return document.createTextNode(d);n=t?document.createElementNS("http://www.w3.org/2000/svg",l.type):document.createElement(l.type,d.is&&{is:d.is}),o=null,c=!1}if(null===l.type)p===d||c&&n.data===d||(n.data=d);else{if(null!=o&&(o=e.slice.call(n.childNodes)),v=(p=u.props||f).dangerouslySetInnerHTML,h=d.dangerouslySetInnerHTML,!c){if(null!=o)for(p={},y=0;y<n.attributes.length;y++)p[n.attributes[y].name]=n.attributes[y].value;(h||v)&&(h&&(v&&h.__html==v.__html||h.__html===n.innerHTML)||(n.innerHTML=h&&h.__html||""))}A(n,d,p,t,c),h?l.__k=[]:(s=l.props.children,m(n,Array.isArray(s)?s:[s],l,u,i,"foreignObject"!==l.type&&t,o,r,f,c)),c||("value"in d&&void 0!==(s=d.value)&&(s!==n.value||"progress"===l.type&&!s)&&C(n,"value",s,p.value,!1),"checked"in d&&void 0!==(s=d.checked)&&s!==n.checked&&C(n,"checked",s,p.checked,!1))}return n}function I(l,u,i){try{"function"==typeof l?l(u):l.current=u}catch(l){n.__e(l,i)}}function L(l,u,i){var t,o,r;if(n.unmount&&n.unmount(l),(t=l.ref)&&(t.current&&t.current!==l.__e||I(t,null,u)),i||"function"==typeof l.type||(i=null!=(o=l.__e)),l.__e=l.__d=void 0,null!=(t=l.__c)){if(t.componentWillUnmount)try{t.componentWillUnmount()}catch(l){n.__e(l,u)}t.base=t.__P=null}if(t=l.__k)for(r=0;r<t.length;r++)t[r]&&L(t[r],u,i);null!=o&&a(o)}function M(n,l,u){return this.constructor(n,u)}function O(l,u,i){var t,r,c;n.__&&n.__(l,u),r=(t=i===o)?null:i&&i.__k||u.__k,l=v(p,null,[l]),c=[],$(u,(t?u:i||u).__k=l,r||f,f,void 0!==u.ownerSVGElement,i&&!t?[i]:r?null:u.childNodes.length?e.slice.call(u.childNodes):null,c,i||f,t),j(c,l)}function S(n,l){O(n,l,o)}function q(n,l,u){var i,t,o,r=arguments,f=s({},n.props);for(o in l)"key"==o?i=l[o]:"ref"==o?t=l[o]:f[o]=l[o];if(arguments.length>3)for(u=[u],o=3;o<arguments.length;o++)u.push(r[o]);return null!=u&&(f.children=u),h(n.type,f,i||n.key,t||n.ref,null)}function B(n,l){var u={__c:l="__cC"+r++,__:n,Consumer:function(n,l){return n.children(l)},Provider:function(n,u,i){return this.getChildContext||(u=[],(i={})[l]=this,this.getChildContext=function(){return i},this.shouldComponentUpdate=function(n){this.props.value!==n.value&&u.some(k)},this.sub=function(n){u.push(n);var l=n.componentWillUnmount;n.componentWillUnmount=function(){u.splice(u.indexOf(n),1),l&&l.call(n)}}),n.children}};return u.Provider.__=u.Consumer.contextType=u}n={__e:function(n,l){for(var u,i,t,o=l.__h;l=l.__;)if((u=l.__c)&&!u.__)try{if((i=u.constructor)&&null!=i.getDerivedStateFromError&&(u.setState(i.getDerivedStateFromError(n)),t=u.__d),null!=u.componentDidCatch&&(u.componentDidCatch(n),t=u.__d),t)return l.__h=o,u.__E=u}catch(l){n=l}throw n},__v:0},l=function(n){return null!=n&&void 0===n.constructor},d.prototype.setState=function(n,l){var u;u=null!=this.__s&&this.__s!==this.state?this.__s:this.__s=s({},this.state),"function"==typeof n&&(n=n(s({},u),this.props)),n&&s(u,n),null!=n&&this.__v&&(l&&this.__h.push(l),k(this))},d.prototype.forceUpdate=function(n){this.__v&&(this.__e=!0,n&&this.__h.push(n),k(this))},d.prototype.render=p,u=[],i="function"==typeof Promise?Promise.prototype.then.bind(Promise.resolve()):setTimeout,g.__r=0,o=f,r=0;
 //# sourceMappingURL=preact.module.js.map
 
 
@@ -79647,7 +79522,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v10.9.1
+* sweetalert2 v10.10.4
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -80215,6 +80090,10 @@ module.exports = function (css) {
     }
   };
   var applyNumericalStyle = function applyNumericalStyle(elem, property, value) {
+    if (value === "".concat(parseInt(value))) {
+      value = parseInt(value);
+    }
+
     if (value || parseInt(value) === 0) {
       elem.style[property] = typeof value === 'number' ? "".concat(value, "px") : value;
     } else {
@@ -80242,8 +80121,9 @@ module.exports = function (css) {
   var isVisible = function isVisible(elem) {
     return !!(elem && (elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length));
   };
-  /* istanbul ignore next */
-
+  var allButtonsAreHidden = function allButtonsAreHidden() {
+    return !isVisible(getConfirmButton()) && !isVisible(getDenyButton()) && !isVisible(getCancelButton());
+  };
   var isScrollable = function isScrollable(elem) {
     return !!(elem.scrollHeight > elem.clientHeight);
   }; // borrowed from https://stackoverflow.com/a/46352119
@@ -80483,7 +80363,7 @@ module.exports = function (css) {
     } // Loader
 
 
-    loader.innerHTML = params.loaderHtml;
+    setInnerHtml(loader, params.loaderHtml);
     applyCustomClass(loader, params, 'loader');
   };
 
@@ -81215,10 +81095,11 @@ module.exports = function (css) {
   }
 
   /**
-   * Show spinner instead of Confirm button
+   * Shows loader (spinner), this is useful with AJAX requests.
+   * By default the loader be shown instead of the "Confirm" button.
    */
 
-  var showLoading = function showLoading() {
+  var showLoading = function showLoading(buttonToReplace) {
     var popup = getPopup();
 
     if (!popup) {
@@ -81227,10 +81108,20 @@ module.exports = function (css) {
 
     popup = getPopup();
     var actions = getActions();
-    var confirmButton = getConfirmButton();
     var loader = getLoader();
+
+    if (!buttonToReplace && isVisible(getConfirmButton())) {
+      buttonToReplace = getConfirmButton();
+    }
+
     show(actions);
-    hide(confirmButton);
+
+    if (buttonToReplace) {
+      hide(buttonToReplace);
+      loader.setAttribute('data-button-to-replace', buttonToReplace.className);
+    }
+
+    loader.parentNode.insertBefore(loader, buttonToReplace);
     addClass([popup, actions], swalClasses.loading);
     show(loader);
     popup.setAttribute('data-loading', true);
@@ -81545,7 +81436,7 @@ module.exports = function (css) {
   });
 
   /**
-   * Enables buttons and hide loader.
+   * Hides loader and shows back the button which was hidden by .showLoading()
    */
 
   function hideLoading() {
@@ -81558,10 +81449,11 @@ module.exports = function (css) {
 
     var domCache = privateProps.domCache.get(this);
     hide(domCache.loader);
+    var buttonToReplace = domCache.popup.getElementsByClassName(domCache.loader.getAttribute('data-button-to-replace'));
 
-    if (innerParams.showConfirmButton) {
-      show(domCache.confirmButton, 'inline-block');
-    } else if (!innerParams.showConfirmButton && !innerParams.showCancelButton) {
+    if (buttonToReplace.length) {
+      show(buttonToReplace[0], 'inline-block');
+    } else if (allButtonsAreHidden()) {
       hide(domCache.actions);
     }
 
@@ -82277,11 +82169,7 @@ module.exports = function (css) {
         var option = document.createElement('option');
         option.value = optionValue;
         setInnerHtml(option, optionLabel);
-
-        if (params.inputValue.toString() === optionValue.toString()) {
-          option.selected = true;
-        }
-
+        option.selected = isSelected(optionValue, params.inputValue);
         parent.appendChild(option);
       };
 
@@ -82320,7 +82208,7 @@ module.exports = function (css) {
         radioInput.name = swalClasses.radio;
         radioInput.value = radioValue;
 
-        if (params.inputValue.toString() === radioValue.toString()) {
+        if (isSelected(radioValue, params.inputValue)) {
           radioInput.checked = true;
         }
 
@@ -82371,6 +82259,10 @@ module.exports = function (css) {
     }
 
     return result;
+  };
+
+  var isSelected = function isSelected(optionValue, inputValue) {
+    return inputValue && inputValue.toString() === optionValue.toString();
   };
 
   var handleConfirmButtonClick = function handleConfirmButtonClick(instance, innerParams) {
@@ -83033,7 +82925,7 @@ module.exports = function (css) {
     };
   });
   SweetAlert.DismissReason = DismissReason;
-  SweetAlert.version = '10.9.1';
+  SweetAlert.version = '10.10.4';
 
   var Swal = SweetAlert;
   Swal["default"] = Swal;
@@ -83043,7 +82935,7 @@ module.exports = function (css) {
 }));
 if (typeof this !== 'undefined' && this.Sweetalert2){  this.swal = this.sweetAlert = this.Swal = this.SweetAlert = this.Sweetalert2}
 
-"undefined"!=typeof document&&function(e,t){var n=e.createElement("style");if(e.getElementsByTagName("head")[0].appendChild(n),n.styleSheet)n.styleSheet.disabled||(n.styleSheet.cssText=t);else try{n.innerHTML=t}catch(e){n.innerText=t}}(document,".swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;padding:0;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0 1.6em}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 2em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1.0625em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{display:none;align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:\"!\";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}");
+"undefined"!=typeof document&&function(e,t){var n=e.createElement("style");if(e.getElementsByTagName("head")[0].appendChild(n),n.styleSheet)n.styleSheet.disabled||(n.styleSheet.cssText=t);else try{n.innerHTML=t}catch(e){n.innerText=t}}(document,".swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;padding:0;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0 1.6em}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1.0625em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{display:none;align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:\"!\";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}");
 
 /***/ }),
 
@@ -84653,25 +84545,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "card card-widget widget-user" }, [
-            _c("div", { staticClass: "widget-user-header bg-primary" }, [
-              _c("h3", [_vm._v("Dafa Berlian")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "widget-user-image" }, [
-              _c("img", {
-                staticClass: "img-circle elevation-2",
-                attrs: { src: "/img/dafa.png", alt: "User Avatar" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" })
-          ])
-        ])
-      ]),
-      _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
           _c("div", { staticClass: "card" }, [
