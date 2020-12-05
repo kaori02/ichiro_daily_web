@@ -64,7 +64,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="{{asset('img/profile.png')}}" class="img-circle elevation-3" alt="User Image">
         </div>
         <div class="info">
-          <a href="/profile" class="d-block">
+          <a class="d-block">
             {{ Auth::user()->name }}
           </a>
         </div>
@@ -94,12 +94,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <router-link to="/reports" class="nav-link">
                     <i class="fa fa-book nav-icon"></i>
                     <p>Reports</p>
-                </router-link>
-            </li>
-            <li class="nav-item">
-                <router-link to="/profile" class="nav-link">
-                    <i class="nav-icon fas fa-user"></i>
-                    <p>Profile</p>
                 </router-link>
             </li>
             <li class="nav-item">

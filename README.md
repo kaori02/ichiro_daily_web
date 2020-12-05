@@ -35,12 +35,6 @@ npm install && npm run dev
 php artisan key:generate
 ```
 
-### 7. Generate passport key
-
-```sh
-php artisan passport:keys
-```
-
 ### 7. Migrate
 
 ```sh

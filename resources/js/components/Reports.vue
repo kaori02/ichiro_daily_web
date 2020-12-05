@@ -12,18 +12,16 @@
         <table id="tabel-user" class="table table-hover table-striped">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Creator</th>
               <th>Date</th>
+              <th>Creator</th>
               <th>Report</th>
               <th>Action</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="report in reports.data" :key="report.id_laporan">
-              <td>{{report.id_laporan}}</td>
-              <td>{{report.nama}}</td>
               <td>{{report.waktu | myDate}}</td>
+              <td>{{report.nama}}</td>
               <td>
                 <a style="cursor:pointer" @click="showModal(report)">
                   <i class="fas fa-external-link-alt"></i>
