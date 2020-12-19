@@ -15,5 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'PagesController@index');
+Route::get('/achievement', 'PagesController@achievement');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/research', 'PagesController@research');
+Route::get('/robots', 'PagesController@robots');
+Route::get('/sponsors', 'PagesController@sponsors');
+Route::get('/teams', 'PagesController@teams');
+
 Route::get('{path}', 'HomeController@index')->where('path', '([A-z\/_.\d-]+)?');
