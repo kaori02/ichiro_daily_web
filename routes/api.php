@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('report', 'API\ReportController');
-Route::apiResource('official_report', 'API\OfficialReportController');
-Route::apiResource('mechanic_report', 'API\MechanicReportController');
-Route::apiResource('electronic_report', 'API\ElectronicReportController');
-Route::apiResource('programming_report', 'API\ProgrammingReportController');
+Route::get('official_report', 'API\ReportController@official');
+Route::get('mechanic_report', 'API\ReportController@mechanic');
+Route::get('electronic_report', 'API\ReportController@electronic');
+Route::get('programming_report', 'API\ReportController@programming');

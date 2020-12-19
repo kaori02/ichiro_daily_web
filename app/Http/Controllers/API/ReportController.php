@@ -20,6 +20,30 @@ class ReportController extends Controller
         return $data;
     }
 
+    public function mechanic(Request $request)
+    {
+        $data = Laporan::where('role', 'mechanic')->orderBy('waktu','desc')->paginate(10);
+        return $data;
+    }
+
+    public function official(Request $request)
+    {
+        $data = Laporan::where('role', 'official')->orderBy('waktu','desc')->paginate(10);
+        return $data;
+    }
+
+    public function electronic(Request $request)
+    {
+        $data = Laporan::where('role', 'electronic')->orderBy('waktu','desc')->paginate(10);
+        return $data;
+    }
+
+    public function programming(Request $request)
+    {
+        $data = Laporan::where('role', 'programming')->orderBy('waktu','desc')->paginate(10);
+        return $data;
+    }
+
     /**
      * Store a newly created resource in storage.
      *
