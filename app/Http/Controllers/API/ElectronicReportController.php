@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Laporan;
 use Facade\FlareClient\Report;
 
-class ReportController extends Controller
+class ElectronicReportController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,7 @@ class ReportController extends Controller
      */
     public function index(Request $request)
     {
-        $data = Laporan::orderBy('waktu','desc')->paginate(10);
+        $data = Laporan::where('role', 'electronic')->orderBy('waktu','desc')->paginate(10);
         return $data;
     }
 
@@ -32,8 +32,6 @@ class ReportController extends Controller
             'nama' => 'required',
             'body_laporan' => 'required',
             'waktu' => 'required',
-            'role' => 'required',
-
         ]);
 
         return Laporan::create([
@@ -41,7 +39,7 @@ class ReportController extends Controller
             'title_laporan' => $request['title_laporan'],
             'body_laporan' => $request['body_laporan'],
             'waktu' => date('Y-m-d', strtotime($request['waktu'])),
-            'role' => $request['role'],
+            'role' => 'electronic',
         ]);
     }
 
@@ -71,7 +69,6 @@ class ReportController extends Controller
             'nama' => 'required',
             'body_laporan' => 'required',
             'waktu' => 'required',
-            'role' => 'required',
         ]);
 
         $laporan->update($request->all());

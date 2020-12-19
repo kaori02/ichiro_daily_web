@@ -19555,9 +19555,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      division: '',
+      divisionAPI: '',
       editmode: false,
       reports: {},
       form: new Form({
@@ -19565,7 +19593,8 @@ __webpack_require__.r(__webpack_exports__);
         nama: '',
         title_laporan: '',
         body_laporan: '',
-        waktu: ''
+        waktu: '',
+        role: ''
       })
     };
   },
@@ -19645,14 +19674,16 @@ __webpack_require__.r(__webpack_exports__);
       var _this3 = this;
 
       var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-      axios.get('api/report?page=' + page).then(function (response) {
+      if (this.division == "Official") this.divisionAPI = "api/official_report";else if (this.division == "Mechanic") this.divisionAPI = "api/mechanic_report";else if (this.division == "Electronic") this.divisionAPI = "api/electronic_report";else if (this.division == "Programming") this.divisionAPI = "api/programming_report";else this.divisionAPI = "api/report";
+      axios.get(this.divisionAPI + '?page=' + page).then(function (response) {
         _this3.reports = response.data;
       });
     },
     loadReports: function loadReports() {
       var _this4 = this;
 
-      axios.get('api/report').then(function (_ref) {
+      if (this.division == "Official") this.divisionAPI = "api/official_report";else if (this.division == "Mechanic") this.divisionAPI = "api/mechanic_report";else if (this.division == "Electronic") this.divisionAPI = "api/electronic_report";else if (this.division == "Programming") this.divisionAPI = "api/programming_report";else this.divisionAPI = "api/report";
+      axios.get(this.divisionAPI).then(function (_ref) {
         var data = _ref.data;
         return _this4.reports = data;
       });
@@ -82958,6 +82989,55 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
+          _c("div", { staticClass: "col-xs-12 col-md-6 col-lg-6" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.division,
+                    expression: "division"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: { name: "division", id: "division" },
+                on: {
+                  change: [
+                    function($event) {
+                      var $$selectedVal = Array.prototype.filter
+                        .call($event.target.options, function(o) {
+                          return o.selected
+                        })
+                        .map(function(o) {
+                          var val = "_value" in o ? o._value : o.value
+                          return val
+                        })
+                      _vm.division = $event.target.multiple
+                        ? $$selectedVal
+                        : $$selectedVal[0]
+                    },
+                    _vm.loadReports
+                  ]
+                }
+              },
+              [
+                _c("option", { attrs: { value: "", default: "" } }, [
+                  _vm._v("All")
+                ]),
+                _vm._v(" "),
+                _c("option", [_vm._v("Official")]),
+                _vm._v(" "),
+                _c("option", [_vm._v("Mechanic")]),
+                _vm._v(" "),
+                _c("option", [_vm._v("Electronic")]),
+                _vm._v(" "),
+                _c("option", [_vm._v("Programming")])
+              ]
+            )
+          ]),
+          _vm._v(" "),
           _c(
             "table",
             {
@@ -82974,6 +83054,8 @@ var render = function() {
                     _c("td", [_vm._v(_vm._s(_vm._f("myDate")(report.waktu)))]),
                     _vm._v(" "),
                     _c("td", [_vm._v(_vm._s(report.nama))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(report.role))]),
                     _vm._v(" "),
                     _c("td", [
                       _c(
@@ -83138,6 +83220,78 @@ var render = function() {
                       _vm._v(" "),
                       _c("has-error", {
                         attrs: { form: _vm.form, field: "nama" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", [_vm._v("Division")]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.form.role,
+                              expression: "form.role"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          class: { "is-invalid": _vm.form.errors.has("role") },
+                          attrs: { name: "role", id: "role" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.form,
+                                "role",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "option",
+                            { attrs: { value: "", disabled: "", default: "" } },
+                            [_vm._v("Select Division")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "official" } }, [
+                            _vm._v("Official")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "mechanic" } }, [
+                            _vm._v("Mechanic")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "electronic" } }, [
+                            _vm._v("Electronic")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "programming" } }, [
+                            _vm._v("Programming")
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "role" }
                       })
                     ],
                     1
@@ -83381,7 +83535,9 @@ var staticRenderFns = [
       _c("tr", [
         _c("th", [_vm._v("Date")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Creator")]),
+        _c("th", [_vm._v("Author")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Division")]),
         _vm._v(" "),
         _c("th", [_vm._v("Report")]),
         _vm._v(" "),

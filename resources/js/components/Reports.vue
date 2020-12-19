@@ -9,11 +9,23 @@
         </div>
       </div>
       <div class="card-body">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+            <select name="division" v-model="division" @change="loadReports" id="division" class="form-control">
+                <option value="" default>All</option>
+                <option>Official</option>
+                <option>Mechanic</option>
+                <option>Electronic</option>
+                <option>Programming</option>
+            </select>
+        </div>
+
+
         <table id="tabel-user" class="table table-hover table-striped">
           <thead>
             <tr>
               <th>Date</th>
-              <th>Creator</th>
+              <th>Author</th>
+              <th>Division</th>
               <th>Report</th>
               <th>Action</th>
             </tr>
@@ -22,6 +34,7 @@
             <tr v-for="report in reports.data" :key="report.id_laporan">
               <td>{{report.waktu | myDate}}</td>
               <td>{{report.nama}}</td>
+              <td>{{report.role}}</td>
               <td>
                 <a style="cursor:pointer" @click="showModal(report)">
                   <i class="fas fa-external-link-alt"></i>
@@ -65,6 +78,19 @@
               <input v-model="form.nama" type="text" name="nama" placeholder="Jhonny Yes Phapa" class="form-control" :class="{ 'is-invalid': form.errors.has('nama') }">
               <has-error :form="form" field="nama"></has-error>
             </div>
+
+            <div class="form-group">
+              <label>Division</label>
+              <select name="role" v-model="form.role" id="role" class="form-control" :class="{ 'is-invalid': form.errors.has('role') }">
+                  <option value="" disabled default>Select Division</option>
+                  <option value="official">Official</option>
+                  <option value="mechanic">Mechanic</option>
+                  <option value="electronic">Electronic</option>
+                  <option value="programming">Programming</option>
+              </select>
+              <has-error :form="form" field="role"></has-error>
+            </div>
+
             <div class="form-group">
               <label>Date</label>
               <input v-model="form.waktu" type="date" name="waktu" class="form-control" :class="{ 'is-invalid': form.errors.has('waktu') }">
@@ -118,6 +144,8 @@
 export default {
   data() {
     return {
+      division:'',
+      divisionAPI:'',
       editmode: false,
       reports: {},
       form: new Form({
@@ -126,6 +154,7 @@ export default {
         title_laporan: '',
         body_laporan: '',
         waktu: '',
+        role: '',
       })
     }
   },
@@ -211,14 +240,27 @@ export default {
         }
       })
     },
-    getResults(page = 1) {
-      axios.get('api/report?page=' + page)
+    getResults(page = 1)
+    {
+        if(this.division == "Official") this.divisionAPI = "api/official_report"
+        else if(this.division == "Mechanic") this.divisionAPI = "api/mechanic_report"
+        else if(this.division == "Electronic") this.divisionAPI = "api/electronic_report"
+        else if(this.division == "Programming") this.divisionAPI = "api/programming_report"
+        else this.divisionAPI = "api/report"
+
+      axios.get(this.divisionAPI+'?page=' + page)
         .then(response => {
           this.reports = response.data;
         });
     },
-    loadReports() {
-      axios.get('api/report').then(({
+    loadReports()
+    {
+        if(this.division == "Official") this.divisionAPI = "api/official_report"
+        else if(this.division == "Mechanic") this.divisionAPI = "api/mechanic_report"
+        else if(this.division == "Electronic") this.divisionAPI = "api/electronic_report"
+        else if(this.division == "Programming") this.divisionAPI = "api/programming_report"
+        else this.divisionAPI = "api/report"
+      axios.get(this.divisionAPI).then(({
         data
       }) => (this.reports = data));
     },

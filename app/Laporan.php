@@ -11,6 +11,6 @@ class Laporan extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'nama', 'title_laporan', 'password', 'body_laporan', 'waktu'
+        'nama', 'title_laporan', 'password', 'body_laporan', 'waktu', 'role'
     ];
 }
