@@ -50,7 +50,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/" class="brand-link">
+    <a href="/dashboard" class="brand-link">
       <img src="{{asset('img/ichiro.png')}}" alt="Ichiro Logo" class="brand-image elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">{{config('app.name'), 'Ichiro Daily Web'}}</span>

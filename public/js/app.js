@@ -83300,12 +83300,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Dashboard Component")
-            ]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("Dashboard")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _vm._v("\r\n          I'm an Dashboard component.\r\n        ")
+              _vm._v("\n          Welcome to Ichiro ITS Daily Web !\n        ")
             ])
           ])
         ])
