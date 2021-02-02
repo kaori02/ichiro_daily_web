@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Calendar;
+use App\Http\Resources\CalendarResource;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +25,8 @@ Route::get('official_report', 'API\ReportController@official');
 Route::get('mechanic_report', 'API\ReportController@mechanic');
 Route::get('electronic_report', 'API\ReportController@electronic');
 Route::get('programming_report', 'API\ReportController@programming');
+
+Route::apiResource('calendar', 'API\CalendarController');
+// Route::get('/calendar', function(){
+//     return new CalendarResource(Calendar::all());
+// });

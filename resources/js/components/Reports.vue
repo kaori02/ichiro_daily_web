@@ -184,6 +184,7 @@ export default {
         });
     },
     editModal(report){
+        console.log(report);
         this.editmode = true;
         this.form.clear();
         this.form.reset();

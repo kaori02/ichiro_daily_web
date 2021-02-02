@@ -49,7 +49,7 @@ const Toast = Swal.mixin({
       toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
 })
-  window.Toast = Toast;
+window.Toast = Toast;
 
 // TEMPAT VUE NIHH
 
