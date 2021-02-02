@@ -23,4 +23,8 @@ Route::get('/robots', 'PagesController@robots');
 Route::get('/sponsors', 'PagesController@sponsors');
 Route::get('/teams', 'PagesController@teams');
 
-Route::get('{path}', 'HomeController@index')->where('path', '([A-z\/_.\d-]+)?');
+// Route::get('{path}', 'HomeController@index')->where('path', '([A-z\/_.\d-]+)?');
+Route::get('/home', 'HomeController@index');
+Route::get('/dashboard', 'HomeController@index');
+Route::get('/calendar', 'HomeController@index');
+Route::get('/reports', 'HomeController@index');
