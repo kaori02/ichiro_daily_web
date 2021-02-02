@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -59,7 +59,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" ></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>
@@ -116,7 +116,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2016%20Mas%20Arifin.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2016%20Mas%20Arifin.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>ITHAARO I</h3>
@@ -130,7 +130,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2016%20Mas%20Anas.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2016%20Mas%20Anas.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>ITHAARO II</h3>
@@ -144,7 +144,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2018%20ITHAARO.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2018%20ITHAARO.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>UMARU</h3>
@@ -160,7 +160,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2017%20Robot%20Kecil.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2017%20Robot%20Kecil.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>ARATA</h3>
@@ -174,7 +174,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2018%20Benk%20Benk.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2018%20Benk%20Benk.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>TOMO I</h3>
@@ -188,7 +188,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/robot/2019%20Benk%20Benk%20Milling.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/robot/2019%20Benk%20Benk%20Milling.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>TOMO II</h3>

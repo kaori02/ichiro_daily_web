@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -59,7 +59,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}"></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>
@@ -123,7 +123,7 @@
                                 <li>
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement1.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement1.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -139,7 +139,7 @@
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement2.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement2.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -157,7 +157,7 @@
                                 <li>
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement3.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement3.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -176,7 +176,7 @@
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement4.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement4.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -193,7 +193,7 @@
                                 <li>
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement5.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement5.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -220,7 +220,7 @@
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement6.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement6.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -253,7 +253,7 @@
                                 <li>
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement7.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement7.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">
@@ -285,7 +285,7 @@
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
                                         <a href="">
-                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement8.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development">
+                                            <img class="img-circle img-responsive" src="{{asset('assets/Asset/robot/achievement8.jpg')}}">
                                         </a>
                                     </div>
                                     <div class="timeline-panel">

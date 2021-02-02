@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -59,7 +59,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" ></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>
@@ -117,7 +117,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=1Fx14Csfj_XU3pZia6Le_iXH81quUDWPV">
-                                <img src="{{asset('assets/Asset/Paper/Tim%20ichiro%20dalam%20KRSI%202014.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/Tim%20ichiro%20dalam%20KRSI%202014.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>TIM ICHIRO DALAM KONTES ROBOT SEPAK BOLA INDONESIA 2014</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -127,7 +127,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=15-eps15esaKOTy8xUK87VHmNNFJaSMsY">
-                                <img src="{{asset('assets/Asset/Paper/Strategi%20Permainan.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/Strategi%20Permainan.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>STRATEGI PERMAINAN ROBOT SEPAK BOLA TIM ICHIRO DALAM KRSBI 2015</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -139,7 +139,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=1LBectfXMeep0VefgE_qCSf1XEf2ZZrPv">
-                                <img src="{{asset('assets/Asset/Paper/Team%20Description%20Paper%202017.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/Team%20Description%20Paper%202017.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>ICHIRO TEAM – TEAM DESCRIPTION PAPER</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -149,7 +149,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=1xGfkskqchnZJFImAsKSHnzWavS7XtArM">
-                                <img src="{{asset('assets/Asset/Paper/Team%20Description%20paper%202017%20kidsize.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/Team%20Description%20paper%202017%20kidsize.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>ICHIRO TEAM - TEAM DESCRIPTION PAPER HUMANOID KIDSIZE LEAGUE OF ROBOCUP 2017</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -161,7 +161,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=1I08SA5hVb7xK5iIt7-8bGb2Gn4j3ref9">
-                                <img src="{{asset('assets/Asset/Paper/paper1.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/paper1.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>ICHIRO TEAM - TEAM DESCRIPTION PAPER HUMANOID TEENSIZE LEAGUE OF ROBOCUP 2018</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -171,7 +171,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=15GcS-qd6PTngjjGx8RXLTFEwLPu0jWPN">
-                                <img src="{{asset('assets/Asset/Paper/paper2.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/paper2.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>ICHIRO ROBOTS WINNING ROBOCUP 2018 HUMANOID TEENSIZE SOCCER COMPETITION</h4>
                                 </a>
                             </div><!-- end issue -->
@@ -183,7 +183,7 @@
 
                             <div class="service-wrap lastchild clearfix">
                                 <a href = "https://drive.google.com/open?id=1oH8uuLc4LrJ6SaUd_p4iUb2bBhbEW6i6">
-                                <img src="{{asset('assets/Asset/Paper/paper2.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive img-rounded alignleft">
+                                <img src="{{asset('assets/Asset/Paper/paper2.jpg')}}"  class="img-responsive img-rounded alignleft">
                                 <h4>ICHIRO TEENSIZE TEAM DESCRIPTION PAPER 2019</h4>
                                 </a>
                             </div><!-- end issue -->

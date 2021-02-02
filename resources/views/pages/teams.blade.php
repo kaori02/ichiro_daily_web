@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -60,7 +60,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" ></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>
@@ -127,7 +127,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn tengah" data-wow-duration="1s" data-wow-delay="0.4s">
                                     <div class="widget clearfix">
                                         <div class="hover-br">
-                                            <img src="{{asset('assets/Asset/Mekanik/Oktaviansyah%20Purwo%20Bramastyo_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+                                            <img src="{{asset('assets/Asset/Mekanik/Oktaviansyah%20Purwo%20Bramastyo_mekanik.png')}}"  class="img-responsive">
                                             <div class="social-up-hover">
                                                 <div class="footer-social">
                                                     <a href="https://www.instagram.com/vian_hahaha/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -157,7 +157,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Arsy%20Huda%20Fathaniard_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Arsy%20Huda%20Fathaniard_official.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Arsy Huda Fathaniard</h3>
@@ -169,7 +169,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Dzulfikar%20Ats%20Tsauri_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Dzulfikar%20Ats%20Tsauri_official.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/dzulfikar.at/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -187,7 +187,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Alifia%20Nihayatul%20Safitri_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Alifia%20Nihayatul%20Safitri_official.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Alifia Nihayatul Safitri</h3>
@@ -201,7 +201,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Arnold%20Sidiprasetija_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Arnold%20Sidiprasetija_official.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/arnoldprasetija18/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -218,7 +218,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Farah%20Qatrunnada%20Naurah%20Firdausi_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Farah%20Qatrunnada%20Naurah%20Firdausi_official.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/farahqnf/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -235,7 +235,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Official/Ramadhani%20Satrio%20Bagaskoro_official.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Official/Ramadhani%20Satrio%20Bagaskoro_official.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="http://www.instagram.com/ramadhanistr" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -262,7 +262,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Elektrik/Ahmad%20Hernando%20Pradanatta%20Putra_elektrik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Elektrik/Ahmad%20Hernando%20Pradanatta%20Putra_elektrik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/ahmadhernando/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -279,7 +279,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Elektrik/David%20Bonar_elektrik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Elektrik/David%20Bonar_elektrik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/davidbonarr" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -296,7 +296,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Elektrik/Muhammad%20Anriza%20Fanani%20Mochtar_elektrik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Elektrik/Muhammad%20Anriza%20Fanani%20Mochtar_elektrik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/anrizaija" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -315,7 +315,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Elektrik/Farrel%20Shaquilla%20Xavier_elektrik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Elektrik/Farrel%20Shaquilla%20Xavier_elektrik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/farrelsxavier" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -332,7 +332,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Elektrik/Mochammad%20Romdhoni%20Zidane%20Wimansyah_elektrik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Elektrik/Mochammad%20Romdhoni%20Zidane%20Wimansyah_elektrik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/romdhonizidane/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -350,7 +350,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Andreas%20Pratama%20Putra_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Andreas%20Pratama%20Putra_mekanik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="http://www.instagram.com/ndreas_pr" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -379,7 +379,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Even%20Clarence_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Even%20Clarence_mekanik.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Even Clarence</h3>
@@ -391,7 +391,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Amik%20Rafly%20Azmi%20Ulya_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Amik%20Rafly%20Azmi%20Ulya_mekanik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/velonezh/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -408,7 +408,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Alfianudin%20Achmad%20Firdaus%20Al%20Ayyubi_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Alfianudin%20Achmad%20Firdaus%20Al%20Ayyubi_mekanik.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Alfianudin Achmad Firdaus Al Ayyubi</h3>
@@ -421,7 +421,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Muhammad%20Afdhil%20Islammy_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Muhammad%20Afdhil%20Islammy_mekanik.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Muhammad Afdhil Islammy</h3>
@@ -433,7 +433,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Mekanik/Muhammad%20Azriel%20Rizqifadhiila_mekanik.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Mekanik/Muhammad%20Azriel%20Rizqifadhiila_mekanik.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/azrieelr/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -461,7 +461,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/I%20Made%20Pande%20Ari%20Wijaya_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/I%20Made%20Pande%20Ari%20Wijaya_programming.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/ari_wijaya82" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -479,7 +479,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Muhammad%20Alfi%20Maulana%20Fikri_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Muhammad%20Alfi%20Maulana%20Fikri_programming.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Muhammad Alfi Maulana Fikri</h3>
@@ -491,7 +491,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/R.%20Dafa%20Berlian%20Denmar_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/R.%20Dafa%20Berlian%20Denmar_programming.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>R. Dafa Berlian Denmar</h3>
@@ -505,7 +505,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Segara%20Bhagas%20Dagsapurwa_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Segara%20Bhagas%20Dagsapurwa_programming.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://instagram.com/octoberthetwentyfourth/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -522,7 +522,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Bryan%20Yehuda%20Mannuel_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Bryan%20Yehuda%20Mannuel_programming.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/bryan_ym/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -540,7 +540,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Fiqey%20Indriati%20Eka%20Sari_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Fiqey%20Indriati%20Eka%20Sari_programming.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/fiqey08/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -559,7 +559,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Muchamad%20Maroqi%20Abdul%20Jalil_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Muchamad%20Maroqi%20Abdul%20Jalil_programming.png')}}"  class="img-responsive">
 									<div class="social-up-hover">
 										<div class="footer-social">
 											<a href="https://www.instagram.com/maroqi.jalil/" class="btn grd1"><i class="fa fa-instagram"></i></a>
@@ -576,7 +576,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Programming/Nathanael%20Hutama%20Harsono_programming.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Programming/Nathanael%20Hutama%20Harsono_programming.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Nathanael Hutama Harsono</h3>
@@ -602,7 +602,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                                     <div class="widget clearfix">
                                         <div class="hover-br">
-                                            <img src="{{asset('assets/Asset/Mentor/muhtadin%20mentor.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+                                            <img src="{{asset('assets/Asset/Mentor/muhtadin%20mentor.png')}}"  class="img-responsive">
                                         </div>
                                         <div class="widget-title">
                                             <h3>Muhtadin</h3>
@@ -629,7 +629,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2012_Uti%20Sholichah.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2012_Uti%20Sholichah.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Uti Sholicah</h3>
@@ -641,7 +641,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2013_Anas%20Mufid%20Nurrochman.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2013_Anas%20Mufid%20Nurrochman.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Anas Mufid Nurrochman</h3>
@@ -653,7 +653,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2013_Muhammad%20Arifin.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2013_Muhammad%20Arifin.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Muhammad Arifin</h3>
@@ -667,7 +667,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2014_Satria%20Hafizhudin.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2014_Satria%20Hafizhudin.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Satria Hafizhudin</h3>
@@ -679,7 +679,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2015_Agatha%20Putri%20adwitya.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2015_Agatha%20Putri%20adwitya.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Agatha Putri Adwitya</h3>
@@ -691,7 +691,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2015_Bada%20Maulidia.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2015_Bada%20Maulidia.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Bada Maulidia</h3>
@@ -705,7 +705,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2015_Tommy%20Pratama.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2015_Tommy%20Pratama.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Tommy Pratama</h3>
@@ -717,7 +717,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2016_Deo%20Alfitra%20Ramazhoni.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2016_Deo%20Alfitra%20Ramazhoni.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Deo Alfitra Ramazhoni</h3>
@@ -729,7 +729,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/Asset/Alumni/2016_Enggar%20Dywari_trans.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/Asset/Alumni/2016_Enggar%20Dywari_trans.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>Enggar Dywari</h3>

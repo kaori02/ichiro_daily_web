@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -59,7 +59,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}"></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>

@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -60,7 +60,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" ></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a href="/">Home</a></li>
@@ -117,7 +117,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/1.%20IKOMA%20ITS.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/1.%20IKOMA%20ITS.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>IKOMA ITS</h3>
@@ -128,7 +128,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/9.%20RISTEKDIKTI.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/9.%20RISTEKDIKTI.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>RISTEKDIKTI</h3>
@@ -139,7 +139,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/12.IKA%20ITS%20PW%20JATIM.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/12.IKA%20ITS%20PW%20JATIM.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>IKA ITS PW JATIM</h3>
@@ -152,7 +152,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/14.PERTAMINA%20LUBRICANTS.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/14.PERTAMINA%20LUBRICANTS.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PERTAMINA LUBRICANTS</h3>
@@ -163,7 +163,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/21.PLN.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/21.PLN.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PLN</h3>
@@ -174,7 +174,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/23.IKA%20ITS.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/23.IKA%20ITS.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>IKA ITS</h3>
@@ -187,7 +187,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/26.TRAKTOR%20NUSANTARA.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/26.TRAKTOR%20NUSANTARA.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>TRAKTOR NUSANTARA</h3>
@@ -198,7 +198,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/27.IGUS.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/27.IGUS.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>IGUS</h3>
@@ -209,7 +209,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/28.BPPT.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/28.BPPT.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>BPPT</h3>
@@ -222,7 +222,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/29.INKA.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/29.INKA.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>INKA</h3>
@@ -233,7 +233,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/30.INFOGLOBAL.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/30.INFOGLOBAL.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>INFOGLOBAL</h3>
@@ -244,7 +244,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/31.PTPN%20X.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/31.PTPN%20X.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PTPN X</h3>
@@ -271,7 +271,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/2.%20PT%20KAI.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/2.%20PT%20KAI.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PT. KAI</h3>
@@ -282,7 +282,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/3.%20PT%20PP.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/3.%20PT%20PP.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PT. PP</h3>
@@ -293,7 +293,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/4.%20TELKOMSIGMA.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/4.%20TELKOMSIGMA.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>TELKOMSIGMA</h3>
@@ -306,7 +306,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/5.%20PETROKIMIA%20GRESIK.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/5.%20PETROKIMIA%20GRESIK.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PETROKIMIA GRESIK</h3>
@@ -317,7 +317,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/6.%20PT%20INDRAPRASTA%20GRAHA%20UTAMA.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/6.%20PT%20INDRAPRASTA%20GRAHA%20UTAMA.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PT. INDRAPRASTA GRAHA UTAMA</h3>
@@ -328,7 +328,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/7.%20SUARA%20MUSLIM.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/7.%20SUARA%20MUSLIM.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>SUARA MUSLIM</h3>
@@ -341,7 +341,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/8.%20CANVAS%20GARMENT.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/8.%20CANVAS%20GARMENT.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>CANVAS GARMENT</h3>
@@ -352,7 +352,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/10.PUPUK%20KALTIM.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/10.PUPUK%20KALTIM.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PUPUK KALTIM</h3>
@@ -363,7 +363,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/11.PEMKOT%20SURABAYA.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/11.PEMKOT%20SURABAYA.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PEMKOT SURABAYA</h3>
@@ -376,7 +376,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/13.INDOBAYI.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/13.INDOBAYI.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>INDOBAYI</h3>
@@ -387,7 +387,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/15.PT%20PETROSIDA%20GRESIK.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/15.PT%20PETROSIDA%20GRESIK.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PT. PETROSIDA GRESIK</h3>
@@ -398,7 +398,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/16.BJTI%20PORT.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/16.BJTI%20PORT.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>BJTI PORT</h3>
@@ -411,7 +411,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/17.PDAM%20SURYA%20SEMBADA%20SURABAYA.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/17.PDAM%20SURYA%20SEMBADA%20SURABAYA.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PDAM SURYA SEMBADA SURABAYA</h3>
@@ -422,7 +422,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/18.KOPMA%20ITS.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/18.KOPMA%20ITS.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>KOPMA ITS</h3>
@@ -433,7 +433,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/19.SEMEN%20INDONESIA%20DISTRIBUTOR.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/19.SEMEN%20INDONESIA%20DISTRIBUTOR.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>SEMEN INDONESIA DISTRIBUTOR</h3>
@@ -446,7 +446,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/20.INDONESIA%20POWER.png')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/20.INDONESIA%20POWER.png')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>INDONESIA POWER</h3>
@@ -457,7 +457,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/24.POLYTRON.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/24.POLYTRON.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>POLYTRON</h3>
@@ -468,7 +468,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="widget clearfix">
 								<div class="hover-br">
-									<img src="{{asset('assets/uploads/images/25.PUPUK%20INDONESIA.jpg')}}" alt="Created by Bryan Yehuda - Jupiter Development" class="img-responsive">
+									<img src="{{asset('assets/uploads/images/25.PUPUK%20INDONESIA.jpg')}}"  class="img-responsive">
 								</div>
                                 <div class="widget-title">
                                     <h3>PUPUK INDONESIA</h3>

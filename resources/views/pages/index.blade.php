@@ -10,8 +10,8 @@
 
      <!-- Site Metas -->
     <title>Ichiro ITS Robotic Team</title>
-    <meta name="keywords" content="Created by Bryan Yehuda - Jupiter Development">
-    <meta name="description" content="Created by Bryan Yehuda - Jupiter Development">
+    <meta name="keywords" content="Ichiro ITS">
+    <meta name="description" content="Official Website of Ichiro ITS Robotics Team">
     <meta name="author" content="Created by Bryan Yehuda - Jupiter Development">
 
     <!-- Site Icons -->
@@ -59,7 +59,7 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}" alt="Created by Bryan Yehuda - Jupiter Development"></a>
+					<a href="/"><img src="{{asset('assets/uploads/images/ichiro.png')}}"></a>
 				</div>
 				<ul class="sidebar-nav">
 					<li><a class="active" href="/">Home</a></li>
@@ -149,7 +149,7 @@
                                 <div class="service-widget">
                                     <div class="post-media wow fadeIn">
                                         <a href="{{asset('assets/uploads/images/logo%20electric.png')}}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                        <img src="{{asset('assets/uploads/images/logo%20electric.png')}}" alt="" class="img-responsive img-rounded" alt="Created by Bryan Yehuda - Jupiter Development">
+                                        <img src="{{asset('assets/uploads/images/logo%20electric.png')}}" alt="" class="img-responsive img-rounded">
                                     </div>
                                     <h3>Electronic</h3>
                                     <h4>The one who brings power supplies for all of our robots so that they can move intelligently. Their duties are to develop the robot's electrical design using sophisticated system simulation tools.</h4>
@@ -160,7 +160,7 @@
                                 <div class="service-widget">
                                     <div class="post-media wow fadeIn">
                                         <a href="{{asset('assets/uploads/images/logo%20mekanik.png')}}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                        <img src="{{asset('assets/uploads/images/logo%20mekanik.png')}}" alt="" class="img-responsive img-rounded" alt="Created by Bryan Yehuda - Jupiter Development">
+                                        <img src="{{asset('assets/uploads/images/logo%20mekanik.png')}}" alt="" class="img-responsive img-rounded">
                                     </div>
                                     <h3>Mechanic</h3>
                                     <h4>Is known for their creativity in all of our robot’s body design, production, and maintainance. Making sure every aspect of the robots could perform well.</h4>
@@ -171,7 +171,7 @@
                                 <div class="service-widget">
                                     <div class="post-media wow fadeIn">
                                         <a href="{{asset('assets/uploads/images/logo%20official.png')}}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                        <img src="{{asset('assets/uploads/images/logo%20official.png')}}" alt="" class="img-responsive img-rounded" alt="Created by Bryan Yehuda - Jupiter Development">
+                                        <img src="{{asset('assets/uploads/images/logo%20official.png')}}" alt="" class="img-responsive img-rounded" >
                                     </div>
                                     <h3>Official</h3>
                                     <h4>Members who are in control of the team’s non-technical activities; multimedia design, branding,administration, sponsorship, and finance.</h4>
@@ -182,7 +182,7 @@
                                 <div class="service-widget">
                                     <div class="post-media wow fadeIn">
                                         <a href="{{asset('assets/uploads/images/logo%20programming.png')}}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                        <img src="{{asset('assets/uploads/images/logo%20programming.png')}}" alt="" class="img-responsive img-rounded" alt="Created by Bryan Yehuda - Jupiter Development">
+                                        <img src="{{asset('assets/uploads/images/logo%20programming.png')}}" alt="" class="img-responsive img-rounded" >
                                     </div>
                                     <h3>Programming</h3>
                                     <h4>A division synonymous with “brain of the robots”. They are the one that develop and implement an intelligent system for our robots so that they are able to perform useful activities for human life.</h4>
@@ -222,7 +222,7 @@
                         </div><!-- end col -->
                     </div><!-- end row -->
 				<div class="col-md-12">
-				    <figure class="fh5co-bio-photo"><img src="{{asset('assets/uploads/images/logo%20sponsor.png')}}" class="img-responsive" alt="Created By Bryan Yehuda - Jupiter Development"></figure>
+				    <figure class="fh5co-bio-photo"><img src="{{asset('assets/uploads/images/logo%20sponsor.png')}}" class="img-responsive" ></figure>
 				</div>
             </div>
 
