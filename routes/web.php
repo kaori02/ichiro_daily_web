@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Auth::routes();
+Auth::routes(['register' => false, 'reset' => false, 'confirm' => false]);
 
 Route::get('/', 'PagesController@index');
 Route::get('/achievement', 'PagesController@achievement');
